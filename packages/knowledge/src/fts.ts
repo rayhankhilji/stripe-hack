@@ -12,7 +12,12 @@ function tokens(question: string): string[] {
 }
 
 function toHits(rows: Row[]): KnowledgeHit[] {
-  return rows.map((r) => ({ text: r.text, sourceExternalIds: [r.external_id], score: r.score === null ? null : Number(r.score), via: "fts" as const }));
+  return rows.map((r) => ({
+    text: r.text,
+    sourceExternalIds: [r.external_id],
+    score: r.score === null ? null : Number(r.score),
+    via: "fts" as const,
+  }));
 }
 
 /** Postgres full-text search over source_record.body_text, scoped to the customer by name. */
@@ -32,7 +37,10 @@ async function tsvectorSearch(customerName: string, question: string): Promise<R
 async function ilikeSearch(customerName: string, question: string): Promise<Row[]> {
   const terms = tokens(question);
   if (terms.length === 0) return [];
-  const anyTerm = sql.join(terms.map((t) => sql`s.body_text ILIKE ${`%${t}%`}`), sql` OR `);
+  const anyTerm = sql.join(
+    terms.map((t) => sql`s.body_text ILIKE ${`%${t}%`}`),
+    sql` OR `,
+  );
   return queryRows<Row>(sql`
     SELECT left(s.body_text, ${SNIPPET_CHARS}) AS text, s.external_id AS external_id, NULL::float AS score
     FROM source_record s JOIN customer c ON c.id = s.customer_id
@@ -52,6 +60,8 @@ export async function searchFts(customerName: string, question: string): Promise
 }
 
 export async function searchableDocumentCount(): Promise<number> {
-  const rows = await queryRows<{ n: number | string }>(sql`SELECT count(*) AS n FROM source_record WHERE body_text <> ''`);
+  const rows = await queryRows<{ n: number | string }>(
+    sql`SELECT count(*) AS n FROM source_record WHERE body_text <> ''`,
+  );
   return Number(rows[0]?.n ?? 0);
 }

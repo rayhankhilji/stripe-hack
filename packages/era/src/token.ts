@@ -33,7 +33,8 @@ export async function getEraToken(now: number = Date.now()): Promise<string> {
   if (!res.ok) throw new AppError("UPSTREAM_ERA", `Era token endpoint returned ${res.status}`, { status: res.status });
 
   const parsed = TokenResponse.safeParse(await res.json());
-  if (!parsed.success) throw new AppError("UPSTREAM_ERA", "Era token response was malformed", { issues: parsed.error.issues.length });
+  if (!parsed.success)
+    throw new AppError("UPSTREAM_ERA", "Era token response was malformed", { issues: parsed.error.issues.length });
 
   cached = { token: parsed.data.access_token, expiresAt: now + parsed.data.expires_in * 1000 };
   return cached.token;

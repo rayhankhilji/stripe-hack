@@ -1,4 +1,4 @@
-import { createServer, type Server } from "node:http";
+import { createServer, type IncomingMessage, type Server, type ServerResponse } from "node:http";
 import type { AddressInfo } from "node:net";
 import { closeDb, getDb, migrate, schema } from "@ghost/db";
 import { afterAll, afterEach, beforeAll, describe, expect, it } from "vitest";
@@ -9,7 +9,13 @@ let requests: { method: string; url: string; body: string }[] = [];
 let searchHandler: (type: string) => { status: number; body: unknown } | "hang" = () => ({ status: 200, body: [] });
 
 async function startFakeCognee(): Promise<string> {
-  server = createServer(async (req, res) => {
+  server = createServer((req, res) => void handle(req, res));
+  await new Promise<void>((r) => server?.listen(0, "127.0.0.1", r));
+  return `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+}
+
+async function handle(req: IncomingMessage, res: ServerResponse): Promise<void> {
+  {
     let body = "";
     for await (const chunk of req) body += String(chunk);
     requests.push({ method: req.method ?? "", url: req.url ?? "", body });
@@ -27,9 +33,7 @@ async function startFakeCognee(): Promise<string> {
       return json(out.status, out.body);
     }
     json(404, {});
-  });
-  await new Promise<void>((r) => server?.listen(0, "127.0.0.1", r));
-  return `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+  }
 }
 
 beforeAll(async () => {
@@ -37,11 +41,26 @@ beforeAll(async () => {
   delete process.env.DATABASE_URL;
   await migrate();
   const db = getDb();
-  const [cust] = await db.insert(schema.customer).values({ eraAccountId: "acct-6", name: "Tidewater Capital" }).returning();
+  const [cust] = await db
+    .insert(schema.customer)
+    .values({ eraAccountId: "acct-6", name: "Tidewater Capital" })
+    .returning();
   const base = { system: "salesforce" as const, raw: {}, contentHash: "h", customerId: cust?.id };
   await db.insert(schema.sourceRecord).values([
-    { ...base, recordType: "Contract", externalId: "contract-4", title: "Contract 4", bodyText: "Business plan for Tidewater Capital: 20 seats at 9,700 per year. Status: In Approval Process" },
-    { ...base, recordType: "Order", externalId: "order-127", title: "Order 127", bodyText: "Order 00127 status Draft, effective 2026-05-01, $51,500" },
+    {
+      ...base,
+      recordType: "Contract",
+      externalId: "contract-4",
+      title: "Contract 4",
+      bodyText: "Business plan for Tidewater Capital: 20 seats at 9,700 per year. Status: In Approval Process",
+    },
+    {
+      ...base,
+      recordType: "Order",
+      externalId: "order-127",
+      title: "Order 127",
+      bodyText: "Order 00127 status Draft, effective 2026-05-01, $51,500",
+    },
   ]);
 });
 
@@ -90,15 +109,27 @@ describe("Cognee path", () => {
     searchHandler = (type) =>
       type === "GRAPH_COMPLETION"
         ? { status: 200, body: ["Tidewater has three won deals with Draft orders."] }
-        : { status: 200, body: [{ text: "[source: salesforce:deal-127] Deal 127" }, { text: "[source: salesforce:order-127] x" }] };
+        : {
+            status: 200,
+            body: [{ text: "[source: salesforce:deal-127] Deal 127" }, { text: "[source: salesforce:order-127] x" }],
+          };
     const hits = await searchContext("Tidewater Capital", "unbilled revenue");
-    expect(hits).toEqual([{ text: "Tidewater has three won deals with Draft orders.", sourceExternalIds: ["deal-127", "order-127"], score: null, via: "cognee" }]);
+    expect(hits).toEqual([
+      {
+        text: "Tidewater has three won deals with Draft orders.",
+        sourceExternalIds: ["deal-127", "order-127"],
+        score: null,
+        via: "cognee",
+      },
+    ]);
   });
 
   it("adds documents as source-tagged files and cognifies", async () => {
     process.env.COGNEE_BASE_URL = await startFakeCognee();
     const { cognify } = await import("../src/index");
-    const res = await addDocuments([{ externalId: "deal-127", system: "salesforce", customerEraId: "acct-6", title: "Deal 127", text: "won" }]);
+    const res = await addDocuments([
+      { externalId: "deal-127", system: "salesforce", customerEraId: "acct-6", title: "Deal 127", text: "won" },
+    ]);
     await cognify();
     expect(res).toEqual({ added: 1 });
     const add = requests.find((r) => r.url === "/api/v1/add");

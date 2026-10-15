@@ -32,7 +32,9 @@ export async function searchContext(customerName: string, question: string): Pro
     if (answers.length === 0) throw new AppError("UPSTREAM_COGNEE", "Cognee returned no answer");
     return answers.map((text) => ({ text, sourceExternalIds, score: null, via: "cognee" as const }));
   } catch (err) {
-    process.stderr.write(`knowledge: cognee search failed, using FTS (${err instanceof Error ? err.message : String(err)})\n`);
+    process.stderr.write(
+      `knowledge: cognee search failed, using FTS (${err instanceof Error ? err.message : String(err)})\n`,
+    );
     return searchFts(customerName, question);
   }
 }

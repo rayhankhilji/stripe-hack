@@ -28,7 +28,8 @@ async function authHeaders(timeoutMs: number): Promise<Record<string, string>> {
     });
     if (!res.ok) throw new AppError("UPSTREAM_COGNEE", `Cognee login returned ${res.status}`, { status: res.status });
     const body = (await res.json()) as { access_token?: unknown };
-    if (typeof body.access_token !== "string") throw new AppError("UPSTREAM_COGNEE", "Cognee login response had no access_token");
+    if (typeof body.access_token !== "string")
+      throw new AppError("UPSTREAM_COGNEE", "Cognee login response had no access_token");
     auth = { token: body.access_token };
   }
   return { authorization: `Bearer ${auth.token}` };
@@ -43,7 +44,11 @@ async function request(path: string, init: RequestInit, timeoutMs: number): Prom
     const headers = { ...(await authHeaders(timeoutMs)), ...(init.headers as Record<string, string> | undefined) };
     const res = await fetch(`${baseUrl()}${path}`, { ...init, headers, signal: AbortSignal.timeout(timeoutMs) });
     if (res.status === 401) resetCogneeAuth();
-    if (!res.ok) throw new AppError("UPSTREAM_COGNEE", `Cognee ${path} returned ${res.status}`, { status: res.status, body: (await res.text()).slice(0, 300) });
+    if (!res.ok)
+      throw new AppError("UPSTREAM_COGNEE", `Cognee ${path} returned ${res.status}`, {
+        status: res.status,
+        body: (await res.text()).slice(0, 300),
+      });
     const text = await res.text();
     return text ? (JSON.parse(text) as unknown) : null;
   } catch (err) {
@@ -76,7 +81,11 @@ export async function cogneeAdd(docs: CogneeDoc[], timeoutMs = DEFAULT_TIMEOUT_M
 export async function cogneeCognify(timeoutMs = DEFAULT_TIMEOUT_MS): Promise<void> {
   await request(
     "/api/v1/cognify",
-    { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ datasets: [datasetName()], run_in_background: false }) },
+    {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ datasets: [datasetName()], run_in_background: false }),
+    },
     timeoutMs,
   );
 }
@@ -95,10 +104,18 @@ function resultTexts(result: unknown): string[] {
   });
 }
 
-export async function cogneeSearch(query: string, searchType: "GRAPH_COMPLETION" | "CHUNKS", timeoutMs: number): Promise<string[]> {
+export async function cogneeSearch(
+  query: string,
+  searchType: "GRAPH_COMPLETION" | "CHUNKS",
+  timeoutMs: number,
+): Promise<string[]> {
   const result = await request(
     "/api/v1/search",
-    { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ query, search_type: searchType, datasets: [datasetName()], top_k: 5 }) },
+    {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ query, search_type: searchType, datasets: [datasetName()], top_k: 5 }),
+    },
     timeoutMs,
   );
   return resultTexts(result);
@@ -116,7 +133,8 @@ export async function cogneeHealthy(timeoutMs = 2_000): Promise<boolean> {
 
 /** Number of documents Cognee holds for the dataset, or null when it cannot be read. */
 export async function cogneeDocumentCount(timeoutMs = 3_000): Promise<number | null> {
-  const datasets = (await request("/api/v1/datasets", { method: "GET" }, timeoutMs)) as { id: string; name: string }[] | null;
+  const datasets = (await request("/api/v1/datasets", { method: "GET" }, timeoutMs)) as
+    { id: string; name: string }[] | null;
   const ds = datasets?.find((d) => d.name === datasetName());
   if (!ds) return 0;
   const data = (await request(`/api/v1/datasets/${ds.id}/data`, { method: "GET" }, timeoutMs)) as unknown[] | null;
