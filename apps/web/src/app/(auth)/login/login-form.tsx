@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, type FormEvent } from "react";
-import { api } from "@/lib/api";
+import { api } from "../../../lib/api";
 
 // Only same-origin relative paths; anything else falls back to the workspace.
 function safeNext(next: string | null): string {

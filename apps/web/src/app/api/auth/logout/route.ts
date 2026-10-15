@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { SESSION_COOKIE } from "@/server/env";
-import { withHandler } from "@/server/handler";
+import { SESSION_COOKIE } from "../../../../server/env";
+import { withHandler } from "../../../../server/handler";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

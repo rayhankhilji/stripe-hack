@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { AppError, LoginBody } from "@ghost/shared";
-import { SESSION_COOKIE, SESSION_MAX_AGE_SECONDS } from "@/server/env";
-import { withHandler } from "@/server/handler";
-import { createSessionToken, passwordMatches } from "@/server/session";
+import { SESSION_COOKIE, SESSION_MAX_AGE_SECONDS } from "../../../../server/env";
+import { withHandler } from "../../../../server/handler";
+import { createSessionToken, passwordMatches } from "../../../../server/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

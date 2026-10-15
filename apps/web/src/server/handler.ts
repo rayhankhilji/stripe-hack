@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import { AppError, type ErrorCode } from "@ghost/shared";
-import type { z } from "zod";
 import { assertSession } from "./session";
 
 export type HandlerContext<B = undefined> = {
@@ -11,9 +10,13 @@ export type HandlerContext<B = undefined> = {
   requestId: string;
 };
 
+/** Structural slice of a zod schema, so this file needs no direct zod import. */
+type BodySchema = { safeParse(v: unknown): { success: true; data: unknown } | { success: false; error: { issues: unknown[] } } };
+type Infer<S> = S extends { safeParse(v: unknown): infer R } ? (R extends { success: true; data: infer D } ? D : never) : undefined;
+
 type RouteContext = { params?: Promise<Record<string, string>> | Record<string, string> };
 
-type Options<S extends z.ZodTypeAny | undefined> = {
+type Options<S extends BodySchema | undefined> = {
   /** zod schema for the JSON body; omitted for routes without one. */
   body?: S;
   /** Set false only for routes that authenticate themselves (login). */
@@ -22,10 +25,10 @@ type Options<S extends z.ZodTypeAny | undefined> = {
   emptyStatus?: 200 | 204;
 };
 
-type Body<S> = S extends z.ZodTypeAny ? z.infer<S> : undefined;
+type Body<S> = S extends BodySchema ? Infer<S> : undefined;
 
 /** Session check, zod parse, request id and AppError → `{error}` envelope for every JSON route. */
-export function withHandler<S extends z.ZodTypeAny | undefined = undefined>(
+export function withHandler<S extends BodySchema | undefined = undefined>(
   fn: (ctx: HandlerContext<Body<S>>) => Promise<unknown> | unknown,
   options: Options<S> = {},
 ) {

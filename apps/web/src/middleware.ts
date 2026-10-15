@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { SESSION_COOKIE } from "@/server/env";
-import { verifySessionToken } from "@/server/session";
+import { SESSION_COOKIE } from "./server/env";
+import { verifySessionToken } from "./server/session";
 
 // Webhook, auth and health authenticate themselves.
 const PUBLIC_PREFIXES = ["/login", "/api/auth/", "/api/stripe/webhook", "/api/health"];

@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Logo } from "@/components/ghost/logo";
+import { Logo } from "../../../components/ghost/logo";
 import { LoginForm } from "./login-form";
 
 export const metadata = { title: "Sign in · Ghost" };

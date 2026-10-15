@@ -1,11 +1,10 @@
 "use client";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import type { IngestBody, IngestRunDTO } from "@ghost/shared";
-import type { z } from "zod";
+import type { IngestRunDTO } from "@ghost/shared";
 import { api } from "../api";
 
-type IngestRun = z.infer<typeof IngestRunDTO>;
-type IngestInput = z.input<typeof IngestBody>;
+type IngestRun = ReturnType<typeof IngestRunDTO.parse>;
+type IngestInput = { source?: "live" | "fixtures" };
 
 /** Ingest, detection and reset change nearly every screen, so they refresh the whole cache. */
 function useFullRefresh() {
