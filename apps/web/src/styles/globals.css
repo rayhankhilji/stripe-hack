@@ -1,1 +1,206 @@
 @import "tailwindcss";
+
+/*
+ * Ghost design tokens. This is the ONLY file where raw colour values live (INSTRUCTIONS §7).
+ * Brand constants come from docs/brand/BRAND.md; semantic aliases switch between light and dark.
+ */
+@custom-variant dark (&:where(.dark, .dark *, [data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  /* ---------- brand palette (fixed) ---------- */
+  --color-forest: #052018;
+  --color-forest-2: #0f3730;
+  --color-forest-3: #1b4a40;
+  --color-petal: #fcb8cd;
+  --color-petal-soft: #fde3eb;
+  --color-punch: #cb3363;
+  --color-punch-deep: #9e1f48;
+  --color-navy: #093c6a;
+  --color-signal: #479edd;
+  --color-signal-soft: #dcecf8;
+  --color-lemon: #fed63d;
+  --color-lemon-soft: #fff4c4;
+  --color-lemon-deep: #6b5400;
+  --color-lime: #bbe49e;
+  --color-lime-soft: #e7f5dc;
+  --color-lime-deep: #2f5a17;
+  --color-porcelain: #f8f1ef;
+  --color-porcelain-2: #f2e9e6;
+  --color-line: #e7e0dd;
+  --color-line-strong: #d6ccc8;
+  --color-ink: #17241e;
+  --color-ink-2: #4c5a53;
+  --color-ink-3: #7d8781;
+  --color-white: #ffffff;
+
+  /* ---------- type ---------- */
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, "SFMono-Regular", monospace;
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1rem;
+
+  /* ---------- shape ---------- */
+  --radius-control: 10px;
+  --radius-card: 16px;
+  --radius-panel: 22px;
+
+  /* ---------- elevation: subtle, soft, sparse ---------- */
+  --shadow-soft: 0 1px 2px rgb(23 36 30 / 0.04), 0 4px 16px -6px rgb(23 36 30 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(23 36 30 / 0.05), 0 18px 40px -16px rgb(23 36 30 / 0.22);
+  --shadow-ring: 0 0 0 4px rgb(252 184 205 / 0.45);
+
+  /* ---------- motion ---------- */
+  --ease-ghost: cubic-bezier(0.2, 0, 0, 1);
+  --duration-fast: 180ms;
+  --duration-base: 220ms;
+  --duration-slow: 280ms;
+
+  --animate-fade-in: fade-in 220ms var(--ease-ghost);
+  --animate-fade-out: fade-out 180ms var(--ease-ghost);
+  --animate-pop-in: pop-in 220ms var(--ease-ghost);
+  --animate-pop-out: pop-out 180ms var(--ease-ghost);
+  --animate-sheet-in: sheet-in 280ms var(--ease-ghost);
+  --animate-sheet-out: sheet-out 220ms var(--ease-ghost);
+  --animate-shimmer: shimmer 1.6s var(--ease-ghost) infinite;
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes fade-out {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+  @keyframes pop-in {
+    from { opacity: 0; transform: translate(-50%, calc(-50% + 6px)) scale(0.985); }
+    to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  }
+  @keyframes pop-out {
+    from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+    to { opacity: 0; transform: translate(-50%, calc(-50% + 4px)) scale(0.99); }
+  }
+  @keyframes sheet-in {
+    from { opacity: 0; transform: translateX(24px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes sheet-out {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(24px); }
+  }
+  @keyframes shimmer {
+    from { background-position: 100% 0; }
+    to { background-position: 0 0; }
+  }
+}
+
+/* ---------- semantic aliases (light-first) ---------- */
+@theme inline {
+  --color-canvas: var(--ghost-canvas);
+  --color-surface: var(--ghost-surface);
+  --color-surface-muted: var(--ghost-surface-muted);
+  --color-surface-sunken: var(--ghost-surface-sunken);
+  --color-fg: var(--ghost-fg);
+  --color-fg-muted: var(--ghost-fg-muted);
+  --color-fg-subtle: var(--ghost-fg-subtle);
+  --color-border: var(--ghost-border);
+  --color-border-strong: var(--ghost-border-strong);
+  --color-accent: var(--ghost-accent);
+  --color-accent-fg: var(--ghost-accent-fg);
+  --color-focus: var(--ghost-focus);
+  --color-rail: var(--ghost-rail);
+  --color-rail-fg: var(--ghost-rail-fg);
+  --color-rail-muted: var(--ghost-rail-muted);
+}
+
+:root {
+  --ghost-canvas: var(--color-porcelain);
+  --ghost-surface: var(--color-white);
+  --ghost-surface-muted: var(--color-porcelain-2);
+  --ghost-surface-sunken: var(--color-porcelain);
+  --ghost-fg: var(--color-ink);
+  --ghost-fg-muted: var(--color-ink-2);
+  --ghost-fg-subtle: var(--color-ink-3);
+  --ghost-border: var(--color-line);
+  --ghost-border-strong: var(--color-line-strong);
+  --ghost-accent: var(--color-punch);
+  --ghost-accent-fg: var(--color-white);
+  --ghost-focus: var(--color-punch);
+  --ghost-rail: var(--color-forest);
+  --ghost-rail-fg: var(--color-porcelain);
+  --ghost-rail-muted: rgb(248 241 239 / 0.58);
+  color-scheme: light;
+}
+
+.dark,
+[data-theme="dark"] {
+  --ghost-canvas: var(--color-forest);
+  --ghost-surface: var(--color-forest-2);
+  --ghost-surface-muted: rgb(248 241 239 / 0.06);
+  --ghost-surface-sunken: rgb(0 0 0 / 0.18);
+  --ghost-fg: var(--color-porcelain);
+  --ghost-fg-muted: rgb(248 241 239 / 0.72);
+  --ghost-fg-subtle: rgb(248 241 239 / 0.5);
+  --ghost-border: rgb(248 241 239 / 0.1);
+  --ghost-border-strong: rgb(248 241 239 / 0.18);
+  --ghost-accent: var(--color-petal);
+  --ghost-accent-fg: var(--color-forest);
+  --ghost-focus: var(--color-petal);
+  --ghost-rail: #03150f;
+  --ghost-rail-fg: var(--color-porcelain);
+  --ghost-rail-muted: rgb(248 241 239 / 0.55);
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--color-canvas);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+  }
+  ::selection {
+    background: var(--color-petal);
+    color: var(--color-forest);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+  .font-display {
+    font-variation-settings: "SOFT" 100, "WONK" 0;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  /* Revenue trails draw in by animating dash offset from 1 → 0 on a pathLength="1" path. */
+  .trail-draw {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    transition: stroke-dashoffset 900ms var(--ease-ghost);
+  }
+  .trail-draw[data-active="true"] {
+    stroke-dashoffset: 0;
+  }
+  .scrollbar-quiet {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-border-strong) transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}
