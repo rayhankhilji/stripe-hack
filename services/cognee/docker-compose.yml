@@ -1,0 +1,26 @@
+# Cognee knowledge-graph server for Ghost. Run: docker compose -f services/cognee/docker-compose.yml up -d
+# Ghost works without it: searchContext falls back to Postgres full-text search.
+services:
+  cognee:
+    image: cognee/cognee:main
+    container_name: ghost-cognee
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_API_KEY: ${OPENAI_API_KEY}
+      LLM_PROVIDER: openai
+      LLM_MODEL: ${COGNEE_LLM_MODEL:-openai/gpt-4o-mini}
+      EMBEDDING_PROVIDER: openai
+      EMBEDDING_MODEL: ${COGNEE_EMBEDDING_MODEL:-openai/text-embedding-3-large}
+      EMBEDDING_API_KEY: ${OPENAI_API_KEY}
+      ENABLE_BACKEND_ACCESS_CONTROL: "false"
+      REQUIRE_AUTHENTICATION: "false"
+      HOST: 0.0.0.0
+    volumes:
+      - ./data:/app/cognee_data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8000/health || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
