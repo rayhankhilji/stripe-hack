@@ -34,7 +34,7 @@ const TRANSITIONS: Record<FindingStatus, readonly FindingStatus[]> = {
   rejected: [],
 };
 
-export function canTransition(from: FindingStatus, to: FindingStatus): boolean {
+export function canTransitionFinding(from: FindingStatus, to: FindingStatus): boolean {
   return TRANSITIONS[from].includes(to);
 }
 
@@ -210,7 +210,7 @@ export async function setFindingStatus(id: string, to: FindingStatus, reason: st
   const db = getDb();
   const [row] = await db.select({ status: schema.finding.status, title: schema.finding.title }).from(schema.finding).where(eq(schema.finding.id, id)).limit(1);
   if (!row) throw new AppError("NOT_FOUND", `Finding ${id} not found`);
-  if (!canTransition(row.status, to)) {
+  if (!canTransitionFinding(row.status, to)) {
     throw new AppError("INVALID_STATE", `Finding cannot move from ${row.status} to ${to}`, { from: row.status, to });
   }
   await db
