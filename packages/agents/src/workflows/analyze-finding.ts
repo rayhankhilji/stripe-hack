@@ -101,7 +101,7 @@ const checkEligibility = createStep({
   outputSchema: CtxSchema,
   execute: async ({ inputData }) => {
     const cap = Number(process.env.INVOICE_AMOUNT_CAP_CENTS ?? DEFAULT_CAP_CENTS);
-    const r = await callTool<unknown, { detected: { amountCents: number; calcHash: string } | null; checks: EligibilityCheckDTO[]; decision: Decision }>(evaluateEligibilityTool, {
+    const r = await callTool<{ facts: CustomerFacts; amountCapCents: number }, { detected: { amountCents: number; calcHash: string } | null; checks: EligibilityCheckDTO[]; decision: Decision }>(evaluateEligibilityTool, {
       facts: need(inputData.facts, "facts"),
       amountCapCents: Number.isSafeInteger(cap) ? cap : DEFAULT_CAP_CENTS,
     });
