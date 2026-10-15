@@ -1,4 +1,4 @@
-import { createServer, type Server } from "node:http";
+import { createServer, type IncomingMessage, type Server, type ServerResponse } from "node:http";
 import type { AddressInfo } from "node:net";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
@@ -13,29 +13,40 @@ let tokenRequests = 0;
 let sawAuth: string[] = [];
 
 beforeAll(async () => {
-  server = createServer(async (req, res) => {
+  server = createServer((req, res) => {
+    void handle(req, res);
+  });
+  await new Promise<void>((r) => server.listen(0, "127.0.0.1", r));
+  base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+});
+
+async function handle(req: IncomingMessage, res: ServerResponse): Promise<void> {
+  {
     if (req.url === "/token") {
       tokenRequests++;
       let body = "";
       for await (const chunk of req) body += String(chunk);
       const form = new URLSearchParams(body);
-      const ok = form.get("grant_type") === "client_credentials" && form.get("client_id") === "cid" && form.get("client_secret") === "sec";
+      const ok =
+        form.get("grant_type") === "client_credentials" &&
+        form.get("client_id") === "cid" &&
+        form.get("client_secret") === "sec";
       res.writeHead(ok ? 200 : 401, { "content-type": "application/json" });
       res.end(JSON.stringify(ok ? { access_token: `tok-${tokenRequests}`, expires_in: 3600 } : { error: "bad" }));
       return;
     }
     sawAuth.push(String(req.headers.authorization));
     const mcp = new McpServer({ name: "fake-era", version: "1.0.0" });
-    mcp.registerTool("echo", { inputSchema: { value: z.string() } }, async ({ value }) => ({ content: [{ type: "text", text: JSON.stringify({ value }) }] }));
-    mcp.registerTool("boom", {}, async () => ({ isError: true, content: [{ type: "text", text: "nope" }] }));
+    mcp.registerTool("echo", { inputSchema: { value: z.string() } }, ({ value }) => ({
+      content: [{ type: "text", text: JSON.stringify({ value }) }],
+    }));
+    mcp.registerTool("boom", {}, () => ({ isError: true, content: [{ type: "text", text: "nope" }] }));
     const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
     res.on("close", () => void transport.close());
     await mcp.connect(transport);
     await transport.handleRequest(req, res);
-  });
-  await new Promise<void>((r) => server.listen(0, "127.0.0.1", r));
-  base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
-});
+  }
+}
 
 afterAll(async () => {
   await closeEraClients();

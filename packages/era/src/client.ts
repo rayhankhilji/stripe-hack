@@ -13,7 +13,10 @@ export function eraMcpUrl(system: EraSystem): URL {
   const template = process.env.ERA_MCP_URL_TEMPLATE;
   if (template) return new URL(template.replace("{system}", system));
   const domain = process.env.ERA_MCP_BASE_DOMAIN;
-  if (!domain) throw new AppError("UPSTREAM_ERA", "ERA_MCP_BASE_DOMAIN is not set; cannot reach Era live", { missing: "ERA_MCP_BASE_DOMAIN" });
+  if (!domain)
+    throw new AppError("UPSTREAM_ERA", "ERA_MCP_BASE_DOMAIN is not set; cannot reach Era live", {
+      missing: "ERA_MCP_BASE_DOMAIN",
+    });
   return new URL(`https://${system}-mcp.${domain}/mcp/`);
 }
 
@@ -47,7 +50,10 @@ export function parseToolResult(result: object): unknown {
   const { content, structuredContent } = result as { content?: unknown; structuredContent?: unknown };
   if (structuredContent !== undefined && structuredContent !== null) return structuredContent;
   const blocks = Array.isArray(content) ? (content as { type?: string; text?: string }[]) : [];
-  const text = blocks.filter((b) => b.type === "text" && typeof b.text === "string").map((b) => b.text).join("\n");
+  const text = blocks
+    .filter((b) => b.type === "text" && typeof b.text === "string")
+    .map((b) => b.text)
+    .join("\n");
   if (!text) return null;
   try {
     return JSON.parse(text) as unknown;
@@ -61,16 +67,24 @@ export async function callEraTool(system: EraSystem, tool: string, args: Record<
   for (let attempt = 0; ; attempt++) {
     const client = await clientFor(system);
     try {
-      const result = await client.callTool({ name: tool, arguments: args }, undefined, { timeout: CALL_TIMEOUT_MS, signal: AbortSignal.timeout(CALL_TIMEOUT_MS) });
+      const result = await client.callTool({ name: tool, arguments: args }, undefined, {
+        timeout: CALL_TIMEOUT_MS,
+        signal: AbortSignal.timeout(CALL_TIMEOUT_MS),
+      });
       if ("isError" in result && result.isError) {
-        throw new AppError("UPSTREAM_ERA", `Era ${system}.${tool} returned an error`, { system, tool, detail: String(parseToolResult(result)).slice(0, 500) });
+        throw new AppError("UPSTREAM_ERA", `Era ${system}.${tool} returned an error`, {
+          system,
+          tool,
+          detail: String(parseToolResult(result)).slice(0, 500),
+        });
       }
       return parseToolResult(result);
     } catch (err) {
       if (err instanceof AppError) throw err;
       clients.delete(system);
       await client.close().catch(() => undefined); // already failing; closing is best-effort
-      if (attempt === 1) throw new AppError("UPSTREAM_ERA", `Era ${system}.${tool} failed`, { system, tool, cause: String(err) });
+      if (attempt === 1)
+        throw new AppError("UPSTREAM_ERA", `Era ${system}.${tool} failed`, { system, tool, cause: String(err) });
     }
   }
 }

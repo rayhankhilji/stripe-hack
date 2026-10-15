@@ -43,7 +43,9 @@ function readObject<T extends object>(path: string): T {
 function readDirByName<T>(dir: string, read: (path: string) => T): Record<string, T> {
   if (!existsSync(dir)) return {};
   const out: Record<string, T> = {};
-  for (const file of readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
+  for (const file of readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .sort()) {
     out[basename(file, ".json")] = read(join(dir, file));
   }
   return out;
@@ -58,7 +60,10 @@ function readAwsTable(dir: string, name: AwsTableName): AwsTable {
 /** Loads the recorded Era snapshot from `fixtures/era` (or `dir`). Synchronous, deterministic, offline. */
 export function loadSnapshotFromFixtures(dir: string = DEFAULT_DIR): EraSnapshot {
   const sf = (file: string) => readArray<SfRecord>(join(dir, "salesforce", `${file}.json`));
-  const aws = Object.fromEntries(AWS_TABLES.map((name) => [name, readAwsTable(dir, name)])) as Record<AwsTableName, AwsTable>;
+  const aws = Object.fromEntries(AWS_TABLES.map((name) => [name, readAwsTable(dir, name)])) as Record<
+    AwsTableName,
+    AwsTable
+  >;
   const driveFiles = readDirByName(join(dir, "google-drive", "files"), readObject<DriveFile>);
 
   return {
