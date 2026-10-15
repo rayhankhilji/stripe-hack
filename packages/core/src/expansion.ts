@@ -1,7 +1,7 @@
 // Expansion scan (FAST_PLAN §7): deterministic signals from ingested Salesforce cases and Gong records.
 // Counts, thresholds and quotes come from source records only; the agent drafts the email afterwards.
 import { and, asc, desc, eq, inArray } from "drizzle-orm";
-import { draftExpansionEmail } from "@ghost/agents";
+import { draftExpansionEmail } from "../../agents/src/index";
 import { getDb, schema } from "@ghost/db";
 import { AppError, type EvidenceDTO, type ExpansionDTO } from "@ghost/shared";
 import { loadEvidenceEntries } from "./collections";
@@ -46,15 +46,17 @@ function featureCaseSignals(cases: SourceRow[]): Signal[] {
     .map((source) => ({ source, role: "context" as const, quote: rawString(source.raw, "Subject") || source.title }));
 }
 
-/** A transcript belongs to a customer when it is linked to them, or its call id is one of their calls and it names them. */
+/**
+ * A transcript belongs to a customer when ingest linked it to them, or it is unlinked and its text names them.
+ * Redacted call ids collide across accounts in the fixtures, so the id alone cannot attribute a transcript.
+ */
 function gongSignals(customerName: string, customerId: string, calls: SourceRow[], transcripts: SourceRow[]): Signal[] {
   const out: Signal[] = [];
-  const callIds = new Set(calls.map((c) => rawString(c.raw, "id")).filter((id) => id !== ""));
   for (const call of calls) {
     if (TITLE_SIGNAL.test(call.title)) out.push({ source: call, role: "usage_signal", quote: call.title });
   }
   for (const t of transcripts) {
-    const linked = t.customerId === customerId || (callIds.has(rawString(t.raw, "callId")) && t.bodyText.includes(customerName));
+    const linked = t.customerId === customerId || (t.customerId === null && t.bodyText.includes(customerName));
     if (!linked) continue;
     const quote = matchingSentence(t.bodyText, TRANSCRIPT_SIGNAL);
     if (quote) out.push({ source: t, role: "usage_signal", quote });
@@ -120,7 +122,7 @@ async function upsertExpansion(c: Candidate): Promise<{ id: string; created: boo
     .insert(schema.expansionOpportunity)
     .values({ customerId: c.customer.id, title, ...values })
     .onConflictDoNothing()
-    .returning({ id: schema.expansionOpportunity.id });
+    .returning();
   if (inserted) {
     await syncEvidence(inserted.id, c.signals);
     await recordAudit({
@@ -140,7 +142,7 @@ async function upsertExpansion(c: Candidate): Promise<{ id: string; created: boo
     .update(schema.expansionOpportunity)
     .set(values)
     .where(and(eq(schema.expansionOpportunity.customerId, c.customer.id), eq(schema.expansionOpportunity.title, title)))
-    .returning({ id: schema.expansionOpportunity.id });
+    .returning();
   if (!existing) throw new AppError("INTERNAL", "Expansion opportunity vanished during upsert", { customerId: c.customer.id });
   await syncEvidence(existing.id, c.signals);
   return { id: existing.id, created: false };

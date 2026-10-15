@@ -1,6 +1,6 @@
 // Demo reset: wipe, re-migrate and rebuild everything from the recorded fixtures. Never touches live sources.
 import { migrate, resetDatabase } from "@ghost/db";
-import { runIngest } from "@ghost/ingest";
+import { runIngest } from "../../ingest/src/index";
 import { AppError } from "@ghost/shared";
 import { recordAudit } from "./audit";
 import { runDetection } from "./detect";
