@@ -1,0 +1,17 @@
+export const keys = {
+  overview: ["overview"] as const,
+  activity: ["activity"] as const,
+  findings: (status?: string) => ["findings", status ?? "all"] as const,
+  findingsAll: ["findings"] as const,
+  finding: (id: string) => ["finding", id] as const,
+  customers: (q?: string) => ["customers", q ?? ""] as const,
+  customersAll: ["customers"] as const,
+  customer: (id: string) => ["customer", id] as const,
+  customerContext: (id: string, q: string) => ["customer-context", id, q] as const,
+  collections: ["collections"] as const,
+  expansion: ["expansion"] as const,
+  outbox: (status?: string) => ["outbox", status ?? "all"] as const,
+  outboxAll: ["outbox"] as const,
+  audit: (subjectType?: string, subjectId?: string) => ["audit", subjectType ?? "", subjectId ?? ""] as const,
+  auditAll: ["audit"] as const,
+};
