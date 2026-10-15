@@ -25,17 +25,19 @@ export function KpiTile({ label, cents, hint, accent, icon: Icon }: Props) {
   const tone = ACCENT[accent];
   return (
     <div className="relative overflow-hidden rounded-card border border-border bg-surface p-4 shadow-soft">
-      <span aria-hidden className={cn("absolute inset-x-0 top-0 h-0.5", tone.bar)} />
-      <div className="flex items-center gap-2">
-        <span aria-hidden className={cn("grid size-6 place-items-center rounded-control", tone.tile)}>
-          <Icon className="size-3.5" strokeWidth={2.25} />
+      <span aria-hidden className={cn("absolute inset-y-0 left-0 w-0.5", tone.bar)} />
+      <div className="flex items-center gap-3">
+        <span aria-hidden className={cn("grid size-9 shrink-0 place-items-center rounded-control", tone.tile)}>
+          <Icon className="size-4" strokeWidth={2.25} />
         </span>
-        <span className="text-xs font-medium text-fg-muted">{label}</span>
+        <div className="min-w-0 flex-1">
+          <p className="truncate text-xs font-medium text-fg-muted">{label}</p>
+          <p className="truncate text-xs text-fg-subtle">{hint}</p>
+        </div>
+        <div aria-live="polite" className="shrink-0">
+          <Money cents={cents} size="lg" animate />
+        </div>
       </div>
-      <div className="mt-3" aria-live="polite">
-        <Money cents={cents} size="lg" animate />
-      </div>
-      <p className="mt-1 truncate text-xs text-fg-subtle">{hint}</p>
     </div>
   );
 }

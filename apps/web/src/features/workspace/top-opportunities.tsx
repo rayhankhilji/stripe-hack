@@ -7,6 +7,7 @@ import { FixtureBadge } from "../../components/ghost/fixture-badge";
 import { Money } from "../../components/ghost/money";
 import { StatusPill } from "../../components/ghost/status-pill";
 import { cn } from "../../lib/cn";
+import { caseTitle } from "./derive";
 import { SectionCard } from "./section-card";
 
 function ScoreBar({ score }: { score: number }) {
@@ -48,7 +49,7 @@ export function TopOpportunities({ findings }: { findings: FindingSummaryDTO[] }
                     <span className="truncate text-sm font-semibold text-fg">{f.customerName}</span>
                     {f.isFixture ? <FixtureBadge /> : null}
                   </div>
-                  <p className="mt-0.5 truncate text-xs text-fg-muted">{f.title}</p>
+                  <p className="mt-0.5 truncate text-xs text-fg-muted">{caseTitle(f.title, f.customerName)}</p>
                   <div className="mt-2 flex items-center gap-3">
                     <StatusPill status={f.status} />
                     <ScoreBar score={f.evidenceScore} />

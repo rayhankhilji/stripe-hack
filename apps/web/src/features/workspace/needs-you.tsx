@@ -6,6 +6,7 @@ import type { LucideIcon } from "lucide-react";
 import Link from "next/link";
 import { cn } from "../../lib/cn";
 import { NEEDS_LABEL } from "./copy";
+import { dedupeLead } from "./derive";
 import { SectionCard } from "./section-card";
 
 type Item = OverviewDTO["needsAttention"][number];
@@ -47,7 +48,7 @@ export function NeedsYou({ items }: { items: OverviewDTO["needsAttention"] }) {
                     <Icon className="size-3.5" strokeWidth={2.25} />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm text-fg">{item.title}</span>
+                    <span className="block truncate text-sm text-fg">{dedupeLead(item.title)}</span>
                     <span className="block text-xs text-fg-subtle">{NEEDS_LABEL[item.kind]}</span>
                   </span>
                 </Link>

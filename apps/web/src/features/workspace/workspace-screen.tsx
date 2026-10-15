@@ -58,7 +58,7 @@ export function WorkspaceScreen() {
 
   return (
     <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-5 p-4 md:p-8 lg:grid-cols-12">
-      <div className="lg:col-span-8">
+      <div className="lg:sticky lg:top-8 lg:col-span-8 lg:self-start">
         <AgentPanel
           phase={phase}
           focus={focusFinding(data.topFindings)}
