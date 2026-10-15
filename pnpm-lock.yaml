@@ -180,6 +180,9 @@ importers:
       '@ghost/stripe':
         specifier: workspace:*
         version: link:../stripe
+      drizzle-orm:
+        specifier: ^0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.10)(pg@8.23.1)(postgres@3.4.9)
 
   packages/db:
     dependencies:
