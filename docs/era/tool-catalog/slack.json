@@ -1,0 +1,1072 @@
+[
+ {
+  "name": "slack_list_channels",
+  "description": "List channels in the workspace (comma-separated types: public_channel, private_channel, im, mpim).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    },
+    "types": {
+     "default": "public_channel",
+     "title": "Types",
+     "type": "string"
+    },
+    "exclude_archived": {
+     "default": false,
+     "title": "Exclude Archived",
+     "type": "boolean"
+    }
+   },
+   "title": "slack_list_channelsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_channel_history",
+  "description": "Get a channel's messages, newest first, optionally within an oldest/latest ts window.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "limit": {
+     "default": 10,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    },
+    "oldest": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Oldest"
+    },
+    "latest": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Latest"
+    },
+    "inclusive": {
+     "default": false,
+     "title": "Inclusive",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "channel_id"
+   ],
+   "title": "slack_get_channel_historyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_thread_replies",
+  "description": "Get the parent message and the replies of a thread, oldest first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "thread_ts": {
+     "title": "Thread Ts",
+     "type": "string"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "required": [
+    "channel_id",
+    "thread_ts"
+   ],
+   "title": "slack_get_thread_repliesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_auth_test",
+  "description": "Who this token is: the member or bot it acts as, its workspace, and its app.\n\n        The MCP surface had no identity tool, so an agent holding a user credential had\n        no way to learn whose messages, DMs and private channels it was reading \u2014 and\n        anything it inferred from ``slack_get_users`` was the workspace's first member,\n        not itself. This is ``auth.test`` under the MCP transport, answering from the\n        same payload for the same caller.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "slack_auth_testArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_users",
+  "description": "List workspace users with their basic profile information.\n\n        One page of ``limit`` members (default 100, max 999): a workspace larger than\n        that continues at ``response_metadata.next_cursor``; pass it back as ``cursor``\n        until it comes back empty. Deactivated members are listed with ``deleted: true``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    },
+    "include_locale": {
+     "default": false,
+     "title": "Include Locale",
+     "type": "boolean"
+    }
+   },
+   "title": "slack_get_usersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_user_profile",
+  "description": "Get a user's detailed profile information, optionally labelling its custom fields.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "string"
+    },
+    "include_labels": {
+     "default": false,
+     "title": "Include Labels",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "slack_get_user_profileArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_lookup_user_by_email",
+  "description": "Find a workspace user by their email address.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "email": {
+     "title": "Email",
+     "type": "string"
+    }
+   },
+   "required": [
+    "email"
+   ],
+   "title": "slack_lookup_user_by_emailArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_search_context",
+  "description": "Search the workspace the way an assistant grounds an answer: messages, files, channels and users at once.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string"
+    },
+    "content_types": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Content Types"
+    },
+    "channel_types": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Channel Types"
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    },
+    "include_context_messages": {
+     "default": false,
+     "title": "Include Context Messages",
+     "type": "boolean"
+    },
+    "include_bots": {
+     "default": false,
+     "title": "Include Bots",
+     "type": "boolean"
+    },
+    "before": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Before"
+    },
+    "after": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "After"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "slack_search_contextArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_search_messages",
+  "description": "Search messages; supports the in:#channel and from:@user operators, sorted by score or timestamp.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string"
+    },
+    "count": {
+     "default": 20,
+     "title": "Count",
+     "type": "integer"
+    },
+    "page": {
+     "default": 1,
+     "title": "Page",
+     "type": "integer"
+    },
+    "sort": {
+     "default": "score",
+     "title": "Sort",
+     "type": "string"
+    },
+    "sort_dir": {
+     "default": "desc",
+     "title": "Sort Dir",
+     "type": "string"
+    },
+    "cursor": {
+     "default": "",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "slack_search_messagesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_files",
+  "description": "List files newest first, optionally limited to one channel, uploader, type, or created window.\n\n        ``types`` takes ``files.list``'s keywords: all, spaces, snippets, images, gdocs, zips, pdfs.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Channel Id"
+    },
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id"
+    },
+    "types": {
+     "default": "all",
+     "title": "Types",
+     "type": "string"
+    },
+    "ts_from": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Ts From"
+    },
+    "ts_to": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Ts To"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "page": {
+     "default": 1,
+     "title": "Page",
+     "type": "integer"
+    }
+   },
+   "title": "slack_list_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_download_file",
+  "description": "Fetch a file's metadata and contents (text inline, binary base64-encoded).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "slack_download_fileArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_read_canvas",
+  "description": "Read a canvas's markdown content.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "canvas_id": {
+     "title": "Canvas Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "canvas_id"
+   ],
+   "title": "slack_read_canvasArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_channel_info",
+  "description": "Get one channel's metadata: name, topic, purpose, archived state, and optionally its member count and locale.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "include_num_members": {
+     "default": false,
+     "title": "Include Num Members",
+     "type": "boolean"
+    },
+    "include_locale": {
+     "default": false,
+     "title": "Include Locale",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "channel_id"
+   ],
+   "title": "slack_get_channel_infoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_channel_members",
+  "description": "List the user ids belonging to a channel.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "required": [
+    "channel_id"
+   ],
+   "title": "slack_list_channel_membersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_user_conversations",
+  "description": "List the conversations a user (the bot by default) belongs to.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id"
+    },
+    "types": {
+     "default": "public_channel",
+     "title": "Types",
+     "type": "string"
+    },
+    "exclude_archived": {
+     "default": false,
+     "title": "Exclude Archived",
+     "type": "boolean"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "title": "slack_list_user_conversationsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_reactions",
+  "description": "Read the reactions on a message.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "timestamp": {
+     "title": "Timestamp",
+     "type": "string"
+    }
+   },
+   "required": [
+    "channel_id",
+    "timestamp"
+   ],
+   "title": "slack_get_reactionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_permalink",
+  "description": "Get the permalink of a message, which agents cite when reporting a finding.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "message_ts": {
+     "title": "Message Ts",
+     "type": "string"
+    }
+   },
+   "required": [
+    "channel_id",
+    "message_ts"
+   ],
+   "title": "slack_get_permalinkArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_scheduled_messages",
+  "description": "List messages queued for future delivery, optionally within a ``post_at`` range.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Channel Id"
+    },
+    "oldest": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Oldest"
+    },
+    "latest": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Latest"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "title": "slack_list_scheduled_messagesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_pins",
+  "description": "List a channel's pinned messages.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "required": [
+    "channel_id"
+   ],
+   "title": "slack_list_pinsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_bookmarks",
+  "description": "List a channel's bookmarks (the links a team pins to the channel header).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "title": "Channel Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "channel_id"
+   ],
+   "title": "slack_list_bookmarksArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_usergroups",
+  "description": "List user groups (@handles a team routes work through).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "include_users": {
+     "default": false,
+     "title": "Include Users",
+     "type": "boolean"
+    },
+    "include_disabled": {
+     "default": false,
+     "title": "Include Disabled",
+     "type": "boolean"
+    },
+    "include_count": {
+     "default": false,
+     "title": "Include Count",
+     "type": "boolean"
+    }
+   },
+   "title": "slack_list_usergroupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_reactions",
+  "description": "List the messages a user (the bot by default) reacted to.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "title": "slack_list_reactionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_file_info",
+  "description": "Read one file's metadata and contents, the way ``files.info`` answers.\n\n        A canvas and a list are files too, and each answers with its own body.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "slack_get_file_infoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_emoji",
+  "description": "List the workspace's custom emoji, which agents cite when reacting, and optionally the Unicode categories.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "include_categories": {
+     "default": false,
+     "title": "Include Categories",
+     "type": "boolean"
+    }
+   },
+   "title": "slack_list_emojiArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_team_info",
+  "description": "Get the workspace (team) this token is installed in.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "slack_get_team_infoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_search_files",
+  "description": "Search files by name, title, or text content, newest first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string"
+    },
+    "count": {
+     "default": 20,
+     "title": "Count",
+     "type": "integer"
+    },
+    "page": {
+     "default": 1,
+     "title": "Page",
+     "type": "integer"
+    },
+    "sort": {
+     "default": "score",
+     "title": "Sort",
+     "type": "string"
+    },
+    "sort_dir": {
+     "default": "desc",
+     "title": "Sort Dir",
+     "type": "string"
+    },
+    "cursor": {
+     "default": "",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "slack_search_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_user_info",
+  "description": "Get a user's full record: name, title, timezone, bot/deleted flags, and profile.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "string"
+    },
+    "include_locale": {
+     "default": false,
+     "title": "Include Locale",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "slack_get_user_infoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_usergroup_users",
+  "description": "List the members of a user group, addressed by id or @handle.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "usergroup": {
+     "title": "Usergroup",
+     "type": "string"
+    }
+   },
+   "required": [
+    "usergroup"
+   ],
+   "title": "slack_list_usergroup_usersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_dnd_info",
+  "description": "Read a member's do-not-disturb and snooze state.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id"
+    }
+   },
+   "title": "slack_get_dnd_infoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_items",
+  "description": "List the records of a Slack list (a list id is the file id `slackLists.create` returned).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "list_id": {
+     "title": "List Id",
+     "type": "string"
+    },
+    "archived": {
+     "default": false,
+     "title": "Archived",
+     "type": "boolean"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "required": [
+    "list_id"
+   ],
+   "title": "slack_list_itemsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_list_remote_files",
+  "description": "List the remote files registered with this workspace, newest first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "channel_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Channel Id"
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor"
+    }
+   },
+   "title": "slack_list_remote_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "slack_get_call",
+  "description": "Read a registered call, including who is currently in it.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "call_id": {
+     "title": "Call Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "call_id"
+   ],
+   "title": "slack_get_callArguments",
+   "type": "object"
+  }
+ }
+]

@@ -1,0 +1,535 @@
+[
+ {
+  "name": "list_objects",
+  "description": "List the SObjects this org exposes, with their record counts.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_objectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_username",
+  "description": "The username of the org this server is connected to.\n\n        The simulator serves one org, so the official tool's org-selection\n        arguments are accepted for client compatibility and do not change the\n        answer. The user named is the org's own \u2014 the one its records are owned\n        by \u2014 so an agent that asks who it is and then reads ``Owner.Username``\n        is told about one person.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "defaultTargetOrg": {
+     "default": true,
+     "description": "Use the org's default target.",
+     "title": "Defaulttargetorg",
+     "type": "boolean"
+    },
+    "defaultDevHub": {
+     "default": false,
+     "description": "Use the org's default Dev Hub.",
+     "title": "Defaultdevhub",
+     "type": "boolean"
+    },
+    "directory": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Project directory for org resolution.",
+     "title": "Directory"
+    }
+   },
+   "title": "get_usernameArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "run_soql_query",
+  "description": "Run a SOQL query against a Salesforce org.\n\n        Returns the same ``{totalSize, done, records}`` envelope as the REST\n        ``/services/data/vXX.X/query`` endpoint. A result longer than one page\n        comes back with ``done: false`` and a ``queryLocator`` (and the matching\n        ``nextRecordsUrl``); pass that locator back \u2014 with the same query \u2014 to\n        read the next page, the way a REST client follows ``nextRecordsUrl``.\n        ``useToolingApi`` routes the query at the Tooling API's half of the\n        schema, exactly as ``/services/data/vXX.X/tooling/query`` does: Apex,\n        debug logs, trace flags and the schema entities answer there, and an\n        ordinary data object does not. The simulator serves one org out of one\n        store, so ``usernameOrAlias`` and ``directory`` are accepted for client\n        compatibility and do not change the result.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "description": "SOQL statement to execute.",
+     "title": "Query",
+     "type": "string"
+    },
+    "usernameOrAlias": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Username or alias used for compatibility.",
+     "title": "Usernameoralias"
+    },
+    "directory": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Project directory used for compatibility.",
+     "title": "Directory"
+    },
+    "useToolingApi": {
+     "default": false,
+     "description": "Run against the Tooling API schema.",
+     "title": "Usetoolingapi",
+     "type": "boolean"
+    },
+    "queryLocator": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Locator returned for the next query page.",
+     "title": "Querylocator"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "run_soql_queryArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_record",
+  "description": "Fetch one record by SObject and id (e.g. ``Account`` / ``acct-0``).\n\n        ``fields`` narrows the answer to the fields named, which is how to read\n        one value off a wide object without pulling the whole row.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "record_id": {
+     "description": "Record id.",
+     "title": "Record Id",
+     "type": "string"
+    },
+    "fields": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Fields to return; omit for the full readable record.",
+     "title": "Fields"
+    }
+   },
+   "required": [
+    "object_name",
+    "record_id"
+   ],
+   "title": "get_recordArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_records",
+  "description": "List records of an SObject, newest ids first as stored, with paging.\n\n        ``fields`` projects each row down to the fields named (``[\"Id\", \"Name\"]``),\n        so a listing of a wide object stays small; omitting it returns every field.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "limit": {
+     "default": 50,
+     "description": "Maximum records to return.",
+     "title": "Limit",
+     "type": "integer"
+    },
+    "offset": {
+     "default": 0,
+     "description": "Number of records to skip.",
+     "title": "Offset",
+     "type": "integer"
+    },
+    "fields": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Fields to return; omit for the full readable records.",
+     "title": "Fields"
+    }
+   },
+   "required": [
+    "object_name"
+   ],
+   "title": "list_recordsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_related_records",
+  "description": "Traverse a record's relationship, e.g. ``Account`` / ``acct-0`` / ``Contacts``.\n\n        The REST ``/sobjects/{Object}/{id}/{Relationship}`` sub-resource: a child\n        relationship answers the ``{totalSize, done, records}`` envelope, a\n        parent relationship (``Account``, ``Owner``) the single parent record.\n        Relationship names come from ``describe_object``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "Starting SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "record_id": {
+     "description": "Starting record id.",
+     "title": "Record Id",
+     "type": "string"
+    },
+    "relationship_name": {
+     "description": "Relationship name or slash-separated A/B chain.",
+     "title": "Relationship Name",
+     "type": "string"
+    }
+   },
+   "required": [
+    "object_name",
+    "record_id",
+    "relationship_name"
+   ],
+   "title": "get_related_recordsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_list_views",
+  "description": "The saved list views an object exposes, by developer name.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    }
+   },
+   "required": [
+    "object_name"
+   ],
+   "title": "list_list_viewsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "run_list_view",
+  "description": "Run a saved list view by developer name or id and return its records.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "list_view": {
+     "description": "List-view id or developer name.",
+     "title": "List View",
+     "type": "string"
+    },
+    "limit": {
+     "default": 50,
+     "description": "Maximum records to return.",
+     "title": "Limit",
+     "type": "integer"
+    },
+    "offset": {
+     "default": 0,
+     "description": "Number of records to skip.",
+     "title": "Offset",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "object_name",
+    "list_view"
+   ],
+   "title": "run_list_viewArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_apex",
+  "description": "Apex source in the org: every class or trigger, or one by name.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "name": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Apex class or trigger name; omit for all.",
+     "title": "Name"
+    },
+    "kind": {
+     "default": "class",
+     "description": "Read an Apex class or trigger.",
+     "enum": [
+      "class",
+      "trigger"
+     ],
+     "title": "Kind",
+     "type": "string"
+    }
+   },
+   "title": "read_apexArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_debug_logs",
+  "description": "List recent debug logs, or return one log's full body by id.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 10,
+     "description": "Maximum logs to return.",
+     "title": "Limit",
+     "type": "integer"
+    },
+    "log_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Debug log id; omit to list recent logs.",
+     "title": "Log Id"
+    }
+   },
+   "title": "get_debug_logsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_updated_records",
+  "description": "Ids of records changed in a window, for incremental sync.\n\n        Mirrors REST ``/sobjects/{Object}/updated``; ``start`` and ``end`` are\n        ISO-8601 timestamps (``2024-01-01T00:00:00Z``).\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "start": {
+     "description": "ISO-8601 window start, such as 2024-01-01T00:00:00Z.",
+     "title": "Start",
+     "type": "string"
+    },
+    "end": {
+     "description": "ISO-8601 window end, such as 2024-01-02T00:00:00Z.",
+     "title": "End",
+     "type": "string"
+    }
+   },
+   "required": [
+    "object_name",
+    "start",
+    "end"
+   ],
+   "title": "get_updated_recordsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_deleted_records",
+  "description": "Records deleted in a window, for incremental sync.\n\n        Mirrors REST ``/sobjects/{Object}/deleted``: the rows the org's recycle\n        bin still holds, each with the date it was deleted.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    },
+    "start": {
+     "description": "ISO-8601 window start, such as 2024-01-01T00:00:00Z.",
+     "title": "Start",
+     "type": "string"
+    },
+    "end": {
+     "description": "ISO-8601 window end, such as 2024-01-02T00:00:00Z.",
+     "title": "End",
+     "type": "string"
+    }
+   },
+   "required": [
+    "object_name",
+    "start",
+    "end"
+   ],
+   "title": "get_deleted_recordsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_org_limits",
+  "description": "Org limits, plus per-object record counts when objects are named.\n\n        The REST ``/limits`` and ``/limits/recordCount`` payloads in one answer,\n        which is what an agent sizing an export asks for.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_names": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "SObject API names to count; omit for no counts.",
+     "title": "Object Names"
+    }
+   },
+   "title": "get_org_limitsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_object",
+  "description": "Field-level metadata for an SObject: types, picklist values, relationships.\n\n        The same body REST ``/sobjects/{Object}/describe`` returns, so a client\n        that reads a describe flag (``createable``, ``keyPrefix``,\n        ``recordTypeInfos``, a child relationship's ``cascadeDelete``) sees the\n        same schema whichever surface it asked.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_name": {
+     "description": "SObject API name.",
+     "title": "Object Name",
+     "type": "string"
+    }
+   },
+   "required": [
+    "object_name"
+   ],
+   "title": "describe_objectArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "search_records",
+  "description": "Full-text search across SObjects, the SOSL way (``FIND {term}``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "term": {
+     "description": "Text to find across returned SObjects.",
+     "title": "Term",
+     "type": "string"
+    },
+    "objects": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "SObject API names; omit for the default set.",
+     "title": "Objects"
+    },
+    "limit": {
+     "default": 20,
+     "description": "Maximum matches per returned object.",
+     "title": "Limit",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "term"
+   ],
+   "title": "search_recordsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_reports",
+  "description": "List the saved reports this org exposes.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_reportsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "run_report",
+  "description": "Run a saved report and return its Analytics API payload.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "report_id": {
+     "description": "Saved report id.",
+     "title": "Report Id",
+     "type": "string"
+    },
+    "include_details": {
+     "default": true,
+     "description": "Include report detail rows.",
+     "title": "Include Details",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "report_id"
+   ],
+   "title": "run_reportArguments",
+   "type": "object"
+  }
+ }
+]

@@ -1,0 +1,3184 @@
+[
+ {
+  "name": "get_caller_identity",
+  "description": "Return the simulated AWS account, ARN and user id (STS GetCallerIdentity).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_caller_identityArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_buckets",
+  "description": "List the S3 buckets in the synthetic AWS account, one page at a time.\n\n        Same paging as ``ListBuckets``: names in lexicographic order, ``max_buckets``\n        up to 10000, and a ``ContinuationToken`` to pass back for the next page.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "prefix": {
+     "default": "",
+     "title": "Prefix",
+     "type": "string",
+     "description": "Return only names starting with this string."
+    },
+    "max_buckets": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Buckets",
+     "description": "Maximum buckets in one page."
+    },
+    "continuation_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Continuation Token",
+     "description": "Opaque cursor from a previous response's NextContinuationToken; omit for the first page."
+    }
+   },
+   "title": "list_bucketsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_objects",
+  "description": "List objects in an S3 bucket (ListObjectsV2), one page at a time.\n\n        ``max_keys`` is capped at 1000 like S3's own page size, and a rolled-up\n        ``CommonPrefixes`` entry counts against it exactly as a key does. When the\n        listing is truncated the reply carries ``NextContinuationToken``; pass it\n        back as ``continuation_token`` for the next page. ``delimiter`` (usually\n        ``\"/\"``) rolls keys up into ``CommonPrefixes`` instead of listing them.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "prefix": {
+     "default": "",
+     "title": "Prefix",
+     "type": "string",
+     "description": "Return only names starting with this string."
+    },
+    "max_keys": {
+     "default": 1000,
+     "title": "Max Keys",
+     "type": "integer",
+     "description": "Maximum object keys in one page (S3: 1-1000, default 1000)."
+    },
+    "continuation_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Continuation Token",
+     "description": "Opaque cursor from a previous response's NextContinuationToken; omit for the first page."
+    },
+    "delimiter": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Delimiter",
+     "description": "Character that groups keys into common prefixes, usually '/' for folder-style listing."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "list_objectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_object",
+  "description": "Read an S3 object's body: ``max_bytes`` of it from byte ``offset``, as a ``Range`` GET would.\n\n        A text body is returned as text; a compressed or binary one is base64 in\n        ``Body`` with ``BodyEncoding`` saying so, because decoding gzip or JPEG bytes\n        as UTF-8 with replacement characters hands the caller a body that is neither\n        the object's bytes nor readable text.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "key": {
+     "title": "Key",
+     "type": "string",
+     "description": "S3 object key (its full path within the bucket)."
+    },
+    "max_bytes": {
+     "default": 8192,
+     "title": "Max Bytes",
+     "type": "integer",
+     "description": "Maximum bytes of object content to return, so a large object cannot flood the answer."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Byte offset to start reading the object from, to page through a body larger than max_bytes."
+    }
+   },
+   "required": [
+    "bucket",
+    "key"
+   ],
+   "title": "get_objectArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "storage_summary",
+  "description": "Objects, bytes, versions and delete markers per bucket, and bytes per storage class.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "storage_summaryArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_datasets",
+  "description": "List the lake's datasets: location, format, rows, partitions and classification.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_datasetsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_dataset",
+  "description": "Full catalog entry for a dataset: column schema, classifications, partitions, owner.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "name": {
+     "title": "Name",
+     "type": "string",
+     "description": "Name of the resource."
+    }
+   },
+   "required": [
+    "name"
+   ],
+   "title": "describe_datasetArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "preview_dataset",
+  "description": "First rows of a dataset, decoded from the objects it is stored in, whatever their format.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "name": {
+     "title": "Name",
+     "type": "string",
+     "description": "Name of the resource."
+    },
+    "limit": {
+     "default": 20,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    }
+   },
+   "required": [
+    "name"
+   ],
+   "title": "preview_datasetArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "query_datasets",
+  "description": "Run read-only SQL (DuckDB) over the lake's datasets, each registered under its own name.\n\n        Example: ``select tier, count(*) from dim_customer group by tier``. Joins across\n        datasets work; writes and multi-statement input are rejected.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "sql": {
+     "title": "Sql",
+     "type": "string",
+     "description": "One read-only SQL (DuckDB) statement over the lake's datasets, each registered under its own name."
+    }
+   },
+   "required": [
+    "sql"
+   ],
+   "title": "query_datasetsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_parquet_metadata",
+  "description": "Parquet footer of a stored object: schema, row groups, per-column statistics.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "key": {
+     "title": "Key",
+     "type": "string",
+     "description": "S3 object key (its full path within the bucket)."
+    }
+   },
+   "required": [
+    "bucket",
+    "key"
+   ],
+   "title": "read_parquet_metadataArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_media_metadata",
+  "description": "What a document or image object is: an image's dimensions and mode, a PDF's page count.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "key": {
+     "title": "Key",
+     "type": "string",
+     "description": "S3 object key (its full path within the bucket)."
+    }
+   },
+   "required": [
+    "bucket",
+    "key"
+   ],
+   "title": "read_media_metadataArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_instances",
+  "description": "Describe EC2 instances, filtered by instance id, state name, eon:account tag, or region.\n\n        Omitting ``region`` answers across every configured region, which is what a\n        fleet-wide agent wants; the native API is per-region like real EC2. Pages\n        like ``DescribeInstances``: ``max_results`` is 5-1000 and a truncated reply\n        carries ``NextToken``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "instance_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Instance Id",
+     "description": "EC2 instance id, e.g. i-0123456789abcdef0."
+    },
+    "state": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "State",
+     "description": "Report only resources in this state."
+    },
+    "tag_account": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Tag Account",
+     "description": "Account id to report tagged resources for."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "describe_instancesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_vpcs",
+  "description": "Describe VPCs, optionally one VPC, one region's, or only the default ones.\n\n        Omitting ``region`` answers across every configured region; the native\n        ``DescribeVpcs`` is per-region like real EC2.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "vpc_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Vpc Id",
+     "description": "VPC id, e.g. vpc-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "only_default": {
+     "default": false,
+     "title": "Only Default",
+     "type": "boolean",
+     "description": "Report only the default (service-managed) items."
+    }
+   },
+   "title": "describe_vpcsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_subnets",
+  "description": "Describe subnets, optionally one subnet, or only those of one VPC or region.\n\n        ``MapPublicIpOnLaunch`` is what separates a public subnet from a private one,\n        so a placement or exposure question can be answered from this alone.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "subnet_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Subnet Id",
+     "description": "Subnet id, e.g. subnet-0123456789abcdef0."
+    },
+    "vpc_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Vpc Id",
+     "description": "VPC id, e.g. vpc-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "describe_subnetsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_security_groups",
+  "description": "Describe security groups and their rules.\n\n        ``open_to_internet`` keeps only the groups with an ingress rule allowing\n        ``0.0.0.0/0`` \u2014 the exposure review, answered without paging every group.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "group_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Group Id",
+     "description": "Security group id, e.g. sg-0123456789abcdef0."
+    },
+    "vpc_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Vpc Id",
+     "description": "VPC id, e.g. vpc-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "open_to_internet": {
+     "default": false,
+     "title": "Open To Internet",
+     "type": "boolean",
+     "description": "Report only security groups that allow 0.0.0.0/0."
+    }
+   },
+   "title": "describe_security_groupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_volumes",
+  "description": "Describe EBS volumes, optionally one volume, or only those of one instance or region.\n\n        Pages like ``DescribeVolumes``: ``max_results`` is 5-500, ``NextToken`` when truncated.\n        A ``volume_id`` no volume has is ``InvalidVolume.NotFound``, as the API answers.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "volume_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Volume Id",
+     "description": "EBS volume id, e.g. vol-0123456789abcdef0."
+    },
+    "instance_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Instance Id",
+     "description": "EC2 instance id, e.g. i-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "describe_volumesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_snapshots",
+  "description": "Describe EBS snapshots, optionally only those of one volume or in one region.\n\n        Pages like ``DescribeSnapshots``: ``max_results`` is 5-1000, ``NextToken`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "volume_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Volume Id",
+     "description": "EBS volume id, e.g. vol-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "describe_snapshotsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_backup_vaults",
+  "description": "AWS Backup vaults (``ListBackupVaults``), every region unless one is given.\n\n        The ``Default`` vault of each region plus the company's per-environment vaults\n        the estate's snapshots project into, and any vault a client created.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_backup_vaultsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_recovery_points",
+  "description": "AWS Backup recovery points (``ListRecoveryPointsByBackupVault`` shape).\n\n        One per EBS snapshot, AWS Backup RDS/Aurora snapshot and DynamoDB backup\n        the estate holds, plus what completed backup and copy jobs materialised;\n        filter by vault and/or by the protected resource's ARN.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "backup_vault_name": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Backup Vault Name",
+     "description": "AWS Backup vault name, e.g. Default; omit for every vault."
+    },
+    "resource_arn": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Resource Arn",
+     "description": "ARN of the protected resource (volume, DB instance, cluster or table) whose recovery points to list."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_recovery_pointsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_instances",
+  "description": "Describe RDS database instances, optionally one by identifier or one region.\n\n        Pages like ``DescribeDBInstances``: ``max_records`` is 20-100 and a truncated\n        reply carries ``Marker`` to pass back.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_instance_identifier": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Db Instance Identifier",
+     "description": "RDS DB instance identifier (its name, not its ARN)."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "title": "describe_db_instancesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_snapshots",
+  "description": "Describe RDS snapshots, optionally only those of one database instance or region.\n\n        Pages like ``DescribeDBSnapshots``: ``max_records`` 20-100, ``Marker`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_instance_identifier": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Db Instance Identifier",
+     "description": "RDS DB instance identifier (its name, not its ARN)."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "title": "describe_db_snapshotsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_clusters",
+  "description": "Describe Aurora DB clusters; these never appear in `describe_db_instances`.\n\n        Pages like ``DescribeDBClusters``: ``max_records`` 20-100, ``Marker`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_cluster_identifier": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Db Cluster Identifier",
+     "description": "Aurora DB cluster identifier."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "title": "describe_db_clustersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_cluster_snapshots",
+  "description": "Describe Aurora cluster snapshots, optionally for one cluster or one region.\n\n        Pages like ``DescribeDBClusterSnapshots``: ``max_records`` 20-100, ``Marker`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_cluster_identifier": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Db Cluster Identifier",
+     "description": "Aurora DB cluster identifier."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "title": "describe_db_cluster_snapshotsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_roles",
+  "description": "List the IAM roles in the synthetic account with their attached policies.\n\n        Pages like ``ListRoles``: ``max_items`` is 1-1000, ``Marker`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "max_items": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Items",
+     "description": "Maximum items in one page (IAM: 1-1000, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "title": "list_rolesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_iam_users",
+  "description": "List the account's IAM users with their access keys and MFA state.\n\n        Each user carries the keys ``ListAccessKeys`` reports for them, with the age in\n        days and the last-use facts ``GetAccessKeyLastUsed`` answers, so an access review\n        does not have to walk one call per user. ``only_with_active_keys`` keeps users\n        holding at least one ``Active`` key and ``key_older_than_days`` those whose oldest\n        active key is older than that many days \u2014 the rotation question, computed against\n        the same snapshot clock the ``CreateDate`` values are on.\n\n        Pages like ``ListUsers``: ``max_items`` is 1-1000, ``Marker`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "max_items": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Items",
+     "description": "Maximum items in one page (IAM: 1-1000, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    },
+    "path_prefix": {
+     "default": "",
+     "title": "Path Prefix",
+     "type": "string",
+     "description": "Return only IAM entities whose path starts with this string, e.g. /service-role/."
+    },
+    "only_with_active_keys": {
+     "default": false,
+     "title": "Only With Active Keys",
+     "type": "boolean",
+     "description": "Report only users that hold an active access key."
+    },
+    "key_older_than_days": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Key Older Than Days",
+     "description": "Report only access keys older than this many days."
+    }
+   },
+   "title": "list_iam_usersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_iam_groups",
+  "description": "List the account's IAM groups with their policies and their members.\n\n        The official IAM MCP server's group tools are ``list_groups``, ``get_group`` and\n        ``add_user_to_group``, and the first question an agent asks of an account is what\n        the job functions are and who is in them. Membership here is the same fact\n        ``GetGroup`` and ``ListGroupsForUser`` answer with, and the policies include the\n        inline ones no attached-policy listing shows.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "path_prefix": {
+     "default": "",
+     "title": "Path Prefix",
+     "type": "string",
+     "description": "Return only IAM entities whose path starts with this string, e.g. /service-role/."
+    }
+   },
+   "title": "list_iam_groupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "simulate_principal_policy",
+  "description": "Whether an identity may perform actions, answered from its policies.\n\n        The official IAM MCP server publishes ``simulate_principal_policy`` as a tool of\n        its own, because the review question \u2014 \"can this user still delete production\n        buckets?\" \u2014 must be answerable without making the call: making it is either a\n        denial in the audit log or a deleted bucket. The verdict is the same evaluator\n        the request path uses, and ``MatchedPolicies`` names the policy responsible,\n        which is what a reviewer has to change.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "policy_source_arn": {
+     "title": "Policy Source Arn",
+     "type": "string",
+     "description": "ARN of the user, group or role whose effective permissions to simulate."
+    },
+    "action_names": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Action Names",
+     "type": "array",
+     "description": "API actions to simulate, e.g. s3:GetObject."
+    },
+    "resource_arns": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Resource Arns",
+     "description": "ARNs of the resources to evaluate."
+    }
+   },
+   "required": [
+    "policy_source_arn",
+    "action_names"
+   ],
+   "title": "simulate_principal_policyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_credential_report",
+  "description": "The account's IAM credential report, parsed into rows.\n\n        This is the access review in one call: AWS's own guidance is to read the\n        credential report to find users without MFA, passwords and keys that have not\n        been rotated, and credentials still active for people who have left. The CSV\n        ``GetCredentialReport`` hands back is parsed here so an agent does not have to,\n        and generated on demand as ``GenerateCredentialReport`` would \u2014 the columns are\n        IAM's own, sentinels (``N/A``, ``no_information``, ``not_supported``) included.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_credential_reportArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_tagged_resources",
+  "description": "The estate by tag, across services, the way ``GetResources`` answers it.\n\n        The one inventory question an agent asks that no per-service Describe answers:\n        what carries a given tag, and what is missing the keys the account's own\n        convention requires. ``untagged_only`` returns just the non-compliant tail, which\n        is what a tag clean-up works from.\n\n        ``GetResources`` itself is regional, so an agent asking it about a whole account\n        has to call every region; ``region`` scopes this to one of them and leaving it\n        empty answers for the account.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "tag_key": {
+     "default": "",
+     "title": "Tag Key",
+     "type": "string",
+     "description": "Tag key to match."
+    },
+    "tag_values": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Tag Values",
+     "description": "Tag values to match; empty matches any value for the key."
+    },
+    "resource_type_filters": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Resource Type Filters",
+     "description": "Limit the answer to these resource types, e.g. ec2:instance."
+    },
+    "untagged_only": {
+     "default": false,
+     "title": "Untagged Only",
+     "type": "boolean",
+     "description": "Report only resources carrying no tags."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "get_tagged_resourcesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_log_groups",
+  "description": "The account's CloudWatch log groups, with retention, size and encryption.\n\n        The first call the official CloudWatch MCP server makes, and the one a cost or\n        retention review works from: a group with no ``retentionInDays`` at all retains\n        forever, which is the finding such a review is looking for.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "name_prefix": {
+     "default": "",
+     "title": "Name Prefix",
+     "type": "string",
+     "description": "Return only resources whose name starts with this string."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_log_groupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "search_log_events",
+  "description": "Search one log group's events across all of its streams (``FilterLogEvents``).\n\n        The triage job: find the errors without knowing which host, task or execution\n        wrote them. ``hours`` narrows to a recent window; left at zero the search covers\n        everything the group holds, because a group whose writer went quiet a month ago\n        is exactly the one being investigated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "log_group_name": {
+     "title": "Log Group Name",
+     "type": "string",
+     "description": "CloudWatch Logs group name, e.g. /aws/rds/instance/api-db/postgresql."
+    },
+    "filter_pattern": {
+     "default": "",
+     "title": "Filter Pattern",
+     "type": "string",
+     "description": "CloudWatch Logs filter pattern; empty returns every event in the window."
+    },
+    "hours": {
+     "default": 0,
+     "title": "Hours",
+     "type": "integer",
+     "description": "How many hours back from now to look."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "log_group_name"
+   ],
+   "title": "search_log_eventsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_alarms",
+  "description": "The account's CloudWatch alarms and the state they are in right now.\n\n        ``state`` narrows to ``ALARM``, ``OK`` or ``INSUFFICIENT_DATA``; asking for\n        ``ALARM`` is the \"what is broken?\" call an on-call agent starts from. Pages like\n        ``DescribeAlarms`` \u2014 ``max_records`` up to 100, ``NextToken`` when truncated \u2014\n        which the API has always done and this tool could not, so an agent had no way to\n        reach past the first page the API returned.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "state": {
+     "default": "",
+     "title": "State",
+     "type": "string",
+     "description": "Report only resources in this state."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_alarmsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "service_last_accessed",
+  "description": "Which services an IAM identity may reach, and which it has actually used.\n\n        IAM Access Advisor for one user, role, group or customer-managed policy ARN, in\n        one call rather than the ``GenerateServiceLastAccessedDetails`` /\n        ``GetServiceLastAccessedDetails`` pair. ``only_unused`` keeps the rows that make\n        a least-privilege recommendation: granted, never authenticated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "arn": {
+     "title": "Arn",
+     "type": "string",
+     "description": "ARN of the IAM user, role, group or customer-managed policy to report on."
+    },
+    "only_unused": {
+     "default": false,
+     "title": "Only Unused",
+     "type": "boolean",
+     "description": "Keep only the services granted to the identity that it has never used."
+    }
+   },
+   "required": [
+    "arn"
+   ],
+   "title": "service_last_accessedArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_alarm_history",
+  "description": "When an alarm changed state, and to what (``DescribeAlarmHistory``).\n\n        The second half of every incident question: ``list_alarms`` says what is firing\n        now, this says when it started and when it last recovered \u2014 which is what an\n        agent joining a page, a chat channel and a deploy to the cloud account needs.\n        ``history_item_type`` narrows to ``StateUpdate`` or ``ConfigurationUpdate``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "alarm_name": {
+     "default": "",
+     "title": "Alarm Name",
+     "type": "string",
+     "description": "CloudWatch alarm name; empty covers every alarm in the region."
+    },
+    "history_item_type": {
+     "default": "",
+     "title": "History Item Type",
+     "type": "string",
+     "description": "Narrow alarm history to StateUpdate, ConfigurationUpdate or Action."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_records": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Records",
+     "description": "Maximum items in one page (RDS: 20-100, default 100)."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "get_alarm_historyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_metric_statistics",
+  "description": "A metric read back over a window (``GetMetricStatistics``).\n\n        ``dimensions`` names the resource \u2014 ``{\"InstanceId\": \"i-\u2026\"}`` for EC2,\n        ``{\"DBInstanceIdentifier\": \"\u2026\"}`` for RDS \u2014 as CloudWatch's own dimensions do.\n        Served by the same handler the API calls, so a dashboard and an agent cannot be\n        shown different numbers for the same metric.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "namespace": {
+     "title": "Namespace",
+     "type": "string",
+     "description": "CloudWatch metric namespace, e.g. AWS/EC2."
+    },
+    "metric_name": {
+     "title": "Metric Name",
+     "type": "string",
+     "description": "CloudWatch metric name, e.g. CPUUtilization."
+    },
+    "dimensions": {
+     "anyOf": [
+      {
+       "additionalProperties": {
+        "type": "string"
+       },
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Dimensions",
+     "description": "JSON object of metric dimensions, e.g. {\"InstanceId\": \"i-0123\"}."
+    },
+    "hours": {
+     "default": 3,
+     "title": "Hours",
+     "type": "integer",
+     "description": "How many hours back from now to look."
+    },
+    "period": {
+     "default": 300,
+     "title": "Period",
+     "type": "integer",
+     "description": "Seconds each datapoint aggregates, e.g. 300."
+    },
+    "statistic": {
+     "default": "Average",
+     "title": "Statistic",
+     "type": "string",
+     "description": "Statistic to return, e.g. Average, Sum, Maximum."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "namespace",
+    "metric_name"
+   ],
+   "title": "get_metric_statisticsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "lookup_events",
+  "description": "One region's CloudTrail management events, newest first (``LookupEvents``).\n\n        This is the \"who changed this, and when?\" question, and the only surface that can\n        answer it: the API serves ninety days of management history, so an agent that had\n        no tool for it had to guess at an audit answer the SDK could read directly.\n        ``read_only`` narrows to ``true`` (reads) or ``false`` (writes) as CloudTrail's own\n        attribute does; ``hours`` looks back that far instead of over the whole retention.\n        ``region`` selects the one region whose events to read, as on the API.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "event_name": {
+     "default": "",
+     "title": "Event Name",
+     "type": "string",
+     "description": "CloudTrail event name to filter by, e.g. RunInstances."
+    },
+    "username": {
+     "default": "",
+     "title": "Username",
+     "type": "string",
+     "description": "IAM user name."
+    },
+    "resource_name": {
+     "default": "",
+     "title": "Resource Name",
+     "type": "string",
+     "description": "Name or ARN of the resource."
+    },
+    "read_only": {
+     "default": "",
+     "title": "Read Only",
+     "type": "string",
+     "description": "Whether to describe the read-only view."
+    },
+    "hours": {
+     "default": 0,
+     "title": "Hours",
+     "type": "integer",
+     "description": "How many hours back from now to look."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "lookup_eventsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_trails",
+  "description": "The account's CloudTrail trails and where they deliver (``DescribeTrails``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "describe_trailsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_trail_status",
+  "description": "Whether the trail is logging and how fresh its delivery is (``GetTrailStatus``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_trail_statusArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_organization",
+  "description": "The organization this account belongs to (``Organizations.DescribeOrganization``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "describe_organizationArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_organization_accounts",
+  "description": "Every account in the organization (``Organizations.ListAccounts``).\n\n        An estate question \u2014 \"which accounts am I paying for?\", \"where does this resource\n        live?\" \u2014 starts here, and the payer account is the one the other tools answer for.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_organization_accountsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_secrets",
+  "description": "List Secrets Manager secrets (names and metadata only, no values).\n\n        Pages like ``ListSecrets``: ``max_results`` is 1-100, ``NextToken`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_secretsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_secret_value",
+  "description": "Read the current value of a synthetic Secrets Manager secret.\n\n        A binary secret comes back as ``SecretBinary`` and a string secret as\n        ``SecretString``, with the version's stages \u2014 the same payload the API\n        answers, because this runs the API's own handler.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "secret_id": {
+     "title": "Secret Id",
+     "type": "string",
+     "description": "Secret name or ARN."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "secret_id"
+   ],
+   "title": "get_secret_valueArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_secret_version_ids",
+  "description": "List a secret's versions and their staging labels, newest last.\n\n        How an agent checks that a rotation produced a new ``AWSCURRENT`` version\n        without reading the secret's value.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "secret_id": {
+     "title": "Secret Id",
+     "type": "string",
+     "description": "Secret name or ARN."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "secret_id"
+   ],
+   "title": "list_secret_version_idsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_queues",
+  "description": "List SQS queues with their visible/in-flight message counts.\n\n        Pages like ``ListQueues``: ``max_results`` is 1-1000, ``NextToken`` when truncated.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "queue_name_prefix": {
+     "default": "",
+     "title": "Queue Name Prefix",
+     "type": "string",
+     "description": "Return only queues whose name starts with this string."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_queuesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_topics",
+  "description": "List SNS topics and their subscriptions.\n\n        Pages like ``ListTopics``, which takes no page size: 100 topics per page,\n        with a ``NextToken`` to pass back when more remain.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_topicsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_instance_automated_backups",
+  "description": "The continuous backups behind a point-in-time restore, and how far back they go.\n\n        An instance with a retention period of 0 has no automated backup and so is absent,\n        which is the answer a \"database is unprotected\" check needs.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_instance_identifier": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Db Instance Identifier",
+     "description": "RDS DB instance identifier (its name, not its ARN)."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "describe_db_instance_automated_backupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_snapshot_attribute",
+  "description": "Read an EBS snapshot's ``createVolumePermission`` \u2014 which accounts may restore it.\n\n        The read half of `modify_snapshot_attribute`: an agent verifying that a\n        snapshot reached the vault account has to be able to read the grant back.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "snapshot_id": {
+     "title": "Snapshot Id",
+     "type": "string",
+     "description": "EBS snapshot id, e.g. snap-0123456789abcdef0."
+    }
+   },
+   "required": [
+    "snapshot_id"
+   ],
+   "title": "describe_snapshot_attributeArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_images",
+  "description": "List the AMIs a region's catalogue holds, with the snapshots each would restore from.\n\n        Defaults to ``self`` because the inventory question is \"which images do *we* hold\",\n        and the images the fleet mostly runs are the vendors'. An AMI id is regional, so\n        the listing is a region's: an id from another region's catalogue launches nothing.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "owner": {
+     "default": "self",
+     "title": "Owner",
+     "type": "string",
+     "description": "Report only images owned by this account id, or 'self'."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_imagesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_db_snapshot_attributes",
+  "description": "Read an RDS snapshot's ``restore`` attribute \u2014 which accounts may restore it.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "db_snapshot_identifier": {
+     "title": "Db Snapshot Identifier",
+     "type": "string",
+     "description": "RDS DB snapshot identifier."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "db_snapshot_identifier"
+   ],
+   "title": "describe_db_snapshot_attributesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_bucket_ownership_controls",
+  "description": "Whether ACLs still apply to this bucket's objects.\n\n        ``BucketOwnerEnforced`` disables ACLs; a bucket with no controls set reports\n        ``None``, which is not the same as ACLs being disabled.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "get_bucket_ownership_controlsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_object_lock_configuration",
+  "description": "Read a bucket's Object Lock posture \u2014 whether it is an immutable (WORM) vault.\n\n        A bucket that has never been configured reports ``ObjectLockEnabled: false`` rather\n        than an empty rule, because \"no Object Lock\" and \"Object Lock with no default\n        retention\" are different answers to a compliance question.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "get_object_lock_configurationArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_object_retention",
+  "description": "Read the retention on one object version \u2014 whether that backup can be deleted.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "key": {
+     "title": "Key",
+     "type": "string",
+     "description": "S3 object key (its full path within the bucket)."
+    },
+    "version_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Version Id",
+     "description": "Specific object or secret version; omit for the current one."
+    }
+   },
+   "required": [
+    "bucket",
+    "key"
+   ],
+   "title": "get_object_retentionArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_public_access_block",
+  "description": "Read a bucket's public-access block, the posture a compliance sweep checks.\n\n        A bucket that has never been configured reports ``Configured: false`` rather than\n        four ``false`` switches, because \"not configured\" is not the same answer.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "get_public_access_blockArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_bucket_versioning",
+  "description": "Whether a bucket keeps versions of what it overwrites or deletes.\n\n        A bucket that has never been configured reports ``Unversioned`` rather than an\n        empty status, matching what S3 answers over REST.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "get_bucket_versioningArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_object_versions",
+  "description": "List a bucket's object versions and delete markers, newest first.\n\n        This is how an agent finds what a delete or an overwrite can still be undone from;\n        an unversioned bucket reports its current objects as version ``null``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "bucket": {
+     "title": "Bucket",
+     "type": "string",
+     "description": "S3 bucket name."
+    },
+    "prefix": {
+     "default": "",
+     "title": "Prefix",
+     "type": "string",
+     "description": "Return only names starting with this string."
+    },
+    "key": {
+     "default": "",
+     "title": "Key",
+     "type": "string",
+     "description": "S3 object key (its full path within the bucket)."
+    }
+   },
+   "required": [
+    "bucket"
+   ],
+   "title": "list_object_versionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_regions",
+  "description": "List the regions this account has resources in (EC2 DescribeRegions).\n\n        A fleet-wide agent needs the region list before it can sweep per-region\n        APIs; without it the only way to find them is to guess.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "describe_regionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_role",
+  "description": "Read one IAM role, including its trust policy and attached policies.\n\n        The trust policy is what an agent checks to answer \"can Eon assume this\n        role?\", and `list_roles` does not carry it.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "role_name": {
+     "title": "Role Name",
+     "type": "string",
+     "description": "IAM role name."
+    }
+   },
+   "required": [
+    "role_name"
+   ],
+   "title": "get_roleArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_policy",
+  "description": "Read a managed policy attached here, including its JSON document.\n\n        `get_role` and `list_roles` name the policies a role carries but not what any of\n        them grant, so \"may this role read our buckets?\" needed a call that did not exist.\n        The documents of AWS's own policies are AWS's published ones.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "policy_arn": {
+     "title": "Policy Arn",
+     "type": "string",
+     "description": "ARN of the managed policy, e.g. arn:aws:iam::aws:policy/ReadOnlyAccess."
+    }
+   },
+   "required": [
+    "policy_arn"
+   ],
+   "title": "get_policyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_instance_profiles",
+  "description": "List the instance profiles hosts here run under, with the role each one carries.\n\n        A described instance names its profile and nothing more, so \"what may this host\n        reach?\" needed the hop from profile to role, which no tool served.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_instance_profilesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_tables",
+  "description": "List DynamoDB tables (paginated with ``LastEvaluatedTableName``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    },
+    "exclusive_start_table_name": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Exclusive Start Table Name",
+     "description": "Name of the last table returned by a previous page; omit for the first page."
+    }
+   },
+   "title": "list_tablesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_table",
+  "description": "Describe a DynamoDB table: key schema, item count and status.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_name": {
+     "title": "Table Name",
+     "type": "string",
+     "description": "DynamoDB table name."
+    }
+   },
+   "required": [
+    "table_name"
+   ],
+   "title": "describe_tableArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_continuous_backups",
+  "description": "Report a DynamoDB table's point-in-time-recovery status and restorable window.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_name": {
+     "title": "Table Name",
+     "type": "string",
+     "description": "DynamoDB table name."
+    }
+   },
+   "required": [
+    "table_name"
+   ],
+   "title": "describe_continuous_backupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_table_backups",
+  "description": "List on-demand DynamoDB backups, newest first, optionally for one table.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_name": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Table Name",
+     "description": "DynamoDB table name."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    }
+   },
+   "title": "list_table_backupsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "scan_table",
+  "description": "Read items out of a DynamoDB table (Scan), up to ``limit`` items.\n\n        A truncated scan answers ``LastEvaluatedKey``; pass it back as\n        ``exclusive_start_key`` to read the next page, as the API does.\n        ``filter_expression`` drops items after they are read (so ``ScannedCount``\n        stays above ``Count``), ``projection_expression`` selects attributes, and\n        ``select=\"COUNT\"`` answers counts only \u2014 all exactly as ``Scan`` does.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_name": {
+     "title": "Table Name",
+     "type": "string",
+     "description": "DynamoDB table name."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    },
+    "exclusive_start_key": {
+     "anyOf": [
+      {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Exclusive Start Key",
+     "description": "JSON object of the last evaluated key from a previous page; omit for the first page."
+    },
+    "filter_expression": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Filter Expression",
+     "description": "Expression applied after the read to drop items, e.g. attribute_exists(email)."
+    },
+    "projection_expression": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Projection Expression",
+     "description": "Comma-separated attributes to return, e.g. pk,createdAt."
+    },
+    "expression_attribute_names": {
+     "anyOf": [
+      {
+       "additionalProperties": {
+        "type": "string"
+       },
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Expression Attribute Names",
+     "description": "JSON object mapping #placeholders to attribute names."
+    },
+    "expression_attribute_values": {
+     "anyOf": [
+      {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Expression Attribute Values",
+     "description": "JSON object mapping :placeholders to values."
+    },
+    "select": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Select",
+     "description": "Which attributes to return, e.g. ALL_ATTRIBUTES or COUNT."
+    }
+   },
+   "required": [
+    "table_name"
+   ],
+   "title": "scan_tableArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "query_table",
+  "description": "Read the items of one DynamoDB partition (Query), which is cheaper than a scan.\n\n        ``key_condition_expression`` constrains key attributes only, e.g.\n        ``\"#k = :value\"`` with ``expression_attribute_names={\"#k\": \"state\"}`` and\n        ``expression_attribute_values={\":value\": {\"S\": \"failed\"}}``. Values are\n        DynamoDB attribute values (``{\"S\": ...}``, ``{\"N\": ...}``), as the API takes\n        them. A truncated query answers ``LastEvaluatedKey``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_name": {
+     "title": "Table Name",
+     "type": "string",
+     "description": "DynamoDB table name."
+    },
+    "key_condition_expression": {
+     "title": "Key Condition Expression",
+     "type": "string",
+     "description": "Query key condition, e.g. pk = :id."
+    },
+    "expression_attribute_values": {
+     "additionalProperties": true,
+     "title": "Expression Attribute Values",
+     "type": "object",
+     "description": "JSON object mapping :placeholders to values."
+    },
+    "expression_attribute_names": {
+     "anyOf": [
+      {
+       "additionalProperties": {
+        "type": "string"
+       },
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Expression Attribute Names",
+     "description": "JSON object mapping #placeholders to attribute names."
+    },
+    "filter_expression": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Filter Expression",
+     "description": "Expression applied after the read to drop items, e.g. attribute_exists(email)."
+    },
+    "projection_expression": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Projection Expression",
+     "description": "Comma-separated attributes to return, e.g. pk,createdAt."
+    },
+    "select": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Select",
+     "description": "Which attributes to return, e.g. ALL_ATTRIBUTES or COUNT."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum items to evaluate or return in one page."
+    },
+    "scan_index_forward": {
+     "default": true,
+     "title": "Scan Index Forward",
+     "type": "boolean",
+     "description": "Whether to read the sort key in ascending order."
+    },
+    "exclusive_start_key": {
+     "anyOf": [
+      {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Exclusive Start Key",
+     "description": "JSON object of the last evaluated key from a previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "table_name",
+    "key_condition_expression",
+    "expression_attribute_values"
+   ],
+   "title": "query_tableArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_kms_keys",
+  "description": "List the KMS keys and their aliases \u2014 the keys backups are encrypted with.\n\n        KMS is regional, so this answers for one region: ``region`` defaults to the\n        account's home region. Pages like ``ListKeys``: ``limit`` is 1-1000 and a\n        truncated reply carries ``NextMarker`` to pass back as ``marker``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum items to evaluate or return in one page."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_kms_keysArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_kms_key",
+  "description": "Describe one KMS key by id, ARN or ``alias/name``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "key_id": {
+     "title": "Key Id",
+     "type": "string",
+     "description": "KMS key id, ARN or alias, e.g. alias/aws/s3."
+    }
+   },
+   "required": [
+    "key_id"
+   ],
+   "title": "describe_kms_keyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_kms_key_tags",
+  "description": "Read the tags on a KMS key (``ListResourceTags``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "key_id": {
+     "title": "Key Id",
+     "type": "string",
+     "description": "KMS key id, ARN or alias, e.g. alias/aws/s3."
+    }
+   },
+   "required": [
+    "key_id"
+   ],
+   "title": "list_kms_key_tagsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_kms_key_rotation_status",
+  "description": "Whether automatic rotation is enabled for a KMS key (``GetKeyRotationStatus``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "key_id": {
+     "title": "Key Id",
+     "type": "string",
+     "description": "KMS key id, ARN or alias, e.g. alias/aws/s3."
+    }
+   },
+   "required": [
+    "key_id"
+   ],
+   "title": "get_kms_key_rotation_statusArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_kms_key_policy",
+  "description": "Read a KMS key's ``default`` key policy \u2014 who is allowed to use the key.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "key_id": {
+     "title": "Key Id",
+     "type": "string",
+     "description": "KMS key id, ARN or alias, e.g. alias/aws/s3."
+    }
+   },
+   "required": [
+    "key_id"
+   ],
+   "title": "get_kms_key_policyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_kms_grants",
+  "description": "Grants on a KMS key \u2014 who outside the owning account may use it (``ListGrants``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "key_id": {
+     "title": "Key Id",
+     "type": "string",
+     "description": "KMS key id, ARN or alias, e.g. alias/aws/s3."
+    }
+   },
+   "required": [
+    "key_id"
+   ],
+   "title": "list_kms_grantsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_subscription_attributes",
+  "description": "Read an SNS subscription's attributes \u2014 filter policy, raw delivery, endpoint.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "subscription_arn": {
+     "title": "Subscription Arn",
+     "type": "string",
+     "description": "ARN of the SNS subscription."
+    }
+   },
+   "required": [
+    "subscription_arn"
+   ],
+   "title": "get_subscription_attributesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_instance_status",
+  "description": "Report EC2 instance and system status checks for the running instances.\n\n        This is what an agent reads before acting on an instance; the native API\n        served it and MCP did not. Pages like ``DescribeInstanceStatus``\n        (``max_results`` 5-1000, ``NextToken`` when truncated).\n        ``include_all_instances`` reports the hosts that are not running too, with\n        the ``not-applicable`` summary EC2 gives a host it is not checking.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "instance_id": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Instance Id",
+     "description": "EC2 instance id, e.g. i-0123456789abcdef0."
+    },
+    "region": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Region",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "include_all_instances": {
+     "default": false,
+     "title": "Include All Instances",
+     "type": "boolean",
+     "description": "Include instances that are not running in the status report."
+    }
+   },
+   "title": "describe_instance_statusArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_secret",
+  "description": "Describe a secret's metadata (rotation, tags, version stages) without its value.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "secret_id": {
+     "title": "Secret Id",
+     "type": "string",
+     "description": "Secret name or ARN."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "secret_id"
+   ],
+   "title": "describe_secretArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_queue_attributes",
+  "description": "Read an SQS queue's attributes \u2014 depth, retention, redrive policy, ARN.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "queue_url": {
+     "title": "Queue Url",
+     "type": "string",
+     "description": "Full SQS queue URL."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "queue_url"
+   ],
+   "title": "get_queue_attributesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_attached_role_policies",
+  "description": "List the managed policies attached to an IAM role (``max_items`` 1-1000).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "role_name": {
+     "title": "Role Name",
+     "type": "string",
+     "description": "IAM role name."
+    },
+    "max_items": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Items",
+     "description": "Maximum items in one page (IAM: 1-1000, default 100)."
+    },
+    "marker": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Marker",
+     "description": "Opaque cursor from a previous response's Marker; omit for the first page."
+    }
+   },
+   "required": [
+    "role_name"
+   ],
+   "title": "list_attached_role_policiesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_role_tags",
+  "description": "Read the tags on an IAM role (``ListRoleTags``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "role_name": {
+     "title": "Role Name",
+     "type": "string",
+     "description": "IAM role name."
+    }
+   },
+   "required": [
+    "role_name"
+   ],
+   "title": "list_role_tagsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_state_machines",
+  "description": "List Step Functions state machines (``max_results`` up to 1000).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_state_machinesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_state_machine",
+  "description": "Describe one Step Functions state machine, definition included.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "state_machine_arn": {
+     "title": "State Machine Arn",
+     "type": "string",
+     "description": "ARN of the Step Functions state machine."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "state_machine_arn"
+   ],
+   "title": "describe_state_machineArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_executions",
+  "description": "List Step Functions executions, optionally for one machine or one status.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "state_machine_arn": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "State Machine Arn",
+     "description": "ARN of the Step Functions state machine."
+    },
+    "status_filter": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Status Filter",
+     "description": "Report only items with this status."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "title": "list_executionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "describe_execution",
+  "description": "Describe one Step Functions execution: status, input and output.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "execution_arn": {
+     "title": "Execution Arn",
+     "type": "string",
+     "description": "ARN of the execution."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "execution_arn"
+   ],
+   "title": "describe_executionArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_ses_identities",
+  "description": "List the verified SES identities the account can send from.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "max_items": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Items",
+     "description": "Maximum items in one page (IAM: 1-1000, default 100)."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    }
+   },
+   "title": "list_ses_identitiesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_tags_for_resource",
+  "description": "Read the tags on an RDS instance, cluster or snapshot ARN.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "resource_name": {
+     "title": "Resource Name",
+     "type": "string",
+     "description": "Name or ARN of the resource."
+    }
+   },
+   "required": [
+    "resource_name"
+   ],
+   "title": "list_tags_for_resourceArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_execution_history",
+  "description": "Read the events of a Step Functions execution (``GetExecutionHistory``), oldest first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "execution_arn": {
+     "title": "Execution Arn",
+     "type": "string",
+     "description": "ARN of the execution."
+    },
+    "reverse_order": {
+     "default": false,
+     "title": "Reverse Order",
+     "type": "boolean",
+     "description": "Whether to return the newest events first."
+    },
+    "max_results": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Max Results",
+     "description": "Maximum items in one page; the service caps and defaults this."
+    },
+    "next_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Next Token",
+     "description": "Opaque cursor from a previous response's NextToken; omit for the first page."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "execution_arn"
+   ],
+   "title": "get_execution_historyArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_queue_tags",
+  "description": "Read the tags on an SQS queue (``ListQueueTags``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "queue_url": {
+     "title": "Queue Url",
+     "type": "string",
+     "description": "Full SQS queue URL."
+    },
+    "region": {
+     "default": "",
+     "title": "Region",
+     "type": "string",
+     "description": "AWS region to query, e.g. us-east-1; every resource call is regional."
+    }
+   },
+   "required": [
+    "queue_url"
+   ],
+   "title": "list_queue_tagsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_table_tags",
+  "description": "Read the tags on a DynamoDB table ARN (``ListTagsOfResource``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "table_arn": {
+     "title": "Table Arn",
+     "type": "string",
+     "description": "ARN of the DynamoDB table."
+    }
+   },
+   "required": [
+    "table_arn"
+   ],
+   "title": "list_table_tagsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_topic_tags",
+  "description": "Read the tags on an SNS topic ARN (SNS ``ListTagsForResource``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "topic_arn": {
+     "title": "Topic Arn",
+     "type": "string",
+     "description": "ARN of the SNS topic."
+    }
+   },
+   "required": [
+    "topic_arn"
+   ],
+   "title": "list_topic_tagsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "call_aws",
+  "description": "Run an AWS CLI command (``aws ec2 describe-instances --max-items 2``) against the simulator.\n\n        Mirrors the awslabs ``aws-api-mcp-server`` entry point. The command is read with\n        botocore's model of the service, serialized into the request the CLI itself\n        would send, and dispatched to the same handler REST serves it with \u2014 so what\n        works over REST works here, and what REST refuses is refused with REST's own\n        error code and message rather than a fabricated answer. Reads are served on a\n        read-only deployment, so the tool is marked read-only for the shared guard and\n        enforces the posture per operation itself: a write is refused with AWS's\n        ``AccessDenied``, the same refusal REST gives it.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "cli_command": {
+     "title": "Cli Command",
+     "type": "string",
+     "description": "A full AWS CLI command to run, e.g. aws s3api list-buckets."
+    }
+   },
+   "required": [
+    "cli_command"
+   ],
+   "title": "call_awsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "suggest_aws_commands",
+  "description": "Suggest the CLI commands the simulator serves that are most relevant to a natural-language query.\n\n        Only commands that share a word with the question are suggested, and a command\n        that changes or destroys something is offered only when the question asks for\n        it: ranking by word overlap alone put ``delete-object`` and ``delete-snapshot``\n        at the top of \"which buckets do I have?\", which is a suggestion an agent acts on.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string",
+     "description": "Plain-English question to suggest AWS CLI commands for."
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "suggest_aws_commandsArguments",
+   "type": "object"
+  }
+ }
+]

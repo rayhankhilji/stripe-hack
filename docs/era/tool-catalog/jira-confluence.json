@@ -1,0 +1,973 @@
+[
+ {
+  "name": "atlassianUserInfo",
+  "description": "Get the current authenticated user's account information.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "atlassianUserInfoArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getAccessibleAtlassianResources",
+  "description": "List Atlassian sites accessible to the authenticated user, with their cloudId values.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "getAccessibleAtlassianResourcesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssue",
+  "description": "Get a Jira issue by ID or key (the shared ``ticket-N`` id also resolves).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "fields": {
+     "default": [],
+     "description": "Field names to return; all fields when empty",
+     "items": {
+      "type": "string"
+     },
+     "title": "Fields",
+     "type": "array"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "searchJiraIssuesUsingJql",
+  "description": "Search Jira issues using a JQL query; page with startAt or nextPageToken.\n\n        Every matching issue comes back whole unless ``fields`` names the ones you\n        want, which is the difference between a few hundred tokens a page and tens\n        of thousands: pass e.g. ``[\"summary\", \"status\", \"assignee\", \"updated\"]``\n        and re-read the issues you actually need with ``getJiraIssue``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "jql": {
+     "description": "JQL query, e.g. project = PROJ AND status = 'In Progress' ORDER BY created DESC",
+     "title": "Jql",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    },
+    "fields": {
+     "default": [],
+     "description": "Field names to return; all fields when empty",
+     "items": {
+      "type": "string"
+     },
+     "title": "Fields",
+     "type": "array"
+    }
+   },
+   "required": [
+    "jql"
+   ],
+   "title": "searchJiraIssuesUsingJqlArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getVisibleJiraProjects",
+  "description": "List Jira projects the user can access.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "searchString": {
+     "default": "",
+     "description": "Free-text term matched against names; all results when empty",
+     "title": "Searchstring",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    }
+   },
+   "title": "getVisibleJiraProjectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "lookupJiraAccountId",
+  "description": "Find Jira user account IDs by display name or email.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "searchString": {
+     "description": "Free-text term matched against names; all results when empty",
+     "title": "Searchstring",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "searchString"
+   ],
+   "title": "lookupJiraAccountIdArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getTransitionsForJiraIssue",
+  "description": "List the workflow transitions available on a Jira issue.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getTransitionsForJiraIssueArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueRemoteIssueLinks",
+  "description": "List the remote links attached to a Jira issue.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueRemoteIssueLinksArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraProjectIssueTypesMetadata",
+  "description": "List the issue types available in a Jira project.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "projectIdOrKey": {
+     "description": "Jira project id or key, e.g. PROJ",
+     "title": "Projectidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    }
+   },
+   "required": [
+    "projectIdOrKey"
+   ],
+   "title": "getJiraProjectIssueTypesMetadataArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueTypeMetaWithFields",
+  "description": "List the fields available on one issue type in a Jira project, as the issue form shows them.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "projectIdOrKey": {
+     "description": "Jira project id or key, e.g. PROJ",
+     "title": "Projectidorkey",
+     "type": "string"
+    },
+    "issueTypeId": {
+     "description": "Issue type id, from getJiraProjectIssueTypesMetadata",
+     "title": "Issuetypeid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "projectIdOrKey",
+    "issueTypeId"
+   ],
+   "title": "getJiraIssueTypeMetaWithFieldsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getIssueLinkTypes",
+  "description": "List the Jira issue link types, such as Blocks or Relates.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "title": "getIssueLinkTypesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueAttachments",
+  "description": "List the attachments on a Jira issue, with filename, size and media type.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueAttachmentsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "downloadJiraIssueAttachment",
+  "description": "Get a download URL for a Jira attachment, with the command that fetches it.\n\n        Listing an attachment names it; without a URL for the bytes an agent that\n        has to read the file has nowhere to go.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "attachmentId": {
+     "description": "Attachment id, from the listing tool for the container it hangs off",
+     "title": "Attachmentid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "attachmentId"
+   ],
+   "title": "downloadJiraIssueAttachmentArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraProjectVersions",
+  "description": "List the releases (versions) of a Jira project, with their release dates and state.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "projectIdOrKey": {
+     "description": "Jira project id or key, e.g. PROJ",
+     "title": "Projectidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    }
+   },
+   "required": [
+    "projectIdOrKey"
+   ],
+   "title": "getJiraProjectVersionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "findAssignableUsers",
+  "description": "Find users who can be assigned work on a Jira project or issue.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "projectIdOrKey": {
+     "default": "",
+     "description": "Jira project id or key, e.g. PROJ",
+     "title": "Projectidorkey",
+     "type": "string"
+    },
+    "issueIdOrKey": {
+     "default": "",
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "query": {
+     "default": "",
+     "description": "Free-text term matched against names; all results when empty",
+     "title": "Query",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    }
+   },
+   "title": "findAssignableUsersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueChangelog",
+  "description": "List a Jira issue's change history, newest entries as Jira recorded them.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueChangelogArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueWorklogs",
+  "description": "List the worklogs on a Jira issue, with time spent, author and start date.\n\n        The write side (``addWorklogToJiraIssue``) had no read counterpart, so an\n        agent could log time over MCP but not read back what a site already had --\n        which REST (``GET /rest/api/3/issue/{key}/worklog``) has always served.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "maxResults": {
+     "default": 50,
+     "description": "Maximum number of results to return on this page",
+     "title": "Maxresults",
+     "type": "integer"
+    },
+    "startAt": {
+     "default": 0,
+     "description": "0-based index of the first result to return, for paging",
+     "title": "Startat",
+     "type": "integer"
+    },
+    "nextPageToken": {
+     "default": "",
+     "description": "Token from a previous response's nextPageToken; the first page when empty",
+     "title": "Nextpagetoken",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueWorklogsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getJiraIssueLinks",
+  "description": "List the issue-to-issue links on a Jira issue, with their direction and type.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "issueIdOrKey": {
+     "description": "Jira issue id or key, e.g. PROJ-123",
+     "title": "Issueidorkey",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "issueIdOrKey"
+   ],
+   "title": "getJiraIssueLinksArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluenceSpaces",
+  "description": "List Confluence spaces.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "title": "getConfluenceSpacesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePage",
+  "description": "Get a Confluence page by ID (the shared ``doc-N`` id also resolves).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getPagesInConfluenceSpace",
+  "description": "List pages in a Confluence space, by space id or key (all spaces when omitted).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "spaceId": {
+     "default": "",
+     "description": "Confluence space id or key; all spaces when empty",
+     "title": "Spaceid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "title": "getPagesInConfluenceSpaceArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePageAncestors",
+  "description": "List a Confluence page's ancestors, root first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageAncestorsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePageDescendants",
+  "description": "List every page nested under a Confluence page, walking the whole subtree.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageDescendantsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePageFooterComments",
+  "description": "List the footer comments on a Confluence page.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageFooterCommentsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePageInlineComments",
+  "description": "List the inline comments anchored in a Confluence page's body.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageInlineCommentsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluenceCommentChildren",
+  "description": "List the replies to a Confluence comment.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "commentId": {
+     "description": "Confluence comment id",
+     "title": "Commentid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "commentId"
+   ],
+   "title": "getConfluenceCommentChildrenArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "listConfluenceAttachments",
+  "description": "List the attachments on a Confluence page, with filename, size and media type.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "listConfluenceAttachmentsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluenceAttachment",
+  "description": "Get one Confluence attachment by id, with a download URL for its bytes.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "attachmentId": {
+     "description": "Attachment id, from the listing tool for the container it hangs off",
+     "title": "Attachmentid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "attachmentId"
+   ],
+   "title": "getConfluenceAttachmentArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "searchConfluenceUsingCql",
+  "description": "Search Confluence content using CQL.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "cql": {
+     "description": "CQL query, e.g. type = page AND space = ENG",
+     "title": "Cql",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "cql"
+   ],
+   "title": "searchConfluenceUsingCqlArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "getConfluencePageLabels",
+  "description": "List the labels on a Confluence page.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "pageId": {
+     "description": "Confluence page id",
+     "title": "Pageid",
+     "type": "string"
+    },
+    "cloudId": {
+     "default": "",
+     "description": "cloudId of the Atlassian site, from getAccessibleAtlassianResources",
+     "title": "Cloudid",
+     "type": "string"
+    },
+    "limit": {
+     "default": 25,
+     "description": "Maximum number of results to return on this page (1-250)",
+     "ge": 1,
+     "title": "Limit",
+     "type": "integer"
+    },
+    "cursor": {
+     "default": "",
+     "description": "Opaque cursor from a previous response's nextCursor; the first page when empty",
+     "title": "Cursor",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pageId"
+   ],
+   "title": "getConfluencePageLabelsArguments",
+   "type": "object"
+  }
+ }
+]

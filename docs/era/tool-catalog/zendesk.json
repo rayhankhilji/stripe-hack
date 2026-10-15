@@ -1,0 +1,2246 @@
+[
+ {
+  "name": "list_tickets",
+  "description": "List tickets, optionally filtered by ``status``\n        (``new``, ``open``, ``pending``, ``hold``, ``solved``, ``closed``).\n\n        ``sort_by``/``sort_order`` accept the REST list's sort columns (``id``,\n        ``subject``, ``created_at``, ``updated_at``, ``status``, ``requester``,\n        ``assignee``, ``group``) and order the page identically, with ``id``\n        breaking ties. ``limit`` (1-100, default 100) and ``offset`` page the\n        result exactly as the REST ``per_page``/``page`` parameters do, so an\n        agent can walk a large instance instead of pulling every ticket into its\n        context.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "status": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "closed",
+        "hold",
+        "new",
+        "open",
+        "pending",
+        "solved"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Status",
+     "description": "Ticket status: closed, hold, new, open, pending, solved."
+    },
+    "sort_by": {
+     "default": "id",
+     "title": "Sort By",
+     "type": "string",
+     "description": "Column to sort by: assignee, assignee.name, created_at, deleted_at, group, id, requester, requester.name, status, subject, updated_at.",
+     "enum": [
+      "assignee",
+      "assignee.name",
+      "created_at",
+      "deleted_at",
+      "group",
+      "id",
+      "requester",
+      "requester.name",
+      "status",
+      "subject",
+      "updated_at"
+     ]
+    },
+    "sort_order": {
+     "default": "asc",
+     "title": "Sort Order",
+     "type": "string",
+     "description": "Sort direction: 'asc' (default) or 'desc'.",
+     "enum": [
+      "asc",
+      "desc"
+     ]
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_tickets",
+  "description": "Total number of tickets (optionally for one ``status``) without listing them.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "status": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "closed",
+        "hold",
+        "new",
+        "open",
+        "pending",
+        "solved"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Status",
+     "description": "Ticket status: closed, hold, new, open, pending, solved."
+    }
+   },
+   "title": "count_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket",
+  "description": "Fetch a single ticket by its numeric Zendesk id.\n\n        ``None`` when there is no such ticket, where REST 404s \u2014 an empty result\n        means the id does not exist, not that the ticket has no fields.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "get_ticketArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket_comments",
+  "description": "Fetch the comment thread for a ticket by its numeric Zendesk id.\n\n        ``limit``/``offset`` page the thread as the REST comments list does; a\n        long-running ticket's thread is not returned whole. ``sort_order``\n        (``asc``/``desc``) orders by creation date, newest first with ``desc`` \u2014\n        how an agent reads the latest reply without paging the whole history.\n        ``None`` when there is no such ticket, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    },
+    "sort_order": {
+     "default": "asc",
+     "title": "Sort Order",
+     "type": "string",
+     "description": "Sort direction: 'asc' (default) or 'desc'.",
+     "enum": [
+      "asc",
+      "desc"
+     ]
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "get_ticket_commentsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_users",
+  "description": "List users, optionally only one ``role`` (``admin``, ``agent``, ``end-user``).\n\n        ``limit`` (1-100) and ``offset`` page the result, mirroring REST.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "role": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "admin",
+        "agent",
+        "end-user"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Role",
+     "description": "Narrow to one user role: admin, agent, end-user."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_usersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_user",
+  "description": "Fetch a single user by numeric id (``null`` when unknown).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "get_userArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_organizations",
+  "description": "List customer organizations (the accounts tickets are attributed to).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_organizationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_organization",
+  "description": "Fetch a single organization by numeric id (``null`` when unknown).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "organization_id": {
+     "title": "Organization Id",
+     "type": "integer",
+     "description": "Numeric id of the organization."
+    }
+   },
+   "required": [
+    "organization_id"
+   ],
+   "title": "get_organizationArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_organization_tickets",
+  "description": "Every ticket belonging to one organization \u2014 a customer's support history.\n\n        ``null`` when the organization does not exist (REST answers that parent\n        with 404); an empty list means the organization has no tickets.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "organization_id": {
+     "title": "Organization Id",
+     "type": "integer",
+     "description": "Numeric id of the organization."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "organization_id"
+   ],
+   "title": "list_organization_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_groups",
+  "description": "List agent groups (the queues a ticket can be assigned to). Deleted\n        groups are excluded, as they are over REST.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_groupsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_group",
+  "description": "Fetch a single agent group by numeric id (``null`` when unknown).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "group_id": {
+     "title": "Group Id",
+     "type": "integer",
+     "description": "Numeric id of the group."
+    }
+   },
+   "required": [
+    "group_id"
+   ],
+   "title": "get_groupArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_current_user",
+  "description": "The authenticated agent (REST ``/users/me``) \u2014 who a write is attributed to.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_current_userArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_users",
+  "description": "Total number of users (optionally for one ``role``) without listing them.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "role": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "admin",
+        "agent",
+        "end-user"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Role",
+     "description": "Narrow to one user role: admin, agent, end-user."
+    }
+   },
+   "title": "count_usersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "search_users",
+  "description": "Find users with the Zendesk search syntax, or by ``external_id``.\n\n        Mirrors REST ``/users/search``: ``query`` takes free text matched against\n        name, email, notes and phone, plus property keywords (``role:agent``,\n        ``email:jdoe@acmecorp.io``, ``is_suspended:true``); ``external_id`` wins\n        over ``query``, and ``role`` narrows either. This is how an agent\n        resolves the requester of a ticket it only knows an email for.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "default": "",
+     "title": "Query",
+     "type": "string",
+     "description": "Name or email substring to match; ignored when 'external_id' is given."
+    },
+    "external_id": {
+     "default": "",
+     "title": "External Id",
+     "type": "string",
+     "description": "Your own system's identifier for the record."
+    },
+    "role": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "admin",
+        "agent",
+        "end-user"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Role",
+     "description": "Narrow to one user role: admin, agent, end-user."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "search_usersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_organization_users",
+  "description": "The users belonging to one organization (REST ``/organizations/{id}/users``).\n\n        ``null`` when the organization does not exist, so an unknown id is not\n        reported as an organization with no members.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "organization_id": {
+     "title": "Organization Id",
+     "type": "integer",
+     "description": "Numeric id of the organization."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "organization_id"
+   ],
+   "title": "list_organization_usersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_user_tickets",
+  "description": "Tickets a user ``requested`` (default), is ``assigned``, is ``ccd`` on,\n        or has ``followed``.\n\n        The four REST endpoints under ``/users/{id}/tickets/``, selected by\n        ``relation``. ``null`` when the user does not exist, so an unknown id is\n        not reported as a user with no tickets.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    },
+    "relation": {
+     "default": "requested",
+     "title": "Relation",
+     "type": "string",
+     "description": "Tickets the user 'requested' (default), is 'assigned', is 'ccd' on, or 'followed'.",
+     "enum": [
+      "requested",
+      "assigned",
+      "ccd",
+      "followed"
+     ]
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "list_user_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket_audits",
+  "description": "A ticket's audit trail \u2014 one entry per update, with the field-level\n        ``events`` it changed (REST ``/tickets/{id}/audits``).\n\n        ``null`` when the id is unknown.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "get_ticket_auditsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_tags",
+  "description": "Tags in use across the account with their usage ``count``, most used first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_tagsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_ticket_comments",
+  "description": "How many comments a ticket's thread holds (REST\n        ``/tickets/{id}/comments/count``); ``null`` when the id is unknown.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "count_ticket_commentsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_groups",
+  "description": "Total number of agent groups (REST ``/groups/count``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "count_groupsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_deleted_users",
+  "description": "Users that have been deleted but not permanently deleted yet\n        (REST ``/deleted_users``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_deleted_usersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_organizations",
+  "description": "Total number of organizations without listing them.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "count_organizationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_organization_related",
+  "description": "An organization's ticket/user counts (REST ``/organizations/{id}/related``).\n\n        ``None`` when the organization is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "organization_id": {
+     "title": "Organization Id",
+     "type": "integer",
+     "description": "Numeric id of the organization."
+    }
+   },
+   "required": [
+    "organization_id"
+   ],
+   "title": "get_organization_relatedArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_user_related",
+  "description": "A user's assigned/requested/CC'd ticket counts (REST ``/users/{id}/related``).\n\n        ``None`` when the user is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "get_user_relatedArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_recent_tickets",
+  "description": "Tickets this agent recently read, newest first (REST ``/tickets/recent``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_recent_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_fields",
+  "description": "The account's ticket fields and the values each accepts (REST\n        ``/ticket_fields``) \u2014 what a client needs before it writes a ticket.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_ticket_fieldsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_forms",
+  "description": "The account's ticket forms \u2014 each \"define[s] a subset of ticket fields\"\n        (REST ``/ticket_forms``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "active_only": {
+     "default": false,
+     "title": "Active Only",
+     "type": "boolean",
+     "description": "Return only records whose 'active' flag is true."
+    }
+   },
+   "title": "list_ticket_formsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket_form",
+  "description": "A single ticket form (REST ``/ticket_forms/{id}``).\n\n        ``None`` when the form is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "form_id": {
+     "title": "Form Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket form."
+    }
+   },
+   "required": [
+    "form_id"
+   ],
+   "title": "get_ticket_formArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_field_options",
+  "description": "The drop-down options of a ticket field \u2014 the tags a write must use\n        (REST ``/ticket_fields/{id}/options``).\n\n        ``None`` when the field is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "field_id": {
+     "title": "Field Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket field."
+    }
+   },
+   "required": [
+    "field_id"
+   ],
+   "title": "list_ticket_field_optionsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_ticket_statuses",
+  "description": "The account's custom ticket statuses (REST ``/custom_statuses``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_custom_ticket_statusesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_workspaces",
+  "description": "The account's contextual workspaces (REST ``/workspaces``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_workspacesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_targets",
+  "description": "The account's notification targets (REST ``/targets``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_targetsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_deletion_schedules",
+  "description": "The account's data-retention deletion schedules\n        (REST ``/deletion_schedules``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_deletion_schedulesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_automations",
+  "description": "The account's automations \u2014 the time-based business rules\n        (REST ``/automations``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "active_only": {
+     "default": false,
+     "title": "Active Only",
+     "type": "boolean",
+     "description": "Return only records whose 'active' flag is true."
+    }
+   },
+   "title": "list_automationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_sla_policies",
+  "description": "The account's SLA policies (REST ``/slas/policies``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_sla_policiesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_schedules",
+  "description": "The account's business-hours schedules (REST ``/business_hours/schedules``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_schedulesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_suspended_tickets",
+  "description": "The suspended ticket queue (REST ``/suspended_tickets``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_suspended_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_dynamic_content_items",
+  "description": "The account's dynamic content items and their variants\n        (REST ``/dynamic_content/items``), newest first.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_dynamic_content_itemsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_statuses",
+  "description": "The account's custom ticket statuses (REST ``/custom_statuses``) \u2014\n        each one \"belongs to a status category\".",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_custom_statusesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_sharing_agreements",
+  "description": "The account's ticket sharing agreements (REST ``/sharing_agreements``)\n        \u2014 \"[t]ickets can be shared between Zendesk accounts\".",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_sharing_agreementsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_locales",
+  "description": "The locales the account has active (REST ``/locales``) \u2014 the ids a\n        dynamic content variant may use.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_localesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "autocomplete_tags",
+  "description": "Tag names whose tag, or any word within it, starts with ``name``\n        (REST ``/autocomplete/tags``). At least two characters.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "name": {
+     "title": "Name",
+     "type": "string",
+     "description": "Prefix to complete, at least 2 characters; matches any word within a tag."
+    }
+   },
+   "required": [
+    "name"
+   ],
+   "title": "autocomplete_tagsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_record_tags",
+  "description": "The tags on a user or organization (REST ``/users/{id}/tags`` and\n        ``/organizations/{id}/tags``).\n\n        ``None`` when the record is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "record_type": {
+     "title": "Record Type",
+     "type": "string",
+     "description": "Which kind of record to tag: 'user' or 'organization'.",
+     "enum": [
+      "user",
+      "organization"
+     ]
+    },
+    "record_id": {
+     "title": "Record Id",
+     "type": "integer",
+     "description": "Numeric id of the user or organization."
+    }
+   },
+   "required": [
+    "record_type",
+    "record_id"
+   ],
+   "title": "list_record_tagsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_triggers",
+  "description": "The account's ticket triggers in firing order (REST ``/triggers``) \u2014\n        \"checked from first to last each time a ticket is created or updated\".",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "active_only": {
+     "default": false,
+     "title": "Active Only",
+     "type": "boolean",
+     "description": "Return only records whose 'active' flag is true."
+    }
+   },
+   "title": "list_triggersArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_support_addresses",
+  "description": "The account's support (recipient) addresses and their verification\n        state (REST ``/recipient_addresses``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_support_addressesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_bookmarks",
+  "description": "The tickets the agent has bookmarked, with each bookmarked ticket\n        embedded (REST ``/bookmarks``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_bookmarksArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_sessions",
+  "description": "Who is currently signed in (REST ``/sessions``), optionally for one\n        user.\n\n        ``limit`` (1-100, default 100) and ``offset`` page the result as the REST\n        list's ``per_page``/``page`` do. Unpaged, this tool answered a hyperscale\n        desk with 10.2 MB \u2014 a response no agent can hold.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "default": 0,
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_sessionsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_roles",
+  "description": "The account's custom agent roles, their permission configuration and\n        how many team members hold each (REST ``/custom_roles``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_custom_rolesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_activities",
+  "description": "Ticket activities by other people affecting the requesting agent \u2014\n        assignments, comments and priority increases (REST ``/activities``),\n        newest first.\n\n        ``limit`` (1-100, default 100) and ``offset`` page the result as the REST\n        list's ``per_page``/``page`` do. Unpaged, this tool answered a\n        6 000-ticket tenant with 44 MB in 4.1 s \u2014 a response no agent can hold\n        and every user of the tool paid for.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_ticket_activitiesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_metric_events",
+  "description": "Reply-time, agent-work-time and requester-wait-time metric events in\n        chronological order (REST ``/incremental/ticket_metric_events``),\n        optionally for one ticket.\n\n        ``limit`` (1-100, default 100) and ``offset`` page the result as the REST\n        export's ``per_page`` does. Unpaged, this tool answered a 6 000-ticket\n        tenant with 28 MB in 11.4 s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "default": 0,
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_ticket_metric_eventsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_skips",
+  "description": "Records of an agent skipping a ticket without responding (REST\n        ``/skips``), optionally for one ticket or one agent.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "default": 0,
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "user_id": {
+     "default": 0,
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    }
+   },
+   "title": "list_ticket_skipsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_trigger_categories",
+  "description": "The ticket trigger categories the account's triggers are grouped into,\n        in position order (REST ``/trigger_categories``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_trigger_categoriesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_account_settings",
+  "description": "The account's settings (REST ``/account/settings``). With ``group``,\n        only that group \u2014 ``active_features`` (what the plan entitles the account\n        to), ``tickets``, ``branding``, ``email``, ``localization``, ``user``,\n        ``api`` or ``ticket_form``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "group": {
+     "default": "",
+     "title": "Group",
+     "type": "string",
+     "description": "Return only one settings group: active_features, tickets, branding, email, localization, user, api, ticket_form. Omit for all of them.",
+     "enum": [
+      "active_features",
+      "tickets",
+      "branding",
+      "email",
+      "localization",
+      "user",
+      "api",
+      "ticket_form"
+     ]
+    }
+   },
+   "title": "get_account_settingsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_audit_logs",
+  "description": "The account's change history, oldest first (REST ``/audit_logs``),\n        optionally narrowed to one ``source_type`` or ``action``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "source_type": {
+     "default": "",
+     "title": "Source Type",
+     "type": "string",
+     "description": "Narrow the log to one changed record type, e.g. 'user', 'ticket', 'organization'."
+    },
+    "action": {
+     "default": "",
+     "title": "Action",
+     "type": "string",
+     "description": "Narrow the log to one change action, e.g. 'create', 'update', 'destroy', 'login'."
+    }
+   },
+   "title": "list_audit_logsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_my_requests",
+  "description": "The authenticated user's own requests \u2014 the end-user view of a ticket\n        (REST ``/requests``). With ``ccd``, the requests they are CC'd on.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ccd": {
+     "default": false,
+     "title": "Ccd",
+     "type": "boolean",
+     "description": "Return the requests the authenticated user is CC'd on instead of the ones they requested."
+    }
+   },
+   "title": "list_my_requestsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_views",
+  "description": "The views this seat may work from, in ``position`` order (REST ``/views``).\n\n        \"Lists shared and personal views available to the current user\": somebody\n        else's personal view is not one of them, so the tool applies the route's\n        own availability rule rather than handing back every view in the account.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "active_only": {
+     "default": false,
+     "title": "Active Only",
+     "type": "boolean",
+     "description": "Return only records whose 'active' flag is true."
+    }
+   },
+   "title": "list_viewsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_view_tickets",
+  "description": "The tickets a view selects (REST ``/views/{id}/tickets``).\n\n        ``None`` when the view is unknown, where REST 404s. Somebody else's\n        personal view is unknown here too: the route answers a view this seat may\n        not access with a 404 rather than its queue, so naming it by id is not a\n        way past ``list_views``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "view_id": {
+     "title": "View Id",
+     "type": "integer",
+     "description": "Numeric id of the view."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "view_id"
+   ],
+   "title": "list_view_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_articles",
+  "description": "The knowledge base \u2014 the Help Center articles an agent cites when\n        answering a ticket (REST ``/help_center/articles``).\n\n        Narrow to one section with ``section_id``, or to the articles carrying\n        *every* one of ``label_names`` \u2014 the same all-of, case-sensitive rule the\n        REST ``label_names`` parameter applies.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "section_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Section Id",
+     "description": "Numeric id of the Help Center section."
+    },
+    "label_names": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Label Names",
+     "description": "Return only articles carrying every one of these labels (case-sensitive)."
+    },
+    "limit": {
+     "default": 25,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_help_center_articlesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "search_help_center_articles",
+  "description": "Search the knowledge base for articles matching *query* \u2014 the lookup an\n        agent-assist flow does before drafting a reply\n        (REST ``/help_center/articles/search``).\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string",
+     "description": "Words to match in the articles' title and body."
+    },
+    "limit": {
+     "default": 25,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "search_help_center_articlesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_help_center_article",
+  "description": "One Help Center article, body included\n        (REST ``/help_center/articles/{id}``).\n\n        ``None`` when the article is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    }
+   },
+   "required": [
+    "article_id"
+   ],
+   "title": "get_help_center_articleArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_article_labels",
+  "description": "The labels on one article (REST ``/help_center/articles/{id}/labels``).\n\n        ``None`` when the article is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    },
+    "limit": {
+     "default": 25,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "article_id"
+   ],
+   "title": "list_help_center_article_labelsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_labels",
+  "description": "Every label in use in the knowledge base, name-ordered\n        (REST ``/help_center/articles/labels``) \u2014 the vocabulary a\n        ``label_names`` filter can be built from.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_help_center_labelsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_article_comments",
+  "description": "The feedback end users left on an article, oldest first\n        (REST ``/help_center/articles/{id}/comments``).\n\n        ``None`` when the article is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    },
+    "limit": {
+     "default": 25,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "article_id"
+   ],
+   "title": "list_help_center_article_commentsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_help_center_article_comment",
+  "description": "One comment on an article\n        (REST ``/help_center/articles/{id}/comments/{comment_id}``).\n\n        ``None`` when either id is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    },
+    "comment_id": {
+     "title": "Comment Id",
+     "type": "integer",
+     "description": "Numeric id of the article comment."
+    }
+   },
+   "required": [
+    "article_id",
+    "comment_id"
+   ],
+   "title": "get_help_center_article_commentArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_article_votes",
+  "description": "Who voted on an article and which way\n        (REST ``/help_center/articles/{id}/votes``) \u2014 the records the article's\n        ``vote_count``/``vote_sum`` summarise.\n\n        ``None`` when the article is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    },
+    "limit": {
+     "default": 25,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "article_id"
+   ],
+   "title": "list_help_center_article_votesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_permission_groups",
+  "description": "The management permission groups an article's ``permission_group_id``\n        points at (REST ``/help_center/permission_groups``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_help_center_permission_groupsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_help_center_permission_group",
+  "description": "One management permission group\n        (REST ``/help_center/permission_groups/{id}``).\n\n        ``None`` when the group is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "group_id": {
+     "title": "Group Id",
+     "type": "integer",
+     "description": "Numeric id of the group."
+    }
+   },
+   "required": [
+    "group_id"
+   ],
+   "title": "get_help_center_permission_groupArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_help_center_section",
+  "description": "One knowledge-base section (REST ``/help_center/sections/{id}``).\n\n        ``None`` when the section is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "section_id": {
+     "title": "Section Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center section."
+    }
+   },
+   "required": [
+    "section_id"
+   ],
+   "title": "get_help_center_sectionArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_help_center_category",
+  "description": "One knowledge-base category (REST ``/help_center/categories/{id}``).\n\n        ``None`` when the category is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "category_id": {
+     "title": "Category Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center category."
+    }
+   },
+   "required": [
+    "category_id"
+   ],
+   "title": "get_help_center_categoryArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_section_translations",
+  "description": "A section's localized versions\n        (REST ``/help_center/sections/{id}/translations``).\n\n        ``None`` when the section is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "section_id": {
+     "title": "Section Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center section."
+    }
+   },
+   "required": [
+    "section_id"
+   ],
+   "title": "list_help_center_section_translationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_category_translations",
+  "description": "A category's localized versions\n        (REST ``/help_center/categories/{id}/translations``).\n\n        ``None`` when the category is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "category_id": {
+     "title": "Category Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center category."
+    }
+   },
+   "required": [
+    "category_id"
+   ],
+   "title": "list_help_center_category_translationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_article_translations",
+  "description": "An article's localized versions\n        (REST ``/help_center/articles/{id}/translations``).\n\n        ``None`` when the article is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "article_id": {
+     "title": "Article Id",
+     "type": "integer",
+     "description": "Numeric id of the Help Center article."
+    }
+   },
+   "required": [
+    "article_id"
+   ],
+   "title": "list_help_center_article_translationsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_categories",
+  "description": "The knowledge base's categories, the shelves its sections sit on\n        (REST ``/help_center/categories``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_help_center_categoriesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_help_center_sections",
+  "description": "The knowledge base's sections, the shelves its articles sit on\n        (REST ``/help_center/sections``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_help_center_sectionsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_community_topics",
+  "description": "The community's topics, the boards its posts sit on\n        (REST ``/community/topics``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_community_topicsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_community_posts",
+  "description": "What customers asked in the community, pinned posts first\n        (REST ``/community/posts``, or ``/community/topics/{id}/posts``).\n\n        A post carries its own ``status``, ``pinned``, ``closed``, vote counts and\n        ``comment_count``, so a support question raised in public reads the same\n        here as it does over REST \u2014 including REST's ordering, which floats a\n        pinned post to the top of its topic.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "topic_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Topic Id",
+     "description": "Numeric id of the community topic."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_community_postsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_community_post_comments",
+  "description": "The replies under one community post\n        (REST ``/community/posts/{id}/comments``).\n\n        ``None`` when the post is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "post_id": {
+     "title": "Post Id",
+     "type": "integer",
+     "description": "Numeric id of the community post."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "post_id"
+   ],
+   "title": "list_community_post_commentsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_talk_lines",
+  "description": "The phone and digital lines calls arrive on\n        (REST ``/channels/voice/lines``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_talk_linesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_talk_calls",
+  "description": "The account's calls, newest first \u2014 direction, wait, talk and hold time,\n        the agent who took it and the ticket it opened\n        (REST ``/channels/voice/stats/incremental/calls``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_talk_callsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_talk_account_overview",
+  "description": "The phone channel's totals and averages\n        (REST ``/channels/voice/stats/account_overview``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_talk_account_overviewArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_macros",
+  "description": "The account's macros \u2014 the canned changes an agent applies to a ticket\n        (REST ``/macros``), in the route's default \"alphabetical\" order.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "active_only": {
+     "default": false,
+     "title": "Active Only",
+     "type": "boolean",
+     "description": "Return only records whose 'active' flag is true."
+    }
+   },
+   "title": "list_macrosArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "preview_macro_on_ticket",
+  "description": "The ticket as it *would* be after applying the macro, without changing\n        it (REST ``GET /tickets/{id}/macros/{macro_id}/apply``).\n\n        ``None`` when either the ticket or the macro is unknown, where REST 404s.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "macro_id": {
+     "title": "Macro Id",
+     "type": "integer",
+     "description": "Numeric id of the macro."
+    }
+   },
+   "required": [
+    "ticket_id",
+    "macro_id"
+   ],
+   "title": "preview_macro_on_ticketArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_brands",
+  "description": "The account's brands (REST ``/brands``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_brandsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_job_status",
+  "description": "A bulk job's status (REST ``/job_statuses/{id}``); ``null`` if unknown.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "job_id": {
+     "title": "Job Id",
+     "type": "string",
+     "description": "Id of the job status returned by a bulk write, e.g. 'V3-1a2b3c'."
+    }
+   },
+   "required": [
+    "job_id"
+   ],
+   "title": "get_job_statusArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_user_identities",
+  "description": "A user's email/phone identities, primary first (REST\n        ``/users/{id}/identities``); ``null`` when the user does not exist.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "title": "User Id",
+     "type": "integer",
+     "description": "Numeric id of the user."
+    }
+   },
+   "required": [
+    "user_id"
+   ],
+   "title": "list_user_identitiesArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket_metrics",
+  "description": "A ticket's metrics \u2014 reply time, resolution time, replies, reopens\n        (REST ``/tickets/{id}/metrics``); ``null`` when the id is unknown.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "get_ticket_metricsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_ticket_related",
+  "description": "A ticket's related information \u2014 linked incident count, follow-up\n        sources (REST ``/tickets/{id}/related``); ``null`` when the id is unknown.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "get_ticket_relatedArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_ticket_collaborators",
+  "description": "The users on a ticket: its ``collaborators``, ``followers`` or ``email_ccs``.\n\n        The three REST endpoints of the same name, selected by ``relation``;\n        ``null`` when the ticket does not exist.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "ticket_id": {
+     "title": "Ticket Id",
+     "type": "integer",
+     "description": "Numeric id of the ticket."
+    },
+    "relation": {
+     "default": "collaborators",
+     "title": "Relation",
+     "type": "string",
+     "description": "Which users to list: 'collaborators' (default), 'followers' or 'email_ccs'.",
+     "enum": [
+      "collaborators",
+      "followers",
+      "email_ccs"
+     ]
+    }
+   },
+   "required": [
+    "ticket_id"
+   ],
+   "title": "list_ticket_collaboratorsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_organization_memberships",
+  "description": "User\u2194organization links, optionally narrowed to one user or organization.\n\n        REST ``/organization_memberships`` and its by-user / by-organization\n        variants; ``null`` when a given user or organization does not exist.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id",
+     "description": "Numeric id of the user."
+    },
+    "organization_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Organization Id",
+     "description": "Numeric id of the organization."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_organization_membershipsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_group_memberships",
+  "description": "Agent\u2194group links (REST ``/group_memberships``), optionally narrowed.\n\n        ``null`` when a given user or group does not exist.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "user_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "User Id",
+     "description": "Numeric id of the user."
+    },
+    "group_id": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Group Id",
+     "description": "Numeric id of the group."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "title": "list_group_membershipsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "count_search_results",
+  "description": "How many records a search query matches (REST ``/search/count``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string",
+     "description": "Zendesk search query, e.g. 'status:open priority:high billing'."
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "count_search_resultsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "search_tickets",
+  "description": "Search tickets using Zendesk search syntax (e.g. ``status:open priority:high``).\n\n        Mirrors Buzz's ``search_tickets`` tool: the query is always scoped to\n        tickets, so a ``type:`` clause in the query is ignored.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "title": "Query",
+     "type": "string",
+     "description": "Zendesk search query, e.g. 'status:open priority:high billing'."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "search_ticketsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_objects",
+  "description": "The custom objects this account has defined \u2014 the account's own data\n        model beside tickets and users (for example a ``contract``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_custom_objectsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_object_fields",
+  "description": "The fields of one custom object, i.e. what a record of it holds.\n\n        ``null`` when the object key is unknown.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_key": {
+     "title": "Object Key",
+     "type": "string",
+     "description": "Key of the custom object, e.g. 'contract'."
+    }
+   },
+   "required": [
+    "object_key"
+   ],
+   "title": "list_custom_object_fieldsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "list_custom_object_records",
+  "description": "The records of one custom object (``null`` when the key is unknown).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_key": {
+     "title": "Object Key",
+     "type": "string",
+     "description": "Key of the custom object, e.g. 'contract'."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "object_key"
+   ],
+   "title": "list_custom_object_recordsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "search_custom_object_records",
+  "description": "Search a custom object's records by their text fields, name and\n        external id \u2014 the lookup an agent does to answer \"what is this\n        customer's contract?\".\n\n        ``null`` when the object key is unknown; an empty list means nothing\n        matched the query.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_key": {
+     "title": "Object Key",
+     "type": "string",
+     "description": "Key of the custom object, e.g. 'contract'."
+    },
+    "query": {
+     "title": "Query",
+     "type": "string",
+     "description": "Text to match against the records' text fields, name and external id."
+    },
+    "limit": {
+     "default": 100,
+     "title": "Limit",
+     "type": "integer",
+     "description": "Maximum records to return, 1-100."
+    },
+    "offset": {
+     "default": 0,
+     "title": "Offset",
+     "type": "integer",
+     "description": "Records to skip before the page starts; 0 is the first page. Not a page number."
+    }
+   },
+   "required": [
+    "object_key",
+    "query"
+   ],
+   "title": "search_custom_object_recordsArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ },
+ {
+  "name": "get_custom_object_record",
+  "description": "One custom object record by its id (``null`` when unknown).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "object_key": {
+     "title": "Object Key",
+     "type": "string",
+     "description": "Key of the custom object, e.g. 'contract'."
+    },
+    "record_id": {
+     "title": "Record Id",
+     "type": "string",
+     "description": "Numeric id of the user or organization."
+    }
+   },
+   "required": [
+    "object_key",
+    "record_id"
+   ],
+   "title": "get_custom_object_recordArguments",
+   "type": "object",
+   "additionalProperties": false
+  }
+ }
+]

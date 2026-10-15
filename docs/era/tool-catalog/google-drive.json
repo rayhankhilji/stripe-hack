@@ -1,0 +1,662 @@
+[
+ {
+  "name": "list_files",
+  "description": "List Drive files, newest first, optionally within one folder or matching a Drive ``q``. Mirrors ``GET /drive/v3/files``.\n\n        ``order_by`` takes Drive's syntax (``name``, ``modifiedTime desc``, ...).\n        ``corpora`` scopes the search the way ``files.list`` does: ``user`` is My\n        Drive only (REST's default), ``drive`` one shared drive, ``allDrives`` both\n        (the default here, since an agent asking \"what files exist\" means all of them).\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    },
+    "folder_id": {
+     "default": "",
+     "title": "Folder Id",
+     "type": "string"
+    },
+    "query": {
+     "default": "",
+     "title": "Query",
+     "type": "string"
+    },
+    "include_trashed": {
+     "default": false,
+     "title": "Include Trashed",
+     "type": "boolean"
+    },
+    "order_by": {
+     "default": "",
+     "title": "Order By",
+     "type": "string"
+    },
+    "corpora": {
+     "default": "allDrives",
+     "enum": [
+      "user",
+      "drive",
+      "allDrives"
+     ],
+     "title": "Corpora",
+     "type": "string"
+    },
+    "drive_id": {
+     "default": "",
+     "title": "Drive Id",
+     "type": "string"
+    }
+   },
+   "title": "list_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_recent_files",
+  "description": "The user's most recent files, newest first. Mirrors ``GET /drive/v3/files?orderBy=recency desc``.\n\n        ``order_by`` matches Google's Drive MCP server: ``recency`` (any timestamp),\n        ``lastModified`` (modified by anyone) or ``lastModifiedByMe``; that server's\n        camelCase ``orderBy``/``pageSize``/``pageToken`` are accepted too.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "order_by": {
+     "default": "recency",
+     "enum": [
+      "recency",
+      "lastModified",
+      "lastModifiedByMe"
+     ],
+     "title": "Order By",
+     "type": "string"
+    },
+    "page_size": {
+     "default": 10,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    },
+    "orderBy": {
+     "anyOf": [
+      {
+       "enum": [
+        "recency",
+        "lastModified",
+        "lastModifiedByMe"
+       ],
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Orderby"
+    },
+    "pageSize": {
+     "default": 0,
+     "title": "Pagesize",
+     "type": "integer"
+    },
+    "pageToken": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Pagetoken"
+    },
+    "excludeContentSnippets": {
+     "default": false,
+     "title": "Excludecontentsnippets",
+     "type": "boolean"
+    }
+   },
+   "title": "list_recent_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_file",
+  "description": "Fetch one file's metadata by id (e.g. ``doc-0``). Mirrors ``GET /drive/v3/files/{fileId}``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "get_fileArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "search_files",
+  "description": "Search files by words (``handbook``) or with a Drive ``q`` expression (``name contains 'Renewal' and trashed = false``).\n\n        Each hit carries Google's ``contentSnippet`` -- a leading extract of the\n        file's text -- unless ``excludeContentSnippets`` is set, as on Google's own\n        Drive MCP ``search_files``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "q": {
+     "default": "",
+     "title": "Q",
+     "type": "string"
+    },
+    "query": {
+     "default": "",
+     "title": "Query",
+     "type": "string"
+    },
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    },
+    "pageSize": {
+     "default": 0,
+     "title": "Pagesize",
+     "type": "integer"
+    },
+    "pageToken": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Pagetoken"
+    },
+    "excludeContentSnippets": {
+     "default": false,
+     "title": "Excludecontentsnippets",
+     "type": "boolean"
+    }
+   },
+   "title": "search_filesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_file",
+  "description": "Read a file's text: Docs body, spreadsheet cells, or decoded upload. Mirrors ``files.get?alt=media``/``files.export``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "max_chars": {
+     "default": 20000,
+     "title": "Max Chars",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "read_fileArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_permissions",
+  "description": "List who a file or shared drive is shared with. Mirrors ``GET /drive/v3/{files,drives}/{id}/permissions``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "list_permissionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_file_labels",
+  "description": "List the classification labels applied to a file. Mirrors ``GET /drive/v3/files/{id}/listLabels``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "list_file_labelsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_shared_drives",
+  "description": "List shared drives, optionally filtered by a Drive ``q`` (e.g. ``name contains 'Sales'``). Mirrors ``GET /drive/v3/drives``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    },
+    "query": {
+     "default": "",
+     "title": "Query",
+     "type": "string"
+    }
+   },
+   "title": "list_shared_drivesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_shared_drive",
+  "description": "Fetch one shared drive, with its restrictions and capabilities. Mirrors ``GET /drive/v3/drives/{driveId}``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "drive_id": {
+     "title": "Drive Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "drive_id"
+   ],
+   "title": "get_shared_driveArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_sheet_tabs",
+  "description": "List a spreadsheet's tabs with their dimensions. Mirrors ``GET /v4/spreadsheets/{id}``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "list_sheet_tabsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_sheet_tab",
+  "description": "Read a spreadsheet tab's values as rows. Mirrors ``GET /v4/spreadsheets/{id}/values/{range}``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "tab_name": {
+     "default": "",
+     "title": "Tab Name",
+     "type": "string"
+    },
+    "max_rows": {
+     "default": 500,
+     "title": "Max Rows",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "read_sheet_tabArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_comments",
+  "description": "List a file's comments and replies. Mirrors ``GET /drive/v3/files/{id}/comments``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "include_resolved": {
+     "default": true,
+     "title": "Include Resolved",
+     "type": "boolean"
+    },
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "list_commentsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "export_file",
+  "description": "Export a Docs Editors file to another format. Mirrors ``GET /drive/v3/files/{id}/export``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "mime_type": {
+     "default": "text/plain",
+     "title": "Mime Type",
+     "type": "string"
+    },
+    "max_chars": {
+     "default": 20000,
+     "title": "Max Chars",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "export_fileArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_file_metadata",
+  "description": "Find general metadata about a user's Drive file. Google Drive MCP ``get_file_metadata``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fileId": {
+     "title": "Fileid",
+     "type": "string"
+    },
+    "excludeContentSnippets": {
+     "default": false,
+     "title": "Excludecontentsnippets",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "fileId"
+   ],
+   "title": "get_file_metadataArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_file_permissions",
+  "description": "List the permissions of a Drive file. Google Drive MCP ``get_file_permissions``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fileId": {
+     "title": "Fileid",
+     "type": "string"
+    }
+   },
+   "required": [
+    "fileId"
+   ],
+   "title": "get_file_permissionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "download_file_content",
+  "description": "Download a Drive file's content as a base64 encoded string. Google Drive MCP ``download_file_content``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fileId": {
+     "title": "Fileid",
+     "type": "string"
+    },
+    "exportMimeType": {
+     "default": "",
+     "title": "Exportmimetype",
+     "type": "string"
+    }
+   },
+   "required": [
+    "fileId"
+   ],
+   "title": "download_file_contentArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "read_file_content",
+  "description": "A natural language representation of a Drive file, and optionally its comments. Google Drive MCP ``read_file_content``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fileId": {
+     "title": "Fileid",
+     "type": "string"
+    },
+    "includeComments": {
+     "default": false,
+     "title": "Includecomments",
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "fileId"
+   ],
+   "title": "read_file_contentArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_revisions",
+  "description": "List a file's revisions, newest last. Mirrors ``GET /drive/v3/files/{id}/revisions``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "page_token": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Page Token"
+    }
+   },
+   "required": [
+    "file_id"
+   ],
+   "title": "list_revisionsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_revision",
+  "description": "Fetch one revision's metadata. Mirrors ``GET /drive/v3/files/{id}/revisions/{revisionId}``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "file_id": {
+     "title": "File Id",
+     "type": "string"
+    },
+    "revision_id": {
+     "title": "Revision Id",
+     "type": "string"
+    }
+   },
+   "required": [
+    "file_id",
+    "revision_id"
+   ],
+   "title": "get_revisionArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_start_page_token",
+  "description": "The change cursor to poll from. Mirrors ``GET /drive/v3/changes/startPageToken``.",
+  "readOnly": null,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_start_page_tokenArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_changes",
+  "description": "Changes since ``page_token``, for incremental sync. Mirrors ``GET /drive/v3/changes``.\n\n        ``drive_id`` narrows the feed to one shared drive and ``restrict_to_my_drive``\n        to the My Drive hierarchy, as the REST parameters of the same name do.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "page_token": {
+     "default": "0",
+     "title": "Page Token",
+     "type": "string"
+    },
+    "page_size": {
+     "default": 100,
+     "title": "Page Size",
+     "type": "integer"
+    },
+    "include_removed": {
+     "default": true,
+     "title": "Include Removed",
+     "type": "boolean"
+    },
+    "drive_id": {
+     "default": "",
+     "title": "Drive Id",
+     "type": "string"
+    },
+    "restrict_to_my_drive": {
+     "default": false,
+     "title": "Restrict To My Drive",
+     "type": "boolean"
+    }
+   },
+   "title": "list_changesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_about",
+  "description": "The signed-in user, storage quota and export formats. Mirrors ``GET /drive/v3/about``.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "get_aboutArguments",
+   "type": "object"
+  }
+ }
+]

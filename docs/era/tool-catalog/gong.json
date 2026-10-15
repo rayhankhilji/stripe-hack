@@ -1,0 +1,1813 @@
+[
+ {
+  "name": "list_calls",
+  "description": "List recorded call metadata, optionally bounded by an ISO-8601 date range.\n\n        ``workspaceId`` filters the way ``GET /v2/calls`` does and\n        ``primaryUserIds`` the way the ``POST /v2/calls/extensive`` filter does,\n        so an agent can ask for one rep's calls without reading the workspace.\n        Returns one page under ``calls``; pass ``records.cursor`` back as ``cursor``\n        for the next one.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Fromdatetime",
+     "description": "Start of the range, inclusive, as an ISO-8601 instant (e.g. '2024-01-01T00:00:00Z')."
+    },
+    "toDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Todatetime",
+     "description": "End of the range, exclusive, as an ISO-8601 instant; defaults to now."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "primaryUserIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Primaryuserids",
+     "description": "Only calls hosted by these users, by Gong id."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "title": "list_callsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_call",
+  "description": "Fetch one call with its parties, AI content, and interaction stats (e.g. ``call-0``).\n\n        The argument is ``callId``, spelled as Gong's own API spells it rather\n        than as ``call_id``: every tool here takes the vendor's parameter names,\n        so a prompt or client written against Gong reads the same either way.\n\n        An unknown call id fails with Gong's own \"Call with id ... was not\n        found\" rather than answering null, which an agent read as an empty call.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "callId": {
+     "title": "Callid",
+     "type": "string",
+     "description": "The Gong call id."
+    }
+   },
+   "required": [
+    "callId"
+   ],
+   "title": "get_callArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_calls_extensive",
+  "description": "Calls with their parties, AI content and interaction stats, a page at a time (``POST /v2/calls/extensive``).\n\n        The bulk form of ``get_call``: who attended which call across a whole\n        workspace is one paged walk here, not a fetch per call.\n        ``contentSelector`` takes Gong's own shape \u2014 ``{\"exposedFields\":\n        {\"parties\": true}}`` for the party lists, ``{\"context\": \"Extended\"}`` to\n        add each call's CRM context \u2014 and selects metadata only when omitted.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Fromdatetime",
+     "description": "Start of the range, inclusive, as an ISO-8601 instant (e.g. '2024-01-01T00:00:00Z')."
+    },
+    "toDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Todatetime",
+     "description": "End of the range, exclusive, as an ISO-8601 instant; defaults to now."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "primaryUserIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Primaryuserids",
+     "description": "Only calls hosted by these users, by Gong id."
+    },
+    "callIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Callids",
+     "description": "The calls to fetch by Gong id. Unknown ids are absent from the answer."
+    },
+    "contentSelector": {
+     "anyOf": [
+      {
+       "additionalProperties": true,
+       "type": "object"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Contentselector",
+     "description": "Which blocks to expose per call, in Gong's own shape: {'exposedFields': {'parties': true, 'interaction': true, 'content': {'brief': true}}, 'context': 'Extended'}. Omitted, each call answers metadata only."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "title": "list_calls_extensiveArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_call_transcript",
+  "description": "Fetch the speaker-attributed transcript for one call.\n\n        Takes ``callId``, not ``call_id``: the argument names here are Gong's own.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "callId": {
+     "title": "Callid",
+     "type": "string",
+     "description": "The Gong call id."
+    }
+   },
+   "required": [
+    "callId"
+   ],
+   "title": "get_call_transcriptArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "retrieve_transcripts",
+  "description": "Retrieve speaker-attributed transcripts for several calls at once.\n\n        Selects exactly what ``POST /v2/calls/transcript`` selects for the same\n        ids: a call that does not exist is absent from the page instead of\n        appearing with an empty transcript that reads like a silent call.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "callIds": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Callids",
+     "type": "array",
+     "description": "The calls to fetch by Gong id. Unknown ids are absent from the answer."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "callIds"
+   ],
+   "title": "retrieve_transcriptsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_users",
+  "description": "List the Gong workspace users (the company directory), one page at a time.\n\n        ``includeAvatars`` adds the Gong employees who have accessed the\n        instance, as on ``GET /v2/users``; ``userIds`` and the creation window\n        select what ``POST /v2/users/extensive`` selects for the same filter.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "includeAvatars": {
+     "default": false,
+     "title": "Includeavatars",
+     "type": "boolean",
+     "description": "Also list Gong's own staff (CSMs and support) who have accessed the instance."
+    },
+    "userIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Userids",
+     "description": "Only these users, by Gong id."
+    },
+    "createdFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdfromdatetime",
+     "description": "Only users whose Gong seat was created at or after this ISO-8601 instant."
+    },
+    "createdToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdtodatetime",
+     "description": "Only users whose Gong seat was created at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "title": "list_usersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_user",
+  "description": "Fetch one user by Gong id or shared graph id (``GET /v2/users/{id}``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "userId": {
+     "title": "Userid",
+     "type": "string",
+     "description": "The Gong user id."
+    }
+   },
+   "required": [
+    "userId"
+   ],
+   "title": "get_userArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_workspaces",
+  "description": "List the Gong workspaces this credential can read (``GET /v2/workspaces``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_workspacesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_crm_objects",
+  "description": "List CRM objects synced into Gong (``GET /v2/crm/entities``).\n\n        Takes Gong's read enum (``DEAL``/``ACCOUNT``/``CONTACT``/``LEAD``) as\n        well as the stored object name, so the documented ``DEAL`` no longer\n        answers an empty page where REST answers the opportunities. Asking for\n        specific ``objectsCrmIds`` answers REST's ``crmObjectsMap`` \u2014 the\n        object's fields keyed by crm id, ``null`` for one Gong does not have.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "objectType": {
+     "default": "DEAL",
+     "title": "Objecttype",
+     "type": "string",
+     "description": "The CRM object to list: Gong's read enum (DEAL, ACCOUNT, CONTACT, LEAD) or the name of a synced custom object."
+    },
+    "objectsCrmIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Objectscrmids",
+     "description": "Specific CRM object ids; answers a map keyed by id, with null for one Gong does not hold."
+    },
+    "modifiedFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Modifiedfromdatetime",
+     "description": "Only CRM objects modified at or after this ISO-8601 instant."
+    },
+    "modifiedToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Modifiedtodatetime",
+     "description": "Only CRM objects modified at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "title": "list_crm_objectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_interaction_stats",
+  "description": "Per-user talk-ratio style coaching stats for a ``yyyy-MM-dd`` date range.\n\n        ``toDate`` must be strictly later than ``fromDate``, exactly as\n        ``POST /v2/stats/interaction`` requires, and the resolved range is echoed\n        back beside the page.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDate": {
+     "title": "Fromdate",
+     "type": "string",
+     "description": "Start of the reporting range, inclusive (yyyy-MM-dd)."
+    },
+    "toDate": {
+     "title": "Todate",
+     "type": "string",
+     "description": "End of the reporting range; must be strictly later than fromDate (yyyy-MM-dd)."
+    },
+    "userIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Userids",
+     "description": "Only these users, by Gong id."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "createdFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdfromdatetime",
+     "description": "Only users whose Gong seat was created at or after this ISO-8601 instant."
+    },
+    "createdToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdtodatetime",
+     "description": "Only users whose Gong seat was created at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "fromDate",
+    "toDate"
+   ],
+   "title": "get_interaction_statsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_activity_stats",
+  "description": "Per-user activity totals \u2014 calls hosted, scorecards, emails \u2014 for a ``yyyy-MM-dd`` range.\n\n        The same numbers ``POST /v2/stats/activity/aggregate`` reports, which is\n        what a coaching workflow needs beside the interaction stats.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDate": {
+     "title": "Fromdate",
+     "type": "string",
+     "description": "Start of the reporting range, inclusive (yyyy-MM-dd)."
+    },
+    "toDate": {
+     "title": "Todate",
+     "type": "string",
+     "description": "End of the reporting range; must be strictly later than fromDate (yyyy-MM-dd)."
+    },
+    "userIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Userids",
+     "description": "Only these users, by Gong id."
+    },
+    "createdFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdfromdatetime",
+     "description": "Only users whose Gong seat was created at or after this ISO-8601 instant."
+    },
+    "createdToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdtodatetime",
+     "description": "Only users whose Gong seat was created at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "fromDate",
+    "toDate"
+   ],
+   "title": "get_activity_statsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_answered_scorecards",
+  "description": "List answered call-review scorecards (``POST /v2/stats/activity/scorecards``).\n\n        Takes the whole ``AnsweredScorecardsFilter``: every member is optional,\n        as on REST (unfiltered reads the workspace's manual reviews, since\n        ``reviewMethod`` defaults to ``MANUAL``), and the review method,\n        reviewer and workspace filters select exactly what REST selects.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "callFromDate": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Callfromdate",
+     "description": "Include scorecards for calls held on or after this date (yyyy-MM-dd)."
+    },
+    "callToDate": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Calltodate",
+     "description": "Include scorecards for calls held on or before this date (yyyy-MM-dd)."
+    },
+    "reviewFromDate": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Reviewfromdate",
+     "description": "Include scorecards reviewed on or after this date (yyyy-MM-dd)."
+    },
+    "reviewToDate": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Reviewtodate",
+     "description": "Include scorecards reviewed on or before this date (yyyy-MM-dd)."
+    },
+    "scorecardIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Scorecardids",
+     "description": "Only answers to these scorecards."
+    },
+    "reviewedUserIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Revieweduserids",
+     "description": "Only scorecards about these users (the person being reviewed)."
+    },
+    "reviewerUserIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Revieweruserids",
+     "description": "Only scorecards filled in by these users (the reviewer)."
+    },
+    "reviewMethod": {
+     "anyOf": [
+      {
+       "type": "string",
+       "enum": [
+        "AUTOMATIC",
+        "BOTH",
+        "MANUAL"
+       ]
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Reviewmethod",
+     "description": "How the review was done. One of: AUTOMATIC, BOTH, MANUAL."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "title": "list_answered_scorecardsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_trackers",
+  "description": "List the workspace's keyword trackers and their keywords (``GET /v2/settings/trackers``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "title": "list_trackersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_call_outcomes",
+  "description": "List the company's call outcomes (``GET /v2/call-outcomes``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_call_outcomesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_scorecards",
+  "description": "List the scorecard definitions answered scorecards score against.\n\n        Without the questions a card's answers are unlabelled ids, so an agent\n        reading a review needs this beside ``list_answered_scorecards``.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {},
+   "title": "list_scorecardsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_flows",
+  "description": "List the Engage flows a user can enroll prospects into (``GET /v2/flows``).\n\n        ``flowOwnerEmail`` is required, as on REST: a flow list is always\n        relative to a user (their own flows plus the shared ones).\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "flowOwnerEmail": {
+     "title": "Flowowneremail",
+     "type": "string",
+     "description": "Email address of the user whose flows to list; required, as on GET /v2/flows."
+    },
+    "folderId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Folderid",
+     "description": "Only flows in this flow folder."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "flowOwnerEmail"
+   ],
+   "title": "list_flowsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_calls_for_entity",
+  "description": "List the calls attached to a CRM entity (``ACCOUNT``/``DEAL``/``CONTACT``, e.g. ``acct-0``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "crmEntityType": {
+     "title": "Crmentitytype",
+     "type": "string",
+     "enum": [
+      "ACCOUNT",
+      "CONTACT",
+      "DEAL",
+      "LEAD"
+     ],
+     "description": "The kind of CRM record. One of: ACCOUNT, CONTACT, DEAL, LEAD."
+    },
+    "crmEntityId": {
+     "title": "Crmentityid",
+     "type": "string",
+     "description": "The CRM record's id, e.g. 'acct-0' for an account or 'deal-2' for a deal."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "crmEntityType",
+    "crmEntityId"
+   ],
+   "title": "list_calls_for_entityArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_entity_brief",
+  "description": "Gong's AI brief for a CRM entity (``GET /v2/entities/get-brief``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "crmEntityType": {
+     "title": "Crmentitytype",
+     "type": "string",
+     "enum": [
+      "ACCOUNT",
+      "CONTACT",
+      "DEAL",
+      "LEAD"
+     ],
+     "description": "The kind of CRM record. One of: ACCOUNT, CONTACT, DEAL, LEAD."
+    },
+    "crmEntityId": {
+     "title": "Crmentityid",
+     "type": "string",
+     "description": "The CRM record's id, e.g. 'acct-0' for an account or 'deal-2' for a deal."
+    },
+    "briefName": {
+     "default": "Account brief",
+     "title": "Briefname",
+     "type": "string",
+     "description": "Which brief to generate for the entity, e.g. 'Account brief'."
+    },
+    "workspaceId": {
+     "default": "9000000000000000001",
+     "title": "Workspaceid",
+     "type": "string",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "timePeriod": {
+     "default": "LAST_90DAYS",
+     "title": "Timeperiod",
+     "type": "string",
+     "enum": [
+      "ALL_CONVERSATIONS",
+      "CUSTOM_RANGE",
+      "LAST_30DAYS",
+      "LAST_7DAYS",
+      "LAST_90DAYS",
+      "LAST_90_DAYS_SINCE_LAST_ACTIVITY",
+      "LAST_YEAR",
+      "LAST_YEAR_SINCE_LAST_ACTIVITY",
+      "THIS_MONTH",
+      "THIS_QUARTER",
+      "THIS_WEEK",
+      "THIS_YEAR"
+     ],
+     "description": "How far back to look. One of: ALL_CONVERSATIONS, CUSTOM_RANGE, LAST_30DAYS, LAST_7DAYS, LAST_90DAYS, LAST_90_DAYS_SINCE_LAST_ACTIVITY, LAST_YEAR, LAST_YEAR_SINCE_LAST_ACTIVITY, THIS_MONTH, THIS_QUARTER, THIS_WEEK, THIS_YEAR."
+    }
+   },
+   "required": [
+    "crmEntityType",
+    "crmEntityId"
+   ],
+   "title": "get_entity_briefArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "ask_entity",
+  "description": "Ask a free-text question about a CRM entity; answers cite its calls and emails.",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "crmEntityType": {
+     "title": "Crmentitytype",
+     "type": "string",
+     "enum": [
+      "ACCOUNT",
+      "CONTACT",
+      "DEAL",
+      "LEAD"
+     ],
+     "description": "The kind of CRM record. One of: ACCOUNT, CONTACT, DEAL, LEAD."
+    },
+    "crmEntityId": {
+     "title": "Crmentityid",
+     "type": "string",
+     "description": "The CRM record's id, e.g. 'acct-0' for an account or 'deal-2' for a deal."
+    },
+    "question": {
+     "title": "Question",
+     "type": "string",
+     "description": "The question to ask Gong's AI about the entity, in plain English."
+    },
+    "workspaceId": {
+     "default": "9000000000000000001",
+     "title": "Workspaceid",
+     "type": "string",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "timePeriod": {
+     "default": "LAST_90DAYS",
+     "title": "Timeperiod",
+     "type": "string",
+     "enum": [
+      "ALL_CONVERSATIONS",
+      "CUSTOM_RANGE",
+      "LAST_30DAYS",
+      "LAST_7DAYS",
+      "LAST_90DAYS",
+      "LAST_90_DAYS_SINCE_LAST_ACTIVITY",
+      "LAST_YEAR",
+      "LAST_YEAR_SINCE_LAST_ACTIVITY",
+      "THIS_MONTH",
+      "THIS_QUARTER",
+      "THIS_WEEK",
+      "THIS_YEAR"
+     ],
+     "description": "How far back to look. One of: ALL_CONVERSATIONS, CUSTOM_RANGE, LAST_30DAYS, LAST_7DAYS, LAST_90DAYS, LAST_90_DAYS_SINCE_LAST_ACTIVITY, LAST_YEAR, LAST_YEAR_SINCE_LAST_ACTIVITY, THIS_MONTH, THIS_QUARTER, THIS_WEEK, THIS_YEAR."
+    }
+   },
+   "required": [
+    "crmEntityType",
+    "crmEntityId",
+    "question"
+   ],
+   "title": "ask_entityArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_flow_prospects",
+  "description": "Which flows the named CRM prospects (or flow instances) are in (``POST /v2/flows/prospects``).\n\n        Lets an agent check enrollment before adding a prospect twice.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "crmProspectsIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Crmprospectsids",
+     "description": "The prospects' CRM contact/lead ids."
+    },
+    "flowInstanceIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Flowinstanceids",
+     "description": "Only prospects enrolled through these flow instances."
+    }
+   },
+   "title": "list_flow_prospectsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_flow_steps",
+  "description": "List Engage flows with their ordered steps (``POST /v2/flows/steps``).\n\n        The steps are what an agent needs to say *where* in a sequence a\n        prospect is; up to 20 flow ids per call, as on REST.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "flowIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Flowids",
+     "description": "The Engage flows whose steps to list."
+    }
+   },
+   "title": "list_flow_stepsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_flow_folders",
+  "description": "List the flows in the folders a user can see (``GET /v2/flows/folders``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "flowFolderOwnerEmail": {
+     "title": "Flowfolderowneremail",
+     "type": "string",
+     "description": "Email address of the user whose flow folders to list."
+    },
+    "parentId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Parentid",
+     "description": "Only folders directly under this parent folder."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "flowFolderOwnerEmail"
+   ],
+   "title": "list_flow_foldersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_tasks",
+  "description": "List a user's Engage to-dos (``POST /v2/tasks``).\n\n        ``status`` (``OPEN``/``DONE``/``DISMISSED``), ``types``\n        (``FLOW``/``MANUAL``) and ``taskAction`` (``CALL``) filter exactly as the\n        REST filter does; Gong requires all four fields, so the tool defaults\n        them to the full enum rather than answering a different set than REST.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "userId": {
+     "title": "Userid",
+     "type": "string",
+     "description": "The user whose tasks to list."
+    },
+    "status": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string",
+        "enum": [
+         "OPEN",
+         "DONE",
+         "DISMISSED"
+        ]
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Status",
+     "description": "Only tasks in this status. One of: OPEN, DONE, DISMISSED."
+    },
+    "types": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string",
+        "enum": [
+         "FLOW",
+         "MANUAL"
+        ]
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Types",
+     "description": "Only tasks of these types. One of: FLOW, MANUAL."
+    },
+    "taskAction": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string",
+        "enum": [
+         "CALL"
+        ]
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Taskaction",
+     "description": "Only tasks whose action is this. One of: CALL."
+    },
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "required": [
+    "userId"
+   ],
+   "title": "list_tasksArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_targets",
+  "description": "List the workspace's target (quota) definitions (``GET /v2/targets``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "workspaceId": {
+     "default": "9000000000000000001",
+     "title": "Workspaceid",
+     "type": "string",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "title": "list_targetsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_briefs",
+  "description": "List the workspace's AI brief definitions (``GET /v2/settings/briefs``).\n\n        The ``briefName`` ``get_entity_brief`` takes comes from here.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "title": "list_briefsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_coaching_metrics",
+  "description": "A manager's coaching roll-up over their direct reports (``GET /v2/coaching``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "managerId": {
+     "title": "Managerid",
+     "type": "string",
+     "description": "The manager whose team's coaching metrics to report."
+    },
+    "fromDateTime": {
+     "title": "Fromdatetime",
+     "type": "string",
+     "description": "Start of the coaching window, as an ISO-8601 instant."
+    },
+    "toDateTime": {
+     "title": "Todatetime",
+     "type": "string",
+     "description": "End of the coaching window, as an ISO-8601 instant."
+    },
+    "workspaceId": {
+     "default": "9000000000000000001",
+     "title": "Workspaceid",
+     "type": "string",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "required": [
+    "managerId",
+    "fromDateTime",
+    "toDateTime"
+   ],
+   "title": "get_coaching_metricsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_day_by_day_activity",
+  "description": "Per-user activity broken down by day (``POST /v2/stats/activity/day-by-day``).\n\n        The aggregate tool answers one number per rep for the whole range; this\n        is the per-day series behind it, which is what a \"did activity drop off\n        after the change?\" question needs.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDate": {
+     "title": "Fromdate",
+     "type": "string",
+     "description": "Start of the reporting range, inclusive (yyyy-MM-dd)."
+    },
+    "toDate": {
+     "title": "Todate",
+     "type": "string",
+     "description": "End of the reporting range; must be strictly later than fromDate (yyyy-MM-dd)."
+    },
+    "userIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Userids",
+     "description": "Only these users, by Gong id."
+    },
+    "createdFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdfromdatetime",
+     "description": "Only users whose Gong seat was created at or after this ISO-8601 instant."
+    },
+    "createdToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdtodatetime",
+     "description": "Only users whose Gong seat was created at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "fromDate",
+    "toDate"
+   ],
+   "title": "get_day_by_day_activityArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_activity_by_period",
+  "description": "Activity totals bucketed by period (``POST /v2/stats/activity/aggregate-by-period``).\n\n        ``aggregationPeriod`` takes Gong's own DAY/WEEK/MONTH/QUARTER/YEAR.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "fromDate": {
+     "title": "Fromdate",
+     "type": "string",
+     "description": "Start of the reporting range, inclusive (yyyy-MM-dd)."
+    },
+    "toDate": {
+     "title": "Todate",
+     "type": "string",
+     "description": "End of the reporting range; must be strictly later than fromDate (yyyy-MM-dd)."
+    },
+    "aggregationPeriod": {
+     "default": "DAY",
+     "title": "Aggregationperiod",
+     "type": "string",
+     "enum": [
+      "DAY",
+      "MONTH",
+      "QUARTER",
+      "WEEK",
+      "YEAR"
+     ],
+     "description": "Bucket size for the activity series. One of: DAY, MONTH, QUARTER, WEEK, YEAR."
+    },
+    "userIds": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Userids",
+     "description": "Only these users, by Gong id."
+    },
+    "createdFromDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdfromdatetime",
+     "description": "Only users whose Gong seat was created at or after this ISO-8601 instant."
+    },
+    "createdToDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Createdtodatetime",
+     "description": "Only users whose Gong seat was created at or before this ISO-8601 instant."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "fromDate",
+    "toDate"
+   ],
+   "title": "get_activity_by_periodArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_library_folders",
+  "description": "List the call library's folders (``GET /v2/library/folders``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "workspaceId": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Workspaceid",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "title": "list_library_foldersArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_library_folder_content",
+  "description": "The calls saved in one library folder (``GET /v2/library/folder-content``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "folderId": {
+     "title": "Folderid",
+     "type": "string",
+     "description": "The library folder's id."
+    }
+   },
+   "required": [
+    "folderId"
+   ],
+   "title": "get_library_folder_contentArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_logs",
+  "description": "Workspace audit and access log entries (``GET /v2/logs``).\n\n        ``logType`` is Gong's own enum; the window is the same ISO-8601 pair\n        REST takes, and the entries are the same records.\n        ",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "logType": {
+     "title": "Logtype",
+     "type": "string",
+     "enum": [
+      "AccessLog",
+      "UserActivityLog",
+      "UserCallPlay",
+      "ExternallySharedCallAccess",
+      "ExternallySharedCallPlay"
+     ],
+     "description": "Which log to read. One of: AccessLog, UserActivityLog, UserCallPlay, ExternallySharedCallAccess, ExternallySharedCallPlay."
+    },
+    "fromDateTime": {
+     "title": "Fromdatetime",
+     "type": "string",
+     "description": "Start of the range, inclusive, as an ISO-8601 instant (e.g. '2024-01-01T00:00:00Z')."
+    },
+    "toDateTime": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Todatetime",
+     "description": "End of the range, exclusive, as an ISO-8601 instant; defaults to now."
+    },
+    "limit": {
+     "anyOf": [
+      {
+       "type": "integer"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Limit",
+     "description": "Maximum records in this page; never widens a page past the workspace's page size."
+    },
+    "cursor": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Cursor",
+     "description": "The 'records.cursor' from the previous page; omit for the first page."
+    }
+   },
+   "required": [
+    "logType",
+    "fromDateTime"
+   ],
+   "title": "list_logsArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "list_permission_profiles",
+  "description": "The workspace's permission profiles (``GET /v2/all-permission-profiles``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "workspaceId": {
+     "default": "9000000000000000001",
+     "title": "Workspaceid",
+     "type": "string",
+     "description": "The Gong workspace to read; a single workspace is available."
+    }
+   },
+   "title": "list_permission_profilesArguments",
+   "type": "object"
+  }
+ },
+ {
+  "name": "get_permission_profile",
+  "description": "One permission profile by id (``GET /v2/permission-profile``).",
+  "readOnly": true,
+  "inputSchema": {
+   "properties": {
+    "profileId": {
+     "title": "Profileid",
+     "type": "string",
+     "description": "The permission profile's id."
+    }
+   },
+   "required": [
+    "profileId"
+   ],
+   "title": "get_permission_profileArguments",
+   "type": "object"
+  }
+ }
+]
