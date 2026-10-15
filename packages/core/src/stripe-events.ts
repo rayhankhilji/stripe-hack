@@ -48,13 +48,13 @@ export async function handleStripeEvent(evt: Stripe.Event): Promise<"processed" 
     .insert(schema.stripeEvent)
     .values({ id: evt.id, type: evt.type, livemode: evt.livemode, payload: evt as unknown as Record<string, unknown> })
     .onConflictDoNothing()
-    .returning({ id: schema.stripeEvent.id });
+    .returning();
   if (inserted.length === 0) {
     const reclaimed = await db
       .update(schema.stripeEvent)
       .set({ status: "received", error: null })
       .where(and(eq(schema.stripeEvent.id, evt.id), eq(schema.stripeEvent.status, "failed")))
-      .returning({ id: schema.stripeEvent.id });
+      .returning();
     if (reclaimed.length === 0) return "duplicate";
   }
 
