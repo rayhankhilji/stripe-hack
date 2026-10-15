@@ -1,0 +1,154 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "user": "user-7",
+   "text": "Vernall Capital - Renewal \u2192 Closed Won. Won on the integration story; expansion into the second region is the next conversation.",
+   "ts": "1746989527.002248",
+   "team": "T-saporanetworks",
+   "edited": {
+    "user": "user-7",
+    "ts": "1746989647.231168"
+   },
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d598345",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Vernall Capital - Renewal \u2192 Closed Won. Won on the integration story; expansion into the second region is the next conversation."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "3eb77c5e-3170-56a3-a5c0-6baf94a8bf55",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-9",
+      "user-2",
+      "user-30",
+      "user-38"
+     ],
+     "count": 4
+    }
+   ],
+   "pinned_to": [
+    "acct-8"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Final renewal sync - Vernall Capital (11m, 3 participants) \u2014 recording call-11 \u00b7 sentiment positive",
+   "ts": "1746827802.000623",
+   "team": "T-saporanetworks",
+   "thread_ts": "1746827802.000623",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-2",
+    "user-30",
+    "user-9"
+   ],
+   "latest_reply": "1746832422.000843",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b529BCe",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Final renewal sync - Vernall Capital (11m, 3 participants) \u2014 recording call-11 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "4d3ef2fd-aaaa-5d05-a456-7a34275e7421"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Renewal sign-off - Vernall Capital (23m, 5 participants) \u2014 recording call-419 \u00b7 sentiment positive",
+   "ts": "1746217465.000366",
+   "team": "T-saporanetworks",
+   "thread_ts": "1746217465.000366",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-30",
+    "user-38",
+    "user-9"
+   ],
+   "latest_reply": "1746221507.001028",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "92baD9a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Renewal sign-off - Vernall Capital (23m, 5 participants) \u2014 recording call-419 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "0f25c284-43f5-5f1f-9518-b60836a42b7b"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Vernall Capital - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week.",
+   "ts": "1746043250.002151",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "3450B1f",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Vernall Capital - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "863945c4-b7eb-582b-a27f-cb6a1fcaed4c",
+   "pinned_to": [
+    "acct-8"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

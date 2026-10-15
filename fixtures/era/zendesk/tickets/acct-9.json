@@ -1,0 +1,2466 @@
+[
+ {
+  "id": 4000053,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000053.json",
+  "external_id": "ticket-519",
+  "subject": "Reconciliation report results do not match the export (req_05fa7f4e5f)",
+  "raw_subject": "Reconciliation report results do not match the export (req_05fa7f4e5f)",
+  "description": "Escalating: ReferenceError on /v1/ledger/accounts at 16:26, repeating about once an hour under load. Retries against eu-west-1 fail the same way. Request req_05fa7f4e5f. We need reconciliation report stable before our go-live next week.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000068,
+  "submitter_id": 2000068,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-11-18T21:09:10Z",
+  "updated_at": "2024-12-05T13:33:24Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1729776804,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000187,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000187.json",
+  "external_id": "ticket-514",
+  "subject": "KYC check timing out in us-west-2 since our upgrade to the new plan",
+  "raw_subject": "KYC check timing out in us-west-2 since our upgrade to the new plan",
+  "description": "our warehouse scanners report that the KYC check times out after roughly 30 seconds. Started the moment we scaled up; no config changes on our side. Error code 503, request id req_bad4d8dbb4.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000037,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000068
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000068
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-02-21T19:18:45Z",
+  "updated_at": "2025-03-03T15:36:31Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "vincent@floraanalytics.io",
+     "name": "Vincent Yamada"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400187,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400187.json",
+   "assignee_id": 1000037,
+   "group_id": 5000004,
+   "requester_id": 2000070,
+   "ticket_id": 4000187,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-03-03T15:36:31Z",
+   "updated_at": "2025-03-03T15:36:31Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1737387391,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000247,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000247.json",
+  "external_id": "ticket-531",
+  "subject": "Attachment upload intermittently failing for the field sales team",
+  "raw_subject": "Attachment upload intermittently failing for the field sales team",
+  "description": "We are getting TypeError back from /v1/ledger/invoices every time the batch runs since your status page cleared the last incident - error 422, request req_12bc9f4c53. It looks like it started around 07:40; attachment upload stalls at ninety per cent and then restarts for the field sales team.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-03-26T13:25:21Z",
+  "updated_at": "2025-04-02T00:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400247,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400247.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000070,
+   "ticket_id": 4000247,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-04-02T00:00:00Z",
+   "updated_at": "2025-04-02T00:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1739923200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000323,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000323.json",
+  "external_id": "ticket-533",
+  "subject": "Payout schedule intermittently failing for the analysts in our Berlin office",
+  "raw_subject": "Payout schedule intermittently failing for the analysts in our Berlin office",
+  "description": "the analysts in our Berlin office report that the payout schedule escapes the delimiters so the file cannot be parsed. Started at the start of the shift; no config changes on our side. Error code 503, request id req_b926102921.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000071,
+  "submitter_id": 2000071,
+  "assignee_id": 1000037,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-05-06T01:23:49Z",
+  "updated_at": "2025-05-08T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "edward@floraanalytics.io",
+     "name": "Edward Blackbury"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-05-09T16:23:49Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1743116400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000564,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000564.json",
+  "external_id": "ticket-518",
+  "subject": "Error 429 when using ACH batch (req_ca19a23b09)",
+  "raw_subject": "Error 429 when using ACH batch (req_ca19a23b09)",
+  "description": "Hi team - the ACH batch rejects valid credentials. We noticed it yesterday afternoon and it has happened on every second attempt since. Correlation id req_ca19a23b09. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000072,
+  "submitter_id": 2000072,
+  "assignee_id": 1000020,
+  "organization_id": 3000009,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-08-26T22:53:26Z",
+  "updated_at": "2025-09-01T14:11:15Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "yasuhiro@floraanalytics.io",
+     "name": "Yasuhiro Ashbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400564,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400564.json",
+   "assignee_id": 1000020,
+   "group_id": 5000002,
+   "requester_id": 2000072,
+   "ticket_id": 4000564,
+   "score": "good",
+   "comment": "Clear answer and a workaround while we waited for the fix.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-09-01T14:11:15Z",
+   "updated_at": "2025-09-01T14:11:15Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1753107075,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000602,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000602.json",
+  "external_id": "ticket-535",
+  "subject": "java.sql.SQLTimeoutException on billing portal since we added the second region",
+  "raw_subject": "java.sql.SQLTimeoutException on billing portal since we added the second region",
+  "description": "Raising on behalf of our two busiest workspaces: the billing portal rounds the totals differently from the export on the shared demo workspace. First occurrence around 05:19, repeating roughly hourly. This is the second thing we have had to work around before the executive business review.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000071,
+  "submitter_id": 2000071,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000070
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000070
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-10T22:47:58Z",
+  "updated_at": "2025-09-15T16:41:28Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1754325688,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000629,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000629.json",
+  "external_id": "ticket-521",
+  "subject": "Statement PDF silently truncating in eu-west-1 since our auditors asked us to rotate keys",
+  "raw_subject": "Statement PDF silently truncating in eu-west-1 since our auditors asked us to rotate keys",
+  "description": "Statement PDF truncates anything longer than a few thousand characters on our regulated tenant since our auditors asked us to rotate keys. Our gateway logs show:\n  GET /v1/risk-scoring/events -> 400 TimeoutError after 17s (x-request-id: req_f01eeba289)\nEvery failing call is against /v1/risk-scoring/exports out of eu-west-1. Blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000069,
+  "submitter_id": 2000069,
+  "assignee_id": 1000037,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-20T00:47:00Z",
+  "updated_at": "2025-10-01T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ricardo@floraanalytics.io",
+     "name": "Ricardo Ashfield"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1755730800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000678,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000678.json",
+  "external_id": "ticket-524",
+  "subject": "Request: raise our SAML metadata endpoint rate limit before the migration off our legacy system",
+  "raw_subject": "Request: raise our SAML metadata endpoint rate limit before the migration off our legacy system",
+  "description": "Raising on behalf of our whole support team: the SAML metadata endpoint rejects a payload its own schema allows on the EU region. First occurrence around 00:13, repeating twice a shift. This is the second thing we have had to work around before the migration off our legacy system.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000069,
+  "submitter_id": 2000069,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-09T01:27:24Z",
+  "updated_at": "2025-10-09T05:56:40Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1756360600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000711,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000711.json",
+  "external_id": "ticket-511",
+  "subject": "Mobile app silently truncating in us-east-1 since this morning",
+  "raw_subject": "Mobile app silently truncating in us-east-1 since this morning",
+  "description": "Escalating: java.lang.IllegalStateException on /v1/payouts/webhooks at 10:00, repeating twice a shift. Retries against us-east-1 fail the same way. Request req_5ecabf0d62. We need mobile app stable before customer onboarding.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-21T17:41:48Z",
+  "updated_at": "2025-10-23T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "vincent@floraanalytics.io",
+     "name": "Vincent Yamada"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1757631600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000772,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000772.json",
+  "external_id": "ticket-532",
+  "subject": "Question about ledger export limits on our staging tenant",
+  "raw_subject": "Question about ledger export limits on our staging tenant",
+  "description": "Could you check ledger export? It renders an empty state despite matching rows - error 503, request req_3053679212, on our staging tenant. Not urgent yet, but it becomes urgent at payroll cutover.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000068,
+  "submitter_id": 2000068,
+  "assignee_id": 1000014,
+  "organization_id": 3000009,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000067,
+   2000070
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000067,
+   2000070
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-13T17:56:03Z",
+  "updated_at": "2025-11-25T10:13:48Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "deborah@floraanalytics.io",
+     "name": "Deborah Bainwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-11-14T22:56:03Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1760436828,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000773,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000773.json",
+  "external_id": "ticket-534",
+  "subject": "Bulk import unavailable for anyone off the corporate VPN since the weekend",
+  "raw_subject": "Bulk import unavailable for anyone off the corporate VPN since the weekend",
+  "description": "We are getting java.util.concurrent.TimeoutException back from /v1/merchant-onboarding/exports continuously since the weekend - error 403, request req_19eff48b6a. It looks like it started around 07:17; the bulk import returns records belonging to a different workspace for anyone off the corporate VPN.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000004,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000071
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000071
+  ],
+  "tags": [
+   "task",
+   "urgent",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-13T23:29:02Z",
+  "updated_at": "2025-11-14T15:21:03Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-11-24T01:29:02Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400773,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400773.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000070,
+   "ticket_id": 4000773,
+   "score": "bad",
+   "comment": "I had to explain the problem three times to three people.",
+   "reason": "The issue was not resolved",
+   "reason_id": 7450006,
+   "reason_code": 6,
+   "created_at": "2025-11-14T15:21:03Z",
+   "updated_at": "2025-11-14T15:21:03Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1759504863,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000783,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000783.json",
+  "external_id": "ticket-527",
+  "subject": "Chargeback queue producing an unparsable export in eu-west-1 since the holiday freeze ended",
+  "raw_subject": "Chargeback queue producing an unparsable export in eu-west-1 since the holiday freeze ended",
+  "description": "our nightly job reports that the chargeback queue escapes the delimiters so the file cannot be parsed. Started first thing today; no config changes on our side. Error code 503, request id req_6927ec235f.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000067,
+  "submitter_id": 2000067,
+  "assignee_id": 1000004,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-17T14:27:14Z",
+  "updated_at": "2025-12-01T10:28:15Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1760956095,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000799,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000799.json",
+  "external_id": "ticket-525",
+  "subject": "Request: raise our statement PDF rate limit before the migration off our legacy system",
+  "raw_subject": "Request: raise our statement PDF rate limit before the migration off our legacy system",
+  "description": "every user with the analyst role reports that the statement PDF times out after roughly 30 seconds in eu-west-1. One trace, if it helps:\n  DELETE /v1/ledger/records -> 500 *pq.Error after 16s (x-request-id: req_8459fc0648)\nWe have not changed anything since your status page cleared the last incident. This is blocking the migration off our legacy system.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000072,
+  "submitter_id": 2000072,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000071
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000071
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-25T19:51:26Z",
+  "updated_at": "2025-11-28T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "yasuhiro@floraanalytics.io",
+     "name": "Yasuhiro Ashbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1760742000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000889,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000889.json",
+  "external_id": "ticket-517",
+  "subject": "Ledger export failing for our whole support team since 14:16",
+  "raw_subject": "Ledger export failing for our whole support team since 14:16",
+  "description": "We are evaluating ledger export for the integration handover to our partner and hit a blocker: it sends the notification twice. Tried on our regulated tenant with the same result (ref req_597d3712d4). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000067,
+  "submitter_id": 2000067,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000070,
+   2000072
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000072,
+   2000070
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-29T18:06:41Z",
+  "updated_at": "2026-01-09T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "nathan@floraanalytics.io",
+     "name": "Nathan Makarev"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400889,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400889.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000067,
+   "ticket_id": 4000889,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-01-09T00:00:00Z",
+   "updated_at": "2026-01-09T00:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1764288000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000978,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000978.json",
+  "external_id": "ticket-520",
+  "subject": "Chargeback queue - failing after retry (req_2e3a6bdd4f)",
+  "raw_subject": "Chargeback queue - failing after retry (req_2e3a6bdd4f)",
+  "description": "Reporting this from the APAC region at 08:04: the chargeback queue fails on the retry after the first attempt went through. It has happened three or four times, always with error 403. We need it stable before the board reporting pack - what do you need from us?",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000069,
+  "submitter_id": 2000069,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000070
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000070
+  ],
+  "tags": [
+   "question",
+   "urgent",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-01T17:50:29Z",
+  "updated_at": "2026-02-03T05:35:33Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1766468133,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000988,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000988.json",
+  "external_id": "ticket-522",
+  "subject": "Cannot complete chargeback queue just before lunch",
+  "raw_subject": "Cannot complete chargeback queue just before lunch",
+  "description": "the analysts in our Berlin office report that the chargeback queue loses the filter selection on pagination. Started just before lunch; no config changes on our side. Error code 503, request id req_2dfa01435a.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000071,
+  "submitter_id": 2000071,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-03T17:45:04Z",
+  "updated_at": "2026-02-11T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "edward@floraanalytics.io",
+     "name": "Edward Blackbury"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1767139200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001023,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001023.json",
+  "external_id": "ticket-530",
+  "subject": "/v1/merchant-dashboard/events returning 503 for two of our admins - ledger export unusable",
+  "raw_subject": "/v1/merchant-dashboard/events returning 503 for two of our admins - ledger export unusable",
+  "description": "two of our admins report that the ledger export rounds the totals differently from the export. Started yesterday afternoon; no config changes on our side. Error code 503, request id req_ec78ba5765.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000068,
+  "submitter_id": 2000068,
+  "assignee_id": 1000007,
+  "organization_id": 3000009,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-17T18:03:09Z",
+  "updated_at": "2026-03-04T09:13:13Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "deborah@floraanalytics.io",
+     "name": "Deborah Bainwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1768986793,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001152,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001152.json",
+  "external_id": "ticket-516",
+  "subject": "KYC check - missing the newest records (req_b1d917aa92)",
+  "raw_subject": "KYC check - missing the newest records (req_b1d917aa92)",
+  "description": "We are evaluating KYC check for the seasonal traffic peak and hit a blocker: it omits anything created in the last hour. Tried on our pre-production mirror with the same result (ref req_b1d917aa92). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000004,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-30T00:55:22Z",
+  "updated_at": "2026-04-07T15:34:52Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "vincent@floraanalytics.io",
+     "name": "Vincent Yamada"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-04-04T16:55:22Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1771947292,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001172,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001172.json",
+  "external_id": "ticket-513",
+  "subject": "/v1/settlement-engine/webhooks returning 403 for two of our admins - sanctions screening unusable",
+  "raw_subject": "/v1/settlement-engine/webhooks returning 403 for two of our admins - sanctions screening unusable",
+  "description": "We are evaluating sanctions screening for the regulator's submission deadline and hit a blocker: it loses the filter selection on pagination. Tried on the Canadian data residency tenant with the same result (ref req_446ca699d6). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000072,
+  "submitter_id": 2000072,
+  "assignee_id": 1000038,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000069,
+   2000070
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000070,
+   2000069
+  ],
+  "tags": [
+   "question",
+   "low",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-05T04:43:24Z",
+  "updated_at": "2026-04-11T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "yasuhiro@floraanalytics.io",
+     "name": "Yasuhiro Ashbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401172,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401172.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000072,
+   "ticket_id": 4001172,
+   "score": "bad",
+   "comment": null,
+   "reason": "The issue took too long to resolve",
+   "reason_id": 7450005,
+   "reason_code": 5,
+   "created_at": "2026-04-11T00:00:00Z",
+   "updated_at": "2026-04-11T00:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1772236800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001240,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001240.json",
+  "external_id": "ticket-529",
+  "subject": "RuntimeError from /v1/payments-api/sessions - ledger export on the shared demo workspace (req_26d650e165)",
+  "raw_subject": "RuntimeError from /v1/payments-api/sessions - ledger export on the shared demo workspace (req_26d650e165)",
+  "description": "We are evaluating ledger export for the executive business review and hit a blocker: it stalls at ninety per cent and then restarts. Tried on the shared demo workspace with the same result (ref req_26d650e165). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000069,
+  "submitter_id": 2000069,
+  "assignee_id": 1000004,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-28T19:56:35Z",
+  "updated_at": "2026-05-04T09:48:11Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ricardo@floraanalytics.io",
+     "name": "Ricardo Ashfield"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1774259291,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001244,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001244.json",
+  "external_id": "ticket-515",
+  "subject": "Statement PDF - returning empty results (req_fd0cbf82ff)",
+  "raw_subject": "Statement PDF - returning empty results (req_fd0cbf82ff)",
+  "description": "Since our upgrade to the new plan, the statement PDF renders an empty state despite matching rows. It reproduces on production for every user with the analyst role. Request id req_fd0cbf82ff is one example. This is blocking customer onboarding.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000069,
+  "submitter_id": 2000069,
+  "assignee_id": 1000027,
+  "organization_id": 3000009,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-30T22:52:15Z",
+  "updated_at": "2026-05-12T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ricardo@floraanalytics.io",
+     "name": "Ricardo Ashfield"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-15T09:52:15Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1774998000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001248,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001248.json",
+  "external_id": "ticket-523",
+  "subject": "AbortError on SCIM provisioning since the weekend",
+  "raw_subject": "AbortError on SCIM provisioning since the weekend",
+  "description": "Since the weekend, SCIM provisioning renders an empty state despite matching rows. It reproduces on our staging tenant for the field sales team. Request id req_9aa8b5c24c is one example. This is blocking the quarterly audit.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000071,
+  "submitter_id": 2000071,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-04T17:04:19Z",
+  "updated_at": "2026-05-07T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1774566000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001268,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001268.json",
+  "external_id": "ticket-528",
+  "subject": "Ledger export reporting the wrong count on our on-premise gateway",
+  "raw_subject": "Ledger export reporting the wrong count on our on-premise gateway",
+  "description": "We are evaluating ledger export for payroll cutover and hit a blocker: it rounds the totals differently from the export. Tried on our on-premise gateway with the same result (ref req_f60780168a). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000070,
+  "submitter_id": 2000070,
+  "assignee_id": 1000041,
+  "organization_id": 3000009,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000067,
+   2000072
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000072,
+   2000067
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-07T19:08:01Z",
+  "updated_at": "2026-05-12T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "vincent@floraanalytics.io",
+     "name": "Vincent Yamada"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-22T20:08:01Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1774998000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001307,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001307.json",
+  "external_id": "ticket-526",
+  "subject": "Performance regression in reconciliation report - returning an unstable order",
+  "raw_subject": "Performance regression in reconciliation report - returning an unstable order",
+  "description": "Raising on behalf of the analysts in our Berlin office: the reconciliation report orders the results differently on every call on the APAC region. First occurrence around 15:24, repeating every time the batch runs. This is the second thing we have had to work around before our go-live next week.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000072,
+  "submitter_id": 2000072,
+  "assignee_id": 1000007,
+  "organization_id": 3000009,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-24T15:31:08Z",
+  "updated_at": "2026-06-05T11:36:13Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1777030573,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001345,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001345.json",
+  "external_id": "ticket-512",
+  "subject": "Request: raise our ACH batch rate limit before payroll cutover",
+  "raw_subject": "Request: raise our ACH batch rate limit before payroll cutover",
+  "description": "ACH batch logs the user out mid-session on our pre-production mirror since the holiday freeze ended. Our gateway logs show:\n  PATCH /v1/payouts/records -> 429 *fs.PathError after 16s (x-request-id: req_41ad83d21f)\nEvery failing call is against /v1/payouts/exports out of us-east-1. Blocking payroll cutover.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000071,
+  "submitter_id": 2000071,
+  "assignee_id": 1000027,
+  "organization_id": 3000009,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000007
+  ],
+  "follower_ids": [
+   1000007
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_flora_analytics",
+   "smb",
+   "technology",
+   "churned",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-07T02:38:24Z",
+  "updated_at": "2026-06-09T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "edward@floraanalytics.io",
+     "name": "Edward Blackbury"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-06-11T10:38:24Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1777417200,
+  "forum_topic_id": null
+ }
+]

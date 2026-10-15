@@ -1,0 +1,286 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "subtype": "channel_archive",
+   "user": "user-7",
+   "text": "<@user-7> archived the channel",
+   "ts": "1790577426.001987",
+   "team": "T-saporanetworks",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-42",
+      "user-30"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-7",
+   "text": "Bayfern Care - Renewal FY26 \u2192 Closed Lost. Vendor consolidation ruled out adding another supplier.",
+   "ts": "1788585201.001162",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "214cD68",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Bayfern Care - Renewal FY26 \u2192 Closed Lost. Vendor consolidation ruled out adding another supplier."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "2c18a1f0-2917-5fc7-a24d-c3ffcd6f2a72",
+   "pinned_to": [
+    "acct-39"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-31",
+   "text": "Bayfern Care - Renewal FY25 \u2192 Closed Won. Closed won after the security review cleared - champion drove it internally.",
+   "ts": "1770508800.001101",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "91765A6",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Bayfern Care - Renewal FY25 \u2192 Closed Won. Closed won after the security review cleared - champion drove it internally."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "cf268ccb-5a3b-54c5-bf42-1307f129c1d6"
+  },
+  {
+   "type": "message",
+   "user": "user-22",
+   "text": "Call summary: Final renewal sync - Bayfern Care (27m, 5 participants) \u2014 recording call-6 \u00b7 sentiment at-risk",
+   "ts": "1770159454.000595",
+   "team": "T-saporanetworks",
+   "thread_ts": "1770159454.000595",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-30",
+    "user-42"
+   ],
+   "latest_reply": "1770162243.000424",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "453139f",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Final renewal sync - Bayfern Care (27m, 5 participants) \u2014 recording call-6 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "4d48a826-e5df-5896-b564-38e42ddfc082",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-7",
+      "user-44",
+      "user-5",
+      "user-31"
+     ],
+     "count": 4
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-31",
+      "user-44"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Roadmap review - Bayfern Care (89m, 5 participants) \u2014 recording call-414 \u00b7 sentiment at-risk",
+   "ts": "1767657555.002456",
+   "team": "T-saporanetworks",
+   "thread_ts": "1767657555.002456",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-30",
+    "user-5"
+   ],
+   "latest_reply": "1767662733.000714",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d60fDEa",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Roadmap review - Bayfern Care (89m, 5 participants) \u2014 recording call-414 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "3b90aab3-0515-5aa5-b0c3-0a49e7920b40"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "<@user-42> Bayfern Care - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week.",
+   "ts": "1708300800.002201",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "896aCD9",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "user",
+         "user_id": "user-42"
+        },
+        {
+         "type": "text",
+         "text": " Bayfern Care - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "dc59e20f-a9fd-57a8-94cf-5eddea4b417f",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-7",
+      "user-5",
+      "user-42",
+      "user-22"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Contract redlines - Bayfern Care (16m, 5 participants) \u2014 recording call-244 \u00b7 sentiment positive",
+   "ts": "1708037229.000671",
+   "team": "T-saporanetworks",
+   "thread_ts": "1708037229.000671",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-30",
+    "user-42",
+    "user-7"
+   ],
+   "latest_reply": "1708039995.001796",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "81bd795",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Contract redlines - Bayfern Care (16m, 5 participants) \u2014 recording call-244 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c058ffcf-a9f2-5ac9-ae81-99f23eaddaf4"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Platform walkthrough - Bayfern Care (23m, 2 participants) \u2014 recording call-328 \u00b7 sentiment neutral",
+   "ts": "1707865919.000661",
+   "team": "T-saporanetworks",
+   "thread_ts": "1707865919.000661",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-30",
+    "user-7"
+   ],
+   "latest_reply": "1707869029.000671",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "7d305Ce",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Platform walkthrough - Bayfern Care (23m, 2 participants) \u2014 recording call-328 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "526e09a3-022e-5370-bfae-efa6d36f5071",
+   "pinned_to": [
+    "acct-39"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

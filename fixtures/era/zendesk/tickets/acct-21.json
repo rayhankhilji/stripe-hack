@@ -1,0 +1,2193 @@
+[
+ {
+  "id": 4001536,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001536.json",
+  "external_id": "ticket-697",
+  "subject": "[502] Bulk import on the shared demo workspace",
+  "raw_subject": "[502] Bulk import on the shared demo workspace",
+  "description": "the analysts in our Berlin office report that the bulk import queues the work but never dispatches it. Started on Monday evening; no config changes on our side. Error code 502, request id req_5d87a8f79e.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000137,
+  "submitter_id": 2000137,
+  "assignee_id": 1000038,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-11T06:18:35Z",
+  "updated_at": "2026-08-18T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "jmoore@tenet.com",
+     "name": "Julie Moore"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1783465200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001549,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001549.json",
+  "external_id": "ticket-714",
+  "subject": "Request: raise our alert rule rate limit before customer onboarding",
+  "raw_subject": "Request: raise our alert rule rate limit before customer onboarding",
+  "description": "our API integration reports that the alert rule escapes the delimiters so the file cannot be parsed in us-west-2. One trace, if it helps:\n  DELETE /v1/reconciliation/sessions -> 500 java.net.SocketTimeoutException after 9s (x-request-id: req_5effb55045)\nWe have not changed anything since we enabled SSO. This is blocking customer onboarding.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000007,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-13T15:35:01Z",
+  "updated_at": "2026-09-11T13:43:50Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "aalderridge@tenet.com",
+     "name": "Adya Alderridge"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785505430,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001565,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001565.json",
+  "external_id": "ticket-708",
+  "subject": "Statement PDF unavailable for everyone in the finance group since this morning",
+  "raw_subject": "Statement PDF unavailable for everyone in the finance group since this morning",
+  "description": "We are evaluating statement PDF for the annual pricing refresh and hit a blocker: it fails on roughly every third attempt. Tried on our staging tenant with the same result (ref req_c49cdcc51a). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000134,
+  "submitter_id": 2000134,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-18T20:18:17Z",
+  "updated_at": "2026-08-28T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784329200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001573,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001573.json",
+  "external_id": "ticket-701",
+  "subject": "Trend chart dropping the last page since 01:26 on our sandbox",
+  "raw_subject": "Trend chart dropping the last page since 01:26 on our sandbox",
+  "description": "We are evaluating trend chart for our SOC 2 evidence run and hit a blocker: it silently drops the last page of results. Tried on our sandbox with the same result (ref req_3b61ddb759). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000136,
+  "submitter_id": 2000136,
+  "assignee_id": 1000014,
+  "organization_id": 3000021,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-21T01:07:31Z",
+  "updated_at": "2026-09-04T08:42:57Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-12T10:07:31Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401573,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401573.json",
+   "assignee_id": 1000014,
+   "group_id": 5000002,
+   "requester_id": 2000136,
+   "ticket_id": 4001573,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-04T08:42:57Z",
+   "updated_at": "2026-09-04T08:42:57Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784882577,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001578,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001578.json",
+  "external_id": "ticket-707",
+  "subject": "[422] Admin console on the disaster-recovery site",
+  "raw_subject": "[422] Admin console on the disaster-recovery site",
+  "description": "Since your status page cleared the last incident, the admin console omits anything created in the last hour. It reproduces on the disaster-recovery site for every user with the analyst role. Request id req_3343180fba is one example. This is blocking the integration handover to our partner.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000139,
+  "submitter_id": 2000139,
+  "assignee_id": 1000007,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   2000136
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000136
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-21T16:58:15Z",
+  "updated_at": "2026-08-25T09:13:38Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401578,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401578.json",
+   "assignee_id": 1000007,
+   "group_id": 5000007,
+   "requester_id": 2000139,
+   "ticket_id": 4001578,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-08-25T09:13:38Z",
+   "updated_at": "2026-08-25T09:13:38Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784020418,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001585,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001585.json",
+  "external_id": "ticket-703",
+  "subject": "Reconciliation report leaking across workspaces in eu-west-1 since we added the second region",
+  "raw_subject": "Reconciliation report leaking across workspaces in eu-west-1 since we added the second region",
+  "description": "We are evaluating reconciliation report for our SOC 2 evidence run and hit a blocker: it returns records belonging to a different workspace. Tried on our regulated tenant with the same result (ref req_7c654f9f53). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000138,
+  "submitter_id": 2000138,
+  "assignee_id": 1000038,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-24T17:14:52Z",
+  "updated_at": "2026-08-27T23:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784242800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001593,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001593.json",
+  "external_id": "ticket-712",
+  "subject": "Invoice PDF losing filters in eu-west-1 since Monday",
+  "raw_subject": "Invoice PDF losing filters in eu-west-1 since Monday",
+  "description": "Invoice PDF loses the filter selection on pagination on our second workspace since Monday. Our gateway logs show:\n  GET /v1/risk-scoring/records -> 422 java.net.SocketTimeoutException after 20s (x-request-id: req_fefb93acb6)\nEvery failing call is against /v1/risk-scoring/exports out of eu-west-1. Blocking the integration handover to our partner.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000038,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-25T19:28:54Z",
+  "updated_at": "2026-09-01T23:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1784674800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001598,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001598.json",
+  "external_id": "ticket-700",
+  "subject": "Retention policy failing for everyone in the finance group since 10:53",
+  "raw_subject": "Retention policy failing for everyone in the finance group since 10:53",
+  "description": "We are getting SyntaxError back from /v1/risk-scoring/records three or four times since your status page cleared the last incident - error 504, request req_6323d65837. It looks like it started around 10:53; the retention policy rejects a payload its own schema allows for everyone in the finance group.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000134,
+  "submitter_id": 2000134,
+  "assignee_id": 1000027,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000031
+  ],
+  "follower_ids": [
+   1000031
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-26T22:15:46Z",
+  "updated_at": "2026-09-11T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "savonton@tenet.com",
+     "name": "Sean Avonton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-08-29T07:15:46Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1785538800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001600,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001600.json",
+  "external_id": "ticket-711",
+  "subject": "Admin console failing for anyone off the corporate VPN since 10:02",
+  "raw_subject": "Admin console failing for anyone off the corporate VPN since 10:02",
+  "description": "Since we enabled SSO, the admin console queues the work but never dispatches it. It reproduces on the APAC region for anyone off the corporate VPN. Request id req_18074577d0 is one example. This is blocking the seasonal traffic peak.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000134,
+   2000138
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000138,
+   2000134
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-26T23:02:34Z",
+  "updated_at": "2026-09-03T14:44:23Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "aalderridge@tenet.com",
+     "name": "Adya Alderridge"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1784817863,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001611,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001611.json",
+  "external_id": "ticket-710",
+  "subject": "Card authorisation webhook unavailable for two of our admins since our auditors asked us to rotate keys",
+  "raw_subject": "Card authorisation webhook unavailable for two of our admins since our auditors asked us to rotate keys",
+  "description": "Raising on behalf of two of our admins: the card authorisation webhook rounds the totals differently from the export on the EU region. First occurrence around 08:13, repeating a handful of times. This is the second thing we have had to work around before the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000007,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-28T20:16:53Z",
+  "updated_at": "2026-09-09T07:30:47Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1785310247,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001612,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001612.json",
+  "external_id": "ticket-709",
+  "subject": "/v1/ledger/accounts returning 400 for our two busiest workspaces - SSO login unusable",
+  "raw_subject": "/v1/ledger/accounts returning 400 for our two busiest workspaces - SSO login unusable",
+  "description": "We are evaluating SSO login for the regulator's submission deadline and hit a blocker: it shows stale data until a hard refresh. Tried on the Canadian data residency tenant with the same result (ref req_c3686f2e05). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000139,
+  "submitter_id": 2000139,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-29T11:11:22Z",
+  "updated_at": "2026-09-03T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "kbeckbourne@tenet.com",
+     "name": "Kathy Beckbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-02T18:11:22Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784847600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001631,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001631.json",
+  "external_id": "ticket-718",
+  "subject": "ACH batch results do not match the export (req_3028c23da0)",
+  "raw_subject": "ACH batch results do not match the export (req_3028c23da0)",
+  "description": "Escalating: FetchError on /v1/reconciliation/documents at 11:36, repeating every time the batch runs. Retries against us-east-1 fail the same way. Request req_3028c23da0. We need ACH batch stable before the winter planning cycle.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-02T22:07:57Z",
+  "updated_at": "2026-09-28T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401631,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401631.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000135,
+   "ticket_id": 4001631,
+   "score": "good",
+   "comment": "Quick and patient with my follow-up questions.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-28T23:00:00Z",
+   "updated_at": "2026-09-28T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787007600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001640,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001640.json",
+  "external_id": "ticket-715",
+  "subject": "Bulk import returning an unstable order for two of our admins",
+  "raw_subject": "Bulk import returning an unstable order for two of our admins",
+  "description": "Bulk import orders the results differently on every call on our staging tenant since the failover drill. Our gateway logs show:\n  PATCH /v1/ledger/jobs -> 503 java.sql.SQLTransientConnectionException after 24s (x-request-id: req_29745cf14a)\nEvery failing call is against /v1/ledger/webhooks out of eu-west-1. Blocking the migration off our legacy system.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000134,
+  "submitter_id": 2000134,
+  "assignee_id": 1000016,
+  "organization_id": 3000021,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000133,
+   2000139
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000139,
+   2000133
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-03T22:57:13Z",
+  "updated_at": "2026-09-16T10:28:03Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785925683,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001661,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001661.json",
+  "external_id": "ticket-698",
+  "subject": "Ledger export failing for anyone off the corporate VPN since 11:56",
+  "raw_subject": "Ledger export failing for anyone off the corporate VPN since 11:56",
+  "description": "We are evaluating ledger export for our disaster-recovery certification and hit a blocker: it loses the filter selection on pagination. Tried on our sandbox with the same result (ref req_f136fb3666). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000133,
+  "submitter_id": 2000133,
+  "assignee_id": 1000004,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-07T16:00:52Z",
+  "updated_at": "2026-09-25T16:49:32Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "jalderbourne@tenet.com",
+     "name": "Joan Alderbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-11T20:00:52Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786726172,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001666,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001666.json",
+  "external_id": "ticket-713",
+  "subject": "Error 401 when using activity feed (req_e87ad98a81)",
+  "raw_subject": "Error 401 when using activity feed (req_e87ad98a81)",
+  "description": "everyone in the finance group reports that the activity feed renders an empty state despite matching rows in us-west-2. One trace, if it helps:\n  PATCH /v1/payouts/jobs -> 401 OperationalError after 6s (x-request-id: req_e87ad98a81)\nWe have not changed anything since the schema change last sprint. This is blocking our disaster-recovery certification.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000137,
+  "submitter_id": 2000137,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-08T13:05:17Z",
+  "updated_at": "2026-09-18T23:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786143600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001669,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001669.json",
+  "external_id": "ticket-699",
+  "subject": "Error 500 when using sanctions screening (req_f2bec2192c)",
+  "raw_subject": "Error 500 when using sanctions screening (req_f2bec2192c)",
+  "description": "Reporting this from our on-premise gateway at 12:27: sanctions screening escapes the delimiters so the file cannot be parsed. It has happened a handful of times, always with error 500. We need it stable before the annual pricing refresh - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000135,
+  "submitter_id": 2000135,
+  "assignee_id": 1000038,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000134
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000134
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-08T21:53:09Z",
+  "updated_at": "2026-09-14T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "aalderridge@tenet.com",
+     "name": "Adya Alderridge"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785798000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001677,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001677.json",
+  "external_id": "ticket-696",
+  "subject": "*fs.PathError from /v1/payments-api/exports - custom fields on our staging tenant (req_4f7f3ee481)",
+  "raw_subject": "*fs.PathError from /v1/payments-api/exports - custom fields on our staging tenant (req_4f7f3ee481)",
+  "description": "Raising on behalf of about a dozen users: custom fields returns a 500 for about one request in ten on our staging tenant. First occurrence around 17:27, repeating on every second attempt. This is the second thing we have had to work around before payroll cutover.",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000138,
+  "submitter_id": 2000138,
+  "assignee_id": 1000007,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-09T19:32:24Z",
+  "updated_at": "2026-09-18T11:35:41Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "adeanbury@tenet.com",
+     "name": "Andrew Deanbury"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-12T21:32:24Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401677,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401677.json",
+   "assignee_id": 1000007,
+   "group_id": 5000007,
+   "requester_id": 2000138,
+   "ticket_id": 4001677,
+   "score": "good",
+   "comment": "Sorted the same day, thank you.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-18T11:35:41Z",
+   "updated_at": "2026-09-18T11:35:41Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1786102541,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001680,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001680.json",
+  "external_id": "ticket-705",
+  "subject": "[500] Sanctions screening on the shared demo workspace",
+  "raw_subject": "[500] Sanctions screening on the shared demo workspace",
+  "description": "Raising on behalf of everyone in the finance group: sanctions screening applies yesterday's configuration instead of the current one on the shared demo workspace. First occurrence around 06:22, repeating a handful of times. This is the second thing we have had to work around before our disaster-recovery certification.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000134,
+  "submitter_id": 2000134,
+  "assignee_id": 1000004,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-10T12:03:26Z",
+  "updated_at": "2026-09-25T10:15:41Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786702541,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001711,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001711.json",
+  "external_id": "ticket-706",
+  "subject": "Cannot complete data residency setting during the Thursday batch",
+  "raw_subject": "Cannot complete data residency setting during the Thursday batch",
+  "description": "Reporting this from production at 09:31: the data residency setting escapes the delimiters so the file cannot be parsed. It has happened three or four times, always with error 401. We need it stable before the integration handover to our partner - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000133,
+  "submitter_id": 2000133,
+  "assignee_id": 1000038,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-17T18:07:22Z",
+  "updated_at": "2026-09-25T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786748400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001739,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001739.json",
+  "external_id": "ticket-716",
+  "subject": "runtime.Error from /v1/kyc/records - sanctions screening on our regulated tenant (req_188131a3a2)",
+  "raw_subject": "runtime.Error from /v1/kyc/records - sanctions screening on our regulated tenant (req_188131a3a2)",
+  "description": "We are evaluating sanctions screening for our disaster-recovery certification and hit a blocker: it returns records belonging to a different workspace. Tried on our regulated tenant with the same result (ref req_188131a3a2). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000136,
+  "submitter_id": 2000136,
+  "assignee_id": 1000027,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000007,
+   2000137
+  ],
+  "follower_ids": [
+   1000007
+  ],
+  "email_cc_ids": [
+   2000137
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-24T17:26:04Z",
+  "updated_at": "2026-10-01T14:51:17Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "raltenlund@tenet.com",
+     "name": "Raymond Altenlund"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-27T09:26:04Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1787237477,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001742,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001742.json",
+  "external_id": "ticket-702",
+  "subject": "The integration handover to our partner blocked by sandbox refresh",
+  "raw_subject": "The integration handover to our partner blocked by sandbox refresh",
+  "description": "our two busiest workspaces report that the sandbox refresh fails on roughly every third attempt. Started this morning; no config changes on our side. Error code 401, request id req_cd8f7cd570.",
+  "status": "open",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000138,
+  "submitter_id": 2000138,
+  "assignee_id": 1000007,
+  "organization_id": 3000021,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-25T21:26:25Z",
+  "updated_at": "2026-09-30T09:15:55Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "adeanbury@tenet.com",
+     "name": "Andrew Deanbury"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300002,
+  "due_at": "2026-10-01T17:13:18Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1787130955,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001757,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001757.json",
+  "external_id": "ticket-717",
+  "subject": "Observed: payments-api returns 404 for valid routes in our pre-production mirror",
+  "raw_subject": "Observed: payments-api returns 404 for valid routes in our pre-production mirror",
+  "description": "Our users report that payments-api returns 404 for valid routes. It began around 16:13; the issue is still happening.",
+  "status": "open",
+  "priority": "normal",
+  "type": "incident",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000139,
+  "submitter_id": 2000139,
+  "assignee_id": 1000041,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "incident",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-29T20:13:56Z",
+  "updated_at": "2026-09-30T21:02:28Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "kbeckbourne@tenet.com",
+     "name": "Kathy Beckbourne"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": "3.9.1"
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": "3.9.1"
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300002,
+  "due_at": null,
+  "problem_id": 4001756,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995001,
+  "generated_timestamp": 1787173348,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001792,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001792.json",
+  "external_id": "ticket-704",
+  "subject": "Question about statement PDF limits on the disaster-recovery site",
+  "raw_subject": "Question about statement PDF limits on the disaster-recovery site",
+  "description": "Raising on behalf of our whole support team: the statement PDF rounds the totals differently from the export on the disaster-recovery site. First occurrence around 10:18, repeating every time the batch runs. This is the second thing we have had to work around before the executive business review.",
+  "status": "new",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000133,
+  "submitter_id": 2000133,
+  "assignee_id": null,
+  "organization_id": 3000021,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tenet_group",
+   "mid-market",
+   "telecommunications",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T20:21:49Z",
+  "updated_at": "2026-10-02T20:21:49Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787343709,
+  "forum_topic_id": null
+ }
+]

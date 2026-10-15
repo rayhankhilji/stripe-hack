@@ -1,0 +1,1604 @@
+{
+ "files": [
+  {
+   "id": "doc-8611",
+   "name": "Celestine Health - Renewal Proposal - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-10T08:06:33.000Z",
+   "modifiedTime": "2026-10-10T08:06:33.000Z",
+   "size": "3323",
+   "webViewLink": "https://docs.google.com/document/d/doc-8611/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-onboarding"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - sales_ops",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-onboarding",
+   "fileSize": "3323",
+   "viewUrl": "https://docs.google.com/document/d/doc-8611/edit",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - sales_ops Confidential \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Celestine Hea"
+  },
+  {
+   "id": "doc-1018",
+   "name": "Deploy Checklist Q3 - internal_only (Morgan's copy).sql",
+   "mimeType": "application/sql",
+   "createdTime": "2026-10-09T20:18:17.000Z",
+   "modifiedTime": "2026-10-09T20:18:17.000Z",
+   "size": "1082",
+   "webViewLink": "https://drive.google.com/file/d/doc-1018/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-ingest-worker"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q3 - internal_only (Morgan's copy).sql",
+   "parentId": "folder-shared-engineering-runbooks-ingest-worker",
+   "fileSize": "1082",
+   "viewUrl": "https://drive.google.com/file/d/doc-1018/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q3 - internal_only (Morgan's copy).sql Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Celestin"
+  },
+  {
+   "id": "doc-10302",
+   "name": "Celestine Health - Renewal Proposal - internal_only",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T19:53:24.000Z",
+   "modifiedTime": "2026-10-09T19:53:24.000Z",
+   "size": "5358",
+   "webViewLink": "https://docs.google.com/document/d/doc-10302/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-playbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - internal_only",
+   "parentId": "folder-shared-support-playbooks",
+   "fileSize": "5358",
+   "viewUrl": "https://docs.google.com/document/d/doc-10302/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - internal_only Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Celestine Health (acct-3) \u2014"
+  },
+  {
+   "id": "doc-5529",
+   "name": "Celestine Health - Quarterly Business Review - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-18T13:39:42.000Z",
+   "modifiedTime": "2026-10-09T19:47:16.000Z",
+   "size": "3609",
+   "webViewLink": "https://docs.google.com/document/d/doc-5529/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-audit-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Markus M\u00fcller",
+     "emailAddress": "markusm@saporanetworks.com",
+     "permissionId": "215731061089566422325",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review - copy",
+   "parentId": "folder-shared-finance-audit-2026",
+   "fileSize": "3609",
+   "viewUrl": "https://docs.google.com/document/d/doc-5529/edit",
+   "owner": "markusm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review - copy Internal \u2014 Sapora Networks Record Owner: Markus M\u00fcller <markusm@saporanetworks.com> (Revenue Accountant, Finance) Account: Celestine Health (acct-3)"
+  },
+  {
+   "id": "folder-shared-finance-contracts-celestine-health",
+   "name": "Celestine Health",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-08-17T12:08:56.000Z",
+   "modifiedTime": "2026-10-09T18:59:56.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-finance-contracts-celestine-health",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health",
+   "parentId": "folder-shared-finance-contracts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-finance-contracts-celestine-health",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-5096",
+   "name": "Celestine Health - Quarterly Business Review (Alex's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T18:59:56.000Z",
+   "modifiedTime": "2026-10-09T18:59:56.000Z",
+   "size": "2541",
+   "webViewLink": "https://docs.google.com/document/d/doc-5096/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review (Alex's copy)",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "2541",
+   "viewUrl": "https://docs.google.com/document/d/doc-5096/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review (Alex's copy) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Hea"
+  },
+  {
+   "id": "doc-9899",
+   "name": "Celestine Health - Renewal Proposal - 22.08.26 final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T17:18:43.000Z",
+   "modifiedTime": "2026-10-09T17:18:43.000Z",
+   "size": "2307",
+   "webViewLink": "https://docs.google.com/document/d/doc-9899/edit",
+   "parents": [
+    "folder-shared-legal-compliance-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - 22.08.26 final",
+   "parentId": "folder-shared-legal-compliance-2026",
+   "fileSize": "2307",
+   "viewUrl": "https://docs.google.com/document/d/doc-9899/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - 22.08.26 final Confidential \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account:"
+  },
+  {
+   "id": "doc-8716",
+   "name": "Celestine Health - Renewal Proposal - APAC",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T16:32:21.000Z",
+   "modifiedTime": "2026-10-09T16:32:21.000Z",
+   "size": "13170",
+   "webViewLink": "https://docs.google.com/document/d/doc-8716/edit",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Sebastian Otto",
+     "emailAddress": "sebastiano@saporanetworks.com",
+     "permissionId": "913670017340148510696",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - APAC",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "13170",
+   "viewUrl": "https://docs.google.com/document/d/doc-8716/edit",
+   "owner": "sebastiano@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - APAC Confidential \u2014 Sapora Networks Record Owner: Sebastian Otto <sebastiano@saporanetworks.com> (Senior Software Engineer, Engineering) Account: Celestine Health"
+  },
+  {
+   "id": "doc-3400",
+   "name": "Celestine Health - Migration Runbook (Riley's copy).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-09T16:32:08.000Z",
+   "modifiedTime": "2026-10-09T16:32:08.000Z",
+   "size": "4092",
+   "webViewLink": "https://drive.google.com/file/d/doc-3400/view",
+   "parents": [
+    "folder-shared-product-specs-v1-6"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Migration Runbook (Riley's copy).docx",
+   "parentId": "folder-shared-product-specs-v1-6",
+   "fileSize": "4092",
+   "viewUrl": "https://drive.google.com/file/d/doc-3400/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Migration Runbook (Riley's copy) Restricted \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3) \u2014 Ed"
+  },
+  {
+   "id": "folder-shared-legal-contracts-celestine-health",
+   "name": "Celestine Health",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-08-05T13:42:14.000Z",
+   "modifiedTime": "2026-10-09T15:18:29.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-celestine-health",
+   "parents": [
+    "folder-shared-legal-contracts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health",
+   "parentId": "folder-shared-legal-contracts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-celestine-health",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-3468",
+   "name": "Celestine Health - Renewal Proposal - copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-09T14:42:11.000Z",
+   "modifiedTime": "2026-10-09T14:42:11.000Z",
+   "size": "4471",
+   "webViewLink": "https://drive.google.com/file/d/doc-3468/view",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - copy.docx",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "4471",
+   "viewUrl": "https://drive.google.com/file/d/doc-3468/view",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - copy Confidential \u2014 Sapora Networks Record Owner: Tim Kuhn <timk@saporanetworks.com> (Engineering Manager, Engineering) Account: Celestine Health (acct-3) \u2014 Educa"
+  },
+  {
+   "id": "folder-shared-sales-accounts-celestine-health",
+   "name": "Celestine Health",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-07-09T15:56:57.000Z",
+   "modifiedTime": "2026-10-09T13:54:37.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-sales-accounts-celestine-health",
+   "parents": [
+    "folder-shared-sales-accounts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health",
+   "parentId": "folder-shared-sales-accounts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-sales-accounts-celestine-health",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-2913",
+   "name": "Celestine Health - Security Review - 21.08.26.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-09T13:38:53.000Z",
+   "modifiedTime": "2026-10-09T13:38:53.000Z",
+   "size": "4192",
+   "webViewLink": "https://drive.google.com/file/d/doc-2913/view",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Security Review - 21.08.26.docx",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-signature",
+   "fileSize": "4192",
+   "viewUrl": "https://drive.google.com/file/d/doc-2913/view",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Security Review - 21.08.26 Confidential \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Celest"
+  },
+  {
+   "id": "doc-3999",
+   "name": "Celestine Health - Quarterly Business Review - EMEA",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T13:08:11.000Z",
+   "modifiedTime": "2026-10-09T13:08:11.000Z",
+   "size": "5428",
+   "webViewLink": "https://docs.google.com/document/d/doc-3999/edit",
+   "parents": [
+    "folder-shared-legal-contracts-celestine-health-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Klaudia Simon",
+     "emailAddress": "klaudias@saporanetworks.com",
+     "permissionId": "885909868794380205103",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review - EMEA",
+   "parentId": "folder-shared-legal-contracts-celestine-health-2026",
+   "fileSize": "5428",
+   "viewUrl": "https://docs.google.com/document/d/doc-3999/edit",
+   "owner": "klaudias@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review - EMEA Internal \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (acct-3) \u2014"
+  },
+  {
+   "id": "doc-9647",
+   "name": "Celestine Health - Onboarding Checklist v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T15:58:53.000Z",
+   "modifiedTime": "2026-10-09T11:55:39.000Z",
+   "size": "3379",
+   "webViewLink": "https://docs.google.com/document/d/doc-9647/edit",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Onboarding Checklist v2",
+   "parentId": "folder-shared-sales-accounts-celestine-health-signature",
+   "fileSize": "3379",
+   "viewUrl": "https://docs.google.com/document/d/doc-9647/edit",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Onboarding Checklist v2 Internal \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (acct-3) \u2014 Education, "
+  },
+  {
+   "id": "doc-5206",
+   "name": "Celestine Health - Onboarding Checklist for the EMEA handover workshop session",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T16:04:34.000Z",
+   "modifiedTime": "2026-10-09T11:01:26.000Z",
+   "size": "3148",
+   "webViewLink": "https://docs.google.com/document/d/doc-5206/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Onboarding Checklist for the EMEA handover workshop session",
+   "parentId": "folder-shared-support-escalations-celestine-health",
+   "fileSize": "3148",
+   "viewUrl": "https://docs.google.com/document/d/doc-5206/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Onboarding Checklist for the EMEA handover workshop session Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Cele"
+  },
+  {
+   "id": "doc-9214",
+   "name": "Celestine Health - Onboarding Checklist",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T17:18:29.000Z",
+   "modifiedTime": "2026-10-09T10:54:29.000Z",
+   "size": "5224",
+   "webViewLink": "https://docs.google.com/document/d/doc-9214/edit",
+   "parents": [
+    "folder-shared-legal-contracts-celestine-health-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Onboarding Checklist",
+   "parentId": "folder-shared-legal-contracts-celestine-health-2026",
+   "fileSize": "5224",
+   "viewUrl": "https://docs.google.com/document/d/doc-9214/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Onboarding Checklist Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Celestine Health (acct-3) \u2014 Educati"
+  },
+  {
+   "id": "doc-6692",
+   "name": "Celestine Health - Renewal Proposal v5",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T10:46:41.000Z",
+   "modifiedTime": "2026-10-09T10:46:41.000Z",
+   "size": "5570",
+   "webViewLink": "https://docs.google.com/document/d/doc-6692/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal v5",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "5570",
+   "viewUrl": "https://docs.google.com/document/d/doc-6692/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal v5 Confidential \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Health (acct-3) \u2014 E"
+  },
+  {
+   "id": "doc-3929",
+   "name": "Celestine Health - Quarterly Business Review (2)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T10:40:08.000Z",
+   "modifiedTime": "2026-10-09T10:40:08.000Z",
+   "size": "13778",
+   "webViewLink": "https://docs.google.com/document/d/doc-3929/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review (2)",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "13778",
+   "viewUrl": "https://docs.google.com/document/d/doc-3929/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review (2) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Health (acct-"
+  },
+  {
+   "id": "doc-5568",
+   "name": "Celestine Health - Implementation Plan",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T19:31:57.000Z",
+   "modifiedTime": "2026-10-09T10:39:06.000Z",
+   "size": "7650",
+   "webViewLink": "https://docs.google.com/document/d/doc-5568/edit",
+   "parents": [
+    "folder-shared-professional-services-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Implementation Plan",
+   "parentId": "folder-shared-professional-services-documents-2026",
+   "fileSize": "7650",
+   "viewUrl": "https://docs.google.com/document/d/doc-5568/edit",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Implementation Plan Internal \u2014 Sapora Networks Record Owner: Onuker Kaya <onukerk@saporanetworks.com> (Head of Professional Services, Professional Services) Account: Celestine Healt"
+  },
+  {
+   "id": "doc-5422",
+   "name": "Celestine Health - Quarterly Business Review final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T10:08:23.000Z",
+   "modifiedTime": "2026-10-09T10:08:23.000Z",
+   "size": "2156",
+   "webViewLink": "https://docs.google.com/document/d/doc-5422/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review final",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "2156",
+   "viewUrl": "https://docs.google.com/document/d/doc-5422/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review final Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3) \u2014 Educa"
+  },
+  {
+   "id": "doc-5098",
+   "name": "Service Runbook Q3 - 21.08.26.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-10-09T09:38:27.000Z",
+   "modifiedTime": "2026-10-09T09:38:27.000Z",
+   "size": "1355",
+   "webViewLink": "https://drive.google.com/file/d/doc-5098/view",
+   "parents": [
+    "folder-users-shannona-notes-ingest-worker"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Shannon Ashshaw",
+     "emailAddress": "shannona@saporanetworks.com",
+     "permissionId": "588557297867003639490",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Service Runbook Q3 - 21.08.26.json",
+   "parentId": "folder-users-shannona-notes-ingest-worker",
+   "fileSize": "1355",
+   "viewUrl": "https://drive.google.com/file/d/doc-5098/view",
+   "owner": "shannona@saporanetworks.com",
+   "contentSnippet": "Service Runbook Q3 - 21.08.26.json Internal \u2014 Sapora Networks Record Owner: Shannon Ashshaw <shannona@saporanetworks.com> (Head of Marketing, Marketing) Account: Celestine Health (acct-3) \u2014 Education,"
+  },
+  {
+   "id": "doc-9835",
+   "name": "Celestine Health - Data Processing Addendum - CR",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T09:27:53.000Z",
+   "modifiedTime": "2026-10-09T09:27:53.000Z",
+   "size": "20405",
+   "webViewLink": "https://docs.google.com/document/d/doc-9835/edit",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum - CR",
+   "parentId": "folder-shared-sales-accounts-celestine-health-security-review",
+   "fileSize": "20405",
+   "viewUrl": "https://docs.google.com/document/d/doc-9835/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum - CR Confidential \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (acct-3) "
+  },
+  {
+   "id": "doc-6032",
+   "name": "Celestine Health - Data Processing Addendum - PT's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T15:09:02.000Z",
+   "modifiedTime": "2026-10-09T00:18:35.000Z",
+   "size": "4447",
+   "webViewLink": "https://docs.google.com/document/d/doc-6032/edit",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-evaluation"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum - PT's copy",
+   "parentId": "folder-shared-sales-accounts-celestine-health-evaluation",
+   "fileSize": "4447",
+   "viewUrl": "https://docs.google.com/document/d/doc-6032/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum - PT's copy Confidential \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (a"
+  },
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "doc-9662",
+   "name": "Celestine Health - Implementation Plan (2)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T16:03:38.000Z",
+   "modifiedTime": "2026-10-08T16:03:38.000Z",
+   "size": "4973",
+   "webViewLink": "https://docs.google.com/document/d/doc-9662/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Implementation Plan (2)",
+   "parentId": "folder-shared-product-roadmap-q1",
+   "fileSize": "4973",
+   "viewUrl": "https://docs.google.com/document/d/doc-9662/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Implementation Plan (2) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3) \u2014 Education, ti"
+  },
+  {
+   "id": "doc-8684",
+   "name": "Celestine Health - Migration Runbook - SW's copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-08T15:34:07.000Z",
+   "modifiedTime": "2026-10-08T15:34:07.000Z",
+   "size": "4115",
+   "webViewLink": "https://drive.google.com/file/d/doc-8684/view",
+   "parents": [
+    "folder-shared-product-roadmap-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Migration Runbook - SW's copy.docx",
+   "parentId": "folder-shared-product-roadmap-q1",
+   "fileSize": "4115",
+   "viewUrl": "https://drive.google.com/file/d/doc-8684/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Migration Runbook - SW's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3) \u2014 Edu"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "doc-5029",
+   "name": "Celestine Health - Quarterly Business Review - INTL",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T13:22:11.000Z",
+   "modifiedTime": "2026-10-08T13:22:11.000Z",
+   "size": "1820",
+   "webViewLink": "https://docs.google.com/document/d/doc-5029/edit",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review - INTL",
+   "parentId": "folder-shared-sales-accounts-celestine-health-security-review",
+   "fileSize": "1820",
+   "viewUrl": "https://docs.google.com/document/d/doc-5029/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review - INTL Internal \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Celestine He"
+  },
+  {
+   "id": "doc-1098",
+   "name": "Celestine Health - Renewal Proposal",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T08:58:15.000Z",
+   "modifiedTime": "2026-10-08T13:17:42.000Z",
+   "size": "1406",
+   "webViewLink": "https://docs.google.com/document/d/doc-1098/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "1406",
+   "viewUrl": "https://docs.google.com/document/d/doc-1098/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal Confidential \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Health (acct-3) \u2014 Educ"
+  },
+  {
+   "id": "doc-3",
+   "name": "Celestine Health - Migration Runbook",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T09:39:23.000Z",
+   "modifiedTime": "2026-10-08T11:47:05.000Z",
+   "size": "6826",
+   "webViewLink": "https://docs.google.com/document/d/doc-3/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Migration Runbook",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-signature",
+   "fileSize": "6826",
+   "viewUrl": "https://docs.google.com/document/d/doc-3/edit",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Migration Runbook Restricted \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Celestine Health (acct-3) \u2014 E"
+  },
+  {
+   "id": "doc-245",
+   "name": "Celestine Health - Implementation Plan - 2026-08",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-18T22:54:21.000Z",
+   "modifiedTime": "2026-10-08T11:21:23.000Z",
+   "size": "11897",
+   "webViewLink": "https://docs.google.com/document/d/doc-245/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-evaluation"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Implementation Plan - 2026-08",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-evaluation",
+   "fileSize": "11897",
+   "viewUrl": "https://docs.google.com/document/d/doc-245/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Implementation Plan - 2026-08 Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Celesti"
+  },
+  {
+   "id": "doc-8715",
+   "name": "Celestine Health - Migration Runbook - SW.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-09-18T14:23:34.000Z",
+   "modifiedTime": "2026-10-08T09:00:43.000Z",
+   "size": "4788",
+   "webViewLink": "https://drive.google.com/file/d/doc-8715/view",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Migration Runbook - SW.docx",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-signature",
+   "fileSize": "4788",
+   "viewUrl": "https://drive.google.com/file/d/doc-8715/view",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Migration Runbook - SW Restricted \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Celestine Health (acc"
+  },
+  {
+   "id": "doc-9616",
+   "name": "Celestine Health - Quarterly Business Review - 2026-08",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T07:55:45.000Z",
+   "modifiedTime": "2026-10-08T07:55:45.000Z",
+   "size": "5369",
+   "webViewLink": "https://docs.google.com/document/d/doc-9616/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review - 2026-08",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "5369",
+   "viewUrl": "https://docs.google.com/document/d/doc-9616/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review - 2026-08 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Health "
+  },
+  {
+   "id": "doc-887",
+   "name": "Celestine Health - Data Processing Addendum.pdf",
+   "mimeType": "application/pdf",
+   "createdTime": "2026-10-08T06:30:12.000Z",
+   "modifiedTime": "2026-10-08T06:30:12.000Z",
+   "size": "11804",
+   "webViewLink": "https://drive.google.com/file/d/doc-887/view",
+   "parents": [
+    "folder-shared-professional-services-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum.pdf",
+   "parentId": "folder-shared-professional-services-documents-2026",
+   "fileSize": "11804",
+   "viewUrl": "https://drive.google.com/file/d/doc-887/view",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum Confidential \u2014 Sapora Networks Record Owner: Onuker Kaya <onukerk@saporanetworks.com> (Head of Professional Services, Professional Services) Account: Celest"
+  },
+  {
+   "id": "folder-shared-support-escalations-celestine-health",
+   "name": "Celestine Health",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-08-28T13:18:12.000Z",
+   "modifiedTime": "2026-10-07T14:51:16.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-support-escalations-celestine-health",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health",
+   "parentId": "folder-shared-support-escalations",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-support-escalations-celestine-health",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-7735",
+   "name": "Celestine Health - Renewal Proposal - 22.08.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T14:51:16.000Z",
+   "modifiedTime": "2026-10-07T14:51:16.000Z",
+   "size": "6410",
+   "webViewLink": "https://docs.google.com/document/d/doc-7735/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - 22.08.26",
+   "parentId": "folder-shared-support-escalations-celestine-health",
+   "fileSize": "6410",
+   "viewUrl": "https://docs.google.com/document/d/doc-7735/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - 22.08.26 Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Celestine Health (acct-3) \u2014 Educ"
+  },
+  {
+   "id": "doc-5267",
+   "name": "Celestine Health - Implementation Plan - internal_only",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T10:22:01.000Z",
+   "modifiedTime": "2026-10-07T13:12:02.000Z",
+   "size": "4240",
+   "webViewLink": "https://docs.google.com/document/d/doc-5267/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-playbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Implementation Plan - internal_only",
+   "parentId": "folder-shared-support-playbooks",
+   "fileSize": "4240",
+   "viewUrl": "https://docs.google.com/document/d/doc-5267/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Implementation Plan - internal_only Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Celestine Health (acct-3) \u2014 "
+  },
+  {
+   "id": "doc-1981",
+   "name": "Celestine Health - Renewal Proposal (Jordan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T11:52:08.000Z",
+   "modifiedTime": "2026-10-07T11:52:08.000Z",
+   "size": "4201",
+   "webViewLink": "https://docs.google.com/document/d/doc-1981/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-celestine-health"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal (Jordan's copy)",
+   "parentId": "folder-shared-finance-contracts-celestine-health",
+   "fileSize": "4201",
+   "viewUrl": "https://docs.google.com/document/d/doc-1981/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal (Jordan's copy) Confidential \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Celestine Health"
+  },
+  {
+   "id": "doc-7495",
+   "name": "Celestine Health - Renewal Proposal - KM's copy.pdf",
+   "mimeType": "application/pdf",
+   "createdTime": "2026-09-21T18:13:29.000Z",
+   "modifiedTime": "2026-10-06T19:58:12.000Z",
+   "size": "7575",
+   "webViewLink": "https://drive.google.com/file/d/doc-7495/view",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - KM's copy.pdf",
+   "parentId": "folder-shared-sales-accounts-celestine-health-renewal",
+   "fileSize": "7575",
+   "viewUrl": "https://drive.google.com/file/d/doc-7495/view",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - KM's copy Confidential \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (acct-3) \u2014 Ed"
+  },
+  {
+   "id": "doc-3936",
+   "name": "Celestine Health - Migration Runbook (Jordan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T18:01:50.000Z",
+   "modifiedTime": "2026-10-06T18:01:50.000Z",
+   "size": "22058",
+   "webViewLink": "https://docs.google.com/document/d/doc-3936/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-celestine-health-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Migration Runbook (Jordan's copy)",
+   "parentId": "folder-shared-customer-success-accounts-celestine-health-signature",
+   "fileSize": "22058",
+   "viewUrl": "https://docs.google.com/document/d/doc-3936/edit",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Migration Runbook (Jordan's copy) Restricted \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Celestine "
+  },
+  {
+   "id": "doc-3419",
+   "name": "Celestine Health - Data Processing Addendum - JD's copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-06T17:48:54.000Z",
+   "modifiedTime": "2026-10-06T17:48:54.000Z",
+   "size": "4658",
+   "webViewLink": "https://drive.google.com/file/d/doc-3419/view",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum - JD's copy.docx",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "4658",
+   "viewUrl": "https://drive.google.com/file/d/doc-3419/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum - JD's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3"
+  },
+  {
+   "id": "doc-1124",
+   "name": "Celestine Health - Renewal Proposal - NS's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T17:08:04.000Z",
+   "modifiedTime": "2026-10-06T17:08:04.000Z",
+   "size": "1679",
+   "webViewLink": "https://docs.google.com/document/d/doc-1124/edit",
+   "parents": [
+    "folder-shared-legal-contracts-celestine-health-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Esmeralda Bellthorpe",
+     "emailAddress": "esmeraldab@saporanetworks.com",
+     "permissionId": "077001835444695732174",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Renewal Proposal - NS's copy",
+   "parentId": "folder-shared-legal-contracts-celestine-health-2026",
+   "fileSize": "1679",
+   "viewUrl": "https://docs.google.com/document/d/doc-1124/edit",
+   "owner": "esmeraldab@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Renewal Proposal - NS's copy Confidential \u2014 Sapora Networks Record Owner: Esmeralda Bellthorpe <esmeraldab@saporanetworks.com> (Risk Analyst, Compliance) Account: Celestine Health ("
+  },
+  {
+   "id": "deck-qbr-acct-3",
+   "name": "Celestine Health \u2014 QBR",
+   "mimeType": "application/vnd.google-apps.presentation",
+   "createdTime": "2026-10-06T08:51:29.000Z",
+   "modifiedTime": "2026-10-06T16:21:59.000Z",
+   "size": "2519",
+   "webViewLink": "https://docs.google.com/presentation/d/deck-qbr-acct-3/edit",
+   "parents": [
+    "folder-shared-sales"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health \u2014 QBR",
+   "parentId": "folder-shared-sales",
+   "fileSize": "2519",
+   "viewUrl": "https://docs.google.com/presentation/d/deck-qbr-acct-3/edit",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Celestine Health \u2014 Quarterly Business Review \u2022 Prepared by Lisa Williams \u2022 Q3 2026 review \u2022 Confidential \u2014 Celestine Health and Sapora only Where we are \u2022 Adoption is up quarter on quarter \u2022 Two open "
+  },
+  {
+   "id": "folder-shared-customer-success-accounts-celestine-health",
+   "name": "Celestine Health",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-08-18T17:20:22.000Z",
+   "modifiedTime": "2026-10-06T15:43:15.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-customer-success-accounts-celestine-health",
+   "parents": [
+    "folder-shared-customer-success-accounts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Celestine Health",
+   "parentId": "folder-shared-customer-success-accounts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-customer-success-accounts-celestine-health",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-2351",
+   "name": "Celestine Health - Data Processing Addendum - final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T13:26:34.000Z",
+   "modifiedTime": "2026-10-06T15:01:47.000Z",
+   "size": "12633",
+   "webViewLink": "https://docs.google.com/document/d/doc-2351/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q2"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum - final",
+   "parentId": "folder-shared-product-roadmap-q2",
+   "fileSize": "12633",
+   "viewUrl": "https://docs.google.com/document/d/doc-2351/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum - final Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Celestine Health (acct-3) \u2014 "
+  },
+  {
+   "id": "doc-2638",
+   "name": "Capacity Plan Q3 - shared_v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-01T17:44:29.000Z",
+   "modifiedTime": "2026-10-06T14:05:05.000Z",
+   "size": "3151",
+   "webViewLink": "https://docs.google.com/document/d/doc-2638/edit",
+   "parents": [
+    "folder-shared-sales-pipeline-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Klaudia Simon",
+     "emailAddress": "klaudias@saporanetworks.com",
+     "permissionId": "885909868794380205103",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - shared_v2",
+   "parentId": "folder-shared-sales-pipeline-q1",
+   "fileSize": "3151",
+   "viewUrl": "https://docs.google.com/document/d/doc-2638/edit",
+   "owner": "klaudias@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - shared_v2 Internal \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Celestine Health (acct-3) \u2014 Education, tier enterp"
+  },
+  {
+   "id": "doc-10394",
+   "name": "Celestine Health - Data Processing Addendum v7",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T12:17:41.000Z",
+   "modifiedTime": "2026-10-06T12:17:41.000Z",
+   "size": "19774",
+   "webViewLink": "https://docs.google.com/document/d/doc-10394/edit",
+   "parents": [
+    "folder-shared-sales-accounts-celestine-health-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum v7",
+   "parentId": "folder-shared-sales-accounts-celestine-health-renewal",
+   "fileSize": "19774",
+   "viewUrl": "https://docs.google.com/document/d/doc-10394/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum v7 Confidential \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Celestine Hea"
+  },
+  {
+   "id": "doc-9604",
+   "name": "Celestine Health - Data Processing Addendum - copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-06T09:41:20.000Z",
+   "modifiedTime": "2026-10-06T09:41:20.000Z",
+   "size": "4714",
+   "webViewLink": "https://drive.google.com/file/d/doc-9604/view",
+   "parents": [
+    "folder-shared-product-roadmap-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Data Processing Addendum - copy.docx",
+   "parentId": "folder-shared-product-roadmap-q4",
+   "fileSize": "4714",
+   "viewUrl": "https://drive.google.com/file/d/doc-9604/view",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Data Processing Addendum - copy Confidential \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Celestine Health (acct"
+  },
+  {
+   "id": "doc-9229",
+   "name": "Celestine Health - Quarterly Business Review - 22.08.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T08:11:38.000Z",
+   "modifiedTime": "2026-10-06T08:11:38.000Z",
+   "size": "4708",
+   "webViewLink": "https://docs.google.com/document/d/doc-9229/edit",
+   "parents": [
+    "folder-shared-legal-compliance-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Hoffmann",
+     "emailAddress": "maximilianh@saporanetworks.com",
+     "permissionId": "694389390825917526723",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Celestine Health - Quarterly Business Review - 22.08.26",
+   "parentId": "folder-shared-legal-compliance-2026",
+   "fileSize": "4708",
+   "viewUrl": "https://docs.google.com/document/d/doc-9229/edit",
+   "owner": "maximilianh@saporanetworks.com",
+   "contentSnippet": "Celestine Health - Quarterly Business Review - 22.08.26 Internal \u2014 Sapora Networks Record Owner: Maximilian Hoffmann <maximilianh@saporanetworks.com> (Senior Product Manager, Product) Account: Celesti"
+  }
+ ],
+ "totalCount": 82,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtMTEyNCIsImRlY2stcWJyLWFjY3QtMyIsImZvbGRlci1zaGFyZWQtY3VzdG9tZXItc3VjY2Vzcy1hY2NvdW50cy1jZWxlc3RpbmUtaGVhbHRoIiwiZG9jLTIzNTEiLCJkb2MtMjYzOCIsImRvYy0xMDM5NCIsImRvYy05NjA0IiwiZG9jLTkyMjkiXX0"
+}

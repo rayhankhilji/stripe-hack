@@ -1,0 +1,828 @@
+[
+ {
+  "id": 4001684,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001684.json",
+  "external_id": "ticket-125",
+  "subject": "/v1/merchant-dashboard/exports returning 500 for anyone off the corporate VPN - reconciliation report unusable",
+  "raw_subject": "/v1/merchant-dashboard/exports returning 500 for anyone off the corporate VPN - reconciliation report unusable",
+  "description": "We are evaluating reconciliation report for the migration off our legacy system and hit a blocker: it applies yesterday's configuration instead of the current one. Tried on both production and sandbox with the same result (ref req_251f5e6bc6). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000019,
+  "submitter_id": 2000019,
+  "assignee_id": 1000041,
+  "organization_id": 3000003,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-11T15:39:42Z",
+  "updated_at": "2026-10-02T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-10-07T12:39:42Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1787353200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001685,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001685.json",
+  "external_id": "ticket-121",
+  "subject": "KYC check unavailable for our nightly job since we added the second region",
+  "raw_subject": "KYC check unavailable for our nightly job since we added the second region",
+  "description": "Hi team - the KYC check loses the filter selection on pagination. We noticed it this morning and it has happened three or four times since. Correlation id req_e356927b8f. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000019,
+  "submitter_id": 2000019,
+  "assignee_id": 1000004,
+  "organization_id": 3000003,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-11T16:39:42Z",
+  "updated_at": "2026-09-18T17:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786122000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001688,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001688.json",
+  "external_id": "ticket-128",
+  "subject": "Transaction dispute form failing for two of our admins since 02:06",
+  "raw_subject": "Transaction dispute form failing for two of our admins since 02:06",
+  "description": "Hi team - the transaction dispute form rounds the totals differently from the export. We noticed it earlier this week and it has happened a handful of times since. Correlation id req_f27baefac0. Happy to jump on a call if that is faster.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000030,
+  "submitter_id": 2000030,
+  "assignee_id": 1000004,
+  "organization_id": 3000003,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-12T06:39:42Z",
+  "updated_at": "2026-10-02T17:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-16T20:39:42Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787331600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001689,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001689.json",
+  "external_id": "ticket-127",
+  "subject": "ACH batch - losing filters (req_c7ec338880)",
+  "raw_subject": "ACH batch - losing filters (req_c7ec338880)",
+  "description": "Escalating: FetchError on /v1/payouts/accounts at 02:23, repeating twice a shift. Retries against eu-west-1 fail the same way. Request req_c7ec338880. We need ACH batch stable before the regulator's submission deadline.",
+  "status": "pending",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000025,
+  "submitter_id": 2000025,
+  "assignee_id": 1000014,
+  "organization_id": 3000003,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_celestine_health",
+   "enterprise",
+   "education",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-13T06:21:16Z",
+  "updated_at": "2026-09-15T14:05:41Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300003,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1785852341,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001701,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001701.json",
+  "external_id": "ticket-126",
+  "subject": "/v1/settlement-engine/events returning 409 for our whole support team - KYC check unusable",
+  "raw_subject": "/v1/settlement-engine/events returning 409 for our whole support team - KYC check unusable",
+  "description": "our whole support team reports that the KYC check fails on the retry after the first attempt went through. Started over the weekend; no config changes on our side. Error code 409, request id req_89d43263cc.",
+  "status": "pending",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000028,
+  "submitter_id": 2000028,
+  "assignee_id": 1000038,
+  "organization_id": 3000003,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-16T01:03:01Z",
+  "updated_at": "2026-09-16T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300003,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1785970800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001730,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001730.json",
+  "external_id": "ticket-120",
+  "subject": "Impact: risk-scoring returns 500 errors for our overnight batch",
+  "raw_subject": "Impact: risk-scoring returns 500 errors for our overnight batch",
+  "description": "Monitoring noticed that risk-scoring returns 500 errors around 23:39. Please share an ETA; request req_b73e62ff62 is failing.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "incident",
+  "recipient": null,
+  "requester_id": 2000030,
+  "submitter_id": 2000030,
+  "assignee_id": 1000027,
+  "organization_id": 3000003,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   2000024
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000024
+  ],
+  "tags": [
+   "incident",
+   "normal",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-22T15:39:56Z",
+  "updated_at": "2026-10-01T23:00:00Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": 4001729,
+  "satisfaction_rating": {
+   "id": 11401730,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401730.json",
+   "assignee_id": 1000027,
+   "group_id": 5000007,
+   "requester_id": 2000030,
+   "ticket_id": 4001730,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-10-01T23:00:00Z",
+   "updated_at": "2026-10-01T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995001,
+  "generated_timestamp": 1787266800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001759,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001759.json",
+  "external_id": "ticket-124",
+  "subject": "Two-factor enrolment reading stale configuration on our second workspace",
+  "raw_subject": "Two-factor enrolment reading stale configuration on our second workspace",
+  "description": "Raising on behalf of anyone off the corporate VPN: two-factor enrolment applies yesterday's configuration instead of the current one on our second workspace. First occurrence around 08:25, repeating a dozen times overnight. This is the second thing we have had to work around before the integration handover to our partner.",
+  "status": "open",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000024,
+  "submitter_id": 2000024,
+  "assignee_id": 1000007,
+  "organization_id": 3000003,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000027
+  ],
+  "follower_ids": [
+   1000027
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-30T09:58:30Z",
+  "updated_at": "2026-09-30T15:48:07Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300002,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1787154487,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001769,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001769.json",
+  "external_id": "ticket-122",
+  "subject": "Error 409 when using sanctions screening (req_6ffce88f27)",
+  "raw_subject": "Error 409 when using sanctions screening (req_6ffce88f27)",
+  "description": "Sanctions screening returns records belonging to a different workspace on the read-only replica since Monday. Our gateway logs show:\n  PATCH /v1/payouts/invoices -> 409 *fs.PathError after 4s (x-request-id: req_6ffce88f27)\nEvery failing call is against /v1/payouts/events out of us-west-2. Blocking the annual pricing refresh.",
+  "status": "new",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000032,
+  "submitter_id": 2000032,
+  "assignee_id": null,
+  "organization_id": 3000003,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_celestine_health",
+   "enterprise",
+   "education",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T07:22:16Z",
+  "updated_at": "2026-10-02T07:22:16Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "laurie@celestinehealth.com",
+     "name": "Laurie Lee"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1787296936,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001770,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001770.json",
+  "external_id": "ticket-123",
+  "subject": "ACH batch reading stale configuration since 02:08 on the APAC region",
+  "raw_subject": "ACH batch reading stale configuration since 02:08 on the APAC region",
+  "description": "Hi team - the ACH batch applies yesterday's configuration instead of the current one. We noticed it overnight and it has happened twice a shift since. Correlation id req_fb2d02d92f. Happy to jump on a call if that is faster.",
+  "status": "new",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000028,
+  "submitter_id": 2000028,
+  "assignee_id": null,
+  "organization_id": 3000003,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_celestine_health",
+   "enterprise",
+   "education"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T07:26:56Z",
+  "updated_at": "2026-10-02T07:26:56Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": "2026-10-05T07:26:56Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1787297216,
+  "forum_topic_id": null
+ }
+]

@@ -1,0 +1,146 @@
+{
+ "sql": "SELECT * FROM agg_daily_revenue",
+ "columns": [
+  "dt",
+  "customer_id",
+  "orders",
+  "units",
+  "revenue_cents",
+  "refunded_cents",
+  "net_revenue_cents"
+ ],
+ "rows": [
+  {
+   "dt": "2026-10-07",
+   "customer_id": "acct-10",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 2354,
+   "refunded_cents": 0,
+   "net_revenue_cents": 2354
+  },
+  {
+   "dt": "2026-10-07",
+   "customer_id": "acct-3",
+   "orders": 3,
+   "units": 3,
+   "revenue_cents": 48782,
+   "refunded_cents": 7512,
+   "net_revenue_cents": 41270
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-10",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 4171,
+   "refunded_cents": 0,
+   "net_revenue_cents": 4171
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-3",
+   "orders": 7,
+   "units": 7,
+   "revenue_cents": 461240,
+   "refunded_cents": 0,
+   "net_revenue_cents": 461240
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-40",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 13506,
+   "refunded_cents": 0,
+   "net_revenue_cents": 13506
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-50",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 5853,
+   "refunded_cents": 0,
+   "net_revenue_cents": 5853
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-51",
+   "orders": 2,
+   "units": 2,
+   "revenue_cents": 51352,
+   "refunded_cents": 0,
+   "net_revenue_cents": 51352
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-57",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 39012,
+   "refunded_cents": 0,
+   "net_revenue_cents": 39012
+  },
+  {
+   "dt": "2026-10-08",
+   "customer_id": "acct-7",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 5104,
+   "refunded_cents": 0,
+   "net_revenue_cents": 5104
+  },
+  {
+   "dt": "2026-10-09",
+   "customer_id": "acct-3",
+   "orders": 3,
+   "units": 3,
+   "revenue_cents": 151379,
+   "refunded_cents": 0,
+   "net_revenue_cents": 151379
+  },
+  {
+   "dt": "2026-10-09",
+   "customer_id": "acct-37",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 1371,
+   "refunded_cents": 0,
+   "net_revenue_cents": 1371
+  },
+  {
+   "dt": "2026-10-09",
+   "customer_id": "acct-45",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 17578,
+   "refunded_cents": 0,
+   "net_revenue_cents": 17578
+  },
+  {
+   "dt": "2026-10-09",
+   "customer_id": "acct-50",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 62074,
+   "refunded_cents": 0,
+   "net_revenue_cents": 62074
+  },
+  {
+   "dt": "2026-10-09",
+   "customer_id": "acct-7",
+   "orders": 1,
+   "units": 1,
+   "revenue_cents": 74334,
+   "refunded_cents": 0,
+   "net_revenue_cents": 74334
+  }
+ ],
+ "row_count": 14,
+ "truncated": false,
+ "datasets": [
+  "agg_daily_revenue"
+ ],
+ "unreadable_objects": []
+}

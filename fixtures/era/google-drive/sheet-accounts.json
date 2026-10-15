@@ -1,0 +1,556 @@
+{
+ "spreadsheetId": "sheet-accounts",
+ "tab": "Accounts",
+ "values": [
+  [
+   "Account ID",
+   "Name",
+   "Domain",
+   "Industry",
+   "Tier",
+   "Employees",
+   "Owner"
+  ],
+  [
+   "acct-0",
+   "Primrose Partners",
+   "primrosepartners.co.uk",
+   "Fintech",
+   "enterprise",
+   43,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-1",
+   "Ardentia Media",
+   "ardentiamedia.com",
+   "Media",
+   "mid-market",
+   525,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-2",
+   "Sable",
+   "sable.com",
+   "Fintech",
+   "mid-market",
+   225,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-3",
+   "Celestine Health",
+   "celestinehealth.com",
+   "Healthcare",
+   "enterprise",
+   7000,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-4",
+   "Vantella Technologies",
+   "vantellatech.com",
+   "Fintech",
+   "smb",
+   85,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-5",
+   "Sirocco",
+   "sirocco.com",
+   "Fintech",
+   "smb",
+   22,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-6",
+   "Tidewater Capital",
+   "tidewater-capital.com",
+   "Fintech",
+   "mid-market",
+   600,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-7",
+   "Quillen Press",
+   "quillen-press.com",
+   "Media",
+   "mid-market",
+   700,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-8",
+   "Vernall Capital",
+   "vernall.io",
+   "Fintech",
+   "smb",
+   82,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-9",
+   "Flora Analytics",
+   "floraanalytics.io",
+   "SaaS",
+   "smb",
+   70,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-10",
+   "Venturis Manufacturing",
+   "venturismfg.io",
+   "Manufacturing",
+   "smb",
+   57,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-11",
+   "Aural Bank",
+   "auralbank.com",
+   "Fintech",
+   "mid-market",
+   418,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-12",
+   "Luceris Studios",
+   "luceris.com",
+   "Media",
+   "mid-market",
+   225,
+   "oscarn@saporanetworks.com"
+  ],
+  [
+   "acct-13",
+   "Fairchild Payments",
+   "fairchild.com",
+   "Fintech",
+   "smb",
+   130,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-14",
+   "Hyssop Capital",
+   "hyssop.co",
+   "Fintech",
+   "smb",
+   175,
+   "wesleyr@saporanetworks.com"
+  ],
+  [
+   "acct-15",
+   "Bright Financial",
+   "brightfinancial.com",
+   "Fintech",
+   "mid-market",
+   225,
+   "timothys@saporanetworks.com"
+  ],
+  [
+   "acct-16",
+   "Cairn Technologies",
+   "cairntech.com",
+   "Fintech",
+   "smb",
+   180,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-17",
+   "Finitra Financial",
+   "finitrafinancial.com",
+   "Fintech",
+   "smb",
+   150,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-18",
+   "Celora Credit Union",
+   "ccu.com.au",
+   "Fintech",
+   "smb",
+   24,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-19",
+   "Snowfall",
+   "snowfall.co",
+   "Fintech",
+   "smb",
+   90,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-20",
+   "Armitage Credit Union",
+   "acu.com",
+   "Fintech",
+   "smb",
+   17,
+   "oscarn@saporanetworks.com"
+  ],
+  [
+   "acct-21",
+   "Tenet Group",
+   "tenet.com",
+   "Fintech",
+   "mid-market",
+   700,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-22",
+   "Garnett Partners",
+   "garnett.ai",
+   "Fintech",
+   "smb",
+   150,
+   "priyab@saporanetworks.com"
+  ],
+  [
+   "acct-23",
+   "Amberpass Systems",
+   "amberpasssys.co.uk",
+   "SaaS",
+   "mid-market",
+   350,
+   "timothys@saporanetworks.com"
+  ],
+  [
+   "acct-24",
+   "Blythe Financial",
+   "blythe-financial.com",
+   "Fintech",
+   "mid-market",
+   270,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-25",
+   "Myrtle Systems",
+   "myrtlesys.com",
+   "SaaS",
+   "smb",
+   52,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-26",
+   "Lichen Technologies",
+   "lichentech.com",
+   "Fintech",
+   "smb",
+   120,
+   "wesleyr@saporanetworks.com"
+  ],
+  [
+   "acct-27",
+   "Alcott Analytics",
+   "alcott.com",
+   "SaaS",
+   "smb",
+   115,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-28",
+   "Sonnet Financial",
+   "sonnet.com",
+   "Fintech",
+   "mid-market",
+   585,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-29",
+   "Altessa",
+   "altessa.com",
+   "Fintech",
+   "smb",
+   33,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-30",
+   "Maplestone",
+   "maplestone.com",
+   "SaaS",
+   "smb",
+   45,
+   "klaudias@saporanetworks.com"
+  ],
+  [
+   "acct-31",
+   "Unitaria Financial",
+   "unitaria.com",
+   "Fintech",
+   "smb",
+   55,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-32",
+   "Benevra Partners",
+   "benevra.co.uk",
+   "Fintech",
+   "smb",
+   93,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-33",
+   "Boreal Fabrication",
+   "borealfabrication.com",
+   "Manufacturing",
+   "smb",
+   150,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-34",
+   "Aspen Analytics",
+   "aspenanalytics.com",
+   "SaaS",
+   "smb",
+   17,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-35",
+   "Fieldcrest Capital",
+   "fieldcrest-capital.com",
+   "Fintech",
+   "smb",
+   75,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-36",
+   "Grantham Payments",
+   "grantham-payments.com",
+   "Fintech",
+   "mid-market",
+   285,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-37",
+   "Basaltpeak Financial",
+   "basaltpeak-financial.io",
+   "Fintech",
+   "smb",
+   177,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-38",
+   "Berylpeak Broadcasting",
+   "berylpeak-broadcasting.ai",
+   "Media",
+   "smb",
+   29,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-39",
+   "Bayfern Care",
+   "bayfern.co",
+   "Healthcare",
+   "smb",
+   145,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-40",
+   "Jarvis Technologies",
+   "jarvistech.co",
+   "Fintech",
+   "mid-market",
+   239,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-41",
+   "Glint Capital",
+   "glintcapital.io",
+   "Fintech",
+   "smb",
+   160,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-42",
+   "Celsara Partners",
+   "celsara.com",
+   "Fintech",
+   "mid-market",
+   370,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-43",
+   "Tressler Technologies",
+   "tresslertech.co",
+   "Fintech",
+   "mid-market",
+   325,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-44",
+   "Birchbrook Logistics",
+   "birchbrooklogistics.net",
+   "Logistics",
+   "smb",
+   95,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-45",
+   "Quarry International",
+   "quarryintl.co",
+   "Fintech",
+   "mid-market",
+   1800,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-46",
+   "Downpour Credit Union",
+   "dcu.io",
+   "Fintech",
+   "smb",
+   89,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-47",
+   "Rafferty",
+   "rafferty.com.au",
+   "SaaS",
+   "smb",
+   135,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-48",
+   "Skyfield",
+   "skyfield.com",
+   "Fintech",
+   "mid-market",
+   225,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-49",
+   "Rudley Payments",
+   "rudleypayments.com",
+   "Fintech",
+   "smb",
+   26,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-50",
+   "Arvelis Financial",
+   "arvelis.com",
+   "Fintech",
+   "smb",
+   130,
+   "klaudias@saporanetworks.com"
+  ],
+  [
+   "acct-51",
+   "Boland Capital",
+   "bolandcapital.fr",
+   "Fintech",
+   "mid-market",
+   300,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-52",
+   "Civaro Systems",
+   "civarosys.com",
+   "SaaS",
+   "smb",
+   166,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-53",
+   "Solace Materials",
+   "solacematerials.com",
+   "Manufacturing",
+   "enterprise",
+   2000,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-54",
+   "Everard Capital",
+   "everard-capital.io",
+   "Fintech",
+   "smb",
+   48,
+   "ashleym@saporanetworks.com"
+  ],
+  [
+   "acct-55",
+   "Mosscrest",
+   "mosscrest.co",
+   "Healthcare",
+   "smb",
+   85,
+   "klaudias@saporanetworks.com"
+  ],
+  [
+   "acct-56",
+   "Loxham Media",
+   "loxham-media.com",
+   "Media",
+   "mid-market",
+   300,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-57",
+   "Croswell Technologies",
+   "croswelltech.co",
+   "Fintech",
+   "smb",
+   80,
+   "lisaw@saporanetworks.com"
+  ],
+  [
+   "acct-58",
+   "Vox Systems",
+   "voxsys.io",
+   "SaaS",
+   "mid-market",
+   425,
+   "anjab@saporanetworks.com"
+  ],
+  [
+   "acct-59",
+   "Aperture Fabrication",
+   "aperture.com",
+   "Manufacturing",
+   "smb",
+   150,
+   "ashleym@saporanetworks.com"
+  ]
+ ],
+ "rowCount": 61
+}

@@ -1,0 +1,217 @@
+{
+ "callId": "[REDACTED-PAN]",
+ "transcript": [
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Agenda",
+   "sentences": [
+    {
+     "start": 0,
+     "end": 13114,
+     "text": "Bishakha, thanks - this should be short."
+    },
+    {
+     "start": 13514,
+     "end": 51217,
+     "text": "I want to agree dates for the last two steps before the steering meeting - but you know your side better than I do."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Agenda",
+   "sentences": [
+    {
+     "start": 52022,
+     "end": 82489,
+     "text": "Ok, so Lisa, honest question: what does Vernall Capital look like to you as a customer today?"
+    },
+    {
+     "start": 82889,
+     "end": 107459,
+     "text": "The team has been using reporting dashboard daily and the feedback is good."
+    },
+    {
+     "start": 107859,
+     "end": 119655,
+     "text": "Does that match what you are seeing?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Adoption review",
+   "sentences": [
+    {
+     "start": 124200,
+     "end": 145540,
+     "text": "And - then let us hold the current terms and revisit in 6 months."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Adoption review",
+   "sentences": [
+    {
+     "start": 147037,
+     "end": 171954,
+     "text": "I mean, our own p95 budget is 1341 ms; where does yours sit under that load?"
+    },
+    {
+     "start": 172354,
+     "end": 198911,
+     "text": "On our side, our usage is up roughly 131% on last quarter, which nobody expected."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Adoption review",
+   "sentences": [
+    {
+     "start": 202257,
+     "end": 228805,
+     "text": "After onboarding, you get a named contact and support coverage across time zones."
+    },
+    {
+     "start": 229205,
+     "end": 255098,
+     "text": "Yeah - we can have reporting dashboard enabled for the new teams inside a week."
+    },
+    {
+     "start": 255498,
+     "end": 288276,
+     "text": "To be fair, at your volume reporting dashboard runs in the region you are already in - no migration."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Adoption review",
+   "sentences": [
+    {
+     "start": 290945,
+     "end": 318776,
+     "text": "Sorry, which of your services would our reporting dashboard traffic actually land on?"
+    },
+    {
+     "start": 319176,
+     "end": 327034,
+     "text": "What do you think, Lisa?"
+    },
+    {
+     "start": 327434,
+     "end": 352973,
+     "text": "Lisa, we have reporting dashboard in front of 32 users now with no complaints."
+    },
+    {
+     "start": 353373,
+     "end": 371711,
+     "text": "Lisa, do we get a named contact or is it a shared inbox?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Next term",
+   "sentences": [
+    {
+     "start": 375830,
+     "end": 398768,
+     "text": "Great - then the next step is getting the platform team the paperwork."
+    },
+    {
+     "start": 399168,
+     "end": 428332,
+     "text": "The - the sandbox plus one extra environment are included; each one after that has a fee."
+    },
+    {
+     "start": 428732,
+     "end": 459862,
+     "text": "Realistically, I will send the summary today and put a hold on the the new fiscal year pricing."
+    },
+    {
+     "start": 460262,
+     "end": 488771,
+     "text": "The $20,000 is the platform; the add-on is separate and I would not buy it in year one."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Next term",
+   "sentences": [
+    {
+     "start": 489401,
+     "end": 495948,
+     "text": "Sure - good to know."
+    },
+    {
+     "start": 496348,
+     "end": 515009,
+     "text": "We can raise that at renewal in 6 months rather than now."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Next term",
+   "sentences": [
+    {
+     "start": 517572,
+     "end": 543150,
+     "text": "Going back a step, how do you handle data residency - can this stay in region?"
+    },
+    {
+     "start": 543550,
+     "end": 577654,
+     "text": "Honestly, adoption of reporting dashboard is ahead of where we expected - about 32 people are in it now."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Next steps",
+   "sentences": [
+    {
+     "start": 578805,
+     "end": 592231,
+     "text": "Look, you are close to the next tier now."
+    },
+    {
+     "start": 592631,
+     "end": 607040,
+     "text": "Let me check the pricing that comes with it."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002045346622",
+   "topic": "Next steps",
+   "sentences": [
+    {
+     "start": 611742,
+     "end": 641947,
+     "text": "Bishakha, I owe you the uptime history and the two references; both by the steering meeting."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002548556306",
+   "topic": "Next steps",
+   "sentences": [
+    {
+     "start": 642507,
+     "end": 648071,
+     "text": "Well, that works."
+    },
+    {
+     "start": 648471,
+     "end": 666145,
+     "text": "I will get you the seat count by the steering meeting."
+    }
+   ]
+  }
+ ]
+}

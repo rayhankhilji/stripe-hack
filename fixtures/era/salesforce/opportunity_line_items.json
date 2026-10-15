@@ -1,0 +1,2492 @@
+[
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-0-0"
+  },
+  "Id": "oli-deal-0-0",
+  "OpportunityId": "deal-0",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 7500.0,
+  "TotalPrice": 7500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Pilot FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-1-0"
+  },
+  "Id": "oli-deal-1-0",
+  "OpportunityId": "deal-1",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 49000.0,
+  "TotalPrice": 49000.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Ardentia Media - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-2-0"
+  },
+  "Id": "oli-deal-2-0",
+  "OpportunityId": "deal-2",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 37400.0,
+  "TotalPrice": 37400.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Quarry International - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-2-1"
+  },
+  "Id": "oli-deal-2-1",
+  "OpportunityId": "deal-2",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15600.0,
+  "TotalPrice": 15600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Quarry International - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-3-0"
+  },
+  "Id": "oli-deal-3-0",
+  "OpportunityId": "deal-3",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 26460.0,
+  "TotalPrice": 26460.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Ardentia Media - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-4-0"
+  },
+  "Id": "oli-deal-4-0",
+  "OpportunityId": "deal-4",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15700.0,
+  "TotalPrice": 15700.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-5-0"
+  },
+  "Id": "oli-deal-5-0",
+  "OpportunityId": "deal-5",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17409.55,
+  "TotalPrice": 17409.55,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-5-1"
+  },
+  "Id": "oli-deal-5-1",
+  "OpportunityId": "deal-5",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 36090.45,
+  "TotalPrice": 36090.45,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Sable - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-6-0"
+  },
+  "Id": "oli-deal-6-0",
+  "OpportunityId": "deal-6",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15500.0,
+  "TotalPrice": 15500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q3 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-7-0"
+  },
+  "Id": "oli-deal-7-0",
+  "OpportunityId": "deal-7",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 18844.0,
+  "TotalPrice": 18844.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-8-0"
+  },
+  "Id": "oli-deal-8-0",
+  "OpportunityId": "deal-8",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 27500.0,
+  "TotalPrice": 27500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Celestine Health - Platform FY27."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-9-0"
+  },
+  "Id": "oli-deal-9-0",
+  "OpportunityId": "deal-9",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 30000.0,
+  "TotalPrice": 30000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q3 FY26 (3)."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-10-0"
+  },
+  "Id": "oli-deal-10-0",
+  "OpportunityId": "deal-10",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-11-0"
+  },
+  "Id": "oli-deal-11-0",
+  "OpportunityId": "deal-11",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15300.0,
+  "TotalPrice": 15300.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q3 FY26 (4)."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-12-0"
+  },
+  "Id": "oli-deal-12-0",
+  "OpportunityId": "deal-12",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q3 FY26 (5)."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-13-0"
+  },
+  "Id": "oli-deal-13-0",
+  "OpportunityId": "deal-13",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 21000.0,
+  "TotalPrice": 21000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q3 FY26 (6)."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-14-0"
+  },
+  "Id": "oli-deal-14-0",
+  "OpportunityId": "deal-14",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 17000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q2 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-15-0"
+  },
+  "Id": "oli-deal-15-0",
+  "OpportunityId": "deal-15",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 17500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sable - Platform Q4 FY26 (2)."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-16-0"
+  },
+  "Id": "oli-deal-16-0",
+  "OpportunityId": "deal-16",
+  "Product2Id": "prod-0",
+  "PricebookEntryId": "pbe-0",
+  "Quantity": 1.0,
+  "UnitPrice": 116000.0,
+  "TotalPrice": 116000.0,
+  "ListPrice": 120000.0,
+  "Description": "Payments Core on Fairchild Payments - Pilot FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-16-1"
+  },
+  "Id": "oli-deal-16-1",
+  "OpportunityId": "deal-16",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 1.0,
+  "UnitPrice": 84000.0,
+  "TotalPrice": 84000.0,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Fairchild Payments - Pilot FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-17-0"
+  },
+  "Id": "oli-deal-17-0",
+  "OpportunityId": "deal-17",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 2.0,
+  "UnitPrice": 74495.9,
+  "TotalPrice": 148991.8,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Celestine Health - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-17-1"
+  },
+  "Id": "oli-deal-17-1",
+  "OpportunityId": "deal-17",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 2.0,
+  "UnitPrice": 50504.1,
+  "TotalPrice": 101008.2,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Celestine Health - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-18-0"
+  },
+  "Id": "oli-deal-18-0",
+  "OpportunityId": "deal-18",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 3.0,
+  "UnitPrice": 45866.66,
+  "TotalPrice": 137599.98,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Celestine Health - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-18-1"
+  },
+  "Id": "oli-deal-18-1",
+  "OpportunityId": "deal-18",
+  "Product2Id": "prod-3",
+  "PricebookEntryId": "pbe-3",
+  "Quantity": 1.0,
+  "UnitPrice": 62400.02,
+  "TotalPrice": 62400.02,
+  "ListPrice": 96000.0,
+  "Description": "Fraud Detection on Celestine Health - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-19-0"
+  },
+  "Id": "oli-deal-19-0",
+  "OpportunityId": "deal-19",
+  "Product2Id": "prod-3",
+  "PricebookEntryId": "pbe-3",
+  "Quantity": 1.0,
+  "UnitPrice": 64900.0,
+  "TotalPrice": 64900.0,
+  "ListPrice": 96000.0,
+  "Description": "Fraud Detection on Celestine Health - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-19-1"
+  },
+  "Id": "oli-deal-19-1",
+  "OpportunityId": "deal-19",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35100.0,
+  "TotalPrice": 35100.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Celestine Health - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-20-0"
+  },
+  "Id": "oli-deal-20-0",
+  "OpportunityId": "deal-20",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15000.0,
+  "TotalPrice": 15000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Vantella Technologies - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-21-0"
+  },
+  "Id": "oli-deal-21-0",
+  "OpportunityId": "deal-21",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 8757.0,
+  "TotalPrice": 8757.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sirocco - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-22-0"
+  },
+  "Id": "oli-deal-22-0",
+  "OpportunityId": "deal-22",
+  "Product2Id": "prod-6",
+  "PricebookEntryId": "pbe-6",
+  "Quantity": 1.0,
+  "UnitPrice": 47865.64,
+  "TotalPrice": 47865.64,
+  "ListPrice": 66000.0,
+  "Description": "Treasury Automation on Tidewater Capital - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-22-1"
+  },
+  "Id": "oli-deal-22-1",
+  "OpportunityId": "deal-22",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 18567.18,
+  "TotalPrice": 37134.36,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tidewater Capital - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-23-0"
+  },
+  "Id": "oli-deal-23-0",
+  "OpportunityId": "deal-23",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 11000.0,
+  "TotalPrice": 11000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tidewater Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-24-0"
+  },
+  "Id": "oli-deal-24-0",
+  "OpportunityId": "deal-24",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 9700.0,
+  "TotalPrice": 9700.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tidewater Capital - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-25-0"
+  },
+  "Id": "oli-deal-25-0",
+  "OpportunityId": "deal-25",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 1.0,
+  "UnitPrice": 61000.0,
+  "TotalPrice": 61000.0,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Quillen Press - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-25-1"
+  },
+  "Id": "oli-deal-25-1",
+  "OpportunityId": "deal-25",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 39000.0,
+  "TotalPrice": 39000.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Quillen Press - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-26-0"
+  },
+  "Id": "oli-deal-26-0",
+  "OpportunityId": "deal-26",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 40142.48,
+  "TotalPrice": 40142.48,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Quillen Press - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-26-1"
+  },
+  "Id": "oli-deal-26-1",
+  "OpportunityId": "deal-26",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 44857.52,
+  "TotalPrice": 44857.52,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Quillen Press - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-27-0"
+  },
+  "Id": "oli-deal-27-0",
+  "OpportunityId": "deal-27",
+  "Product2Id": "prod-3",
+  "PricebookEntryId": "pbe-3",
+  "Quantity": 1.0,
+  "UnitPrice": 64400.0,
+  "TotalPrice": 64400.0,
+  "ListPrice": 96000.0,
+  "Description": "Fraud Detection on Quillen Press - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-27-1"
+  },
+  "Id": "oli-deal-27-1",
+  "OpportunityId": "deal-27",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15600.0,
+  "TotalPrice": 15600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Quillen Press - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-28-0"
+  },
+  "Id": "oli-deal-28-0",
+  "OpportunityId": "deal-28",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 2.0,
+  "UnitPrice": 51500.0,
+  "TotalPrice": 103000.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Quillen Press - Expansion."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-28-1"
+  },
+  "Id": "oli-deal-28-1",
+  "OpportunityId": "deal-28",
+  "Product2Id": "prod-5",
+  "PricebookEntryId": "pbe-5",
+  "Quantity": 1.0,
+  "UnitPrice": 72000.0,
+  "TotalPrice": 72000.0,
+  "ListPrice": 72000.0,
+  "Description": "Card Issuing on Quillen Press - Expansion."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-29-0"
+  },
+  "Id": "oli-deal-29-0",
+  "OpportunityId": "deal-29",
+  "Product2Id": "prod-5",
+  "PricebookEntryId": "pbe-5",
+  "Quantity": 1.0,
+  "UnitPrice": 59000.0,
+  "TotalPrice": 59000.0,
+  "ListPrice": 72000.0,
+  "Description": "Card Issuing on Quillen Press - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-29-1"
+  },
+  "Id": "oli-deal-29-1",
+  "OpportunityId": "deal-29",
+  "Product2Id": "prod-6",
+  "PricebookEntryId": "pbe-6",
+  "Quantity": 1.0,
+  "UnitPrice": 66000.0,
+  "TotalPrice": 66000.0,
+  "ListPrice": 66000.0,
+  "Description": "Treasury Automation on Quillen Press - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-30-0"
+  },
+  "Id": "oli-deal-30-0",
+  "OpportunityId": "deal-30",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Vernall Capital - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-31-0"
+  },
+  "Id": "oli-deal-31-0",
+  "OpportunityId": "deal-31",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3861.0,
+  "TotalPrice": 3861.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Flora Analytics - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-32-0"
+  },
+  "Id": "oli-deal-32-0",
+  "OpportunityId": "deal-32",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 5450.0,
+  "TotalPrice": 5450.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Venturis Manufacturing - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-33-0"
+  },
+  "Id": "oli-deal-33-0",
+  "OpportunityId": "deal-33",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 4900.0,
+  "TotalPrice": 4900.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Venturis Manufacturing - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-34-0"
+  },
+  "Id": "oli-deal-34-0",
+  "OpportunityId": "deal-34",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 37500.0,
+  "TotalPrice": 37500.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Aural Bank - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-35-0"
+  },
+  "Id": "oli-deal-35-0",
+  "OpportunityId": "deal-35",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 41000.0,
+  "TotalPrice": 41000.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Aural Bank - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-36-0"
+  },
+  "Id": "oli-deal-36-0",
+  "OpportunityId": "deal-36",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 50000.0,
+  "TotalPrice": 50000.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Aural Bank - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-37-0"
+  },
+  "Id": "oli-deal-37-0",
+  "OpportunityId": "deal-37",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 17500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Luceris Studios - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-38-0"
+  },
+  "Id": "oli-deal-38-0",
+  "OpportunityId": "deal-38",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15500.0,
+  "TotalPrice": 15500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Primrose Partners - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-39-0"
+  },
+  "Id": "oli-deal-39-0",
+  "OpportunityId": "deal-39",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 17500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Fairchild Payments - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-40-0"
+  },
+  "Id": "oli-deal-40-0",
+  "OpportunityId": "deal-40",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 22000.0,
+  "TotalPrice": 22000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Fairchild Payments - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-41-0"
+  },
+  "Id": "oli-deal-41-0",
+  "OpportunityId": "deal-41",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 10000.0,
+  "TotalPrice": 10000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Hyssop Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-42-0"
+  },
+  "Id": "oli-deal-42-0",
+  "OpportunityId": "deal-42",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 14500.0,
+  "TotalPrice": 14500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Bright Financial - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-43-0"
+  },
+  "Id": "oli-deal-43-0",
+  "OpportunityId": "deal-43",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 7600.0,
+  "TotalPrice": 7600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Bright Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-44-0"
+  },
+  "Id": "oli-deal-44-0",
+  "OpportunityId": "deal-44",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12000.0,
+  "TotalPrice": 12000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Cairn Technologies - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-45-0"
+  },
+  "Id": "oli-deal-45-0",
+  "OpportunityId": "deal-45",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 28000.0,
+  "TotalPrice": 28000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Finitra Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-46-0"
+  },
+  "Id": "oli-deal-46-0",
+  "OpportunityId": "deal-46",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 18500.0,
+  "TotalPrice": 37000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Vantella Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-47-0"
+  },
+  "Id": "oli-deal-47-0",
+  "OpportunityId": "deal-47",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 4500.0,
+  "TotalPrice": 4500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Celora Credit Union - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-48-0"
+  },
+  "Id": "oli-deal-48-0",
+  "OpportunityId": "deal-48",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 10500.0,
+  "TotalPrice": 10500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Snowfall - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-49-0"
+  },
+  "Id": "oli-deal-49-0",
+  "OpportunityId": "deal-49",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3250.0,
+  "TotalPrice": 3250.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Armitage Credit Union - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-50-0"
+  },
+  "Id": "oli-deal-50-0",
+  "OpportunityId": "deal-50",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 23770.0,
+  "TotalPrice": 23770.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tenet Group - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-51-0"
+  },
+  "Id": "oli-deal-51-0",
+  "OpportunityId": "deal-51",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 50000.0,
+  "TotalPrice": 50000.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Tenet Group - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-52-0"
+  },
+  "Id": "oli-deal-52-0",
+  "OpportunityId": "deal-52",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 30000.0,
+  "TotalPrice": 30000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tenet Group - Platform Q4 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-53-0"
+  },
+  "Id": "oli-deal-53-0",
+  "OpportunityId": "deal-53",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16000.0,
+  "TotalPrice": 16000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Garnett Partners - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-54-0"
+  },
+  "Id": "oli-deal-54-0",
+  "OpportunityId": "deal-54",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 17500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Amberpass Systems - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-55-0"
+  },
+  "Id": "oli-deal-55-0",
+  "OpportunityId": "deal-55",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12500.0,
+  "TotalPrice": 12500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Amberpass Systems - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-56-0"
+  },
+  "Id": "oli-deal-56-0",
+  "OpportunityId": "deal-56",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 40000.0,
+  "TotalPrice": 40000.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Blythe Financial - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-57-0"
+  },
+  "Id": "oli-deal-57-0",
+  "OpportunityId": "deal-57",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16970.0,
+  "TotalPrice": 16970.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Blythe Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-58-0"
+  },
+  "Id": "oli-deal-58-0",
+  "OpportunityId": "deal-58",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17080.0,
+  "TotalPrice": 17080.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Blythe Financial - Pilot FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-59-0"
+  },
+  "Id": "oli-deal-59-0",
+  "OpportunityId": "deal-59",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 6250.0,
+  "TotalPrice": 6250.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Myrtle Systems - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-60-0"
+  },
+  "Id": "oli-deal-60-0",
+  "OpportunityId": "deal-60",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 8700.0,
+  "TotalPrice": 8700.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Lichen Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-61-0"
+  },
+  "Id": "oli-deal-61-0",
+  "OpportunityId": "deal-61",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 11900.0,
+  "TotalPrice": 11900.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Lichen Technologies - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-62-0"
+  },
+  "Id": "oli-deal-62-0",
+  "OpportunityId": "deal-62",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 9700.0,
+  "TotalPrice": 9700.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Alcott Analytics - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-63-0"
+  },
+  "Id": "oli-deal-63-0",
+  "OpportunityId": "deal-63",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Alcott Analytics - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-64-0"
+  },
+  "Id": "oli-deal-64-0",
+  "OpportunityId": "deal-64",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 34000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sonnet Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-65-0"
+  },
+  "Id": "oli-deal-65-0",
+  "OpportunityId": "deal-65",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 1.0,
+  "UnitPrice": 75636.21,
+  "TotalPrice": 75636.21,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Sonnet Financial - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-65-1"
+  },
+  "Id": "oli-deal-65-1",
+  "OpportunityId": "deal-65",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 49363.79,
+  "TotalPrice": 49363.79,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Sonnet Financial - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-66-0"
+  },
+  "Id": "oli-deal-66-0",
+  "OpportunityId": "deal-66",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 42020.0,
+  "TotalPrice": 42020.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Finitra Financial - Platform FY27."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-66-1"
+  },
+  "Id": "oli-deal-66-1",
+  "OpportunityId": "deal-66",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35100.0,
+  "TotalPrice": 35100.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Finitra Financial - Platform FY27."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-67-0"
+  },
+  "Id": "oli-deal-67-0",
+  "OpportunityId": "deal-67",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 11500.0,
+  "TotalPrice": 11500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Altessa - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-68-0"
+  },
+  "Id": "oli-deal-68-0",
+  "OpportunityId": "deal-68",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 8300.0,
+  "TotalPrice": 8300.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Maplestone - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-69-0"
+  },
+  "Id": "oli-deal-69-0",
+  "OpportunityId": "deal-69",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 4500.0,
+  "TotalPrice": 4500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Maplestone - Platform FY25."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-70-0"
+  },
+  "Id": "oli-deal-70-0",
+  "OpportunityId": "deal-70",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 5750.0,
+  "TotalPrice": 5750.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Unitaria Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-71-0"
+  },
+  "Id": "oli-deal-71-0",
+  "OpportunityId": "deal-71",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 30000.0,
+  "TotalPrice": 30000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Benevra Partners - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-72-0"
+  },
+  "Id": "oli-deal-72-0",
+  "OpportunityId": "deal-72",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 10000.0,
+  "TotalPrice": 10000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Boreal Fabrication - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-73-0"
+  },
+  "Id": "oli-deal-73-0",
+  "OpportunityId": "deal-73",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Boreal Fabrication - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-74-0"
+  },
+  "Id": "oli-deal-74-0",
+  "OpportunityId": "deal-74",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 2000.0,
+  "TotalPrice": 2000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Aspen Analytics - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-75-0"
+  },
+  "Id": "oli-deal-75-0",
+  "OpportunityId": "deal-75",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 10000.0,
+  "TotalPrice": 10000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Fieldcrest Capital - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-76-0"
+  },
+  "Id": "oli-deal-76-0",
+  "OpportunityId": "deal-76",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16000.0,
+  "TotalPrice": 16000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Fieldcrest Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-77-0"
+  },
+  "Id": "oli-deal-77-0",
+  "OpportunityId": "deal-77",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20000.0,
+  "TotalPrice": 20000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Grantham Payments - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-78-0"
+  },
+  "Id": "oli-deal-78-0",
+  "OpportunityId": "deal-78",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 17000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Basaltpeak Financial - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-79-0"
+  },
+  "Id": "oli-deal-79-0",
+  "OpportunityId": "deal-79",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15000.0,
+  "TotalPrice": 15000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Basaltpeak Financial - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-80-0"
+  },
+  "Id": "oli-deal-80-0",
+  "OpportunityId": "deal-80",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12000.0,
+  "TotalPrice": 12000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Berylpeak Broadcasting - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-81-0"
+  },
+  "Id": "oli-deal-81-0",
+  "OpportunityId": "deal-81",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 41105.8,
+  "TotalPrice": 41105.8,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Bayfern Care - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-81-1"
+  },
+  "Id": "oli-deal-81-1",
+  "OpportunityId": "deal-81",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 23894.2,
+  "TotalPrice": 23894.2,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Bayfern Care - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-82-0"
+  },
+  "Id": "oli-deal-82-0",
+  "OpportunityId": "deal-82",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 42500.0,
+  "TotalPrice": 42500.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Bayfern Care - Renewal FY25."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-83-0"
+  },
+  "Id": "oli-deal-83-0",
+  "OpportunityId": "deal-83",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 30000.0,
+  "TotalPrice": 30000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Jarvis Technologies - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-84-0"
+  },
+  "Id": "oli-deal-84-0",
+  "OpportunityId": "deal-84",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 34000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Jarvis Technologies - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-85-0"
+  },
+  "Id": "oli-deal-85-0",
+  "OpportunityId": "deal-85",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16500.0,
+  "TotalPrice": 16500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Glint Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-86-0"
+  },
+  "Id": "oli-deal-86-0",
+  "OpportunityId": "deal-86",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 11400.0,
+  "TotalPrice": 11400.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Glint Capital - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-87-0"
+  },
+  "Id": "oli-deal-87-0",
+  "OpportunityId": "deal-87",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 23000.0,
+  "TotalPrice": 46000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Celsara Partners - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-88-0"
+  },
+  "Id": "oli-deal-88-0",
+  "OpportunityId": "deal-88",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 10000.0,
+  "TotalPrice": 10000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Celsara Partners - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-89-0"
+  },
+  "Id": "oli-deal-89-0",
+  "OpportunityId": "deal-89",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 27500.0,
+  "TotalPrice": 27500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Celsara Partners - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-90-0"
+  },
+  "Id": "oli-deal-90-0",
+  "OpportunityId": "deal-90",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12000.0,
+  "TotalPrice": 12000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tressler Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-91-0"
+  },
+  "Id": "oli-deal-91-0",
+  "OpportunityId": "deal-91",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12746.0,
+  "TotalPrice": 12746.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tressler Technologies - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-92-0"
+  },
+  "Id": "oli-deal-92-0",
+  "OpportunityId": "deal-92",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 2600.0,
+  "TotalPrice": 2600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Birchbrook Logistics - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-93-0"
+  },
+  "Id": "oli-deal-93-0",
+  "OpportunityId": "deal-93",
+  "Product2Id": "prod-5",
+  "PricebookEntryId": "pbe-5",
+  "Quantity": 1.0,
+  "UnitPrice": 48000.0,
+  "TotalPrice": 48000.0,
+  "ListPrice": 72000.0,
+  "Description": "Card Issuing on Quarry International - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-94-0"
+  },
+  "Id": "oli-deal-94-0",
+  "OpportunityId": "deal-94",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17242.0,
+  "TotalPrice": 17242.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Ardentia Media - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-95-0"
+  },
+  "Id": "oli-deal-95-0",
+  "OpportunityId": "deal-95",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16698.0,
+  "TotalPrice": 16698.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Quarry International - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-95-1"
+  },
+  "Id": "oli-deal-95-1",
+  "OpportunityId": "deal-95",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35100.0,
+  "TotalPrice": 35100.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Quarry International - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-96-0"
+  },
+  "Id": "oli-deal-96-0",
+  "OpportunityId": "deal-96",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 30000.0,
+  "TotalPrice": 30000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Downpour Credit Union - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-97-0"
+  },
+  "Id": "oli-deal-97-0",
+  "OpportunityId": "deal-97",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12500.0,
+  "TotalPrice": 12500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Downpour Credit Union - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-98-0"
+  },
+  "Id": "oli-deal-98-0",
+  "OpportunityId": "deal-98",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 21500.0,
+  "TotalPrice": 21500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Rafferty - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-99-0"
+  },
+  "Id": "oli-deal-99-0",
+  "OpportunityId": "deal-99",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 22500.0,
+  "TotalPrice": 22500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Rafferty - Renewal FY25."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-100-0"
+  },
+  "Id": "oli-deal-100-0",
+  "OpportunityId": "deal-100",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 14000.0,
+  "TotalPrice": 14000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Rafferty - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-101-0"
+  },
+  "Id": "oli-deal-101-0",
+  "OpportunityId": "deal-101",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 18000.0,
+  "TotalPrice": 18000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Skyfield - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-102-0"
+  },
+  "Id": "oli-deal-102-0",
+  "OpportunityId": "deal-102",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 24000.0,
+  "TotalPrice": 24000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Skyfield - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-103-0"
+  },
+  "Id": "oli-deal-103-0",
+  "OpportunityId": "deal-103",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 2600.0,
+  "TotalPrice": 2600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Rudley Payments - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-104-0"
+  },
+  "Id": "oli-deal-104-0",
+  "OpportunityId": "deal-104",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 7600.0,
+  "TotalPrice": 7600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Arvelis Financial - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-105-0"
+  },
+  "Id": "oli-deal-105-0",
+  "OpportunityId": "deal-105",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 9250.0,
+  "TotalPrice": 9250.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Arvelis Financial - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-106-0"
+  },
+  "Id": "oli-deal-106-0",
+  "OpportunityId": "deal-106",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 50000.0,
+  "TotalPrice": 50000.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Boland Capital - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-107-0"
+  },
+  "Id": "oli-deal-107-0",
+  "OpportunityId": "deal-107",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 35000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Boland Capital - Renewal FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-108-0"
+  },
+  "Id": "oli-deal-108-0",
+  "OpportunityId": "deal-108",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 47500.0,
+  "TotalPrice": 47500.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Boland Capital - Expansion."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-109-0"
+  },
+  "Id": "oli-deal-109-0",
+  "OpportunityId": "deal-109",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 9900.0,
+  "TotalPrice": 9900.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Civaro Systems - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-110-0"
+  },
+  "Id": "oli-deal-110-0",
+  "OpportunityId": "deal-110",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 17000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Civaro Systems - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-111-0"
+  },
+  "Id": "oli-deal-111-0",
+  "OpportunityId": "deal-111",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 35000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Solace Materials - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-112-0"
+  },
+  "Id": "oli-deal-112-0",
+  "OpportunityId": "deal-112",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35600.0,
+  "TotalPrice": 35600.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Solace Materials - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-113-0"
+  },
+  "Id": "oli-deal-113-0",
+  "OpportunityId": "deal-113",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 22840.0,
+  "TotalPrice": 22840.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Solace Materials - Platform Q3 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-114-0"
+  },
+  "Id": "oli-deal-114-0",
+  "OpportunityId": "deal-114",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 13400.0,
+  "TotalPrice": 13400.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Everard Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-115-0"
+  },
+  "Id": "oli-deal-115-0",
+  "OpportunityId": "deal-115",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3900.0,
+  "TotalPrice": 3900.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Everard Capital - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-116-0"
+  },
+  "Id": "oli-deal-116-0",
+  "OpportunityId": "deal-116",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 36000.0,
+  "TotalPrice": 36000.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Mosscrest - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-116-1"
+  },
+  "Id": "oli-deal-116-1",
+  "OpportunityId": "deal-116",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15600.0,
+  "TotalPrice": 15600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Mosscrest - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-117-0"
+  },
+  "Id": "oli-deal-117-0",
+  "OpportunityId": "deal-117",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15000.0,
+  "TotalPrice": 15000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Loxham Media - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-118-0"
+  },
+  "Id": "oli-deal-118-0",
+  "OpportunityId": "deal-118",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15000.0,
+  "TotalPrice": 15000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Loxham Media - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-119-0"
+  },
+  "Id": "oli-deal-119-0",
+  "OpportunityId": "deal-119",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 13500.0,
+  "TotalPrice": 13500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Loxham Media - Platform Q1 FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-120-0"
+  },
+  "Id": "oli-deal-120-0",
+  "OpportunityId": "deal-120",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 4700.0,
+  "TotalPrice": 4700.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Croswell Technologies - Renewal."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-121-0"
+  },
+  "Id": "oli-deal-121-0",
+  "OpportunityId": "deal-121",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 1.0,
+  "UnitPrice": 56900.0,
+  "TotalPrice": 56900.0,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Vox Systems - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-121-1"
+  },
+  "Id": "oli-deal-121-1",
+  "OpportunityId": "deal-121",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35100.0,
+  "TotalPrice": 35100.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Vox Systems - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-122-0"
+  },
+  "Id": "oli-deal-122-0",
+  "OpportunityId": "deal-122",
+  "Product2Id": "prod-2",
+  "PricebookEntryId": "pbe-2",
+  "Quantity": 1.0,
+  "UnitPrice": 39000.0,
+  "TotalPrice": 39000.0,
+  "ListPrice": 60000.0,
+  "Description": "KYC & Onboarding on Vox Systems - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-123-0"
+  },
+  "Id": "oli-deal-123-0",
+  "OpportunityId": "deal-123",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 7800.0,
+  "TotalPrice": 7800.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Vox Systems - Platform FY26."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-124-0"
+  },
+  "Id": "oli-deal-124-0",
+  "OpportunityId": "deal-124",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 11500.0,
+  "TotalPrice": 11500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Aperture Fabrication - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-125-0"
+  },
+  "Id": "oli-deal-125-0",
+  "OpportunityId": "deal-125",
+  "Product2Id": "prod-5",
+  "PricebookEntryId": "pbe-5",
+  "Quantity": 1.0,
+  "UnitPrice": 47210.0,
+  "TotalPrice": 47210.0,
+  "ListPrice": 72000.0,
+  "Description": "Card Issuing on Ardentia Media - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-126-0"
+  },
+  "Id": "oli-deal-126-0",
+  "OpportunityId": "deal-126",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 4484.0,
+  "TotalPrice": 4484.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Sirocco - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-127-0"
+  },
+  "Id": "oli-deal-127-0",
+  "OpportunityId": "deal-127",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 16400.0,
+  "TotalPrice": 16400.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Tidewater Capital - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-127-1"
+  },
+  "Id": "oli-deal-127-1",
+  "OpportunityId": "deal-127",
+  "Product2Id": "prod-4",
+  "PricebookEntryId": "pbe-4",
+  "Quantity": 1.0,
+  "UnitPrice": 35100.0,
+  "TotalPrice": 35100.0,
+  "ListPrice": 54000.0,
+  "Description": "Regulatory Reporting on Tidewater Capital - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-128-0"
+  },
+  "Id": "oli-deal-128-0",
+  "OpportunityId": "deal-128",
+  "Product2Id": "prod-0",
+  "PricebookEntryId": "pbe-0",
+  "Quantity": 1.0,
+  "UnitPrice": 79400.0,
+  "TotalPrice": 79400.0,
+  "ListPrice": 120000.0,
+  "Description": "Payments Core on Quillen Press - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-128-1"
+  },
+  "Id": "oli-deal-128-1",
+  "OpportunityId": "deal-128",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 15600.0,
+  "TotalPrice": 15600.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Quillen Press - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-129-0"
+  },
+  "Id": "oli-deal-129-0",
+  "OpportunityId": "deal-129",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12000.0,
+  "TotalPrice": 12000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Vernall Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-130-0"
+  },
+  "Id": "oli-deal-130-0",
+  "OpportunityId": "deal-130",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3672.0,
+  "TotalPrice": 3672.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Flora Analytics - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-131-0"
+  },
+  "Id": "oli-deal-131-0",
+  "OpportunityId": "deal-131",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3500.0,
+  "TotalPrice": 3500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Venturis Manufacturing - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-132-0"
+  },
+  "Id": "oli-deal-132-0",
+  "OpportunityId": "deal-132",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 20500.0,
+  "TotalPrice": 20500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Fairchild Payments - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-133-0"
+  },
+  "Id": "oli-deal-133-0",
+  "OpportunityId": "deal-133",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 6888.0,
+  "TotalPrice": 6888.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Cairn Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-134-0"
+  },
+  "Id": "oli-deal-134-0",
+  "OpportunityId": "deal-134",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 13000.0,
+  "TotalPrice": 13000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Alcott Analytics - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-135-0"
+  },
+  "Id": "oli-deal-135-0",
+  "OpportunityId": "deal-135",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 18000.0,
+  "TotalPrice": 18000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Benevra Partners - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-136-0"
+  },
+  "Id": "oli-deal-136-0",
+  "OpportunityId": "deal-136",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 12420.0,
+  "TotalPrice": 12420.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Basaltpeak Financial - Pilot."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-137-0"
+  },
+  "Id": "oli-deal-137-0",
+  "OpportunityId": "deal-137",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 9900.0,
+  "TotalPrice": 9900.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Berylpeak Broadcasting - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-138-0"
+  },
+  "Id": "oli-deal-138-0",
+  "OpportunityId": "deal-138",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 35000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Bayfern Care - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-139-0"
+  },
+  "Id": "oli-deal-139-0",
+  "OpportunityId": "deal-139",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 22500.0,
+  "TotalPrice": 22500.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Jarvis Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-140-0"
+  },
+  "Id": "oli-deal-140-0",
+  "OpportunityId": "deal-140",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 3300.0,
+  "TotalPrice": 3300.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Birchbrook Logistics - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-141-0"
+  },
+  "Id": "oli-deal-141-0",
+  "OpportunityId": "deal-141",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 17000.0,
+  "TotalPrice": 17000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Rafferty - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-142-0"
+  },
+  "Id": "oli-deal-142-0",
+  "OpportunityId": "deal-142",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 2.0,
+  "UnitPrice": 17500.0,
+  "TotalPrice": 35000.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Boland Capital - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-143-0"
+  },
+  "Id": "oli-deal-143-0",
+  "OpportunityId": "deal-143",
+  "Product2Id": "prod-7",
+  "PricebookEntryId": "pbe-7",
+  "Quantity": 1.0,
+  "UnitPrice": 7100.0,
+  "TotalPrice": 7100.0,
+  "ListPrice": 24000.0,
+  "Description": "Audit Evidence Pack on Croswell Technologies - Platform."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-ent-0-0"
+  },
+  "Id": "oli-deal-ent-0-0",
+  "OpportunityId": "deal-ent-0",
+  "Product2Id": "prod-0",
+  "PricebookEntryId": "pbe-0",
+  "Quantity": 2.0,
+  "UnitPrice": 79012.44,
+  "TotalPrice": 158024.88,
+  "ListPrice": 120000.0,
+  "Description": "Payments Core on Primrose Partners - Enterprise Platform Agreement."
+ },
+ {
+  "attributes": {
+   "type": "OpportunityLineItem",
+   "url": "/services/data/v60.0/sobjects/OpportunityLineItem/oli-deal-ent-0-1"
+  },
+  "Id": "oli-deal-ent-0-1",
+  "OpportunityId": "deal-ent-0",
+  "Product2Id": "prod-1",
+  "PricebookEntryId": "pbe-1",
+  "Quantity": 3.0,
+  "UnitPrice": 72325.04,
+  "TotalPrice": 216975.12,
+  "ListPrice": 84000.0,
+  "Description": "Ledger & Reconciliation on Primrose Partners - Enterprise Platform Agreement."
+ }
+]

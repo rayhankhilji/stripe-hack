@@ -1,0 +1,7 @@
+{
+ "id": "doc-6904",
+ "name": "Celestine Health - Payment Dispute",
+ "mimeType": "application/vnd.google-apps.document",
+ "truncated": false,
+ "content": "Celestine Health - Payment Dispute\n\nRestricted \u2014 Sapora Networks\n\nRecord\nOwner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance)\nAccount: Celestine Health (acct-3) \u2014 Education, tier enterprise, domain celestinehealth.com\nDeal: Celestine Health - Platform (deal-17) \u2014 Prospecting, $250,000 closing 2026-10-31\n\nDispute summary\nCase DSP-44668 raised 2026-08-05 by Manuel Foo.\nDisputed amount $153.00, charged 2026-07-25.\nReason given: subscription cancelled before renewal.\n\nCardholder details as supplied\nCopied from the chargeback packet the acquirer sent; do not re-share outside Finance.\n  Cardholder: Manuel Foo\n  Card number: [REDACTED-PAN]\n  Expiry: 06/28\n  Billing address: 347 Kingsway, Portland, OR\n  Contact: +1 (212) 555-0190\n\nEvidence\nDate | Event | Reference\n2026-07-25 | Charge authorised | ch_951febde3983ec9a\n2026-07-27 | Receipt emailed | manuel@celestinehealth.com\n2026-08-03 | Dispute opened by issuer | dp_5b60b2a4bd3078ac\n\nRecommendation\nAccept the dispute and refund in full; the cancellation request predates the renewal.\nOwner: Christina Schubert. Deadline to respond: 2026-08-12.\n\nNext steps\n1. Record the outcome against Celestine Health once the issuer rules.\n2. Upload the evidence pack to the acquirer before 2026-08-08.\n3. Redact the cardholder details from any copy leaving Finance."
+}

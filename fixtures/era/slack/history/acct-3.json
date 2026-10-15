@@ -1,0 +1,1404 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Celestine Health - Platform FY26 \u2192 Closed Lost. Data residency requirement we cannot meet yet was the blocker.",
+   "ts": "1791071999.001141",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "ddb5620",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Celestine Health - Platform FY26 \u2192 Closed Lost. Data residency requirement we cannot meet yet was the blocker."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c0f47de8-c03f-58e7-b979-14a72a2c46cb",
+   "pinned_to": [
+    "acct-3"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "<@user-43> Celestine Health - Platform \u2192 Closed Won. Signature landed ahead of quarter end; handing over to onboarding.",
+   "ts": "1791071999.001041",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c40eCA2",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "user",
+         "user_id": "user-43"
+        },
+        {
+         "type": "text",
+         "text": " Celestine Health - Platform \u2192 Closed Won. Signature landed ahead of quarter end; handing over to onboarding."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "12ba3b42-bd6e-5793-abc6-1f986b84df6c",
+   "reactions": [
+    {
+     "name": "eyes",
+     "users": [
+      "user-4",
+      "user-1"
+     ],
+     "count": 2
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-43",
+      "user-49"
+     ],
+     "count": 2
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-43",
+      "user-4",
+      "user-22",
+      "user-23",
+      "user-2",
+      "user-30",
+      "user-49",
+      "user-13",
+      "user-38",
+      "user-10"
+     ],
+     "count": 10
+    },
+    {
+     "name": "pray",
+     "users": [
+      "user-4",
+      "user-16",
+      "user-7",
+      "user-9",
+      "user-13",
+      "user-10",
+      "user-30"
+     ],
+     "count": 7
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Intro + requirements - Celestine Health (15m, 2 participants) \u2014 recording call-95 \u00b7 sentiment at-risk",
+   "ts": "1790934320.002521",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790934320.002521",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-7"
+   ],
+   "latest_reply": "1790937987.001508",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c9d0B39",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Celestine Health (15m, 2 participants) \u2014 recording call-95 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "13aa3093-2064-5350-a690-2a4adedd2fef"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Follow-up 8 - Celestine Health (24m, 4 participants) \u2014 recording call-522 \u00b7 sentiment positive",
+   "ts": "1790932243.001124",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790932243.001124",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-4",
+    "user-9"
+   ],
+   "latest_reply": "1790935752.000573",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "583b158",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 8 - Celestine Health (24m, 4 participants) \u2014 recording call-522 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "592bb403-8edf-5ca9-8d66-37ce708e1ed7"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Follow-up 7 - Celestine Health (59m, 2 participants) \u2014 recording call-504 \u00b7 sentiment positive",
+   "ts": "1790930977.000898",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790930977.000898",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-23",
+    "user-28",
+    "user-9"
+   ],
+   "latest_reply": "1790935236.000797",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "dbeb49b",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 7 - Celestine Health (59m, 2 participants) \u2014 recording call-504 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "6060388c-4815-585f-b4ec-4bcb5adf3e68",
+   "reactions": [
+    {
+     "name": "heart",
+     "users": [
+      "user-4",
+      "user-13",
+      "user-23",
+      "user-10",
+      "user-16",
+      "user-49",
+      "user-0",
+      "user-7",
+      "user-38",
+      "user-30"
+     ],
+     "count": 10
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Follow-up 3 - Celestine Health (15m, 3 participants) \u2014 recording call-478 \u00b7 sentiment at-risk",
+   "ts": "1790930738.002019",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790930738.002019",
+   "reply_count": 12,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-0",
+    "user-1",
+    "user-23",
+    "user-38"
+   ],
+   "latest_reply": "1790933807.002828",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "3f16015",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 3 - Celestine Health (15m, 3 participants) \u2014 recording call-478 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "a50d5ff0-fd22-54ae-8334-8725c0392e05",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-49",
+      "user-4",
+      "user-23"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Follow-up 4 - Celestine Health (15m, 2 participants) \u2014 recording call-489 \u00b7 sentiment at-risk",
+   "ts": "1790928005.001806",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790928005.001806",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-2",
+    "user-22"
+   ],
+   "latest_reply": "1790930919.000261",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "281227c",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 4 - Celestine Health (15m, 2 participants) \u2014 recording call-489 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "12be8bca-7f24-54cc-9f82-aab79177561a"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Follow-up 5 - Celestine Health (15m, 4 participants) \u2014 recording call-493 \u00b7 sentiment positive",
+   "ts": "1790927174.002015",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790927174.002015",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-16",
+    "user-2",
+    "user-28",
+    "user-38"
+   ],
+   "latest_reply": "1790930776.001137",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "39646Ac",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 5 - Celestine Health (15m, 4 participants) \u2014 recording call-493 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c7413ecd-5b01-5ec3-9c3e-9c6173ba9907"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Follow-up 6 - Celestine Health (12m, 3 participants) \u2014 recording call-495 \u00b7 sentiment at-risk",
+   "ts": "1790926961.001922",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790926961.001922",
+   "reply_count": 13,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-16",
+    "user-43",
+    "user-49"
+   ],
+   "latest_reply": "1790930295.000396",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "5e47F1e",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 6 - Celestine Health (12m, 3 participants) \u2014 recording call-495 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "646f4654-83b1-5a78-89cd-df32ebe1e41f",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-4",
+      "user-30"
+     ],
+     "count": 2
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-2",
+      "user-49",
+      "user-28",
+      "user-4",
+      "user-43",
+      "user-9",
+      "user-10",
+      "user-13",
+      "user-7",
+      "user-0",
+      "user-30",
+      "user-38",
+      "user-22",
+      "user-16",
+      "user-23"
+     ],
+     "count": 15
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Discovery - Celestine Health (28m, 3 participants) \u2014 recording call-74 \u00b7 sentiment at-risk",
+   "ts": "1790926154.002795",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790926154.002795",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-10",
+    "user-2",
+    "user-38"
+   ],
+   "latest_reply": "1790928955.000056",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "107e2C9",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Discovery - Celestine Health (28m, 3 participants) \u2014 recording call-74 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "25b1feaa-b4ed-5529-bd67-e37327d87059",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-38",
+      "user-30",
+      "user-22"
+     ],
+     "count": 3
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-2",
+      "user-38",
+      "user-49"
+     ],
+     "count": 3
+    },
+    {
+     "name": "pray",
+     "users": [
+      "user-0",
+      "user-10"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Initial scoping - Celestine Health (31m, 2 participants) \u2014 recording call-105 \u00b7 sentiment positive",
+   "ts": "1790925503.002184",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790925503.002184",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-16",
+    "user-28",
+    "user-9"
+   ],
+   "latest_reply": "1790927982.000203",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "f0aaC7a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Initial scoping - Celestine Health (31m, 2 participants) \u2014 recording call-105 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "804ba963-57c8-5c73-9662-fe48c25b7dc4"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Platform walkthrough - Celestine Health (41m, 5 participants) \u2014 recording call-572 \u00b7 sentiment neutral",
+   "ts": "1790923934.002275",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790923934.002275",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-4"
+   ],
+   "latest_reply": "1790927374.002715",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "7f8aB9a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Platform walkthrough - Celestine Health (41m, 5 participants) \u2014 recording call-572 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "69b784e9-fc61-5603-b5c8-c178c402bbed"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Follow-up - Celestine Health (15m, 2 participants) \u2014 recording call-129 \u00b7 sentiment positive",
+   "ts": "1790923534.000975",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790923534.000975",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-7"
+   ],
+   "latest_reply": "1790927361.000422",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "1679512",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up - Celestine Health (15m, 2 participants) \u2014 recording call-129 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "187d3bcf-294f-53c3-9de6-8c9d6a452163"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Technical deep dive - Celestine Health (20m, 6 participants) \u2014 recording call-530 \u00b7 sentiment at-risk",
+   "ts": "1790921217.001538",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790921217.001538",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-38",
+    "user-9"
+   ],
+   "latest_reply": "1790925616.000577",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d89dBE2",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Technical deep dive - Celestine Health (20m, 6 participants) \u2014 recording call-530 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "a662ed89-ee83-5c40-a016-9d409a2b171f"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Follow-up 2 - Celestine Health (15m, 3 participants) \u2014 recording call-279 \u00b7 sentiment positive",
+   "ts": "1790919944.002085",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790919944.002085",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-4",
+    "user-9"
+   ],
+   "latest_reply": "1790922574.000415",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "64039E1",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up 2 - Celestine Health (15m, 3 participants) \u2014 recording call-279 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "9e1f1a11-b26f-5868-86ae-4bafc65a239c"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Intro + requirements - Celestine Health (42m, 3 participants) \u2014 recording call-576 \u00b7 sentiment positive",
+   "ts": "1790844148.002729",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790844148.002729",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-28",
+    "user-38",
+    "user-4",
+    "user-49"
+   ],
+   "latest_reply": "1790848481.002742",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "8eccED4",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Celestine Health (42m, 3 participants) \u2014 recording call-576 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8f473a2a-7ea0-5d09-9de0-b5973fc17f8c",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-9",
+      "user-1"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-43",
+   "text": "Call summary: Cold call - Celestine Health (3m, 2 participants) \u2014 recording call-485 \u00b7 sentiment neutral",
+   "ts": "1790753710.000411",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790753710.000411",
+   "reply_count": 7,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-43",
+    "user-49",
+    "user-7"
+   ],
+   "latest_reply": "1790756616.000577",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "a9fbF27",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Cold call - Celestine Health (3m, 2 participants) \u2014 recording call-485 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "05a5bd52-c58f-59df-af07-2f2d914a5bf7",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-30",
+      "user-9",
+      "user-1",
+      "user-28"
+     ],
+     "count": 4
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-49",
+      "user-7",
+      "user-16",
+      "user-10"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-0",
+   "text": "Call summary: Platform walkthrough - Celestine Health (60m, 4 participants) \u2014 recording call-473 \u00b7 sentiment neutral",
+   "ts": "1790583719.000161",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790583719.000161",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-0",
+    "user-1",
+    "user-10",
+    "user-13"
+   ],
+   "latest_reply": "1790589558.001239",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "df995F5",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Platform walkthrough - Celestine Health (60m, 4 participants) \u2014 recording call-473 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "1f8b1946-fc46-5575-b2c0-73c6934e6df5"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Technical deep dive - Celestine Health (59m, 4 participants) \u2014 recording call-411 \u00b7 sentiment positive",
+   "ts": "1790575196.002157",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790575196.002157",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-30",
+    "user-4"
+   ],
+   "latest_reply": "1790580228.001209",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "68e8F5f",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Technical deep dive - Celestine Health (59m, 4 participants) \u2014 recording call-411 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "d47397f6-f870-5fac-addc-cdc679119cb7"
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Technical deep dive - Celestine Health (99m, 4 participants) \u2014 recording call-3 \u00b7 sentiment neutral",
+   "ts": "1790329208.002789",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790329208.002789",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-22",
+    "user-49"
+   ],
+   "latest_reply": "1790333787.000908",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "290bBC3",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Technical deep dive - Celestine Health (99m, 4 participants) \u2014 recording call-3 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "7292723f-3bdd-55f2-b87b-ab11fc023ccc",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-0",
+      "user-30"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Platform walkthrough - Celestine Health (87m, 3 participants) \u2014 recording call-140 \u00b7 sentiment at-risk",
+   "ts": "1790323090.002791",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790323090.002791",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-16",
+    "user-4"
+   ],
+   "latest_reply": "1790328450.001151",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "aef5C21",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Platform walkthrough - Celestine Health (87m, 3 participants) \u2014 recording call-140 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "86e0f438-c2e0-5de7-9711-2da7e1fc1ef3"
+  },
+  {
+   "type": "message",
+   "user": "user-0",
+   "text": "Call summary: Product demo - Celestine Health (23m, 6 participants) \u2014 recording call-468 \u00b7 sentiment at-risk",
+   "ts": "1790322896.002157",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790322896.002157",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-0",
+    "user-13",
+    "user-9"
+   ],
+   "latest_reply": "1790325771.002432",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "595522a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Celestine Health (23m, 6 participants) \u2014 recording call-468 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "39475bc5-07af-5e67-b098-deb713c70609",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-13",
+      "user-23"
+     ],
+     "count": 2
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-4",
+      "user-28",
+      "user-16",
+      "user-22",
+      "user-1",
+      "user-2",
+      "user-9",
+      "user-10"
+     ],
+     "count": 8
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Product demo - Celestine Health (29m, 5 participants) \u2014 recording call-77 \u00b7 sentiment neutral",
+   "ts": "1790232569.000011",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790232569.000011",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-16",
+    "user-38",
+    "user-7"
+   ],
+   "latest_reply": "1790235634.001675",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "e75d4Fd",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Celestine Health (29m, 5 participants) \u2014 recording call-77 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "e602f464-266f-5e18-9b38-2c5d6bb77b4f",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-2",
+      "user-49"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "<@user-38> Celestine Health - Platform FY27 \u2192 Proposal. Pilot converted on usage; expansion contingent on the integration shipping.",
+   "ts": "1789864214.002355",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "f85394d",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "user",
+         "user_id": "user-38"
+        },
+        {
+         "type": "text",
+         "text": " Celestine Health - Platform FY27 \u2192 Proposal. Pilot converted on usage; expansion contingent on the integration shipping."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "2af302f1-61ba-5078-906a-504103b174dc",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-7",
+      "user-30",
+      "user-49"
+     ],
+     "count": 3
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-9",
+      "user-10"
+     ],
+     "count": 2
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-9",
+      "user-28"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Platform walkthrough - Celestine Health (20m, 5 participants) \u2014 recording call-481 \u00b7 sentiment neutral",
+   "ts": "1789718402.002123",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789718402.002123",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-38",
+    "user-7"
+   ],
+   "latest_reply": "1789721463.001744",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "605e8C2",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Platform walkthrough - Celestine Health (20m, 5 participants) \u2014 recording call-481 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "ee516fef-6b65-5f9b-b0a6-bbc252414f6c",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-28",
+      "user-4"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Technical deep dive - Celestine Health (85m, 5 participants) \u2014 recording call-198 \u00b7 sentiment positive",
+   "ts": "1789715405.000406",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789715405.000406",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-23",
+    "user-4"
+   ],
+   "latest_reply": "1789720292.002213",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "482fBC2",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Technical deep dive - Celestine Health (85m, 5 participants) \u2014 recording call-198 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "51f56749-3661-58ff-8c71-e5012bdc2ff5",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-23",
+      "user-43",
+      "user-49"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Product demo - Celestine Health (26m, 5 participants) \u2014 recording call-470 \u00b7 sentiment positive",
+   "ts": "1789709264.001605",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789709264.001605",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-0",
+    "user-1",
+    "user-10",
+    "user-2"
+   ],
+   "latest_reply": "1789713006.002667",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "ce5bE3a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Celestine Health (26m, 5 participants) \u2014 recording call-470 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "34ef51d0-88c3-5fae-96ed-816ec0dde969",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-9",
+      "user-13",
+      "user-0",
+      "user-43",
+      "user-16",
+      "user-30"
+     ],
+     "count": 6
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-4",
+      "user-0",
+      "user-10"
+     ],
+     "count": 3
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-10",
+      "user-7",
+      "user-16"
+     ],
+     "count": 3
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-28",
+      "user-22"
+     ],
+     "count": 2
+    },
+    {
+     "name": "heart",
+     "users": [
+      "user-9",
+      "user-22",
+      "user-2",
+      "user-28",
+      "user-43",
+      "user-0",
+      "user-49",
+      "user-10",
+      "user-23"
+     ],
+     "count": 9
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Product demo - Celestine Health (45m, 6 participants) \u2014 recording call-75 \u00b7 sentiment positive",
+   "ts": "1789632137.002158",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789632137.002158",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-13",
+    "user-30",
+    "user-7"
+   ],
+   "latest_reply": "1789635907.000128",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "e1f3B55",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Celestine Health (45m, 6 participants) \u2014 recording call-75 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "10674ab8-081d-50ae-bd7c-7b108ebf2064"
+  },
+  {
+   "type": "message",
+   "user": "user-0",
+   "text": "Call summary: Intro + requirements - Celestine Health (28m, 3 participants) \u2014 recording call-81 \u00b7 sentiment neutral",
+   "ts": "1789552698.001579",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789552698.001579",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-0",
+    "user-22",
+    "user-49"
+   ],
+   "latest_reply": "1789556837.001058",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "17feDFa",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Celestine Health (28m, 3 participants) \u2014 recording call-81 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "916f1b45-b9f5-570e-b301-8fe22ea0d037"
+  },
+  {
+   "type": "message",
+   "user": "user-43",
+   "text": "Call summary: Cold call - Celestine Health (14m, 2 participants) \u2014 recording call-68 \u00b7 sentiment neutral",
+   "ts": "1789453857.001678",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789453857.001678",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-23",
+    "user-43",
+    "user-9"
+   ],
+   "latest_reply": "1789457905.002506",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "9cfcA73",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Cold call - Celestine Health (14m, 2 participants) \u2014 recording call-68 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "fb2f95b6-b6bd-5ddb-90a6-3a192b1368b4"
+  },
+  {
+   "type": "message",
+   "user": "user-43",
+   "text": "Call summary: Intro call - Celestine Health (1m, 2 participants) \u2014 recording call-82 \u00b7 sentiment neutral",
+   "ts": "1789448543.000624",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789448543.000624",
+   "reply_count": 6,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-43",
+    "user-7"
+   ],
+   "latest_reply": "1789452150.000851",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "8e2910b",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro call - Celestine Health (1m, 2 participants) \u2014 recording call-82 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "28e0cabd-cc74-5bad-b18d-c62c002b9c02",
+   "pinned_to": [
+    "acct-3"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

@@ -1,0 +1,246 @@
+{
+ "sql": "SELECT * FROM dim_product",
+ "columns": [
+  "sku",
+  "product_uuid",
+  "product_name",
+  "category",
+  "list_price",
+  "launched_on",
+  "order_cutoff",
+  "lead_time",
+  "weight_grams",
+  "units_in_stock",
+  "rating",
+  "warehouse",
+  "attributes_json",
+  "embedding",
+  "discontinued_on",
+  "updated_at"
+ ],
+ "rows": [
+  {
+   "sku": "SKU-1001",
+   "product_uuid": "5249c740-3ffc-50bd-8c8e-265b2dadea98",
+   "product_name": "Starter licence, annual",
+   "category": "licence",
+   "list_price": 430.0,
+   "launched_on": "2025-09-18",
+   "order_cutoff": "12:00:00",
+   "lead_time": 280800.0,
+   "weight_grams": 0,
+   "units_in_stock": 475,
+   "rating": 4.360000133514404,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": true, \"term\": \"annual\"}, \"channels\": [\"direct\"], \"entitlements\": [\"api\", \"sso\"]}",
+   "embedding": [
+    0.6039000153541565,
+    0.7646999955177307,
+    0.3294000029563904,
+    0.666700005531311,
+    0.1881999969482422,
+    0.8353000283241272,
+    0.5254999995231628,
+    0.0706000030040741
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-1002",
+   "product_uuid": "af3f978b-d273-546c-b995-aa1bbfbcb2a2",
+   "product_name": "Growth licence, annual",
+   "category": "licence",
+   "list_price": 907.0,
+   "launched_on": "2024-04-02",
+   "order_cutoff": "16:00:00",
+   "lead_time": 216000.0,
+   "weight_grams": 0,
+   "units_in_stock": 786,
+   "rating": 4.340000152587891,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": true, \"term\": \"annual\"}, \"channels\": [\"direct\", \"partner\"], \"entitlements\": [\"api\", \"sso\"]}",
+   "embedding": [
+    0.592199981212616,
+    0.2353000044822693,
+    0.027499999850988388,
+    0.6588000059127808,
+    0.7646999955177307,
+    0.18039999902248383,
+    0.15289999544620514,
+    0.5175999999046326
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-1010",
+   "product_uuid": "16887ee4-d531-57bd-9802-10ed5814ef3d",
+   "product_name": "Additional seat",
+   "category": "licence",
+   "list_price": 446.0,
+   "launched_on": "2026-02-21",
+   "order_cutoff": "16:00:00",
+   "lead_time": 345600.0,
+   "weight_grams": 0,
+   "units_in_stock": 758,
+   "rating": 4.690000057220459,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": true, \"term\": \"annual\"}, \"channels\": [\"direct\"], \"entitlements\": [\"api\", \"sso\"]}",
+   "embedding": [
+    0.8118000030517578,
+    0.7059000134468079,
+    0.29019999504089355,
+    0.847100019454956,
+    0.7175999879837036,
+    0.2117999941110611,
+    0.4392000138759613,
+    0.5647000074386597
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-2200",
+   "product_uuid": "fcd4678f-cb04-5651-8f2e-a179fb1f7bcf",
+   "product_name": "Priority support",
+   "category": "support",
+   "list_price": 1269.0,
+   "launched_on": "2025-10-10",
+   "order_cutoff": "15:30:00",
+   "lead_time": 216000.0,
+   "weight_grams": 0,
+   "units_in_stock": 200,
+   "rating": 4.889999866485596,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": false, \"term\": \"one_off\"}, \"channels\": [\"direct\", \"partner\"], \"entitlements\": []}",
+   "embedding": [
+    0.9333000183105469,
+    0.05490000173449516,
+    0.6118000149726868,
+    0.513700008392334,
+    0.24709999561309814,
+    0.63919997215271,
+    0.5490000247955322,
+    0.8705999851226807
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-2201",
+   "product_uuid": "3640293a-13d9-56fe-baad-90ae5bdfae71",
+   "product_name": "Onboarding, remote",
+   "category": "services",
+   "list_price": 2377.0,
+   "launched_on": "2026-03-22",
+   "order_cutoff": "16:00:00",
+   "lead_time": 172800.0,
+   "weight_grams": 0,
+   "units_in_stock": 450,
+   "rating": 3.640000104904175,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": false, \"term\": \"one_off\"}, \"channels\": [\"direct\", \"partner\"], \"entitlements\": []}",
+   "embedding": [
+    0.15289999544620514,
+    0.53329998254776,
+    0.015699999406933784,
+    0.007799999788403511,
+    0.8549000024795532,
+    0.45879998803138733,
+    0.7175999879837036,
+    0.0706000030040741
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-3300",
+   "product_uuid": "72db3edf-272a-5eaf-b713-c22fd100c3e1",
+   "product_name": "Overage, per 1k events",
+   "category": "usage",
+   "list_price": 286.0,
+   "launched_on": "2025-11-30",
+   "order_cutoff": "16:00:00",
+   "lead_time": 108000.0,
+   "weight_grams": 0,
+   "units_in_stock": 655,
+   "rating": 4.489999771118164,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": false, \"term\": \"one_off\"}, \"channels\": [\"direct\"], \"entitlements\": []}",
+   "embedding": [
+    0.6862999796867371,
+    0.07450000196695328,
+    0.9490000009536743,
+    0.36469998955726624,
+    0.40389999747276306,
+    0.5059000253677368,
+    0.45879998803138733,
+    0.03530000150203705
+   ],
+   "discontinued_on": null,
+   "updated_at": "2026-10-09T23:57:00Z"
+  },
+  {
+   "sku": "SKU-4400",
+   "product_uuid": "dfbe0966-b4ec-5b45-abc3-f755e5795715",
+   "product_name": "Hardware, replacement",
+   "category": "hardware",
+   "list_price": 2347.0,
+   "launched_on": "2026-05-13",
+   "order_cutoff": "12:00:00",
+   "lead_time": 172800.0,
+   "weight_grams": 1450,
+   "units_in_stock": 26,
+   "rating": 3.940000057220459,
+   "warehouse": {
+    "region": "us-east-1",
+    "latitude": 39.0438,
+    "longitude": -77.4874
+   },
+   "attributes_json": "{\"billing\": {\"auto_renew\": false, \"term\": \"one_off\"}, \"channels\": [\"direct\"], \"entitlements\": []}",
+   "embedding": [
+    0.34119999408721924,
+    0.5490000247955322,
+    0.25099998712539673,
+    0.8118000030517578,
+    0.058800000697374344,
+    0.47839999198913574,
+    0.3019999861717224,
+    0.800000011920929
+   ],
+   "discontinued_on": "2026-08-26",
+   "updated_at": "2026-10-09T23:57:00Z"
+  }
+ ],
+ "row_count": 7,
+ "truncated": false,
+ "datasets": [
+  "dim_product"
+ ],
+ "unreadable_objects": []
+}

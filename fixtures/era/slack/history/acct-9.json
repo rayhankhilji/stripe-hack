@@ -1,0 +1,155 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "subtype": "channel_archive",
+   "user": "user-7",
+   "text": "<@user-7> archived the channel",
+   "ts": "1782095470.001571",
+   "team": "T-saporanetworks",
+   "reactions": [
+    {
+     "name": "shipit",
+     "users": [
+      "user-29",
+      "user-39",
+      "user-30"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-31",
+   "text": "Flora Analytics - Renewal \u2192 Closed Won. Signature landed ahead of quarter end; handing over to onboarding.",
+   "ts": "1756857600.002301",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "42a16C3",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Flora Analytics - Renewal \u2192 Closed Won. Signature landed ahead of quarter end; handing over to onboarding."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "4ca2fdb2-a137-592c-8f1d-3c5a99bf2b2d",
+   "pinned_to": [
+    "acct-9"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Renewal signature logistics - Flora Analytics (27m, 5 participants) \u2014 recording call-8 \u00b7 sentiment at-risk",
+   "ts": "1756848589.001431",
+   "team": "T-saporanetworks",
+   "thread_ts": "1756848589.001431",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-24",
+    "user-30",
+    "user-31"
+   ],
+   "latest_reply": "1756852529.002171",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "cb923E8",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Renewal signature logistics - Flora Analytics (27m, 5 participants) \u2014 recording call-8 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "2c5bdf40-144b-5fc6-a33f-7c757a585e5b",
+   "reactions": [
+    {
+     "name": "shipit",
+     "users": [
+      "user-31",
+      "user-39"
+     ],
+     "count": 2
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-49",
+      "user-24",
+      "user-29",
+      "user-7",
+      "user-39",
+      "user-31"
+     ],
+     "count": 6
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Admin walkthrough - Flora Analytics (43m, 5 participants) \u2014 recording call-416 \u00b7 sentiment neutral",
+   "ts": "1754584999.000941",
+   "team": "T-saporanetworks",
+   "thread_ts": "1754584999.000941",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-30",
+    "user-31",
+    "user-39",
+    "user-7"
+   ],
+   "latest_reply": "1754588558.002739",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "2ef4523",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Admin walkthrough - Flora Analytics (43m, 5 participants) \u2014 recording call-416 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8e32bc3e-bc40-5d04-9972-eba4d1fb5247",
+   "pinned_to": [
+    "acct-9"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

@@ -1,0 +1,271 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "user": "user-0",
+   "text": "Call summary: Account review - Tidewater Capital (42m, 4 participants) \u2014 recording call-435 \u00b7 sentiment neutral",
+   "ts": "1781707397.002718",
+   "team": "T-saporanetworks",
+   "thread_ts": "1781707397.002718",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-0",
+    "user-30",
+    "user-7"
+   ],
+   "latest_reply": "1781711312.000733",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d5dfFB6",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Account review - Tidewater Capital (42m, 4 participants) \u2014 recording call-435 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "d200d7df-94f5-5f45-b96b-1b762902cad3",
+   "pinned_to": [
+    "acct-6"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-25",
+   "text": "Call summary: QBR - Tidewater Capital (15m, 4 participants) \u2014 recording call-28 \u00b7 sentiment neutral",
+   "ts": "1773423920.001821",
+   "team": "T-saporanetworks",
+   "thread_ts": "1773423920.001821",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-25",
+    "user-3",
+    "user-30"
+   ],
+   "latest_reply": "1773426567.001588",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "20e3CD7",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: QBR - Tidewater Capital (15m, 4 participants) \u2014 recording call-28 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "d7f1e487-cf48-5243-ba90-e9ebdfeb5f7b"
+  },
+  {
+   "type": "message",
+   "user": "user-7",
+   "text": "Tidewater Capital - Renewal \u2192 Prospecting. Discovery booked - current tooling is spreadsheets plus a legacy import job.",
+   "ts": "1759523573.000354",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c9e085a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Tidewater Capital - Renewal \u2192 Prospecting. Discovery booked - current tooling is spreadsheets plus a legacy import job."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "a0e4a0b3-55d1-53d4-ab9c-e63cf08f2700"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Signature logistics - Tidewater Capital (27m, 3 participants) \u2014 recording call-220 \u00b7 sentiment positive",
+   "ts": "1726153042.002663",
+   "team": "T-saporanetworks",
+   "thread_ts": "1726153042.002663",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-30",
+    "user-8"
+   ],
+   "latest_reply": "1726156284.000525",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "e042E1c",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Signature logistics - Tidewater Capital (27m, 3 participants) \u2014 recording call-220 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "5f9988db-f5e6-5e8b-95d8-20def88cc62b",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-0",
+      "user-3"
+     ],
+     "count": 2
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-8",
+      "user-0"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Signature logistics - Tidewater Capital (15m, 4 participants) \u2014 recording call-338 \u00b7 sentiment positive",
+   "ts": "1726084808.001789",
+   "team": "T-saporanetworks",
+   "thread_ts": "1726084808.001789",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-3",
+    "user-30"
+   ],
+   "latest_reply": "1726088675.001476",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "af05F87",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Signature logistics - Tidewater Capital (15m, 4 participants) \u2014 recording call-338 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "fdbca923-b609-52c7-87e5-e97fd55e0e82",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-3",
+      "user-7",
+      "user-0",
+      "user-1"
+     ],
+     "count": 4
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-8",
+      "user-7",
+      "user-3",
+      "user-1",
+      "user-0"
+     ],
+     "count": 5
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-0",
+   "text": "Call summary: Product demo - Tidewater Capital (27m, 3 participants) \u2014 recording call-591 \u00b7 sentiment positive",
+   "ts": "1725290899.002541",
+   "team": "T-saporanetworks",
+   "thread_ts": "1725290899.002541",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-0",
+    "user-7"
+   ],
+   "latest_reply": "1725293323.000004",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "28ab838",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Tidewater Capital (27m, 3 participants) \u2014 recording call-591 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f879be48-89d7-50c5-9968-d0a6a00eccc5",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-30",
+      "user-1",
+      "user-3",
+      "user-8",
+      "user-7"
+     ],
+     "count": 5
+    }
+   ],
+   "pinned_to": [
+    "acct-6"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

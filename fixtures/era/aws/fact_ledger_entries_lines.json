@@ -1,0 +1,623 @@
+{
+ "sql": "SELECT * FROM fact_ledger_entries_lines",
+ "columns": [
+  "event_id",
+  "occurred_at",
+  "customer_id",
+  "currency",
+  "amount",
+  "tax_rate",
+  "lines",
+  "attributes",
+  "row_digest",
+  "dt"
+ ],
+ "rows": [
+  {
+   "event_id": "led_d777ff39b3eb32",
+   "occurred_at": "2026-10-07T08:26:38.497750Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 22.96,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2201",
+     "description": "Onboarding, remote",
+     "quantity": 1,
+     "unit_price": 22.96,
+     "line_amount": 22.96
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-07-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "p\bp0\ufffdn\ufffd&\ufffdq\ufffd\ufffd{\ufffd\ufffd\ufffd",
+   "dt": "2026-10-07"
+  },
+  {
+   "event_id": "led_210796d00fc25c",
+   "occurred_at": "2026-10-07T08:24:33.744024Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 389.74,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1002",
+     "description": "Growth licence, annual",
+     "quantity": 1,
+     "unit_price": 389.74,
+     "line_amount": 389.74
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-07-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "'\ufffd\ufffd\u07f0\ufffd\nyS\ufffd\ufffd\ufffd\ufffd\u000e\ufffd\r",
+   "dt": "2026-10-07"
+  },
+  {
+   "event_id": "led_d49cf13cbb62aa",
+   "occurred_at": "2026-10-07T15:44:56.041295Z",
+   "customer_id": "acct-10",
+   "currency": "USD",
+   "amount": 23.54,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1001",
+     "description": "Starter licence, annual",
+     "quantity": 1,
+     "unit_price": 23.54,
+     "line_amount": 23.54
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-07-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\ufffd\ufffdr\ufffd\ufffd\ufffdcp\ufffd\ufffd\ufffd\u0158\ufffd\u001a",
+   "dt": "2026-10-07"
+  },
+  {
+   "event_id": "led_4d62494821fe9d",
+   "occurred_at": "2026-10-07T15:55:17.212725Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 75.12,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1001",
+     "description": "Starter licence, annual",
+     "quantity": 1,
+     "unit_price": 75.12,
+     "line_amount": 75.12
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-07-01",
+    "status": "reversed",
+    "region": "us-east-1"
+   },
+   "row_digest": " \u0004jw\ufffdhtM\ufffd\ufffd\ufffd\u0244\\h\ufffd",
+   "dt": "2026-10-07"
+  },
+  {
+   "event_id": "led_892569261ec294",
+   "occurred_at": "2026-10-08T08:11:01.349702Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 446.05,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-4400",
+     "description": "Hardware, replacement",
+     "quantity": 1,
+     "unit_price": 446.05,
+     "line_amount": 446.05
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\u001e@\ufffd\ufffdZ\ufffd\ufffd\ufffd\ufffd\ufffd\u0019\ufffdy-\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_777c9bed8766a8",
+   "occurred_at": "2026-10-08T08:49:03.403803Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 64.62,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-4400",
+     "description": "Hardware, replacement",
+     "quantity": 1,
+     "unit_price": 64.62,
+     "line_amount": 64.62
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "a\ufffd\u0010\ufffd^\ufffd\ufffd\ufffd\u0019\ufffd/\ufffd\ufffd\ufffd-\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_7237017fcad148",
+   "occurred_at": "2026-10-08T09:44:15.359750Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 94.51,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-4400",
+     "description": "Hardware, replacement",
+     "quantity": 1,
+     "unit_price": 94.51,
+     "line_amount": 94.51
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\u0018\ufffdU\ufffdaN\u0015CB}\ufffd\ufffd\u0018\u000f\u0001x",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_2762e21203c1e6",
+   "occurred_at": "2026-10-08T09:11:44.644692Z",
+   "customer_id": "acct-50",
+   "currency": "USD",
+   "amount": 58.53,
+   "tax_rate": 0.095,
+   "lines": [
+    {
+     "sku": "SKU-1001",
+     "description": "Starter licence, annual",
+     "quantity": 1,
+     "unit_price": 58.53,
+     "line_amount": 58.53
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-west-2"
+   },
+   "row_digest": "\ufffdJ\u0011\u0017\\\ufffd\ufffduk\u001f\"\ufffd\ufffdv\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_b54290151cf0f8",
+   "occurred_at": "2026-10-08T10:38:47.384220Z",
+   "customer_id": "acct-51",
+   "currency": "USD",
+   "amount": 13.3,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1010",
+     "description": "Additional seat",
+     "quantity": 1,
+     "unit_price": 13.3,
+     "line_amount": 13.3
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "fV$\u0016\u0004\ufffdR\ufffd%8\ufffdP\u001asJ\u0004",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_163dbf8c8651d4",
+   "occurred_at": "2026-10-08T11:35:40.272923Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 1058.82,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1001",
+     "description": "Starter licence, annual",
+     "quantity": 1,
+     "unit_price": 1058.82,
+     "line_amount": 1058.82
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\ufffd\ufffd\u000e\ufffd7\ufffdR\ufffd\ufffd\ufffdx\u0013ekQ",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_d53da48a90748e",
+   "occurred_at": "2026-10-08T11:53:26.445169Z",
+   "customer_id": "acct-7",
+   "currency": "USD",
+   "amount": 51.04,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2201",
+     "description": "Onboarding, remote",
+     "quantity": 1,
+     "unit_price": 51.04,
+     "line_amount": 51.04
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "VN\u0000\ufffdZ\u0010l\ufffd\u001eOL\u0019V\ufffd\f\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_9c36e8442a38f0",
+   "occurred_at": "2026-10-08T11:09:51.116886Z",
+   "customer_id": "acct-40",
+   "currency": "USD",
+   "amount": 135.06,
+   "tax_rate": 0.095,
+   "lines": [
+    {
+     "sku": "SKU-4400",
+     "description": "Hardware, replacement",
+     "quantity": 1,
+     "unit_price": 135.06,
+     "line_amount": 135.06
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-west-2"
+   },
+   "row_digest": "\ufffd\u065a\u0015\u0016\r)K&\ufffd\ufffd\u04c2\u0016\ufffd\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_c612eef8b69bb3",
+   "occurred_at": "2026-10-08T15:18:59.269973Z",
+   "customer_id": "acct-57",
+   "currency": "USD",
+   "amount": 390.12,
+   "tax_rate": 0.095,
+   "lines": [
+    {
+     "sku": "SKU-2200",
+     "description": "Priority support",
+     "quantity": 1,
+     "unit_price": 390.12,
+     "line_amount": 390.12
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-west-2"
+   },
+   "row_digest": "K\u01bf\ri\u0628\ufffd\ufffd\ufffdU\ufffd\ufffd\u001d\u0010C",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_fd2298c86e8d98",
+   "occurred_at": "2026-10-08T16:16:46.827446Z",
+   "customer_id": "acct-10",
+   "currency": "USD",
+   "amount": 41.71,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2200",
+     "description": "Priority support",
+     "quantity": 1,
+     "unit_price": 41.71,
+     "line_amount": 41.71
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd^a\u0014Z\ufffd#b\ufffdH\u0010\ufffd[\ufffd\ufffd#",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_5b507c55d6abc0",
+   "occurred_at": "2026-10-08T16:24:52.550002Z",
+   "customer_id": "acct-51",
+   "currency": "USD",
+   "amount": 500.22,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2201",
+     "description": "Onboarding, remote",
+     "quantity": 1,
+     "unit_price": 500.22,
+     "line_amount": 500.22
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\ufffd\u0010\ufffd~\ufffd|\ufffd\u0017@\ufffd\ufffdS\ufffd\ufffd\u0011",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_663551941aefc9",
+   "occurred_at": "2026-10-08T17:31:06.240273Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 12.43,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2201",
+     "description": "Onboarding, remote",
+     "quantity": 1,
+     "unit_price": 12.43,
+     "line_amount": 12.43
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "A\u0011\ufffd\u02ee\ufffdU\u012a\ufffd\ufffde6x@\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_7ef67d5cd6e9a3",
+   "occurred_at": "2026-10-08T18:01:10.487395Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 1547.37,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-3300",
+     "description": "Overage, per 1k events",
+     "quantity": 1,
+     "unit_price": 1547.37,
+     "line_amount": 1547.37
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\u000f\ufffdD\u0493P\ufffd\u001a\ufffd\u001f[\ufffd\ufffd\ufffd5\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_a0a44f98fd5164",
+   "occurred_at": "2026-10-08T22:28:04.365631Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 1388.6,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2200",
+     "description": "Priority support",
+     "quantity": 1,
+     "unit_price": 1388.6,
+     "line_amount": 1388.6
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-08-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdt!h\ufffd\u007fs&\ufffd\ufffd",
+   "dt": "2026-10-08"
+  },
+  {
+   "event_id": "led_742c64551f9011",
+   "occurred_at": "2026-10-09T06:00:54.660150Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 124.22,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1001",
+     "description": "Starter licence, annual",
+     "quantity": 1,
+     "unit_price": 124.22,
+     "line_amount": 124.22
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "p\ufffd\u0005\ufffd\ufffd\ufffdj\ufffd\ufffd\ufffd\ufffdG\ufffd&!}",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_59e52adfb4ae12",
+   "occurred_at": "2026-10-09T11:22:12.916560Z",
+   "customer_id": "acct-37",
+   "currency": "USD",
+   "amount": 13.71,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1010",
+     "description": "Additional seat",
+     "quantity": 1,
+     "unit_price": 13.71,
+     "line_amount": 13.71
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\ufffd\ufffd\u001c\ufffd\ufffd\u001bz\ufffd\ufffdT\u00ba\u001e\u001d\ufffd",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_10c4bf015bada7",
+   "occurred_at": "2026-10-09T12:01:41.702018Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 80.02,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-1002",
+     "description": "Growth licence, annual",
+     "quantity": 1,
+     "unit_price": 80.02,
+     "line_amount": 80.02
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd$\u0003c\ufffdQ+S-\\co\u0018L\ufffdS",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_8ae76fef2a82a6",
+   "occurred_at": "2026-10-09T12:58:19.608561Z",
+   "customer_id": "acct-7",
+   "currency": "USD",
+   "amount": 743.34,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2200",
+     "description": "Priority support",
+     "quantity": 1,
+     "unit_price": 743.34,
+     "line_amount": 743.34
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd\u0004U.h\ufffd5+\u001c\ufffd'\ufffd8\ufffd\u000f\ufffd",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_d45b5f403c38e5",
+   "occurred_at": "2026-10-09T13:34:03.092407Z",
+   "customer_id": "acct-45",
+   "currency": "USD",
+   "amount": 175.78,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-4400",
+     "description": "Hardware, replacement",
+     "quantity": 1,
+     "unit_price": 175.78,
+     "line_amount": 175.78
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffd7\ufffd\u01ca\ufffd$\ufffdB\ufffd8\ufffd\ufffd\ufffd^#",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_4537421c6b2a0c",
+   "occurred_at": "2026-10-09T15:09:09.957630Z",
+   "customer_id": "acct-3",
+   "currency": "USD",
+   "amount": 1309.55,
+   "tax_rate": 0.0825,
+   "lines": [
+    {
+     "sku": "SKU-2201",
+     "description": "Onboarding, remote",
+     "quantity": 1,
+     "unit_price": 1309.55,
+     "line_amount": 1309.55
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-east-1"
+   },
+   "row_digest": "\ufffdI\ufffd\u06c0o-H\ufffd\ufffd8\b\u0000&W_",
+   "dt": "2026-10-09"
+  },
+  {
+   "event_id": "led_04e041c1725706",
+   "occurred_at": "2026-10-09T17:39:31.313851Z",
+   "customer_id": "acct-50",
+   "currency": "USD",
+   "amount": 620.74,
+   "tax_rate": 0.095,
+   "lines": [
+    {
+     "sku": "SKU-1010",
+     "description": "Additional seat",
+     "quantity": 1,
+     "unit_price": 620.74,
+     "line_amount": 620.74
+    }
+   ],
+   "attributes": {
+    "ingest_batch_id": "ledger_entries-2026-10-09-01",
+    "status": "pending",
+    "region": "us-west-2"
+   },
+   "row_digest": "\ufffdQc\ufffd\ufffd\ufffd\ufffdj\ufffd\u035eS\ufffd\ufffdJ\ufffd",
+   "dt": "2026-10-09"
+  }
+ ],
+ "row_count": 25,
+ "truncated": false,
+ "datasets": [
+  "fact_ledger_entries_lines"
+ ],
+ "unreadable_objects": []
+}

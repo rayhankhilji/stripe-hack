@@ -1,0 +1,385 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "subtype": "channel_join",
+   "user": "user-18",
+   "text": "<@user-18> has joined the channel",
+   "ts": "1789380655.002556",
+   "team": "T-saporanetworks"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Boreal Fabrication - Platform FY26 \u2192 Closed Lost. Went with the incumbent - our differentiation did not survive procurement's scoring. cc <@user-22>",
+   "ts": "1784592000.001001",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6205722",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Boreal Fabrication - Platform FY26 \u2192 Closed Lost. Went with the incumbent - our differentiation did not survive procurement's scoring. cc "
+        },
+        {
+         "type": "user",
+         "user_id": "user-22"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "1fcbcea0-9a76-51ad-804f-9ed2269eb504",
+   "pinned_to": [
+    "acct-33"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-24",
+   "text": "Call summary: Commercial review - Boreal Fabrication (28m, 5 participants) \u2014 recording call-432 \u00b7 sentiment at-risk",
+   "ts": "1783502961.001922",
+   "team": "T-saporanetworks",
+   "thread_ts": "1783502961.001922",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-24",
+    "user-30"
+   ],
+   "latest_reply": "1783505957.001678",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "76544Cd",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Commercial review - Boreal Fabrication (28m, 5 participants) \u2014 recording call-432 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "638cf5b4-23df-57b8-8e61-366ef6976f22"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Data access review - Boreal Fabrication (52m, 4 participants) \u2014 recording call-25 \u00b7 sentiment at-risk",
+   "ts": "1783004072.001393",
+   "team": "T-saporanetworks",
+   "thread_ts": "1783004072.001393",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-28",
+    "user-30",
+    "user-38",
+    "user-49"
+   ],
+   "latest_reply": "1783008396.001157",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "cf16179",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Data access review - Boreal Fabrication (52m, 4 participants) \u2014 recording call-25 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c1633fec-0462-5e32-97eb-ba9bd70975dc",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-1",
+      "user-24"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Final approval sync - Boreal Fabrication (28m, 2 participants) \u2014 recording call-134 \u00b7 sentiment positive",
+   "ts": "1767706148.002229",
+   "team": "T-saporanetworks",
+   "thread_ts": "1767706148.002229",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-23",
+    "user-38"
+   ],
+   "latest_reply": "1767709778.001159",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b513C5d",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Final approval sync - Boreal Fabrication (28m, 2 participants) \u2014 recording call-134 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "bb7abb66-0c51-53d2-b41b-3debdc2a66c3",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-24",
+      "user-30",
+      "user-22",
+      "user-1"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Boreal Fabrication - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week.",
+   "ts": "1767665386.000647",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "85d4B0e",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Boreal Fabrication - Platform \u2192 Closed Won. Signed at the revised term; onboarding kickoff booked for next week."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "89820edb-e16e-5ba5-b663-b69fef75fab0"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Procurement and legal review - Boreal Fabrication (27m, 5 participants) \u2014 recording call-158 \u00b7 sentiment positive",
+   "ts": "1767029273.000654",
+   "team": "T-saporanetworks",
+   "thread_ts": "1767029273.000654",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-22",
+    "user-23",
+    "user-30",
+    "user-38"
+   ],
+   "latest_reply": "1767033076.002437",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c650207",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Procurement and legal review - Boreal Fabrication (27m, 5 participants) \u2014 recording call-158 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c0d99adb-8818-5a71-a254-424c358b7c02"
+  },
+  {
+   "type": "message",
+   "user": "user-38",
+   "text": "Call summary: Contract redlines - Boreal Fabrication (25m, 4 participants) \u2014 recording call-535 \u00b7 sentiment positive",
+   "ts": "1766417153.001334",
+   "team": "T-saporanetworks",
+   "thread_ts": "1766417153.001334",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-30",
+    "user-38",
+    "user-49"
+   ],
+   "latest_reply": "1766422473.002554",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "df22D3e",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Contract redlines - Boreal Fabrication (25m, 4 participants) \u2014 recording call-535 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "b860a20a-4e71-5d27-adc6-4c3f01ec9975"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Security review - Boreal Fabrication (44m, 4 participants) \u2014 recording call-262 \u00b7 sentiment positive",
+   "ts": "1766156130.002631",
+   "team": "T-saporanetworks",
+   "thread_ts": "1766156130.002631",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-23",
+    "user-28",
+    "user-38",
+    "user-49"
+   ],
+   "latest_reply": "1766160529.001571",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "4a124De",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Security review - Boreal Fabrication (44m, 4 participants) \u2014 recording call-262 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8b8c2385-35ae-5d9e-ba39-fab9a9f688e7"
+  },
+  {
+   "type": "message",
+   "user": "user-38",
+   "text": "Call summary: Product demo - Boreal Fabrication (41m, 4 participants) \u2014 recording call-526 \u00b7 sentiment positive",
+   "ts": "1765216650.000151",
+   "team": "T-saporanetworks",
+   "thread_ts": "1765216650.000151",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-24",
+    "user-28",
+    "user-38"
+   ],
+   "latest_reply": "1765224225.000926",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "fb36547",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Boreal Fabrication (41m, 4 participants) \u2014 recording call-526 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "06a9e794-1b48-5bfa-855e-0a0dcf034fe5"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Intro + requirements - Boreal Fabrication (28m, 4 participants) \u2014 recording call-266 \u00b7 sentiment positive",
+   "ts": "1764767586.002547",
+   "team": "T-saporanetworks",
+   "thread_ts": "1764767586.002547",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-23",
+    "user-24",
+    "user-28",
+    "user-38"
+   ],
+   "latest_reply": "1764771506.001767",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "26d0E8c",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Boreal Fabrication (28m, 4 participants) \u2014 recording call-266 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "770f6906-d243-509e-87d5-a0e2a0a4fe81",
+   "pinned_to": [
+    "acct-33"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

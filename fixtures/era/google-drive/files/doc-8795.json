@@ -1,0 +1,7 @@
+{
+ "id": "doc-8795",
+ "name": "Tenet Group - Pricing Worksheet - AJ v2",
+ "mimeType": "application/vnd.google-apps.document",
+ "truncated": false,
+ "content": "Tenet Group - Pricing Worksheet - AJ\n\nConfidential \u2014 Sapora Networks\n\nRecord\nOwner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product)\nAccount: Tenet Group (acct-21) \u2014 Telecommunications, tier mid-market, domain tenet.com\nDeal: Tenet Group - Platform FY26 (deal-51) \u2014 Proposal, $50,000 closing 2026-12-07\n\nInputs\nAccount: Tenet Group (mid-market tier, Telecommunications).\nPrepared by Selin Kara for Tenet Group - Platform FY26.\nList price $875.00/seat/year, 40 seats, 12-month term.\nAll amounts are in USD.\n\nLine items\nItem | Units | Unit price | Extended\nPlatform subscription | 40 | $875.00 | $35,000.00\nPlatform fee | 1 | $9,000.00 | $9,000.00\nmid-market support | 1 | $6,000.00 | $6,000.00\nTotal (annual) |  |  | $50,000.00\n\nScenarios\nScenario | Seats | Discount | Annual value\nCommitted floor | 40 | 0% | $50,000\nGrowth case | 50 | 5% | $59,375\nDownside | 32 | 0% | $40,000\n\nApprovals\nThe deal desk signs off anything past 12% on this account.\nQuote valid until 2026-09-08.\n\nNext steps\n1. Re-price if the term moves past 2026-09-18.\n2. Confirm the billing contact for Tenet Group before the quote is sent.\n3. Take the approved scenario into the order form under ORD-665050."
+}

@@ -1,0 +1,1012 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Tenet Group - Platform FY26 \u2192 Closed Won. Closed won after the security review cleared - champion drove it internally.",
+   "ts": "1791071999.001241",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6af38Ba",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Tenet Group - Platform FY26 \u2192 Closed Won. Closed won after the security review cleared - champion drove it internally."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "87da2059-a837-5e35-aadd-b8b7c76f5e63",
+   "pinned_to": [
+    "acct-21"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Follow-up - Tenet Group (41m, 3 participants) \u2014 recording call-549 \u00b7 sentiment positive",
+   "ts": "1790973768.002549",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790973768.002549",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-23",
+    "user-6",
+    "user-7"
+   ],
+   "latest_reply": "1790976622.002243",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6a27D0c",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up - Tenet Group (41m, 3 participants) \u2014 recording call-549 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "01ee68f3-db6d-580c-bd2f-8f5f6c4afdc9"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Mutual action plan - Tenet Group (30m, 5 participants) \u2014 recording call-582 \u00b7 sentiment positive",
+   "ts": "1790973069.000611",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790973069.000611",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-22",
+    "user-29"
+   ],
+   "latest_reply": "1790977469.001511",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "cd9150f",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Mutual action plan - Tenet Group (30m, 5 participants) \u2014 recording call-582 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "75f3d425-25f7-575d-b775-f225525fc7c4",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-19",
+      "user-22",
+      "user-6"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Initial scoping - Tenet Group (42m, 4 participants) \u2014 recording call-122 \u00b7 sentiment neutral",
+   "ts": "1790971064.001205",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790971064.001205",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1790975429.000171",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "29b9AA2",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Initial scoping - Tenet Group (42m, 4 participants) \u2014 recording call-122 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "1e3136ec-63a4-5987-a9e8-90fd93e07012"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Signature logistics - Tenet Group (10m, 4 participants) \u2014 recording call-128 \u00b7 sentiment positive",
+   "ts": "1790966474.001815",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790966474.001815",
+   "reply_count": 13,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-22",
+    "user-23",
+    "user-29",
+    "user-6"
+   ],
+   "latest_reply": "1790969252.000373",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "1974BFa",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Signature logistics - Tenet Group (10m, 4 participants) \u2014 recording call-128 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "5a657fb1-8b29-5edf-8e71-ab57b240e179"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Intro + requirements - Tenet Group (55m, 4 participants) \u2014 recording call-443 \u00b7 sentiment neutral",
+   "ts": "1790959578.001459",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790959578.001459",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-23",
+    "user-29"
+   ],
+   "latest_reply": "1790963831.001192",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "21a5BCc",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Tenet Group (55m, 4 participants) \u2014 recording call-443 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "405b1929-f482-54b7-a3e8-68415f3a8ffa",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-22",
+      "user-16",
+      "user-7",
+      "user-13"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Legal paper process - Tenet Group (32m, 4 participants) \u2014 recording call-274 \u00b7 sentiment positive",
+   "ts": "1790956089.000631",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790956089.000631",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-22",
+    "user-23",
+    "user-29",
+    "user-6"
+   ],
+   "latest_reply": "1790961532.002353",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "9ae9E79",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Legal paper process - Tenet Group (32m, 4 participants) \u2014 recording call-274 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "7c67bdb8-3a13-59a1-9dc8-42a8809e0e81",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-22",
+      "user-19"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Discovery - Tenet Group (15m, 2 participants) \u2014 recording call-516 \u00b7 sentiment neutral",
+   "ts": "1790946960.000361",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790946960.000361",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-23",
+    "user-6",
+    "user-7"
+   ],
+   "latest_reply": "1790952304.002245",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "1fd1498",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Discovery - Tenet Group (15m, 2 participants) \u2014 recording call-516 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "6baba9b3-6d51-5c9a-9071-610e946da824",
+   "reactions": [
+    {
+     "name": "heart",
+     "users": [
+      "user-22",
+      "user-16"
+     ],
+     "count": 2
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-6",
+      "user-16",
+      "user-1",
+      "user-7"
+     ],
+     "count": 4
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-6",
+      "user-13",
+      "user-29"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Intro + requirements - Tenet Group (39m, 4 participants) \u2014 recording call-238 \u00b7 sentiment positive",
+   "ts": "1790882696.001057",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790882696.001057",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-16",
+    "user-29"
+   ],
+   "latest_reply": "1790888031.002692",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "33216Bf",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Tenet Group (39m, 4 participants) \u2014 recording call-238 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "fa9a9d91-f360-5b40-9a87-2d786d5e417d"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Initial scoping - Tenet Group (15m, 3 participants) \u2014 recording call-36 \u00b7 sentiment neutral",
+   "ts": "1790860561.001522",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790860561.001522",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1790863264.000905",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b927891",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Initial scoping - Tenet Group (15m, 3 participants) \u2014 recording call-36 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "0cf6a5e5-e0d4-5c15-bfcb-fc01cd047d9e",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-22",
+      "user-7",
+      "user-1"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Tenet Group - Platform Q4 FY26 \u2192 Prospecting. Inbound from the website; qualifying whether there is budget this year.",
+   "ts": "1790810619.001161",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "1fd0765",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Tenet Group - Platform Q4 FY26 \u2192 Prospecting. Inbound from the website; qualifying whether there is budget this year."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "d3557b5d-b6d1-56e2-9423-dc14be63f30f",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-19",
+      "user-16",
+      "user-7",
+      "user-13",
+      "user-29",
+      "user-1"
+     ],
+     "count": 6
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-13",
+      "user-6",
+      "user-22"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Intro + requirements - Tenet Group (35m, 2 participants) \u2014 recording call-164 \u00b7 sentiment positive",
+   "ts": "1790796351.000812",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790796351.000812",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-22",
+    "user-23"
+   ],
+   "latest_reply": "1790800205.001106",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6bbdA38",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Intro + requirements - Tenet Group (35m, 2 participants) \u2014 recording call-164 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "373bdd95-ad4d-52f1-a814-b8b69e37e1e5"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Tenet Group - Platform \u2192 Qualification. Two competitors in the evaluation; we are strongest on the integration story.",
+   "ts": "1790699001.001562",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "0dda2Cf",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Tenet Group - Platform \u2192 Qualification. Two competitors in the evaluation; we are strongest on the integration story."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "736afee2-ed03-53bd-8657-8f508410a408"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Pricing and terms - Tenet Group (44m, 3 participants) \u2014 recording call-521 \u00b7 sentiment positive",
+   "ts": "1790622888.001169",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790622888.001169",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-29",
+    "user-6"
+   ],
+   "latest_reply": "1790627497.000118",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "f200CB6",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Pricing and terms - Tenet Group (44m, 3 participants) \u2014 recording call-521 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8f914368-cb82-5b01-a520-236f469460c2",
+   "reactions": [
+    {
+     "name": "eyes",
+     "users": [
+      "user-6",
+      "user-22",
+      "user-13",
+      "user-16"
+     ],
+     "count": 4
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-13",
+      "user-19"
+     ],
+     "count": 2
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-6",
+      "user-1",
+      "user-13"
+     ],
+     "count": 3
+    },
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-22",
+      "user-1",
+      "user-13"
+     ],
+     "count": 3
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-19",
+      "user-13"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Discovery - Tenet Group (29m, 3 participants) \u2014 recording call-578 \u00b7 sentiment neutral",
+   "ts": "1790620161.001122",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790620161.001122",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-29",
+    "user-6"
+   ],
+   "latest_reply": "1790623989.002631",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "f8beACb",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Discovery - Tenet Group (29m, 3 participants) \u2014 recording call-578 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "37d3de17-a47c-57d2-b99b-75e81a113390",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-1",
+      "user-7",
+      "user-6",
+      "user-16"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Commercial review - Tenet Group (67m, 4 participants) \u2014 recording call-282 \u00b7 sentiment positive",
+   "ts": "1790614629.001771",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790614629.001771",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1790620704.001645",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b99226f",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Commercial review - Tenet Group (67m, 4 participants) \u2014 recording call-282 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8f30a459-d638-518b-9b35-0a3b7cb1d972"
+  },
+  {
+   "type": "message",
+   "user": "user-13",
+   "text": "Call summary: Follow-up call - Tenet Group (2m, 2 participants) \u2014 recording call-555 \u00b7 sentiment positive",
+   "ts": "1790611434.000375",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790611434.000375",
+   "reply_count": 7,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-13",
+    "user-23",
+    "user-6"
+   ],
+   "latest_reply": "1790614941.001702",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "76b5717",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Follow-up call - Tenet Group (2m, 2 participants) \u2014 recording call-555 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f9c030f9-f7d2-57bf-a4d4-27ad121015b8",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-16",
+      "user-7",
+      "user-6",
+      "user-23",
+      "user-22",
+      "user-1"
+     ],
+     "count": 6
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Initial scoping - Tenet Group (15m, 4 participants) \u2014 recording call-557 \u00b7 sentiment neutral",
+   "ts": "1790607443.001124",
+   "team": "T-saporanetworks",
+   "thread_ts": "1790607443.001124",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-16",
+    "user-7"
+   ],
+   "latest_reply": "1790612641.000902",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d005B19",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Initial scoping - Tenet Group (15m, 4 participants) \u2014 recording call-557 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "5107cd14-ea59-5738-a6a1-6035e6602c5f",
+   "reactions": [
+    {
+     "name": "heart",
+     "users": [
+      "user-29",
+      "user-19",
+      "user-6",
+      "user-7"
+     ],
+     "count": 4
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-7",
+      "user-13",
+      "user-29"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Vendor security questionnaire - Tenet Group (20m, 4 participants) \u2014 recording call-254 \u00b7 sentiment positive",
+   "ts": "1789681816.000077",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789681816.000077",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-23",
+    "user-29"
+   ],
+   "latest_reply": "1789685514.001855",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d05fDCd",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Vendor security questionnaire - Tenet Group (20m, 4 participants) \u2014 recording call-254 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c0d4d3ab-2d55-5eb7-bb78-91d7cde64067",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-22",
+      "user-13"
+     ],
+     "count": 2
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-7",
+      "user-13",
+      "user-23"
+     ],
+     "count": 3
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-6",
+      "user-22"
+     ],
+     "count": 2
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-23",
+      "user-7",
+      "user-13",
+      "user-6"
+     ],
+     "count": 4
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-23",
+      "user-16",
+      "user-7"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Product demo - Tenet Group (20m, 2 participants) \u2014 recording call-210 \u00b7 sentiment neutral",
+   "ts": "1789133120.000021",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789133120.000021",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-1",
+    "user-23"
+   ],
+   "latest_reply": "1789136624.001265",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "4b9bCEe",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Product demo - Tenet Group (20m, 2 participants) \u2014 recording call-210 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "ce89a643-2267-5ac6-b87d-f73d7226abf7",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-1",
+      "user-29",
+      "user-19",
+      "user-7"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Discovery - Tenet Group (15m, 3 participants) \u2014 recording call-170 \u00b7 sentiment positive",
+   "ts": "1788817606.000767",
+   "team": "T-saporanetworks",
+   "thread_ts": "1788817606.000767",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-23",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1788822637.000758",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6b6bE92",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Discovery - Tenet Group (15m, 3 participants) \u2014 recording call-170 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "fad8d794-cbff-5bb8-a25a-62f22e186bf3"
+  },
+  {
+   "type": "message",
+   "subtype": "channel_join",
+   "user": "user-19",
+   "text": "<@user-19> has joined the channel",
+   "ts": "1787550377.000998",
+   "team": "T-saporanetworks"
+  },
+  {
+   "type": "message",
+   "user": "user-23",
+   "text": "Call summary: Discovery - Tenet Group (15m, 2 participants) \u2014 recording call-246 \u00b7 sentiment neutral",
+   "ts": "1787319969.002311",
+   "team": "T-saporanetworks",
+   "thread_ts": "1787319969.002311",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-16",
+    "user-23",
+    "user-7"
+   ],
+   "latest_reply": "1787323949.000291",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "80594B7",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Discovery - Tenet Group (15m, 2 participants) \u2014 recording call-246 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f102ee07-eba0-5395-b45a-2a93c40327db",
+   "pinned_to": [
+    "acct-21"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

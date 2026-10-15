@@ -1,0 +1,1609 @@
+{
+ "files": [
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "doc-8048",
+   "name": "Schema Migration Q3 - working_file v3",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T07:44:08.000Z",
+   "modifiedTime": "2026-10-08T07:44:08.000Z",
+   "size": "8137",
+   "webViewLink": "https://docs.google.com/document/d/doc-8048/edit",
+   "parents": [
+    "folder-shared-engineering-runbooks-platform"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Schema Migration Q3 - working_file v3",
+   "parentId": "folder-shared-engineering-runbooks-platform",
+   "fileSize": "8137",
+   "viewUrl": "https://docs.google.com/document/d/doc-8048/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Schema Migration Q3 - working_file v3 Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 "
+  },
+  {
+   "id": "doc-7448",
+   "name": "Architecture Note Q3 - PT's copy.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-06-18T16:37:47.000Z",
+   "modifiedTime": "2026-10-08T01:54:40.000Z",
+   "size": "1312",
+   "webViewLink": "https://drive.google.com/file/d/doc-7448/view",
+   "parents": [
+    "folder-shared-engineering-platform-platform-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q3 - PT's copy.json",
+   "parentId": "folder-shared-engineering-platform-platform-v1-4",
+   "fileSize": "1312",
+   "viewUrl": "https://drive.google.com/file/d/doc-7448/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q3 - PT's copy.json Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance,"
+  },
+  {
+   "id": "doc-7328",
+   "name": "Load Test Report Q3 v63.ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-10-05T15:44:15.000Z",
+   "modifiedTime": "2026-10-07T18:38:09.000Z",
+   "size": "1263",
+   "webViewLink": "https://drive.google.com/file/d/doc-7328/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-api"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Load Test Report Q3 v63.ts",
+   "parentId": "folder-shared-engineering-runbooks-api",
+   "fileSize": "1263",
+   "viewUrl": "https://drive.google.com/file/d/doc-7328/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Load Test Report Q3 v63.ts Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance,"
+  },
+  {
+   "id": "doc-2768",
+   "name": "Vendor Review Q3 v40",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T16:02:14.000Z",
+   "modifiedTime": "2026-10-06T16:02:14.000Z",
+   "size": "6127",
+   "webViewLink": "https://docs.google.com/document/d/doc-2768/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Vendor Review Q3 v40",
+   "parentId": "folder-shared-finance-billing-2026-q1",
+   "fileSize": "6127",
+   "viewUrl": "https://docs.google.com/document/d/doc-2768/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 v40 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, dom"
+  },
+  {
+   "id": "doc-6128",
+   "name": "Onboarding Checklist Q3 - NS's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T10:29:46.000Z",
+   "modifiedTime": "2026-10-06T10:29:46.000Z",
+   "size": "2658",
+   "webViewLink": "https://docs.google.com/document/d/doc-6128/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q3 - NS's copy",
+   "parentId": "folder-shared-product-specs-v1-4",
+   "fileSize": "2658",
+   "viewUrl": "https://docs.google.com/document/d/doc-6128/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q3 - NS's copy Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, "
+  },
+  {
+   "id": "doc-3368",
+   "name": "Onboarding Checklist (Taylor's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-25T18:08:11.000Z",
+   "modifiedTime": "2026-09-25T18:08:11.000Z",
+   "size": "6565",
+   "webViewLink": "https://docs.google.com/document/d/doc-3368/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist (Taylor's copy)",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "6565",
+   "viewUrl": "https://docs.google.com/document/d/doc-3368/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist (Taylor's copy) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb,"
+  },
+  {
+   "id": "doc-7988",
+   "name": "Monthly Report Q3 v136",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-26T10:46:42.000Z",
+   "modifiedTime": "2026-09-24T13:42:39.000Z",
+   "size": "2417",
+   "webViewLink": "https://docs.google.com/document/d/doc-7988/edit",
+   "parents": [
+    "folder-shared-sales-pipeline-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 v136",
+   "parentId": "folder-shared-sales-pipeline-q4",
+   "fileSize": "2417",
+   "viewUrl": "https://docs.google.com/document/d/doc-7988/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 v136 Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain v"
+  },
+  {
+   "id": "doc-6321",
+   "name": "Deploy Checklist Q3 (46).yaml",
+   "mimeType": "application/yaml",
+   "createdTime": "2026-09-22T15:40:38.000Z",
+   "modifiedTime": "2026-09-22T15:40:38.000Z",
+   "size": "1305",
+   "webViewLink": "https://drive.google.com/file/d/doc-6321/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1041"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q3 (46).yaml",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1041",
+   "fileSize": "1305",
+   "viewUrl": "https://drive.google.com/file/d/doc-6321/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q3 (46).yaml Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insuranc"
+  },
+  {
+   "id": "doc-2722",
+   "name": "Payment Dispute Q3 - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-07T10:56:26.000Z",
+   "modifiedTime": "2026-09-22T11:55:43.000Z",
+   "size": "5051",
+   "webViewLink": "https://docs.google.com/document/d/doc-2722/edit",
+   "parents": [
+    "folder-users-christinas-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Payment Dispute Q3 - sales_ops",
+   "parentId": "folder-users-christinas-documents-2026",
+   "fileSize": "5051",
+   "viewUrl": "https://docs.google.com/document/d/doc-2722/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Payment Dispute Q3 - sales_ops Restricted \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Vernall Capital (acct-8) \u2014 Insurance, t"
+  },
+  {
+   "id": "doc-6788",
+   "name": "Vendor Review Q3 (111).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-09-22T11:01:56.000Z",
+   "modifiedTime": "2026-09-22T11:01:56.000Z",
+   "size": "1422",
+   "webViewLink": "https://drive.google.com/file/d/doc-6788/view",
+   "parents": [
+    "folder-users-ashleym-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 (111).json",
+   "parentId": "folder-users-ashleym-downloads",
+   "fileSize": "1422",
+   "viewUrl": "https://drive.google.com/file/d/doc-6788/view",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 (111).json Internal \u2014 Sapora Networks Record Owner: Ashley Mossshaw <ashleym@saporanetworks.com> (Senior Account Executive, Sales) Account: Vernall Capital (acct-8) \u2014 Insurance, tier "
+  },
+  {
+   "id": "doc-1778",
+   "name": "Build Log Q3 - copy.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-09-21T14:26:48.000Z",
+   "modifiedTime": "2026-09-21T14:26:48.000Z",
+   "size": "1313",
+   "webViewLink": "https://drive.google.com/file/d/doc-1778/view",
+   "parents": [
+    "folder-shared-engineering-builds-checkout-service-01"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Build Log Q3 - copy.json",
+   "parentId": "folder-shared-engineering-builds-checkout-service-01",
+   "fileSize": "1313",
+   "viewUrl": "https://drive.google.com/file/d/doc-1778/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Build Log Q3 - copy.json Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, ti"
+  },
+  {
+   "id": "doc-2427",
+   "name": "Pricing Worksheet Q3 - APAC (Taylor's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-27T08:03:54.000Z",
+   "modifiedTime": "2026-09-21T11:55:37.000Z",
+   "size": "5512",
+   "webViewLink": "https://docs.google.com/document/d/doc-2427/edit",
+   "parents": [
+    "folder-users-maximilianl-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - APAC (Taylor's copy)",
+   "parentId": "folder-users-maximilianl-documents-2026",
+   "fileSize": "5512",
+   "viewUrl": "https://docs.google.com/document/d/doc-2427/edit",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - APAC (Taylor's copy) Confidential \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Vernall Capital "
+  },
+  {
+   "id": "doc-7619",
+   "name": "Incident Timeline Q3 - team_copy - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-12-29T09:01:18.000Z",
+   "modifiedTime": "2026-09-18T16:19:36.000Z",
+   "size": "3107",
+   "webViewLink": "https://docs.google.com/document/d/doc-7619/edit",
+   "parents": [
+    "folder-shared-engineering-runbooks-platform-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline Q3 - team_copy - copy",
+   "parentId": "folder-shared-engineering-runbooks-platform-archive",
+   "fileSize": "3107",
+   "viewUrl": "https://docs.google.com/document/d/doc-7619/edit",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q3 - team_copy - copy Restricted \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Vernall Capital (acct-"
+  },
+  {
+   "id": "doc-1226",
+   "name": "Quarterly Business Review Q3 (17)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-18T07:01:46.000Z",
+   "modifiedTime": "2026-09-18T07:01:46.000Z",
+   "size": "7094",
+   "webViewLink": "https://docs.google.com/document/d/doc-1226/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 (17)",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "7094",
+   "viewUrl": "https://docs.google.com/document/d/doc-1226/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 (17) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, do"
+  },
+  {
+   "id": "doc-10097",
+   "name": "Load Test Report Q3 (105)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-17T22:24:12.000Z",
+   "modifiedTime": "2026-09-17T22:24:12.000Z",
+   "size": "1861",
+   "webViewLink": "https://docs.google.com/document/d/doc-10097/edit",
+   "parents": [
+    "folder-shared-engineering-platform-api-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Load Test Report Q3 (105)",
+   "parentId": "folder-shared-engineering-platform-api-v1-4",
+   "fileSize": "1861",
+   "viewUrl": "https://docs.google.com/document/d/doc-10097/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Load Test Report Q3 (105) Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, t"
+  },
+  {
+   "id": "doc-6791",
+   "name": "Quarterly Business Review Q3 - CR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-17T16:10:34.000Z",
+   "modifiedTime": "2026-09-17T16:10:34.000Z",
+   "size": "3086",
+   "webViewLink": "https://docs.google.com/document/d/doc-6791/edit",
+   "parents": [
+    "folder-users-felixm-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 - CR's copy",
+   "parentId": "folder-users-felixm-notes-2026",
+   "fileSize": "3086",
+   "viewUrl": "https://docs.google.com/document/d/doc-6791/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 - CR's copy Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Vernall Capital (acct-8) \u2014 Insurance, tier"
+  },
+  {
+   "id": "doc-692",
+   "name": "Data Processing Addendum Q3 (4)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-17T11:14:56.000Z",
+   "modifiedTime": "2026-09-17T11:14:56.000Z",
+   "size": "11849",
+   "webViewLink": "https://docs.google.com/document/d/doc-692/edit",
+   "parents": [
+    "folder-users-simonn-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Data Processing Addendum Q3 (4)",
+   "parentId": "folder-users-simonn-documents-2026",
+   "fileSize": "11849",
+   "viewUrl": "https://docs.google.com/document/d/doc-692/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q3 (4) Confidential \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain "
+  },
+  {
+   "id": "doc-7190",
+   "name": "Implementation Plan (Morgan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-21T18:47:16.000Z",
+   "modifiedTime": "2026-09-17T11:09:45.000Z",
+   "size": "8121",
+   "webViewLink": "https://docs.google.com/document/d/doc-7190/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan (Morgan's copy)",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "8121",
+   "viewUrl": "https://docs.google.com/document/d/doc-7190/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Implementation Plan (Morgan's copy) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, "
+  },
+  {
+   "id": "doc-7737",
+   "name": "Renewal Proposal Q3 (127).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-09-17T09:03:15.000Z",
+   "modifiedTime": "2026-09-17T09:03:15.000Z",
+   "size": "4036",
+   "webViewLink": "https://drive.google.com/file/d/doc-7737/view",
+   "parents": [
+    "folder-users-oscarn-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 (127).docx",
+   "parentId": "folder-users-oscarn-documents-2026",
+   "fileSize": "4036",
+   "viewUrl": "https://drive.google.com/file/d/doc-7737/view",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 (127) Confidential \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Vernall Capital (acct-8) \u2014 Insuranc"
+  },
+  {
+   "id": "doc-6848",
+   "name": "Pricing Worksheet Q3 (70)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-16T11:31:02.000Z",
+   "modifiedTime": "2026-09-16T11:31:02.000Z",
+   "size": "3180",
+   "webViewLink": "https://docs.google.com/document/d/doc-6848/edit",
+   "parents": [
+    "folder-users-janusm-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 (70)",
+   "parentId": "folder-users-janusm-documents-2026",
+   "fileSize": "3180",
+   "viewUrl": "https://docs.google.com/document/d/doc-6848/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 (70) Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, tier sm"
+  },
+  {
+   "id": "doc-7103",
+   "name": "Quarterly Business Review Q3 (139)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-14T10:52:53.000Z",
+   "modifiedTime": "2026-09-14T10:52:53.000Z",
+   "size": "6740",
+   "webViewLink": "https://docs.google.com/document/d/doc-7103/edit",
+   "parents": [
+    "folder-users-selink-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 (139)",
+   "parentId": "folder-users-selink-notes-2026",
+   "fileSize": "6740",
+   "viewUrl": "https://docs.google.com/document/d/doc-7103/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 (139) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, d"
+  },
+  {
+   "id": "doc-7818",
+   "name": "Quarterly Business Review Q3 - AJ",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-12T14:39:05.000Z",
+   "modifiedTime": "2026-09-12T14:39:05.000Z",
+   "size": "2659",
+   "webViewLink": "https://docs.google.com/document/d/doc-7818/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q2"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 - AJ",
+   "parentId": "folder-shared-product-roadmap-q2",
+   "fileSize": "2659",
+   "viewUrl": "https://docs.google.com/document/d/doc-7818/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 - AJ Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, do"
+  },
+  {
+   "id": "doc-7928",
+   "name": "Service Runbook Q3 (Morgan's copy).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-09-11T08:13:50.000Z",
+   "modifiedTime": "2026-09-11T08:13:50.000Z",
+   "size": "3590",
+   "webViewLink": "https://drive.google.com/file/d/doc-7928/view",
+   "parents": [
+    "folder-shared-engineering-platform-billing-service-v1-6"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Service Runbook Q3 (Morgan's copy).docx",
+   "parentId": "folder-shared-engineering-platform-billing-service-v1-6",
+   "fileSize": "3590",
+   "viewUrl": "https://drive.google.com/file/d/doc-7928/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Service Runbook Q3 (Morgan's copy) Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, ti"
+  },
+  {
+   "id": "doc-4133",
+   "name": "Quarterly Business Review Q3 for the exec roadmap steering meeting.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-09-09T11:44:39.000Z",
+   "modifiedTime": "2026-09-09T11:44:39.000Z",
+   "size": "3924",
+   "webViewLink": "https://drive.google.com/file/d/doc-4133/view",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 for the exec roadmap steering meeting.docx",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "3924",
+   "viewUrl": "https://drive.google.com/file/d/doc-4133/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 for the exec roadmap steering meeting Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital ("
+  },
+  {
+   "id": "doc-7433",
+   "name": "Data Processing Addendum Q3 (64).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-04-20T16:27:32.000Z",
+   "modifiedTime": "2026-09-09T09:32:34.000Z",
+   "size": "4626",
+   "webViewLink": "https://drive.google.com/file/d/doc-7433/view",
+   "parents": [
+    "folder-users-oscarn-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q3 (64).docx",
+   "parentId": "folder-users-oscarn-documents-2026",
+   "fileSize": "4626",
+   "viewUrl": "https://drive.google.com/file/d/doc-7433/view",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q3 (64) Confidential \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Vernall Capital (acct-8) \u2014 I"
+  },
+  {
+   "id": "doc-503",
+   "name": "Launch Deck Q3 (Jordan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-03-04T09:40:41.000Z",
+   "modifiedTime": "2026-09-08T09:46:36.000Z",
+   "size": "1600",
+   "webViewLink": "https://docs.google.com/document/d/doc-503/edit",
+   "parents": [
+    "folder-shared-sales-enablement-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Launch Deck Q3 (Jordan's copy)",
+   "parentId": "folder-shared-sales-enablement-archive",
+   "fileSize": "1600",
+   "viewUrl": "https://docs.google.com/document/d/doc-503/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Launch Deck Q3 (Jordan's copy) Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, "
+  },
+  {
+   "id": "doc-8918",
+   "name": "Monthly Report Q2 v97 (1)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-08T08:14:56.000Z",
+   "modifiedTime": "2026-09-08T08:14:56.000Z",
+   "size": "2455",
+   "webViewLink": "https://docs.google.com/document/d/doc-8918/edit",
+   "parents": [
+    "folder-shared-product-analytics-01"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q2 v97 (1)",
+   "parentId": "folder-shared-product-analytics-01",
+   "fileSize": "2455",
+   "viewUrl": "https://docs.google.com/document/d/doc-8918/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 v97 (1) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain ver"
+  },
+  {
+   "id": "doc-9083",
+   "name": "Migration Runbook Q3 v81",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-06T10:00:01.000Z",
+   "modifiedTime": "2026-09-03T21:53:45.000Z",
+   "size": "4268",
+   "webViewLink": "https://docs.google.com/document/d/doc-9083/edit",
+   "parents": [
+    "folder-users-ulkudeso-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Migration Runbook Q3 v81",
+   "parentId": "folder-users-ulkudeso-documents-2026",
+   "fileSize": "4268",
+   "viewUrl": "https://docs.google.com/document/d/doc-9083/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Migration Runbook Q3 v81 Restricted \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, do"
+  },
+  {
+   "id": "doc-1218",
+   "name": "Vendor Review Q3 - FY",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-03T16:00:33.000Z",
+   "modifiedTime": "2026-09-03T16:00:33.000Z",
+   "size": "7377",
+   "webViewLink": "https://docs.google.com/document/d/doc-1218/edit",
+   "parents": [
+    "folder-users-shannona-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Shannon Ashshaw",
+     "emailAddress": "shannona@saporanetworks.com",
+     "permissionId": "588557297867003639490",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 - FY",
+   "parentId": "folder-users-shannona-downloads",
+   "fileSize": "7377",
+   "viewUrl": "https://docs.google.com/document/d/doc-1218/edit",
+   "owner": "shannona@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 - FY Internal \u2014 Sapora Networks Record Owner: Shannon Ashshaw <shannona@saporanetworks.com> (Head of Marketing, Marketing) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, dom"
+  },
+  {
+   "id": "doc-3583",
+   "name": "Implementation Plan Q3 (31).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-09-02T10:30:52.000Z",
+   "modifiedTime": "2026-09-02T10:30:52.000Z",
+   "size": "4111",
+   "webViewLink": "https://drive.google.com/file/d/doc-3583/view",
+   "parents": [
+    "folder-users-selink-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q3 (31).docx",
+   "parentId": "folder-users-selink-notes-2026",
+   "fileSize": "4111",
+   "viewUrl": "https://drive.google.com/file/d/doc-3583/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q3 (31) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain v"
+  },
+  {
+   "id": "doc-10128",
+   "name": "Monthly Report Q3 for the EMEA roadmap workshop session",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T10:04:14.000Z",
+   "modifiedTime": "2026-08-31T10:04:14.000Z",
+   "size": "2616",
+   "webViewLink": "https://docs.google.com/document/d/doc-10128/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q3 for the EMEA roadmap workshop session",
+   "parentId": "folder-shared-finance-billing-2026-q1",
+   "fileSize": "2616",
+   "viewUrl": "https://docs.google.com/document/d/doc-10128/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 for the EMEA roadmap workshop session Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Vernall Capital "
+  },
+  {
+   "id": "doc-3753",
+   "name": "Data Processing Addendum Q4 - CR v2 (2)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-27T15:56:05.000Z",
+   "modifiedTime": "2026-08-27T15:56:05.000Z",
+   "size": "6518",
+   "webViewLink": "https://docs.google.com/document/d/doc-3753/edit",
+   "parents": [
+    "folder-shared-product-analytics-08"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q4 - CR v2 (2)",
+   "parentId": "folder-shared-product-analytics-08",
+   "fileSize": "6518",
+   "viewUrl": "https://docs.google.com/document/d/doc-3753/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q4 - CR Confidential \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Vernall Capital (acct-8) \u2014 "
+  },
+  {
+   "id": "doc-1628",
+   "name": "Nightly Job Log Q3 - JD's copy.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-27T15:40:52.000Z",
+   "modifiedTime": "2026-08-27T15:40:52.000Z",
+   "size": "2463",
+   "webViewLink": "https://drive.google.com/file/d/doc-1628/view",
+   "parents": [
+    "folder-shared-engineering-builds-checkout-service-03"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Nightly Job Log Q3 - JD's copy.log",
+   "parentId": "folder-shared-engineering-builds-checkout-service-03",
+   "fileSize": "2463",
+   "viewUrl": "https://drive.google.com/file/d/doc-1628/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Nightly Job Log Q3 - JD's copy.log Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Ins"
+  },
+  {
+   "id": "doc-3140",
+   "name": "Renewal Proposal Q3 - JD",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-07T12:50:06.000Z",
+   "modifiedTime": "2026-08-27T15:10:37.000Z",
+   "size": "4182",
+   "webViewLink": "https://docs.google.com/document/d/doc-3140/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 - JD",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "4182",
+   "viewUrl": "https://docs.google.com/document/d/doc-3140/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 - JD Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain "
+  },
+  {
+   "id": "doc-62",
+   "name": "Capacity Plan Q3 for the exec roadmap planning meeting",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-01T21:10:37.000Z",
+   "modifiedTime": "2026-08-24T14:19:36.000Z",
+   "size": "3815",
+   "webViewLink": "https://docs.google.com/document/d/doc-62/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-reporting-02"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Capacity Plan Q3 for the exec roadmap planning meeting",
+   "parentId": "folder-shared-support-reporting-02",
+   "fileSize": "3815",
+   "viewUrl": "https://docs.google.com/document/d/doc-62/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 for the exec roadmap planning meeting Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Vernall Capital (acct-8) \u2014 I"
+  },
+  {
+   "id": "doc-8000",
+   "name": "Vendor Review Q3 v142.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-08-24T13:20:00.000Z",
+   "modifiedTime": "2026-08-24T13:20:00.000Z",
+   "size": "4657",
+   "webViewLink": "https://drive.google.com/file/d/doc-8000/view",
+   "parents": [
+    "folder-shared-sales-pipeline-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 v142.xlsx",
+   "parentId": "folder-shared-sales-pipeline-q3",
+   "fileSize": "4657",
+   "viewUrl": "https://drive.google.com/file/d/doc-8000/view",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 v142 Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain ve"
+  },
+  {
+   "id": "doc-5030",
+   "name": "Onboarding Checklist Q2 - 2026-06 v5.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-07-02T13:05:51.000Z",
+   "modifiedTime": "2026-08-17T10:19:25.000Z",
+   "size": "3908",
+   "webViewLink": "https://drive.google.com/file/d/doc-5030/view",
+   "parents": [
+    "folder-shared-legal-policies"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Raymond Ashton",
+     "emailAddress": "raymonda@saporanetworks.com",
+     "permissionId": "688080477940176697043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q2 - 2026-06 v5.docx",
+   "parentId": "folder-shared-legal-policies",
+   "fileSize": "3908",
+   "viewUrl": "https://drive.google.com/file/d/doc-5030/view",
+   "owner": "raymonda@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q2 - 2026-06 v5 Internal \u2014 Sapora Networks Record Owner: Raymond Ashton <raymonda@saporanetworks.com> (Senior Support Engineer, Support) Account: Vernall Capital (acct-8) \u2014 Insura"
+  },
+  {
+   "id": "doc-4116",
+   "name": "Security Review Q2 - JD's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-03T12:31:55.000Z",
+   "modifiedTime": "2026-08-12T14:53:55.000Z",
+   "size": "8857",
+   "webViewLink": "https://docs.google.com/document/d/doc-4116/edit",
+   "parents": [
+    "folder-users-ulkudeso-desktop-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q2 - JD's copy",
+   "parentId": "folder-users-ulkudeso-desktop-archive",
+   "fileSize": "8857",
+   "viewUrl": "https://docs.google.com/document/d/doc-4116/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Security Review Q2 - JD's copy Confidential \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier"
+  },
+  {
+   "id": "doc-8831",
+   "name": "Incident Timeline Q2 - MR.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-08-11T15:03:31.000Z",
+   "modifiedTime": "2026-08-11T15:03:31.000Z",
+   "size": "2646",
+   "webViewLink": "https://drive.google.com/file/d/doc-8831/view",
+   "parents": [
+    "folder-shared-engineering-platform-checkout-service-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline Q2 - MR.json",
+   "parentId": "folder-shared-engineering-platform-checkout-service-v2-1",
+   "fileSize": "2646",
+   "viewUrl": "https://drive.google.com/file/d/doc-8831/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q2 - MR.json Confidential \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Ins"
+  },
+  {
+   "id": "doc-5108",
+   "name": "Nightly Job Log Q2 - 2026 - copy.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-10T11:59:13.000Z",
+   "modifiedTime": "2026-08-10T11:59:13.000Z",
+   "size": "2187",
+   "webViewLink": "https://drive.google.com/file/d/doc-5108/view",
+   "parents": [
+    "folder-shared-engineering-builds-platform-06"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Nightly Job Log Q2 - 2026 - copy.log",
+   "parentId": "folder-shared-engineering-builds-platform-06",
+   "fileSize": "2187",
+   "viewUrl": "https://drive.google.com/file/d/doc-5108/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Nightly Job Log Q2 - 2026 - copy.log Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Vernall Capital (acct-8) \u2014 "
+  },
+  {
+   "id": "doc-7964",
+   "name": "Payment Dispute Q2 - 2026-06",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-10T10:56:35.000Z",
+   "modifiedTime": "2026-08-10T10:56:35.000Z",
+   "size": "3233",
+   "webViewLink": "https://docs.google.com/document/d/doc-7964/edit",
+   "parents": [
+    "folder-users-christinas-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Payment Dispute Q2 - 2026-06",
+   "parentId": "folder-users-christinas-documents-2026",
+   "fileSize": "3233",
+   "viewUrl": "https://docs.google.com/document/d/doc-7964/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Payment Dispute Q2 - 2026-06 Restricted \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Vernall Capital (acct-8) \u2014 Insurance, tie"
+  },
+  {
+   "id": "doc-9596",
+   "name": "Build Log Q2 for the partner roadmap steering meeting.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-06T12:28:31.000Z",
+   "modifiedTime": "2026-08-06T12:28:31.000Z",
+   "size": "2408",
+   "webViewLink": "https://drive.google.com/file/d/doc-9596/view",
+   "parents": [
+    "folder-shared-engineering-builds-billing-service-01"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Build Log Q2 for the partner roadmap steering meeting.log",
+   "parentId": "folder-shared-engineering-builds-billing-service-01",
+   "fileSize": "2408",
+   "viewUrl": "https://drive.google.com/file/d/doc-9596/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Build Log Q2 for the partner roadmap steering meeting.log Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall"
+  },
+  {
+   "id": "doc-1283",
+   "name": "Implementation Plan Q2 - team_copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-07-06T12:36:59.000Z",
+   "modifiedTime": "2026-08-06T10:20:09.000Z",
+   "size": "4298",
+   "webViewLink": "https://drive.google.com/file/d/doc-1283/view",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q2 - team_copy.docx",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "4298",
+   "viewUrl": "https://drive.google.com/file/d/doc-1283/view",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q2 - team_copy Internal \u2014 Sapora Networks Record Owner: Tim Kuhn <timk@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, tier sm"
+  },
+  {
+   "id": "doc-5312",
+   "name": "Onboarding Checklist Q2 v23",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-05T21:10:54.000Z",
+   "modifiedTime": "2026-08-05T21:10:54.000Z",
+   "size": "7614",
+   "webViewLink": "https://docs.google.com/document/d/doc-5312/edit",
+   "parents": [
+    "folder-users-selink-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q2 v23",
+   "parentId": "folder-users-selink-notes-2026",
+   "fileSize": "7614",
+   "viewUrl": "https://docs.google.com/document/d/doc-5312/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q2 v23 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain v"
+  },
+  {
+   "id": "doc-6332",
+   "name": "Deploy Checklist Q2 - final - JD's copy.py",
+   "mimeType": "text/x-python",
+   "createdTime": "2026-08-03T17:42:51.000Z",
+   "modifiedTime": "2026-08-03T17:42:51.000Z",
+   "size": "1296",
+   "webViewLink": "https://drive.google.com/file/d/doc-6332/view",
+   "parents": [
+    "folder-shared-engineering-platform-platform-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 - final - JD's copy.py",
+   "parentId": "folder-shared-engineering-platform-platform-v1-4",
+   "fileSize": "1296",
+   "viewUrl": "https://drive.google.com/file/d/doc-6332/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 - final - JD's copy.py Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-"
+  },
+  {
+   "id": "doc-7603",
+   "name": "Deploy Checklist Q2 (67)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-29T14:48:28.000Z",
+   "modifiedTime": "2026-07-29T14:48:28.000Z",
+   "size": "5130",
+   "webViewLink": "https://docs.google.com/document/d/doc-7603/edit",
+   "parents": [
+    "folder-shared-engineering-platform-webapp-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 (67)",
+   "parentId": "folder-shared-engineering-platform-webapp-v1-5",
+   "fileSize": "5130",
+   "viewUrl": "https://docs.google.com/document/d/doc-7603/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 (67) Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, do"
+  },
+  {
+   "id": "doc-6574",
+   "name": "Events Extract Q2 v16",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-08T14:15:28.000Z",
+   "modifiedTime": "2026-07-29T14:09:01.000Z",
+   "size": "5996",
+   "webViewLink": "https://docs.google.com/document/d/doc-6574/edit",
+   "parents": [
+    "folder-shared-product-analytics-01"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Events Extract Q2 v16",
+   "parentId": "folder-shared-product-analytics-01",
+   "fileSize": "5996",
+   "viewUrl": "https://docs.google.com/document/d/doc-6574/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Events Extract Q2 v16 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb, domain vernall"
+  },
+  {
+   "id": "doc-4957",
+   "name": "Quarterly Business Review Q2 (Riley's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-28T17:04:52.000Z",
+   "modifiedTime": "2026-07-28T17:04:52.000Z",
+   "size": "3779",
+   "webViewLink": "https://docs.google.com/document/d/doc-4957/edit",
+   "parents": [
+    "folder-users-simonn-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": false,
+   "title": "Quarterly Business Review Q2 (Riley's copy)",
+   "parentId": "folder-users-simonn-notes-2026",
+   "fileSize": "3779",
+   "viewUrl": "https://docs.google.com/document/d/doc-4957/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q2 (Riley's copy) Internal \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Vernall Capital (acct-8) \u2014 Insurance, tier smb,"
+  }
+ ],
+ "totalCount": 179,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtNzk2NCIsImRvYy05NTk2IiwiZG9jLTEyODMiLCJkb2MtNTMxMiIsImRvYy02MzMyIiwiZG9jLTc2MDMiLCJkb2MtNjU3NCIsImRvYy00OTU3Il19"
+}

@@ -1,0 +1,1598 @@
+{
+ "files": [
+  {
+   "id": "doc-5286",
+   "name": "Tenet Group - Quarterly Business Review (Morgan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-10T12:04:49.000Z",
+   "modifiedTime": "2026-10-10T12:04:49.000Z",
+   "size": "12275",
+   "webViewLink": "https://docs.google.com/document/d/doc-5286/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-6"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Hoffmann",
+     "emailAddress": "maximilianh@saporanetworks.com",
+     "permissionId": "694389390825917526723",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review (Morgan's copy)",
+   "parentId": "folder-shared-product-specs-v1-6",
+   "fileSize": "12275",
+   "viewUrl": "https://docs.google.com/document/d/doc-5286/edit",
+   "owner": "maximilianh@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review (Morgan's copy) Internal \u2014 Sapora Networks Record Owner: Maximilian Hoffmann <maximilianh@saporanetworks.com> (Senior Product Manager, Product) Account: Tenet G"
+  },
+  {
+   "id": "doc-7042",
+   "name": "Tenet Group - Onboarding Checklist for the regional status steering meeting",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-10T10:34:26.000Z",
+   "modifiedTime": "2026-10-10T10:34:26.000Z",
+   "size": "4994",
+   "webViewLink": "https://docs.google.com/document/d/doc-7042/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Onboarding Checklist for the regional status steering meeting",
+   "parentId": "folder-shared-product-specs-v1-5",
+   "fileSize": "4994",
+   "viewUrl": "https://docs.google.com/document/d/doc-7042/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Onboarding Checklist for the regional status steering meeting Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Gr"
+  },
+  {
+   "id": "doc-9243",
+   "name": "Tenet Group - Implementation Plan - final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-10T09:14:33.000Z",
+   "modifiedTime": "2026-10-10T09:14:33.000Z",
+   "size": "5518",
+   "webViewLink": "https://docs.google.com/document/d/doc-9243/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q2"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Implementation Plan - final",
+   "parentId": "folder-shared-product-roadmap-q2",
+   "fileSize": "5518",
+   "viewUrl": "https://docs.google.com/document/d/doc-9243/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Implementation Plan - final Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications"
+  },
+  {
+   "id": "doc-6843",
+   "name": "Tenet Group - Quarterly Business Review - MR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-25T16:06:38.000Z",
+   "modifiedTime": "2026-10-09T19:14:55.000Z",
+   "size": "5646",
+   "webViewLink": "https://docs.google.com/document/d/doc-6843/edit",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review - MR's copy",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "5646",
+   "viewUrl": "https://docs.google.com/document/d/doc-6843/edit",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review - MR's copy Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tenet Group "
+  },
+  {
+   "id": "folder-shared-sales-accounts-tenet-group",
+   "name": "Tenet Group",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-07-01T09:06:07.000Z",
+   "modifiedTime": "2026-10-09T18:39:58.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-sales-accounts-tenet-group",
+   "parents": [
+    "folder-shared-sales-accounts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": false,
+   "title": "Tenet Group",
+   "parentId": "folder-shared-sales-accounts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-sales-accounts-tenet-group",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-9413",
+   "name": "Implementation Plan Q3 - team_copy v3.pdf",
+   "mimeType": "application/pdf",
+   "createdTime": "2026-10-09T16:25:42.000Z",
+   "modifiedTime": "2026-10-09T16:25:42.000Z",
+   "size": "6769",
+   "webViewLink": "https://drive.google.com/file/d/doc-9413/view",
+   "parents": [
+    "folder-users-sebastiano-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Sebastian Otto",
+     "emailAddress": "sebastiano@saporanetworks.com",
+     "permissionId": "913670017340148510696",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q3 - team_copy v3.pdf",
+   "parentId": "folder-users-sebastiano-documents-2026",
+   "fileSize": "6769",
+   "viewUrl": "https://drive.google.com/file/d/doc-9413/view",
+   "owner": "sebastiano@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q3 - team_copy v3 Internal \u2014 Sapora Networks Record Owner: Sebastian Otto <sebastiano@saporanetworks.com> (Senior Software Engineer, Engineering) Account: Tenet Group (acct-21) \u2014 T"
+  },
+  {
+   "id": "doc-8795",
+   "name": "Tenet Group - Pricing Worksheet - AJ v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T11:18:35.000Z",
+   "modifiedTime": "2026-10-09T15:11:41.000Z",
+   "size": "2471",
+   "webViewLink": "https://docs.google.com/document/d/doc-8795/edit",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Pricing Worksheet - AJ v2",
+   "parentId": "folder-shared-sales-accounts-tenet-group-renewal",
+   "fileSize": "2471",
+   "viewUrl": "https://docs.google.com/document/d/doc-8795/edit",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Pricing Worksheet - AJ Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-6681",
+   "name": "Tenet Group - Quarterly Business Review - CR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T14:54:00.000Z",
+   "modifiedTime": "2026-10-09T14:54:00.000Z",
+   "size": "2343",
+   "webViewLink": "https://docs.google.com/document/d/doc-6681/edit",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review - CR's copy",
+   "parentId": "folder-shared-sales-accounts-tenet-group-security-review",
+   "fileSize": "2343",
+   "viewUrl": "https://docs.google.com/document/d/doc-6681/edit",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review - CR's copy Internal \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Teleco"
+  },
+  {
+   "id": "doc-7313",
+   "name": "Spend Summary Q3 v182",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-09T14:23:25.000Z",
+   "modifiedTime": "2026-10-09T14:23:25.000Z",
+   "size": "6926",
+   "webViewLink": "https://docs.google.com/document/d/doc-7313/edit",
+   "parents": [
+    "folder-users-simonn-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": false,
+   "title": "Spend Summary Q3 v182",
+   "parentId": "folder-users-simonn-downloads",
+   "fileSize": "6926",
+   "viewUrl": "https://docs.google.com/document/d/doc-7313/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q3 v182 Internal \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier mid-market, domain t"
+  },
+  {
+   "id": "doc-5390",
+   "name": "Tenet Group - Onboarding Checklist - 2026-08 (Sam's copy).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-09T14:03:08.000Z",
+   "modifiedTime": "2026-10-09T14:03:08.000Z",
+   "size": "3920",
+   "webViewLink": "https://drive.google.com/file/d/doc-5390/view",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Onboarding Checklist - 2026-08 (Sam's copy).docx",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "3920",
+   "viewUrl": "https://drive.google.com/file/d/doc-5390/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Onboarding Checklist - 2026-08 (Sam's copy) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Te"
+  },
+  {
+   "id": "doc-7013",
+   "name": "Onboarding Checklist Q3 - CR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-07T11:43:34.000Z",
+   "modifiedTime": "2026-10-09T13:30:51.000Z",
+   "size": "4727",
+   "webViewLink": "https://docs.google.com/document/d/doc-7013/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q3 - CR's copy",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "4727",
+   "viewUrl": "https://docs.google.com/document/d/doc-7013/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q3 - CR's copy Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier"
+  },
+  {
+   "id": "doc-9566",
+   "name": "Tenet Group - Quarterly Business Review (Riley's copy).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-08-18T10:33:29.000Z",
+   "modifiedTime": "2026-10-09T11:49:07.000Z",
+   "size": "3862",
+   "webViewLink": "https://drive.google.com/file/d/doc-9566/view",
+   "parents": [
+    "folder-shared-legal-compliance-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review (Riley's copy).docx",
+   "parentId": "folder-shared-legal-compliance-2026",
+   "fileSize": "3862",
+   "viewUrl": "https://drive.google.com/file/d/doc-9566/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review (Riley's copy) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telec"
+  },
+  {
+   "id": "doc-7709",
+   "name": "Tenet Group - Migration Runbook for the partner roadmap planning session (1).docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-09T11:24:30.000Z",
+   "modifiedTime": "2026-10-09T11:24:30.000Z",
+   "size": "4085",
+   "webViewLink": "https://drive.google.com/file/d/doc-7709/view",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook for the partner roadmap planning session (1).docx",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "4085",
+   "viewUrl": "https://drive.google.com/file/d/doc-7709/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook for the partner roadmap planning session Restricted \u2014 Sapora Networks Record Owner: Courtney Martinez <courtneym@saporanetworks.com> (Senior Software Engineer, Engineer"
+  },
+  {
+   "id": "doc-9640",
+   "name": "Tenet Group - Quarterly Business Review - 22.08.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T12:25:46.000Z",
+   "modifiedTime": "2026-10-09T10:57:17.000Z",
+   "size": "10590",
+   "webViewLink": "https://docs.google.com/document/d/doc-9640/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review - 22.08.26",
+   "parentId": "folder-shared-product-specs-v1-4",
+   "fileSize": "10590",
+   "viewUrl": "https://docs.google.com/document/d/doc-9640/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review - 22.08.26 Internal \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Tenet Group (acct-21) \u2014 Te"
+  },
+  {
+   "id": "doc-2669",
+   "name": "Tenet Group - Implementation Plan",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-18T11:36:41.000Z",
+   "modifiedTime": "2026-10-09T10:17:41.000Z",
+   "size": "10545",
+   "webViewLink": "https://docs.google.com/document/d/doc-2669/edit",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-onboarding"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Implementation Plan",
+   "parentId": "folder-shared-sales-accounts-tenet-group-onboarding",
+   "fileSize": "10545",
+   "viewUrl": "https://docs.google.com/document/d/doc-2669/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Implementation Plan Internal \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tenet Group (acct-21) \u2014 Teleco"
+  },
+  {
+   "id": "file-kb-incident-ops-inc-12",
+   "name": "Known issue: payments-api is returning 404 for valid routes (sev2)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T09:03:08.000Z",
+   "modifiedTime": "2026-10-09T09:42:26.000Z",
+   "size": "3509",
+   "webViewLink": "https://docs.google.com/document/d/file-kb-incident-ops-inc-12/edit",
+   "parents": [
+    "folder-support-knowledge-base-engineering-runbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Raymond Ashton",
+     "emailAddress": "raymonda@saporanetworks.com",
+     "permissionId": "688080477940176697043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Known issue: payments-api is returning 404 for valid routes (sev2)",
+   "parentId": "folder-support-knowledge-base-engineering-runbooks",
+   "fileSize": "3509",
+   "viewUrl": "https://docs.google.com/document/d/file-kb-incident-ops-inc-12/edit",
+   "owner": "raymonda@saporanetworks.com",
+   "contentSnippet": "Known issue: payments-api is returning 404 for valid routes (sev2) payments-api HTTP 4xx rate fired on payments-api in prod. Cause: a config change. This is the page the desk answers customers from wh"
+  },
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "doc-9762",
+   "name": "Tenet Group - Migration Runbook - SW's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T11:18:35.000Z",
+   "modifiedTime": "2026-10-08T22:38:07.000Z",
+   "size": "2575",
+   "webViewLink": "https://docs.google.com/document/d/doc-9762/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook - SW's copy",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-signature",
+   "fileSize": "2575",
+   "viewUrl": "https://docs.google.com/document/d/doc-9762/edit",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook - SW's copy Confidential \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tenet Group (acct-21"
+  },
+  {
+   "id": "doc-2213",
+   "name": "Renewal Proposal - CR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T20:00:41.000Z",
+   "modifiedTime": "2026-10-08T20:00:41.000Z",
+   "size": "2394",
+   "webViewLink": "https://docs.google.com/document/d/doc-2213/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal - CR's copy",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "2394",
+   "viewUrl": "https://docs.google.com/document/d/doc-2213/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal - CR's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier mi"
+  },
+  {
+   "id": "doc-3594",
+   "name": "Tenet Group - Quarterly Business Review - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T17:19:19.000Z",
+   "modifiedTime": "2026-10-08T19:47:07.000Z",
+   "size": "1058",
+   "webViewLink": "https://docs.google.com/document/d/doc-3594/edit",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review - copy",
+   "parentId": "folder-shared-sales-accounts-tenet-group-security-review",
+   "fileSize": "1058",
+   "viewUrl": "https://docs.google.com/document/d/doc-3594/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review - copy Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Telecomm"
+  },
+  {
+   "id": "doc-3277",
+   "name": "Tenet Group - Security Review (Morgan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-07T17:05:01.000Z",
+   "modifiedTime": "2026-10-08T15:24:21.000Z",
+   "size": "7386",
+   "webViewLink": "https://docs.google.com/document/d/doc-3277/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Security Review (Morgan's copy)",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-signature",
+   "fileSize": "7386",
+   "viewUrl": "https://docs.google.com/document/d/doc-3277/edit",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Security Review (Morgan's copy) Confidential \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tenet Group (ac"
+  },
+  {
+   "id": "doc-8453",
+   "name": "Vendor Review - NS's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T14:48:26.000Z",
+   "modifiedTime": "2026-10-08T14:48:26.000Z",
+   "size": "4463",
+   "webViewLink": "https://docs.google.com/document/d/doc-8453/edit",
+   "parents": [
+    "folder-shared-executive-reports-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Vendor Review - NS's copy",
+   "parentId": "folder-shared-executive-reports-q3",
+   "fileSize": "4463",
+   "viewUrl": "https://docs.google.com/document/d/doc-8453/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Vendor Review - NS's copy Internal \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier mid-market, doma"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "folder-shared-customer-success-accounts-tenet-group",
+   "name": "Tenet Group",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-06-15T12:29:15.000Z",
+   "modifiedTime": "2026-10-08T12:34:17.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-customer-success-accounts-tenet-group",
+   "parents": [
+    "folder-shared-customer-success-accounts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group",
+   "parentId": "folder-shared-customer-success-accounts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-customer-success-accounts-tenet-group",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-487",
+   "name": "Tenet Group - Migration Runbook - 22.08.26.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-08T10:57:37.000Z",
+   "modifiedTime": "2026-10-08T10:57:37.000Z",
+   "size": "4171",
+   "webViewLink": "https://drive.google.com/file/d/doc-487/view",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook - 22.08.26.docx",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-security-review",
+   "fileSize": "4171",
+   "viewUrl": "https://drive.google.com/file/d/doc-487/view",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook - 22.08.26 Restricted \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tenet Group (acct-21) \u2014"
+  },
+  {
+   "id": "doc-3181",
+   "name": "Tenet Group - Pricing Worksheet v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T13:26:08.000Z",
+   "modifiedTime": "2026-10-08T10:36:20.000Z",
+   "size": "8585",
+   "webViewLink": "https://docs.google.com/document/d/doc-3181/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Pricing Worksheet v2",
+   "parentId": "folder-shared-product-specs-v1-4",
+   "fileSize": "8585",
+   "viewUrl": "https://docs.google.com/document/d/doc-3181/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Pricing Worksheet v2 Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications, t"
+  },
+  {
+   "id": "doc-2500",
+   "name": "Tenet Group - Migration Runbook",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T10:16:44.000Z",
+   "modifiedTime": "2026-10-08T10:16:44.000Z",
+   "size": "3316",
+   "webViewLink": "https://docs.google.com/document/d/doc-2500/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "3316",
+   "viewUrl": "https://docs.google.com/document/d/doc-2500/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier"
+  },
+  {
+   "id": "doc-10430",
+   "name": "Tenet Group - Security Review - 2026-08 - SW's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-08T10:11:20.000Z",
+   "modifiedTime": "2026-10-08T10:11:20.000Z",
+   "size": "5772",
+   "webViewLink": "https://docs.google.com/document/d/doc-10430/edit",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Security Review - 2026-08 - SW's copy",
+   "parentId": "folder-shared-sales-accounts-tenet-group-renewal",
+   "fileSize": "5772",
+   "viewUrl": "https://docs.google.com/document/d/doc-10430/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Security Review - 2026-08 - SW's copy Confidential \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014"
+  },
+  {
+   "id": "folder-shared-legal-contracts-tenet-group",
+   "name": "Tenet Group",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-06-24T12:46:15.000Z",
+   "modifiedTime": "2026-10-08T10:06:27.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-tenet-group",
+   "parents": [
+    "folder-shared-legal-contracts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group",
+   "parentId": "folder-shared-legal-contracts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-tenet-group",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-9713",
+   "name": "Monthly Report Q3 v192",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-11-18T14:43:03.000Z",
+   "modifiedTime": "2026-10-08T07:50:37.000Z",
+   "size": "4104",
+   "webViewLink": "https://docs.google.com/document/d/doc-9713/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q2-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Markus M\u00fcller",
+     "emailAddress": "markusm@saporanetworks.com",
+     "permissionId": "215731061089566422325",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q3 v192",
+   "parentId": "folder-shared-finance-billing-2026-q2-archive",
+   "fileSize": "4104",
+   "viewUrl": "https://docs.google.com/document/d/doc-9713/edit",
+   "owner": "markusm@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 v192 Internal \u2014 Sapora Networks Record Owner: Markus M\u00fcller <markusm@saporanetworks.com> (Revenue Accountant, Finance) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier mid-m"
+  },
+  {
+   "id": "doc-2093",
+   "name": "Spend Summary Q3 - CR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-29T21:46:55.000Z",
+   "modifiedTime": "2026-10-08T07:11:01.000Z",
+   "size": "2460",
+   "webViewLink": "https://docs.google.com/document/d/doc-2093/edit",
+   "parents": [
+    "folder-users-christinas-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Spend Summary Q3 - CR's copy",
+   "parentId": "folder-users-christinas-downloads",
+   "fileSize": "2460",
+   "viewUrl": "https://docs.google.com/document/d/doc-2093/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q3 - CR's copy Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Tenet Group (acct-21) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-10035",
+   "name": "Tenet Group - Migration Runbook - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T11:18:35.000Z",
+   "modifiedTime": "2026-10-08T05:34:32.000Z",
+   "size": "6197",
+   "webViewLink": "https://docs.google.com/document/d/doc-10035/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook - copy",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "6197",
+   "viewUrl": "https://docs.google.com/document/d/doc-10035/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook - copy Restricted \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-4457",
+   "name": "Tenet Group - Data Processing Addendum v2.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-07T14:22:50.000Z",
+   "modifiedTime": "2026-10-07T14:22:50.000Z",
+   "size": "4674",
+   "webViewLink": "https://drive.google.com/file/d/doc-4457/view",
+   "parents": [
+    "folder-shared-legal-contracts-tenet-group-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum v2.docx",
+   "parentId": "folder-shared-legal-contracts-tenet-group-2026",
+   "fileSize": "4674",
+   "viewUrl": "https://drive.google.com/file/d/doc-4457/view",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum Confidential \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-1117",
+   "name": "Tenet Group - Data Processing Addendum.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-07T14:01:20.000Z",
+   "modifiedTime": "2026-10-07T14:01:20.000Z",
+   "size": "4674",
+   "webViewLink": "https://drive.google.com/file/d/doc-1117/view",
+   "parents": [
+    "folder-shared-sales-accounts-tenet-group-onboarding"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Klaudia Simon",
+     "emailAddress": "klaudias@saporanetworks.com",
+     "permissionId": "885909868794380205103",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum.docx",
+   "parentId": "folder-shared-sales-accounts-tenet-group-onboarding",
+   "fileSize": "4674",
+   "viewUrl": "https://drive.google.com/file/d/doc-1117/view",
+   "owner": "klaudias@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum Confidential \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-6666",
+   "name": "Tenet Group - Data Processing Addendum (Jordan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T12:49:22.000Z",
+   "modifiedTime": "2026-10-07T12:49:22.000Z",
+   "size": "5457",
+   "webViewLink": "https://docs.google.com/document/d/doc-6666/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-playbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum (Jordan's copy)",
+   "parentId": "folder-shared-support-playbooks",
+   "fileSize": "5457",
+   "viewUrl": "https://docs.google.com/document/d/doc-6666/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum (Jordan's copy) Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Tenet Group (acct-21) \u2014 "
+  },
+  {
+   "id": "doc-449",
+   "name": "Tenet Group - Data Processing Addendum - 2026-08.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-08-17T11:18:35.000Z",
+   "modifiedTime": "2026-10-07T11:40:44.000Z",
+   "size": "4666",
+   "webViewLink": "https://drive.google.com/file/d/doc-449/view",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-evaluation"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum - 2026-08.docx",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-evaluation",
+   "fileSize": "4666",
+   "viewUrl": "https://drive.google.com/file/d/doc-449/view",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum - 2026-08 Confidential \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Ten"
+  },
+  {
+   "id": "doc-774",
+   "name": "Tenet Group - Migration Runbook for the partner roadmap planning session.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-07T10:47:23.000Z",
+   "modifiedTime": "2026-10-07T10:47:23.000Z",
+   "size": "4085",
+   "webViewLink": "https://drive.google.com/file/d/doc-774/view",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Courtney Martinez",
+     "emailAddress": "courtneym@saporanetworks.com",
+     "permissionId": "541255210224541757264",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Migration Runbook for the partner roadmap planning session.docx",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "4085",
+   "viewUrl": "https://drive.google.com/file/d/doc-774/view",
+   "owner": "courtneym@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Migration Runbook for the partner roadmap planning session Restricted \u2014 Sapora Networks Record Owner: Courtney Martinez <courtneym@saporanetworks.com> (Senior Software Engineer, Engineer"
+  },
+  {
+   "id": "doc-2783",
+   "name": "Tenet Group - Data Processing Addendum - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T10:30:43.000Z",
+   "modifiedTime": "2026-10-07T10:30:43.000Z",
+   "size": "37623",
+   "webViewLink": "https://docs.google.com/document/d/doc-2783/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum - sales_ops",
+   "parentId": "folder-shared-product-roadmap-q4",
+   "fileSize": "37623",
+   "viewUrl": "https://docs.google.com/document/d/doc-2783/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum - sales_ops Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telec"
+  },
+  {
+   "id": "doc-5074",
+   "name": "Tenet Group - Security Review - copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-07T09:29:28.000Z",
+   "modifiedTime": "2026-10-07T09:29:28.000Z",
+   "size": "4228",
+   "webViewLink": "https://drive.google.com/file/d/doc-5074/view",
+   "parents": [
+    "folder-shared-legal-compliance-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Security Review - copy.docx",
+   "parentId": "folder-shared-legal-compliance-2026",
+   "fileSize": "4228",
+   "viewUrl": "https://drive.google.com/file/d/doc-5074/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Security Review - copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-6717",
+   "name": "Tenet Group - Data Processing Addendum v3",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T17:12:53.000Z",
+   "modifiedTime": "2026-10-07T09:28:23.000Z",
+   "size": "4915",
+   "webViewLink": "https://docs.google.com/document/d/doc-6717/edit",
+   "parents": [
+    "folder-shared-executive-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group - Data Processing Addendum v3",
+   "parentId": "folder-shared-executive-documents-2026",
+   "fileSize": "4915",
+   "viewUrl": "https://docs.google.com/document/d/doc-6717/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Data Processing Addendum v3 Confidential \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Tenet Group (acct-21) \u2014 Telecommunications, t"
+  },
+  {
+   "id": "doc-1703",
+   "name": "Tenet Group - Quarterly Business Review",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T07:43:45.000Z",
+   "modifiedTime": "2026-10-07T07:43:45.000Z",
+   "size": "8081",
+   "webViewLink": "https://docs.google.com/document/d/doc-1703/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-renewal",
+   "fileSize": "8081",
+   "viewUrl": "https://docs.google.com/document/d/doc-1703/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tenet Group (acc"
+  },
+  {
+   "id": "doc-9921",
+   "name": "Tenet Group - Renewal Proposal - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T22:22:41.000Z",
+   "modifiedTime": "2026-10-06T22:22:41.000Z",
+   "size": "2969",
+   "webViewLink": "https://docs.google.com/document/d/doc-9921/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-renewal"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Renewal Proposal - copy",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-renewal",
+   "fileSize": "2969",
+   "viewUrl": "https://docs.google.com/document/d/doc-9921/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Renewal Proposal - copy Confidential \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tenet Group (a"
+  },
+  {
+   "id": "doc-3275",
+   "name": "Tenet Group - Implementation Plan - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-07T16:56:01.000Z",
+   "modifiedTime": "2026-10-06T18:49:58.000Z",
+   "size": "5534",
+   "webViewLink": "https://docs.google.com/document/d/doc-3275/edit",
+   "parents": [
+    "folder-shared-legal-contracts-tenet-group-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Implementation Plan - copy",
+   "parentId": "folder-shared-legal-contracts-tenet-group-2026",
+   "fileSize": "5534",
+   "viewUrl": "https://docs.google.com/document/d/doc-3275/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Implementation Plan Internal \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tenet Group (acct-21) \u2014 Teleco"
+  },
+  {
+   "id": "doc-8938",
+   "name": "Tenet Group - Onboarding Checklist - internal_only",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T15:04:43.000Z",
+   "modifiedTime": "2026-10-06T17:59:01.000Z",
+   "size": "15851",
+   "webViewLink": "https://docs.google.com/document/d/doc-8938/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tenet-group-signature"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Onboarding Checklist - internal_only",
+   "parentId": "folder-shared-customer-success-accounts-tenet-group-signature",
+   "fileSize": "15851",
+   "viewUrl": "https://docs.google.com/document/d/doc-8938/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Onboarding Checklist - internal_only Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tenet"
+  },
+  {
+   "id": "doc-6763",
+   "name": "Tenet Group - Quarterly Business Review (7)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T16:30:18.000Z",
+   "modifiedTime": "2026-10-06T16:30:18.000Z",
+   "size": "9311",
+   "webViewLink": "https://docs.google.com/document/d/doc-6763/edit",
+   "parents": [
+    "folder-shared-executive-archive-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review (7)",
+   "parentId": "folder-shared-executive-archive-2026",
+   "fileSize": "9311",
+   "viewUrl": "https://docs.google.com/document/d/doc-6763/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review (7) Internal \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Tenet Group (acct-21) \u2014 Telecommunications, tie"
+  },
+  {
+   "id": "folder-shared-support-escalations-tenet-group",
+   "name": "Tenet Group",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2026-07-27T11:42:09.000Z",
+   "modifiedTime": "2026-10-06T13:01:53.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-support-escalations-tenet-group",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group",
+   "parentId": "folder-shared-support-escalations",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-support-escalations-tenet-group",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-8904",
+   "name": "Tenet Group - Renewal Proposal",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T13:01:53.000Z",
+   "modifiedTime": "2026-10-06T13:01:53.000Z",
+   "size": "8477",
+   "webViewLink": "https://docs.google.com/document/d/doc-8904/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations-tenet-group"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tenet Group - Renewal Proposal",
+   "parentId": "folder-shared-support-escalations-tenet-group",
+   "fileSize": "8477",
+   "viewUrl": "https://docs.google.com/document/d/doc-8904/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Renewal Proposal Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier"
+  },
+  {
+   "id": "doc-7182",
+   "name": "Tenet Group - Quarterly Business Review v9",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T18:27:03.000Z",
+   "modifiedTime": "2026-10-06T10:29:40.000Z",
+   "size": "1618",
+   "webViewLink": "https://docs.google.com/document/d/doc-7182/edit",
+   "parents": [
+    "folder-shared-legal-contracts-tenet-group-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tenet Group - Quarterly Business Review v9",
+   "parentId": "folder-shared-legal-contracts-tenet-group-2026",
+   "fileSize": "1618",
+   "viewUrl": "https://docs.google.com/document/d/doc-7182/edit",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Tenet Group - Quarterly Business Review v9 Internal \u2014 Sapora Networks Record Owner: Ashley Mossshaw <ashleym@saporanetworks.com> (Senior Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Tele"
+  },
+  {
+   "id": "doc-4733",
+   "name": "Implementation Plan Q3 v50",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T16:04:03.000Z",
+   "modifiedTime": "2026-10-02T13:54:56.000Z",
+   "size": "11227",
+   "webViewLink": "https://docs.google.com/document/d/doc-4733/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q3 v50",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "11227",
+   "viewUrl": "https://docs.google.com/document/d/doc-4733/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q3 v50 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier mid-mark"
+  },
+  {
+   "id": "doc-6473",
+   "name": "Campaign Asset (Morgan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-02T09:24:37.000Z",
+   "modifiedTime": "2026-10-02T09:24:37.000Z",
+   "size": "3801",
+   "webViewLink": "https://docs.google.com/document/d/doc-6473/edit",
+   "parents": [
+    "folder-shared-sales-enablement"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Campaign Asset (Morgan's copy)",
+   "parentId": "folder-shared-sales-enablement",
+   "fileSize": "3801",
+   "viewUrl": "https://docs.google.com/document/d/doc-6473/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Campaign Asset (Morgan's copy) Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Tenet Group (acct-21) \u2014 Telecommunications, tier"
+  }
+ ],
+ "totalCount": 94,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtMzI3NSIsImRvYy04OTM4IiwiZG9jLTY3NjMiLCJmb2xkZXItc2hhcmVkLXN1cHBvcnQtZXNjYWxhdGlvbnMtdGVuZXQtZ3JvdXAiLCJkb2MtODkwNCIsImRvYy03MTgyIiwiZG9jLTQ3MzMiLCJkb2MtNjQ3MyJdfQ"
+}

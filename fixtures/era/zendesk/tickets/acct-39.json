@@ -1,0 +1,3009 @@
+[
+ {
+  "id": 4000038,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000038.json",
+  "external_id": "ticket-998",
+  "subject": "Sanctions screening failing for our two busiest workspaces since 03:43",
+  "raw_subject": "Sanctions screening failing for our two busiest workspaces since 03:43",
+  "description": "Raising on behalf of our two busiest workspaces: sanctions screening times out after roughly 30 seconds on our pre-production mirror. First occurrence around 03:43, repeating continuously. This is the second thing we have had to work around before the integration handover to our partner.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000230
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000230
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-11-04T06:37:27Z",
+  "updated_at": "2024-11-05T13:43:12Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "sfischer@bayfern.co",
+     "name": "Sean Fischer"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2024-11-12T17:37:27Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1727185392,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000072,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000072.json",
+  "external_id": "ticket-982",
+  "subject": "Webhook subscription - failing intermittently (req_42bea98a04)",
+  "raw_subject": "Webhook subscription - failing intermittently (req_42bea98a04)",
+  "description": "We are getting FatalProcessOutOfMemory back from /v1/card-authorizer/exports on every second attempt since your status page cleared the last incident - error 422, request req_42bea98a04. It looks like it started around 03:05; the webhook subscription fails on roughly every third attempt for our API integration.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000037,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000230
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000230
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-10T07:01:07Z",
+  "updated_at": "2024-12-11T16:01:25Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1730304085,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000081,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000081.json",
+  "external_id": "ticket-1006",
+  "subject": "The winter planning cycle blocked by payout schedule",
+  "raw_subject": "The winter planning cycle blocked by payout schedule",
+  "description": "We are evaluating payout schedule for the winter planning cycle and hit a blocker: it duplicates every record it writes. Tried on the EU region with the same result (ref req_5fbc67632a). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000231,
+  "submitter_id": 2000231,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000228
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000228
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-18T20:47:49Z",
+  "updated_at": "2025-01-02T17:39:47Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2024-12-26T04:47:49Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1732210787,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000094,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000094.json",
+  "external_id": "ticket-983",
+  "subject": "Question about KYC check limits on the shared demo workspace",
+  "raw_subject": "Question about KYC check limits on the shared demo workspace",
+  "description": "We are evaluating KYC check for our SOC 2 evidence run and hit a blocker: it drops accented characters from every name. Tried on the shared demo workspace with the same result (ref req_604171eb8f). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000230,
+  "submitter_id": 2000230,
+  "assignee_id": 1000004,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-25T02:23:03Z",
+  "updated_at": "2024-12-26T17:51:28Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "pgreywick@bayfern.co",
+     "name": "Pamela Greywick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2024-12-29T03:23:03Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400094,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400094.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000230,
+   "ticket_id": 4000094,
+   "score": "bad",
+   "comment": null,
+   "reason": "The agent's knowledge is unsatisfactory",
+   "reason_id": 7450007,
+   "reason_code": 7,
+   "created_at": "2024-12-26T17:51:28Z",
+   "updated_at": "2024-12-26T17:51:28Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1731606688,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000348,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000348.json",
+  "external_id": "ticket-1003",
+  "subject": "Cannot complete transaction dispute form this morning",
+  "raw_subject": "Cannot complete transaction dispute form this morning",
+  "description": "Since the weekend, the transaction dispute form omits anything created in the last hour. It reproduces on our on-premise gateway for our API integration. Request id req_03d8451bfc is one example. This is blocking the board reporting pack.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000232,
+  "submitter_id": 2000232,
+  "assignee_id": 1000031,
+  "organization_id": 3000039,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000007
+  ],
+  "follower_ids": [
+   1000007
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-05-20T23:04:04Z",
+  "updated_at": "2025-06-17T14:49:24Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rcliffmoor@bayfern.co",
+     "name": "Robert Cliffmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1746542964,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000414,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000414.json",
+  "external_id": "ticket-995",
+  "subject": "Transaction dispute form rejecting valid input since 09:17 on both production and sandbox",
+  "raw_subject": "Transaction dispute form rejecting valid input since 09:17 on both production and sandbox",
+  "description": "We are evaluating transaction dispute form for the migration off our legacy system and hit a blocker: it rejects a payload its own schema allows. Tried on both production and sandbox with the same result (ref req_be7ba4c71a). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000232,
+  "submitter_id": 2000232,
+  "assignee_id": 1000037,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041,
+   2000231
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [
+   2000231
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-06-25T23:46:23Z",
+  "updated_at": "2025-07-09T13:50:54Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1748440254,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000436,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000436.json",
+  "external_id": "ticket-994",
+  "subject": "JSONDecodeError from /v1/payouts/events - transaction dispute form on the disaster-recovery site (req_163d59da5e)",
+  "raw_subject": "JSONDecodeError from /v1/payouts/events - transaction dispute form on the disaster-recovery site (req_163d59da5e)",
+  "description": "Reporting this from the disaster-recovery site at 02:43: the transaction dispute form omits anything created in the last hour. It has happened twice a shift, always with error 503. We need it stable before the integration handover to our partner - what do you need from us?",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000232,
+  "submitter_id": 2000232,
+  "assignee_id": 1000037,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000038,
+   2000228
+  ],
+  "follower_ids": [
+   1000038
+  ],
+  "email_cc_ids": [
+   2000228
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-03T02:23:46Z",
+  "updated_at": "2025-07-04T16:03:42Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rcliffmoor@bayfern.co",
+     "name": "Robert Cliffmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1748016222,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000505,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000505.json",
+  "external_id": "ticket-981",
+  "subject": "Chargeback queue failing for about a dozen users since 07:04",
+  "raw_subject": "Chargeback queue failing for about a dozen users since 07:04",
+  "description": "Reporting this from the shared demo workspace at 07:04: the chargeback queue escapes the delimiters so the file cannot be parsed. It has happened about once an hour under load, always with error 503. We need it stable before our SOC 2 evidence run - what do you need from us?",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-29T08:58:16Z",
+  "updated_at": "2025-08-08T11:04:48Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1751022288,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000535,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000535.json",
+  "external_id": "ticket-993",
+  "subject": "SystemError on sanctions screening since we enabled SSO",
+  "raw_subject": "SystemError on sanctions screening since we enabled SSO",
+  "description": "Could you check sanctions screening? It fails on the retry after the first attempt went through - error 409, request req_d9a52661e1, on our regulated tenant. Not urgent yet, but it becomes urgent at the winter planning cycle.",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000230,
+  "submitter_id": 2000230,
+  "assignee_id": 1000004,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-08-12T04:08:14Z",
+  "updated_at": "2025-12-23T11:39:44Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "pgreywick@bayfern.co",
+     "name": "Pamela Greywick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-08-23T14:08:14Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400535,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400535.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000230,
+   "ticket_id": 4000535,
+   "score": "bad",
+   "comment": "The answer was a link to an article that does not cover our setup.",
+   "reason": "The agent's attitude is unsatisfactory",
+   "reason_id": 7450008,
+   "reason_code": 8,
+   "created_at": "2025-12-23T11:39:44Z",
+   "updated_at": "2025-12-23T11:39:44Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1762861184,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000586,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000586.json",
+  "external_id": "ticket-978",
+  "subject": "Ledger export results do not match the export (req_0d44eb2106)",
+  "raw_subject": "Ledger export results do not match the export (req_0d44eb2106)",
+  "description": "anyone off the corporate VPN reports that the ledger export rejects a payload its own schema allows in us-west-2. One trace, if it helps:\n  GET /v1/card-authorizer/exports -> 409 *url.Error after 28s (x-request-id: req_0d44eb2106)\nWe have not changed anything since we doubled the ingest rate. This is blocking customer onboarding.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000230,
+  "submitter_id": 2000230,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000038
+  ],
+  "follower_ids": [
+   1000038
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-04T01:45:02Z",
+  "updated_at": "2025-09-04T10:51:21Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400586,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400586.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000230,
+   "ticket_id": 4000586,
+   "score": "good",
+   "comment": "Fast reply and it worked first time.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-09-04T10:51:21Z",
+   "updated_at": "2025-09-04T10:51:21Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1753354281,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000706,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000706.json",
+  "external_id": "ticket-977",
+  "subject": "java.lang.IllegalStateException on ledger export since our upgrade to the new plan",
+  "raw_subject": "java.lang.IllegalStateException on ledger export since our upgrade to the new plan",
+  "description": "Since our upgrade to the new plan, the ledger export rejects valid credentials. It reproduces on the read-only replica for our whole support team. Request id req_b8ce989046 is one example. This is blocking the winter planning cycle.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000232,
+  "submitter_id": 2000232,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-20T06:58:29Z",
+  "updated_at": "2025-10-23T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rcliffmoor@bayfern.co",
+     "name": "Robert Cliffmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1757631600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000712,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000712.json",
+  "external_id": "ticket-984",
+  "subject": "KYC check unavailable for the analysts in our Berlin office since our upgrade to the new plan",
+  "raw_subject": "KYC check unavailable for the analysts in our Berlin office since our upgrade to the new plan",
+  "description": "Since our upgrade to the new plan, the KYC check fails on the retry after the first attempt went through. It reproduces on the Canadian data residency tenant for the analysts in our Berlin office. Request id req_30f67039c1 is one example. This is blocking the integration handover to our partner.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000014,
+  "organization_id": 3000039,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000231,
+   2000232
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000232,
+   2000231
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-22T04:32:35Z",
+  "updated_at": "2025-10-24T16:09:21Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1757693361,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000740,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000740.json",
+  "external_id": "ticket-997",
+  "subject": "Transaction dispute form not saving changes on the disaster-recovery site",
+  "raw_subject": "Transaction dispute form not saving changes on the disaster-recovery site",
+  "description": "Reporting this from the disaster-recovery site at 01:26: the transaction dispute form reports success but never persists the change. It has happened twice a shift, always with error 403. We need it stable before the seasonal traffic peak - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000230,
+  "submitter_id": 2000230,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-04T01:08:36Z",
+  "updated_at": "2025-11-05T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "pgreywick@bayfern.co",
+     "name": "Pamela Greywick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1758754800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000742,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000742.json",
+  "external_id": "ticket-1001",
+  "subject": "Cannot complete chargeback queue overnight",
+  "raw_subject": "Cannot complete chargeback queue overnight",
+  "description": "every user with the analyst role reports that the chargeback queue queues the work but never dispatches it in us-west-2. One trace, if it helps:\n  GET /v1/payments-api/webhooks -> 504 org.apache.http.conn.HttpHostConnectException after 13s (x-request-id: req_3726762910)\nWe have not changed anything since our auditors asked us to rotate keys. This is blocking the migration off our legacy system.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000004,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-04T09:46:32Z",
+  "updated_at": "2025-11-20T14:04:33Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1760018673,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000872,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000872.json",
+  "external_id": "ticket-1002",
+  "subject": "Ledger export - failing intermittently (req_87008b114e)",
+  "raw_subject": "Ledger export - failing intermittently (req_87008b114e)",
+  "description": "Ledger export fails on roughly every third attempt on production since the version bump. Our gateway logs show:\n  POST /v1/reconciliation/sessions -> 504 context.DeadlineExceeded after 2s (x-request-id: req_87008b114e)\nEvery failing call is against /v1/reconciliation/reports out of eu-west-1. Blocking the regulator's submission deadline.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000004,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-22T04:29:44Z",
+  "updated_at": "2025-12-22T19:55:17Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1762804517,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001002,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001002.json",
+  "external_id": "ticket-999",
+  "subject": "The migration off our legacy system blocked by statement PDF",
+  "raw_subject": "The migration off our legacy system blocked by statement PDF",
+  "description": "Reporting this from the APAC region at 05:22: the statement PDF renders an empty state despite matching rows. It has happened three or four times, always with error 500. We need it stable before the migration off our legacy system - what do you need from us?",
+  "status": "closed",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000228,
+   2000232
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000232,
+   2000228
+  ],
+  "tags": [
+   "question",
+   "low",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-10T07:02:19Z",
+  "updated_at": "2026-02-18T14:07:42Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1767794862,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001024,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001024.json",
+  "external_id": "ticket-986",
+  "subject": "Request: raise our saved views rate limit before the annual pricing refresh",
+  "raw_subject": "Request: raise our saved views rate limit before the annual pricing refresh",
+  "description": "Reporting this from our pre-production mirror at 07:13: saved views rejects a payload its own schema allows. It has happened twice a shift, always with error 403. We need it stable before the annual pricing refresh - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-17T20:43:04Z",
+  "updated_at": "2026-03-03T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1768867200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001027,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001027.json",
+  "external_id": "ticket-1005",
+  "subject": "Statement PDF results do not match the export (req_ad8d87f8d2)",
+  "raw_subject": "Statement PDF results do not match the export (req_ad8d87f8d2)",
+  "description": "Hi team - the statement PDF logs the user out mid-session. We noticed it earlier this week and it has happened twice a shift since. Correlation id req_ad8d87f8d2. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000007,
+  "organization_id": 3000039,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-18T07:10:28Z",
+  "updated_at": "2026-03-04T16:19:19Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401027,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401027.json",
+   "assignee_id": 1000007,
+   "group_id": 5000007,
+   "requester_id": 2000229,
+   "ticket_id": 4001027,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-03-04T16:19:19Z",
+   "updated_at": "2026-03-04T16:19:19Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1769012359,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001060,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001060.json",
+  "external_id": "ticket-1004",
+  "subject": "Data residency setting results do not match the export (req_2f9eb660da)",
+  "raw_subject": "Data residency setting results do not match the export (req_2f9eb660da)",
+  "description": "Could you check data residency setting? It fails on the retry after the first attempt went through - error 429, request req_2f9eb660da, on our staging tenant. Not urgent yet, but it becomes urgent at the regulator's submission deadline.",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000228,
+  "submitter_id": 2000228,
+  "assignee_id": 1000025,
+  "organization_id": 3000039,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "urgent",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-27T00:30:41Z",
+  "updated_at": "2026-03-09T12:58:02Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-03-01T01:30:41Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1769432282,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001078,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001078.json",
+  "external_id": "ticket-980",
+  "subject": "Performance regression in transaction dispute form - returning an unstable order",
+  "raw_subject": "Performance regression in transaction dispute form - returning an unstable order",
+  "description": "Reporting this from our on-premise gateway at 01:02: the transaction dispute form orders the results differently on every call. It has happened three or four times, always with error 503. We need it stable before payroll cutover - what do you need from us?",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000007,
+  "organization_id": 3000039,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000027
+  ],
+  "follower_ids": [
+   1000027
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-06T01:28:14Z",
+  "updated_at": "2026-03-12T09:54:58Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "sfischer@bayfern.co",
+     "name": "Sean Fischer"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1769680498,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001171,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001171.json",
+  "external_id": "ticket-1000",
+  "subject": "Cannot complete ACH batch earlier this week",
+  "raw_subject": "Cannot complete ACH batch earlier this week",
+  "description": "Since the version bump, the ACH batch silently drops the last page of results. It reproduces on our on-premise gateway for our API integration. Request id req_d510cc5852 is one example. This is blocking month-end close.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000228,
+  "submitter_id": 2000228,
+  "assignee_id": 1000031,
+  "organization_id": 3000039,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   2000231
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000231
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-05T02:54:09Z",
+  "updated_at": "2026-04-14T15:15:56Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1772550956,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001187,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001187.json",
+  "external_id": "ticket-991",
+  "subject": "Chargeback queue unavailable for our warehouse scanners since we enabled SSO",
+  "raw_subject": "Chargeback queue unavailable for our warehouse scanners since we enabled SSO",
+  "description": "Escalating: ReferenceError on /v1/payouts/jobs at 01:19, repeating every time the batch runs. Retries against eu-west-1 fail the same way. Request req_5d0c3c13b8. We need chargeback queue stable before the seasonal traffic peak.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000231,
+  "submitter_id": 2000231,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-10T04:01:19Z",
+  "updated_at": "2026-04-22T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "hrunequist@bayfern.co",
+     "name": "Hernan Runequist"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1773270000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001251,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001251.json",
+  "external_id": "ticket-990",
+  "subject": "/v1/risk-scoring/invoices returning 409 for every user with the analyst role - admin console unusable",
+  "raw_subject": "/v1/risk-scoring/invoices returning 409 for every user with the analyst role - admin console unusable",
+  "description": "Reporting this from our second workspace at 00:33: the admin console rejects valid credentials. It has happened only on the largest payloads, always with error 409. We need it stable before customer onboarding - what do you need from us?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-05T01:58:47Z",
+  "updated_at": "2026-05-28T14:10:25Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1776348625,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001300,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001300.json",
+  "external_id": "ticket-992",
+  "subject": "Transaction dispute form - reporting the wrong count (req_6237ffcd7c)",
+  "raw_subject": "Transaction dispute form - reporting the wrong count (req_6237ffcd7c)",
+  "description": "Escalating: FatalProcessOutOfMemory on /v1/risk-scoring/accounts at 00:00, repeating on every second attempt. Retries against eu-west-1 fail the same way. Request req_6237ffcd7c. We need transaction dispute form stable before the annual pricing refresh.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000231,
+  "submitter_id": 2000231,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-22T05:44:44Z",
+  "updated_at": "2026-05-26T23:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1776207600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001375,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001375.json",
+  "external_id": "ticket-979",
+  "subject": "KYC check double-sending on our on-premise gateway",
+  "raw_subject": "KYC check double-sending on our on-premise gateway",
+  "description": "our API integration reports that the KYC check sends the notification twice in us-west-2. One trace, if it helps:\n  PUT /v1/reconciliation/events -> 504 FatalProcessOutOfMemory after 15s (x-request-id: req_26a0f10053)\nWe have not changed anything since we enabled SSO. This is blocking month-end close.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000233,
+  "submitter_id": 2000233,
+  "assignee_id": 1000038,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-16T02:06:56Z",
+  "updated_at": "2026-06-24T14:39:26Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1778683166,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001389,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001389.json",
+  "external_id": "ticket-996",
+  "subject": "/v1/payments-api/events returning 409 for our warehouse scanners - retention policy unusable",
+  "raw_subject": "/v1/payments-api/events returning 409 for our warehouse scanners - retention policy unusable",
+  "description": "Reporting this from the disaster-recovery site at 00:15: the retention policy logs the user out mid-session. It has happened about once an hour under load, always with error 409. We need it stable before month-end close - what do you need from us?",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000228,
+  "submitter_id": 2000228,
+  "assignee_id": 1000004,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-21T04:25:02Z",
+  "updated_at": "2026-06-23T11:40:02Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "dsilvelli@bayfern.co",
+     "name": "Deborah Silvelli"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1778586002,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001463,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001463.json",
+  "external_id": "ticket-987",
+  "subject": "Urgent: reconciliation-worker keeps dropping requests with 502s for everyone who logs in via SSO",
+  "raw_subject": "Urgent: reconciliation-worker keeps dropping requests with 502s for everyone who logs in via SSO",
+  "description": "We checked our release log and found no change. reconciliation-worker keeps dropping requests with 502s for everyone in our workspace.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "incident",
+  "recipient": null,
+  "requester_id": 2000232,
+  "submitter_id": 2000232,
+  "assignee_id": 1000014,
+  "organization_id": 3000039,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "incident",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-20T18:17:21Z",
+  "updated_at": "2026-08-20T08:08:31Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": "3.3.8"
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": "product_defect"
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": "3.3.8"
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": "product_defect"
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": 4001462,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995001,
+  "generated_timestamp": 1783584511,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001632,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001632.json",
+  "external_id": "ticket-988",
+  "subject": "[422] Card authorisation webhook on our regulated tenant",
+  "raw_subject": "[422] Card authorisation webhook on our regulated tenant",
+  "description": "Could you check card authorisation webhook? It escapes the delimiters so the file cannot be parsed - error 422, request req_64eb9ddec1, on our regulated tenant. Not urgent yet, but it becomes urgent at customer onboarding.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000229,
+  "submitter_id": 2000229,
+  "assignee_id": 1000014,
+  "organization_id": 3000039,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000232
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000232
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-03T03:16:15Z",
+  "updated_at": "2026-09-07T13:48:40Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ilangmoor@bayfern.co",
+     "name": "Idris Langmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401632,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401632.json",
+   "assignee_id": 1000014,
+   "group_id": 5000002,
+   "requester_id": 2000229,
+   "ticket_id": 4001632,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-07T13:48:40Z",
+   "updated_at": "2026-09-07T13:48:40Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1785160120,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001664,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001664.json",
+  "external_id": "ticket-989",
+  "subject": "Question about REST API limits on production",
+  "raw_subject": "Question about REST API limits on production",
+  "description": "Raising on behalf of two of our admins: the REST API fails on roughly every third attempt on production. First occurrence around 00:53, repeating about once an hour under load. This is the second thing we have had to work around before the seasonal traffic peak.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000231,
+  "submitter_id": 2000231,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-08T01:34:46Z",
+  "updated_at": "2026-09-10T14:19:51Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-17T09:34:46Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401664,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401664.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000231,
+   "ticket_id": 4001664,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-10T14:19:51Z",
+   "updated_at": "2026-09-10T14:19:51Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785421191,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001690,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001690.json",
+  "external_id": "ticket-985",
+  "subject": "Reconciliation report results do not match the export (req_7d34d2eda7)",
+  "raw_subject": "Reconciliation report results do not match the export (req_7d34d2eda7)",
+  "description": "We are evaluating reconciliation report for the quarterly audit and hit a blocker: it fails on roughly every third attempt. Tried on our sandbox with the same result (ref req_7d34d2eda7). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000231,
+  "submitter_id": 2000231,
+  "assignee_id": 1000041,
+  "organization_id": 3000039,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_bayfern_care",
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-14T07:17:02Z",
+  "updated_at": "2026-09-18T13:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "hrunequist@bayfern.co",
+     "name": "Hernan Runequist"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401690,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401690.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000231,
+   "ticket_id": 4001690,
+   "score": "bad",
+   "comment": "Took four days to get a first reply.",
+   "reason": "The agent's knowledge is unsatisfactory",
+   "reason_id": 7450007,
+   "reason_code": 7,
+   "created_at": "2026-09-18T13:00:00Z",
+   "updated_at": "2026-09-18T13:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1786107600,
+  "forum_topic_id": null
+ }
+]

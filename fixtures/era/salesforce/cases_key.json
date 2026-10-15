@@ -1,0 +1,2802 @@
+[
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-120"
+  },
+  "Id": "ticket-120",
+  "AccountId": "acct-3",
+  "Subject": "Impact: risk-scoring returns 500 errors for our overnight batch",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-22T15:39:56.000+0000",
+  "Description": "Monitoring noticed that risk-scoring returns 500 errors around 23:39. Please share an ETA; request req_b73e62ff62 is failing."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-121"
+  },
+  "Id": "ticket-121",
+  "AccountId": "acct-3",
+  "Subject": "KYC check unavailable for our nightly job since we added the second region",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-11T16:39:42.000+0000",
+  "Description": "Hi team - the KYC check loses the filter selection on pagination. We noticed it this morning and it has happened three or four times since. Correlation id req_e356927b8f. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-122"
+  },
+  "Id": "ticket-122",
+  "AccountId": "acct-3",
+  "Subject": "Error 409 when using sanctions screening (req_6ffce88f27)",
+  "Type": "Feature Request",
+  "Status": "New",
+  "Priority": "Medium",
+  "CreatedDate": "2026-10-02T07:22:16.000+0000",
+  "Description": "Sanctions screening returns records belonging to a different workspace on the read-only replica since Monday. Our gateway logs show:\n  PATCH /v1/payouts/invoices -> 409 *fs.PathError after 4s (x-request-id: req_6ffce88f27)\nEvery failing call is against /v1/payouts/events out of us-west-2. Blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-123"
+  },
+  "Id": "ticket-123",
+  "AccountId": "acct-3",
+  "Subject": "ACH batch reading stale configuration since 02:08 on the APAC region",
+  "Type": "Problem",
+  "Status": "New",
+  "Priority": "Low",
+  "CreatedDate": "2026-10-02T07:26:56.000+0000",
+  "Description": "Hi team - the ACH batch applies yesterday's configuration instead of the current one. We noticed it overnight and it has happened twice a shift since. Correlation id req_fb2d02d92f. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-124"
+  },
+  "Id": "ticket-124",
+  "AccountId": "acct-3",
+  "Subject": "Two-factor enrolment reading stale configuration on our second workspace",
+  "Type": "Incident",
+  "Status": "Working",
+  "Priority": "Low",
+  "CreatedDate": "2026-09-30T09:58:30.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: two-factor enrolment applies yesterday's configuration instead of the current one on our second workspace. First occurrence around 08:25, repeating a dozen times overnight. This is the second thing we have had to work around before the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-125"
+  },
+  "Id": "ticket-125",
+  "AccountId": "acct-3",
+  "Subject": "/v1/merchant-dashboard/exports returning 500 for anyone off the corporate VPN - reconciliation report unusable",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-09-11T15:39:42.000+0000",
+  "Description": "We are evaluating reconciliation report for the migration off our legacy system and hit a blocker: it applies yesterday's configuration instead of the current one. Tried on both production and sandbox with the same result (ref req_251f5e6bc6). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-126"
+  },
+  "Id": "ticket-126",
+  "AccountId": "acct-3",
+  "Subject": "/v1/settlement-engine/events returning 409 for our whole support team - KYC check unusable",
+  "Type": "Incident",
+  "Status": "Escalated",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-16T01:03:01.000+0000",
+  "Description": "our whole support team reports that the KYC check fails on the retry after the first attempt went through. Started over the weekend; no config changes on our side. Error code 409, request id req_89d43263cc."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-127"
+  },
+  "Id": "ticket-127",
+  "AccountId": "acct-3",
+  "Subject": "ACH batch - losing filters (req_c7ec338880)",
+  "Type": "Question",
+  "Status": "Escalated",
+  "Priority": "High",
+  "CreatedDate": "2026-09-13T06:21:16.000+0000",
+  "Description": "Escalating: FetchError on /v1/payouts/accounts at 02:23, repeating twice a shift. Retries against eu-west-1 fail the same way. Request req_c7ec338880. We need ACH batch stable before the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-128"
+  },
+  "Id": "ticket-128",
+  "AccountId": "acct-3",
+  "Subject": "Transaction dispute form failing for two of our admins since 02:06",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-12T06:39:42.000+0000",
+  "Description": "Hi team - the transaction dispute form rounds the totals differently from the export. We noticed it earlier this week and it has happened a handful of times since. Correlation id req_f27baefac0. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-153"
+  },
+  "Id": "ticket-153",
+  "AccountId": "acct-6",
+  "Subject": "Chargeback queue dropping the last page since 11:02 on our on-premise gateway",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-03-06T14:15:15.000+0000",
+  "Description": "We are getting MemoryError back from /v1/settlement-engine/invoices on every second attempt since the Tuesday release - error 422, request req_144f88f431. It looks like it started around 11:02; the chargeback queue silently drops the last page of results for our whole support team."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-154"
+  },
+  "Id": "ticket-154",
+  "AccountId": "acct-6",
+  "Subject": "Transaction dispute form - rejecting valid credentials (req_44f6f5386b)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-15T22:24:28.000+0000",
+  "Description": "Reporting this from our on-premise gateway at 22:05: the transaction dispute form rejects valid credentials. It has happened twice a shift, always with error 500. We need it stable before month-end close - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-155"
+  },
+  "Id": "ticket-155",
+  "AccountId": "acct-6",
+  "Subject": "Request: raise our ACH batch rate limit before our go-live next week",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-01-03T18:15:12.000+0000",
+  "Description": "every user with the analyst role reports that the ACH batch omits anything created in the last hour in eu-west-1. One trace, if it helps:\n  PUT /v1/card-authorizer/documents -> 401 HTTPError after 16s (x-request-id: req_86121da51c)\nWe have not changed anything since your status page cleared the last incident. This is blocking our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-156"
+  },
+  "Id": "ticket-156",
+  "AccountId": "acct-6",
+  "Subject": "Error 502 when using KYC check (req_cd0b40822d)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-07-23T21:31:04.000+0000",
+  "Description": "anyone off the corporate VPN reports that the KYC check fails on the retry after the first attempt went through. Started two days ago; no config changes on our side. Error code 502, request id req_cd0b40822d."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-157"
+  },
+  "Id": "ticket-157",
+  "AccountId": "acct-6",
+  "Subject": "java.sql.SQLTransientConnectionException on Salesforce sync since the weekend",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-23T22:12:14.000+0000",
+  "Description": "Hi team - the Salesforce sync escapes the delimiters so the file cannot be parsed. We noticed it overnight and it has happened only on the largest payloads since. Correlation id req_9126932987. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-158"
+  },
+  "Id": "ticket-158",
+  "AccountId": "acct-6",
+  "Subject": "Support needed: reconciliation-worker keeps dropping requests with 502s (req_3b3f1110e3)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-07-20T18:17:47.000+0000",
+  "Description": "Since 13:17, reconciliation-worker keeps dropping requests with 502s in production. Request req_3b3f1110e3 failed again."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-159"
+  },
+  "Id": "ticket-159",
+  "AccountId": "acct-6",
+  "Subject": "Error 403 from search index - first seen 00:59",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-29T03:29:48.000+0000",
+  "Description": "Since the version bump, the search index loses the filter selection on pagination. It reproduces on both production and sandbox for every user with the analyst role. Request id req_a27473c56d is one example. This is blocking the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-160"
+  },
+  "Id": "ticket-160",
+  "AccountId": "acct-6",
+  "Subject": "Payout schedule rejecting valid input in us-west-2 since our upgrade to the new plan",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-05-30T14:14:47.000+0000",
+  "Description": "Payout schedule rejects a payload its own schema allows on production since our upgrade to the new plan. Our gateway logs show:\n  PUT /v1/ledger/records -> 401 java.lang.OutOfMemoryError after 17s (x-request-id: req_bb7b6acdf7)\nEvery failing call is against /v1/ledger/documents out of us-west-2. Blocking the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-161"
+  },
+  "Id": "ticket-161",
+  "AccountId": "acct-6",
+  "Subject": "/v1/card-authorizer/reports returning 422 for the analysts in our Berlin office - statement PDF unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-11-27T19:36:19.000+0000",
+  "Description": "Hi team - the statement PDF orders the results differently on every call. We noticed it yesterday afternoon and it has happened about once an hour under load since. Correlation id req_39d1b04c0b. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-162"
+  },
+  "Id": "ticket-162",
+  "AccountId": "acct-6",
+  "Subject": "Chargeback queue queued but never running since 01:59 on our regulated tenant",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-12-17T01:25:53.000+0000",
+  "Description": "Hi team - the chargeback queue queues the work but never dispatches it. We noticed it halfway through the migration and it has happened continuously since. Correlation id req_1f1dee3abf. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-163"
+  },
+  "Id": "ticket-163",
+  "AccountId": "acct-6",
+  "Subject": "PermissionError from /v1/merchant-dashboard/invoices - saved views on the EU region (req_c4dc708e54)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-01-01T18:14:54.000+0000",
+  "Description": "our whole support team reports that saved views silently drops the last page of results in us-west-2. One trace, if it helps:\n  DELETE /v1/merchant-dashboard/exports -> 429 PermissionError after 6s (x-request-id: req_c4dc708e54)\nWe have not changed anything since we enabled SSO. This is blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-164"
+  },
+  "Id": "ticket-164",
+  "AccountId": "acct-6",
+  "Subject": "Reconciliation report intermittently failing for the field sales team",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-10-21T17:13:17.000+0000",
+  "Description": "Could you check reconciliation report? It loses the filter selection on pagination - error 400, request req_26d0b2ca25, on our staging tenant. Not urgent yet, but it becomes urgent at the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-165"
+  },
+  "Id": "ticket-165",
+  "AccountId": "acct-6",
+  "Subject": "/v1/card-authorizer/exports returning 422 for anyone off the corporate VPN - card authorisation webhook unusable",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-12-04T20:23:05.000+0000",
+  "Description": "We are getting java.util.concurrent.TimeoutException back from /v1/card-authorizer/exports only on the largest payloads since we added the second region - error 422, request req_ff0c0db0c3. It looks like it started around 08:33; the card authorisation webhook duplicates every record it writes for anyone off the corporate VPN."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-166"
+  },
+  "Id": "ticket-166",
+  "AccountId": "acct-6",
+  "Subject": "/v1/payments-api/events returning 409 for our two busiest workspaces - retention policy unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-07T17:29:39.000+0000",
+  "Description": "our two busiest workspaces report that the retention policy sends the notification twice in us-east-1. One trace, if it helps:\n  POST /v1/payments-api/events -> 409 java.io.IOException after 7s (x-request-id: req_00e0126222)\nWe have not changed anything since the version bump. This is blocking the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-167"
+  },
+  "Id": "ticket-167",
+  "AccountId": "acct-6",
+  "Subject": "The migration off our legacy system blocked by reconciliation report",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-04-15T22:13:26.000+0000",
+  "Description": "Our team noticed last Friday that the reconciliation report rejects a payload its own schema allows. anyone off the corporate VPN is affected. We have not touched the configuration since your status page cleared the last incident. Request id req_dc4c011db3 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-168"
+  },
+  "Id": "ticket-168",
+  "AccountId": "acct-6",
+  "Subject": "Sanctions screening duplicating records for everyone in the finance group",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-06T21:10:10.000+0000",
+  "Description": "Since our upgrade to the new plan, sanctions screening duplicates every record it writes. It reproduces on our second workspace for everyone in the finance group. Request id req_0749dbb9f4 is one example. This is blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-169"
+  },
+  "Id": "ticket-169",
+  "AccountId": "acct-6",
+  "Subject": "Question about KYC check limits on the EU region",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-06-29T16:20:26.000+0000",
+  "Description": "Hi team - the KYC check rounds the totals differently from the export. We noticed it two days ago and it has happened about once an hour under load since. Correlation id req_bf02e507d6. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-170"
+  },
+  "Id": "ticket-170",
+  "AccountId": "acct-6",
+  "Subject": "[400] Payout schedule on production",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-04-28T18:31:54.000+0000",
+  "Description": "We are evaluating payout schedule for the integration handover to our partner and hit a blocker: it queues the work but never dispatches it. Tried on production with the same result (ref req_43bb7043c3). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-171"
+  },
+  "Id": "ticket-171",
+  "AccountId": "acct-6",
+  "Subject": "ACH batch failing for about a dozen users since 09:50",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-07-14T20:07:23.000+0000",
+  "Description": "Escalating: SystemError on /v1/risk-scoring/records at 09:50, repeating only on the largest payloads. Retries against us-west-2 fail the same way. Request req_a23aa025b0. We need ACH batch stable before the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-172"
+  },
+  "Id": "ticket-172",
+  "AccountId": "acct-6",
+  "Subject": "Workflow builder results do not match the export (req_934f0ee801)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-04T17:53:06.000+0000",
+  "Description": "We are getting *url.Error back from /v1/kyc/reports a handful of times since the last maintenance window - error 504, request req_934f0ee801. It looks like it started around 07:08; the workflow builder omits anything created in the last hour for about a dozen users."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-173"
+  },
+  "Id": "ticket-173",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete mobile app the moment we scaled up",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-14T23:55:47.000+0000",
+  "Description": "We are getting FetchError back from /v1/merchant-onboarding/jobs on every second attempt since the weekend - error 429, request req_cbf64a913b. It looks like it started around 11:00; the mobile app fails on the retry after the first attempt went through for our nightly job."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-174"
+  },
+  "Id": "ticket-174",
+  "AccountId": "acct-6",
+  "Subject": "Request: raise our sandbox refresh rate limit before the annual pricing refresh",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-08-27T17:53:58.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: the sandbox refresh times out after roughly 30 seconds on our staging tenant. First occurrence around 08:42, repeating a handful of times. This is the second thing we have had to work around before the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-175"
+  },
+  "Id": "ticket-175",
+  "AccountId": "acct-6",
+  "Subject": "The board reporting pack blocked by chargeback queue",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-06-16T19:19:43.000+0000",
+  "Description": "Hi team - the chargeback queue fails on the retry after the first attempt went through. We noticed it this morning and it has happened about once an hour under load since. Correlation id req_60b27e0531. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-176"
+  },
+  "Id": "ticket-176",
+  "AccountId": "acct-6",
+  "Subject": "[502] Chargeback queue on the read-only replica",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-05-22T18:33:38.000+0000",
+  "Description": "Chargeback queue applies yesterday's configuration instead of the current one on the read-only replica since our upgrade to the new plan. Our gateway logs show:\n  PATCH /v1/settlement-engine/exports -> 502 *net.OpError after 27s (x-request-id: req_e8737a569c)\nEvery failing call is against /v1/settlement-engine/events out of us-east-1. Blocking our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-177"
+  },
+  "Id": "ticket-177",
+  "AccountId": "acct-6",
+  "Subject": "Performance regression in reconciliation report - leaking across workspaces",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-01-20T19:46:33.000+0000",
+  "Description": "Could you check reconciliation report? It returns records belonging to a different workspace - error 403, request req_7a5276a053, on our sandbox. Not urgent yet, but it becomes urgent at customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-178"
+  },
+  "Id": "ticket-178",
+  "AccountId": "acct-6",
+  "Subject": "Request: raise our payout schedule rate limit before the annual pricing refresh",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-04-20T16:34:44.000+0000",
+  "Description": "Payout schedule truncates anything longer than a few thousand characters on our sandbox since the last maintenance window. Our gateway logs show:\n  POST /v1/ledger/webhooks -> 429 TypeError after 1s (x-request-id: req_fac64b58f6)\nEvery failing call is against /v1/ledger/webhooks out of us-west-2. Blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-179"
+  },
+  "Id": "ticket-179",
+  "AccountId": "acct-6",
+  "Subject": "Question about statement PDF limits on the APAC region",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-09-03T23:16:29.000+0000",
+  "Description": "Statement PDF rounds the totals differently from the export on the APAC region since our upgrade to the new plan. Our gateway logs show:\n  POST /v1/risk-scoring/reports -> 403 org.apache.http.conn.HttpHostConnectException after 15s (x-request-id: req_33ddc4c1d0)\nEvery failing call is against /v1/risk-scoring/events out of eu-west-1. Blocking payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-180"
+  },
+  "Id": "ticket-180",
+  "AccountId": "acct-6",
+  "Subject": "The winter planning cycle blocked by KYC check",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-12T15:13:14.000+0000",
+  "Description": "We are evaluating KYC check for the winter planning cycle and hit a blocker: it truncates anything longer than a few thousand characters. Tried on our second workspace with the same result (ref req_3cb8bcb362). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-181"
+  },
+  "Id": "ticket-181",
+  "AccountId": "acct-6",
+  "Subject": "/v1/payments-api/webhooks returning 502 for anyone off the corporate VPN - reconciliation report unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-06-18T23:32:34.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: the reconciliation report times out after roughly 30 seconds on the APAC region. First occurrence around 08:24, repeating continuously. This is the second thing we have had to work around before the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-182"
+  },
+  "Id": "ticket-182",
+  "AccountId": "acct-6",
+  "Subject": "The quarterly audit blocked by activity feed",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-03T16:09:08.000+0000",
+  "Description": "our two busiest workspaces report that the activity feed reports success but never persists the change. Started during the Thursday batch; no config changes on our side. Error code 504, request id req_b4d4ff2def."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-183"
+  },
+  "Id": "ticket-183",
+  "AccountId": "acct-6",
+  "Subject": "Request: raise our chargeback queue rate limit before our go-live next week",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-16T21:22:03.000+0000",
+  "Description": "Chargeback queue rejects valid credentials on our sandbox since your status page cleared the last incident. Our gateway logs show:\n  GET /v1/settlement-engine/exports -> 409 AbortError after 3s (x-request-id: req_b60970af30)\nEvery failing call is against /v1/settlement-engine/documents out of us-west-2. Blocking our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-184"
+  },
+  "Id": "ticket-184",
+  "AccountId": "acct-6",
+  "Subject": "KYC check results do not match the export (req_349079f790)",
+  "Type": "Question",
+  "Status": "New",
+  "Priority": "High",
+  "CreatedDate": "2026-10-02T22:51:54.000+0000",
+  "Description": "Could you check KYC check? It applies yesterday's configuration instead of the current one - error 409, request req_349079f790, on the read-only replica. Not urgent yet, but it becomes urgent at our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-185"
+  },
+  "Id": "ticket-185",
+  "AccountId": "acct-6",
+  "Subject": "Statement PDF losing filters in eu-west-1 since Monday",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-06-05T19:30:49.000+0000",
+  "Description": "Since Monday, the statement PDF loses the filter selection on pagination. It reproduces on our staging tenant for our nightly job. Request id req_6e4357d290 is one example. This is blocking our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-186"
+  },
+  "Id": "ticket-186",
+  "AccountId": "acct-6",
+  "Subject": "Sandbox refresh reading stale configuration on the EU region",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-08T15:29:16.000+0000",
+  "Description": "the field sales team reports that the sandbox refresh applies yesterday's configuration instead of the current one. Started last Friday; no config changes on our side. Error code 401, request id req_232b220e21."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-187"
+  },
+  "Id": "ticket-187",
+  "AccountId": "acct-6",
+  "Subject": "Invoice PDF missing the newest records in us-west-2 since the Tuesday release",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-11-04T13:20:40.000+0000",
+  "Description": "Our team noticed the moment we scaled up that the invoice PDF omits anything created in the last hour. everyone in the finance group is affected. We have not touched the configuration since the Tuesday release. Request id req_1d2adb2962 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-188"
+  },
+  "Id": "ticket-188",
+  "AccountId": "acct-6",
+  "Subject": "runtime.Error from /v1/reconciliation/exports - ACH batch on our pre-production mirror (req_286ed7f202)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-09-22T15:06:41.000+0000",
+  "Description": "Hi team - the ACH batch fails on the retry after the first attempt went through. We noticed it the moment we scaled up and it has happened every time the batch runs since. Correlation id req_286ed7f202. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-189"
+  },
+  "Id": "ticket-189",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete chargeback queue first thing today",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-04T15:12:41.000+0000",
+  "Description": "Chargeback queue duplicates every record it writes on the APAC region since we doubled the ingest rate. Our gateway logs show:\n  POST /v1/card-authorizer/exports -> 500 java.sql.SQLTimeoutException after 26s (x-request-id: req_6cfca828ae)\nEvery failing call is against /v1/card-authorizer/reports out of eu-west-1. Blocking our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-190"
+  },
+  "Id": "ticket-190",
+  "AccountId": "acct-6",
+  "Subject": "Reconciliation report missing the newest records for everyone in the finance group",
+  "Type": "Question",
+  "Status": "New",
+  "Priority": "Low",
+  "CreatedDate": "2026-10-02T12:40:10.000+0000",
+  "Description": "We are getting UnauthorizedError back from /v1/payouts/jobs about once an hour under load since Monday - error 401, request req_6e087028ad. It looks like it started around 11:12; the reconciliation report omits anything created in the last hour for everyone in the finance group."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-191"
+  },
+  "Id": "ticket-191",
+  "AccountId": "acct-6",
+  "Subject": "Question about reconciliation report limits on the APAC region",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-07-15T23:47:52.000+0000",
+  "Description": "Since this morning, the reconciliation report reports success but never persists the change. It reproduces on the APAC region for our nightly job. Request id req_d15906e94f is one example. This is blocking the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-192"
+  },
+  "Id": "ticket-192",
+  "AccountId": "acct-6",
+  "Subject": "Retention policy failing intermittently since 00:10 on the EU region",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-11-04T01:41:36.000+0000",
+  "Description": "Escalating: ConnectionResetError on /v1/reconciliation/exports at 00:10, repeating three or four times. Retries against eu-west-1 fail the same way. Request req_da9d7bdb5b. We need retention policy stable before the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-193"
+  },
+  "Id": "ticket-193",
+  "AccountId": "acct-6",
+  "Subject": "Error 403 when using saved views (req_5735f230eb)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-03-16T16:57:06.000+0000",
+  "Description": "our whole support team reports that saved views sends the notification twice. Started first thing today; no config changes on our side. Error code 403, request id req_5735f230eb."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-194"
+  },
+  "Id": "ticket-194",
+  "AccountId": "acct-6",
+  "Subject": "Statement PDF - mangling accented names (req_8812b8d647)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-07-02T20:54:15.000+0000",
+  "Description": "Since we added the second region, the statement PDF drops accented characters from every name. It reproduces on production for our warehouse scanners. Request id req_8812b8d647 is one example. This is blocking the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-195"
+  },
+  "Id": "ticket-195",
+  "AccountId": "acct-6",
+  "Subject": "The integration handover to our partner blocked by Salesforce sync",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-08T16:48:48.000+0000",
+  "Description": "Salesforce sync silently drops the last page of results on the read-only replica since Monday. Our gateway logs show:\n  PUT /v1/payments-api/accounts -> 400 RuntimeError after 7s (x-request-id: req_5ca8d4ac66)\nEvery failing call is against /v1/payments-api/documents out of us-west-2. Blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-196"
+  },
+  "Id": "ticket-196",
+  "AccountId": "acct-6",
+  "Subject": "Data residency setting reading stale configuration for our nightly job",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-07-03T15:23:13.000+0000",
+  "Description": "our nightly job reports that the data residency setting applies yesterday's configuration instead of the current one. Started the moment we scaled up; no config changes on our side. Error code 403, request id req_d7d7e0d706."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-197"
+  },
+  "Id": "ticket-197",
+  "AccountId": "acct-6",
+  "Subject": "Error 504 from sandbox refresh - first seen 05:35",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-14T21:18:02.000+0000",
+  "Description": "Escalating: java.lang.OutOfMemoryError on /v1/risk-scoring/jobs at 05:35, repeating twice a shift. Retries against us-east-1 fail the same way. Request req_4ae0e3fbea. We need sandbox refresh stable before customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-198"
+  },
+  "Id": "ticket-198",
+  "AccountId": "acct-6",
+  "Subject": "Question about REST API limits on the EU region",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-04-15T16:54:51.000+0000",
+  "Description": "Escalating: java.lang.IllegalStateException on /v1/merchant-onboarding/exports at 07:37, repeating about once an hour under load. Retries against eu-west-1 fail the same way. Request req_6486b90877. We need REST API stable before payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-199"
+  },
+  "Id": "ticket-199",
+  "AccountId": "acct-6",
+  "Subject": "ReferenceError on chargeback queue since the schema change last sprint",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-08-24T19:51:07.000+0000",
+  "Description": "Escalating: ReferenceError on /v1/reconciliation/exports at 09:26, repeating a handful of times. Retries against us-east-1 fail the same way. Request req_1842f4b21c. We need chargeback queue stable before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-200"
+  },
+  "Id": "ticket-200",
+  "AccountId": "acct-6",
+  "Subject": "Mobile app returning stale data for about a dozen users",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-01-29T01:34:07.000+0000",
+  "Description": "Mobile app shows stale data until a hard refresh on the EU region since we doubled the ingest rate. Our gateway logs show:\n  PUT /v1/ledger/webhooks -> 429 MemoryError after 21s (x-request-id: req_68365c1ca1)\nEvery failing call is against /v1/ledger/jobs out of eu-west-1. Blocking the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-201"
+  },
+  "Id": "ticket-201",
+  "AccountId": "acct-6",
+  "Subject": "KYC check duplicating records since 14:36 on our second workspace",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-01-29T15:31:23.000+0000",
+  "Description": "We are evaluating KYC check for customer onboarding and hit a blocker: it duplicates every record it writes. Tried on our second workspace with the same result (ref req_6fa9905748). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-202"
+  },
+  "Id": "ticket-202",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete chargeback queue yesterday afternoon",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-07-15T14:42:29.000+0000",
+  "Description": "Reporting this from the EU region at 10:29: the chargeback queue returns a 500 for about one request in ten. It has happened three or four times, always with error 500. We need it stable before the executive business review - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-203"
+  },
+  "Id": "ticket-203",
+  "AccountId": "acct-6",
+  "Subject": "Search index rejecting valid input on both production and sandbox",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-01-19T17:18:39.000+0000",
+  "Description": "Escalating: *json.SyntaxError on /v1/settlement-engine/jobs at 10:11, repeating a handful of times. Retries against us-west-2 fail the same way. Request req_7b45bcfdc0. We need search index stable before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-204"
+  },
+  "Id": "ticket-204",
+  "AccountId": "acct-6",
+  "Subject": "/v1/kyc/webhooks returning 403 for our API integration - Slack notification unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-09-18T01:12:56.000+0000",
+  "Description": "We are getting JSONDecodeError back from /v1/kyc/webhooks three or four times since your status page cleared the last incident - error 403, request req_c889776385. It looks like it started around 00:30; the Slack notification fails on roughly every third attempt for our API integration."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-205"
+  },
+  "Id": "ticket-205",
+  "AccountId": "acct-6",
+  "Subject": "Question about ledger export limits on our pre-production mirror",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-06-19T00:30:27.000+0000",
+  "Description": "Ledger export times out after roughly 30 seconds on our pre-production mirror since Monday. Our gateway logs show:\n  PATCH /v1/merchant-dashboard/exports -> 422 java.lang.NullPointerException after 26s (x-request-id: req_ffc6e853fa)\nEvery failing call is against /v1/merchant-dashboard/events out of eu-west-1. Blocking month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-206"
+  },
+  "Id": "ticket-206",
+  "AccountId": "acct-6",
+  "Subject": "Statement PDF results do not match the export (req_d6dbd4e33a)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-17T20:05:16.000+0000",
+  "Description": "Statement PDF escapes the delimiters so the file cannot be parsed on our sandbox since we enabled SSO. Our gateway logs show:\n  DELETE /v1/kyc/accounts -> 400 *fs.PathError after 29s (x-request-id: req_d6dbd4e33a)\nEvery failing call is against /v1/kyc/jobs out of eu-west-1. Blocking customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-207"
+  },
+  "Id": "ticket-207",
+  "AccountId": "acct-6",
+  "Subject": "Question about statement PDF limits on the EU region",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-06-04T16:17:42.000+0000",
+  "Description": "We are getting OSError back from /v1/payouts/events a handful of times since our auditors asked us to rotate keys - error 403, request req_64f136f0b6. It looks like it started around 12:16; the statement PDF fails on the retry after the first attempt went through for anyone off the corporate VPN."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-208"
+  },
+  "Id": "ticket-208",
+  "AccountId": "acct-6",
+  "Subject": "/v1/merchant-onboarding/reports returning 429 for anyone off the corporate VPN - KYC check unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-06-03T10:28:57.000+0000",
+  "Description": "Could you check KYC check? It times out after roughly 30 seconds - error 429, request req_2f50f6bd5e, on our staging tenant. Not urgent yet, but it becomes urgent at our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-209"
+  },
+  "Id": "ticket-209",
+  "AccountId": "acct-6",
+  "Subject": "The annual pricing refresh blocked by CSV export",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-12-03T12:18:01.000+0000",
+  "Description": "Reporting this from our on-premise gateway at 09:24: the CSV export drops accented characters from every name. It has happened roughly hourly, always with error 429. We need it stable before the annual pricing refresh - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-210"
+  },
+  "Id": "ticket-210",
+  "AccountId": "acct-6",
+  "Subject": "/v1/merchant-onboarding/reports returning 429 for our whole support team - card authorisation webhook unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-05-05T18:06:41.000+0000",
+  "Description": "our whole support team reports that the card authorisation webhook sends the notification twice. Started two days ago; no config changes on our side. Error code 429, request id req_fcf870d1f4."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-211"
+  },
+  "Id": "ticket-211",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete API key rotation during the Thursday batch",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-09-18T00:53:31.000+0000",
+  "Description": "API key rotation silently drops the last page of results on the disaster-recovery site since the version bump. Our gateway logs show:\n  GET /v1/card-authorizer/documents -> 403 AbortError after 27s (x-request-id: req_5b29978082)\nEvery failing call is against /v1/card-authorizer/webhooks out of eu-west-1. Blocking the seasonal traffic peak."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-212"
+  },
+  "Id": "ticket-212",
+  "AccountId": "acct-6",
+  "Subject": "Error 504 when using KYC check (req_8e299b2f3d)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-09-19T21:16:05.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: the KYC check truncates anything longer than a few thousand characters on the read-only replica. First occurrence around 03:42, repeating roughly hourly. This is the second thing we have had to work around before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-213"
+  },
+  "Id": "ticket-213",
+  "AccountId": "acct-6",
+  "Subject": "Sanctions screening queued but never running since 08:33 on our pre-production mirror",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-16T16:34:50.000+0000",
+  "Description": "We are evaluating sanctions screening for the regulator's submission deadline and hit a blocker: it queues the work but never dispatches it. Tried on our pre-production mirror with the same result (ref req_1c74cb8042). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-214"
+  },
+  "Id": "ticket-214",
+  "AccountId": "acct-6",
+  "Subject": "Payout schedule intermittently failing for two of our admins",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-03-19T01:24:49.000+0000",
+  "Description": "Reporting this from our pre-production mirror at 01:04: the payout schedule renders an empty state despite matching rows. It has happened only on the largest payloads, always with error 502. We need it stable before the quarterly audit - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-215"
+  },
+  "Id": "ticket-215",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete payout schedule halfway through the migration",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-09-22T15:07:14.000+0000",
+  "Description": "everyone in the finance group reports that the payout schedule omits anything created in the last hour in us-west-2. One trace, if it helps:\n  PATCH /v1/payouts/exports -> 401 TimeoutError after 19s (x-request-id: req_dae0f3d252)\nWe have not changed anything since the holiday freeze ended. This is blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-216"
+  },
+  "Id": "ticket-216",
+  "AccountId": "acct-6",
+  "Subject": "Payout schedule silently truncating for about a dozen users",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-10-30T20:19:17.000+0000",
+  "Description": "about a dozen users report that the payout schedule truncates anything longer than a few thousand characters. Started late last week; no config changes on our side. Error code 429, request id req_b320dce6ad."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-217"
+  },
+  "Id": "ticket-217",
+  "AccountId": "acct-6",
+  "Subject": "/v1/kyc/jobs returning 500 for our API integration - webhook subscription unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-02T23:54:33.000+0000",
+  "Description": "We are getting java.lang.OutOfMemoryError back from /v1/kyc/jobs twice a shift since the last maintenance window - error 500, request req_fc47d2a773. It looks like it started around 09:25; the webhook subscription truncates anything longer than a few thousand characters for our API integration."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-218"
+  },
+  "Id": "ticket-218",
+  "AccountId": "acct-6",
+  "Subject": "CSV export unavailable for anyone off the corporate VPN since our auditors asked us to rotate keys",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-15T22:29:59.000+0000",
+  "Description": "Could you check CSV export? It drops accented characters from every name - error 429, request req_b88c2aa43e, on the EU region. Not urgent yet, but it becomes urgent at our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-219"
+  },
+  "Id": "ticket-219",
+  "AccountId": "acct-6",
+  "Subject": "/v1/risk-scoring/reports returning 500 for our whole support team - card authorisation webhook unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-04-14T14:03:26.000+0000",
+  "Description": "Card authorisation webhook duplicates every record it writes on the disaster-recovery site since your status page cleared the last incident. Our gateway logs show:\n  POST /v1/risk-scoring/reports -> 500 AbortError after 19s (x-request-id: req_03f0c89370)\nEvery failing call is against /v1/risk-scoring/reports out of us-east-1. Blocking the migration off our legacy system."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-220"
+  },
+  "Id": "ticket-220",
+  "AccountId": "acct-6",
+  "Subject": "Question about sanctions screening limits on the EU region",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-11-26T14:02:43.000+0000",
+  "Description": "Sanctions screening shows stale data until a hard refresh on the EU region since the failover drill. Our gateway logs show:\n  PATCH /v1/merchant-onboarding/exports -> 403 java.net.SocketTimeoutException after 3s (x-request-id: req_6a7b0f8a70)\nEvery failing call is against /v1/merchant-onboarding/webhooks out of us-east-1. Blocking our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-221"
+  },
+  "Id": "ticket-221",
+  "AccountId": "acct-6",
+  "Subject": "ACH batch - producing an unparsable export (req_62534de753)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-01-28T17:27:58.000+0000",
+  "Description": "Raising on behalf of our API integration: the ACH batch escapes the delimiters so the file cannot be parsed on both production and sandbox. First occurrence around 09:18, repeating roughly hourly. This is the second thing we have had to work around before customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-222"
+  },
+  "Id": "ticket-222",
+  "AccountId": "acct-6",
+  "Subject": "Request: raise our card authorisation webhook rate limit before the annual pricing refresh",
+  "Type": "Incident",
+  "Status": "New",
+  "Priority": "Medium",
+  "CreatedDate": "2026-10-02T20:27:08.000+0000",
+  "Description": "Card authorisation webhook fails on the retry after the first attempt went through on our second workspace since this morning. Our gateway logs show:\n  POST /v1/reconciliation/reports -> 504 MemoryError after 1s (x-request-id: req_3ad1de126b)\nEvery failing call is against /v1/reconciliation/invoices out of us-west-2. Blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-223"
+  },
+  "Id": "ticket-223",
+  "AccountId": "acct-6",
+  "Subject": "Cannot complete audit log over the weekend",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-12-24T14:26:53.000+0000",
+  "Description": "Our team noticed over the weekend that the audit log returns records belonging to a different workspace. our whole support team is affected. We have not touched the configuration since the Tuesday release. Request id req_1e46e01d65 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-224"
+  },
+  "Id": "ticket-224",
+  "AccountId": "acct-6",
+  "Subject": "/v1/payouts/webhooks returning 409 for the field sales team - statement PDF unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-02-03T19:19:26.000+0000",
+  "Description": "We are getting SequelizeConnectionAcquireTimeoutError back from /v1/payouts/webhooks a handful of times since the version bump - error 409, request req_2cedb60081. It looks like it started around 06:58; the statement PDF applies yesterday's configuration instead of the current one for the field sales team."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-225"
+  },
+  "Id": "ticket-225",
+  "AccountId": "acct-6",
+  "Subject": "SequelizeConnectionAcquireTimeoutError from /v1/kyc/sessions - ACH batch on our sandbox (req_28f6978174)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-05-05T18:31:17.000+0000",
+  "Description": "our API integration reports that the ACH batch times out after roughly 30 seconds in eu-west-1. One trace, if it helps:\n  DELETE /v1/kyc/exports -> 502 SequelizeConnectionAcquireTimeoutError after 3s (x-request-id: req_28f6978174)\nWe have not changed anything since the schema change last sprint. This is blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-226"
+  },
+  "Id": "ticket-226",
+  "AccountId": "acct-6",
+  "Subject": "Statement PDF dropping sessions since 08:26 on the APAC region",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-04-07T15:25:01.000+0000",
+  "Description": "We are evaluating statement PDF for payroll cutover and hit a blocker: it logs the user out mid-session. Tried on the APAC region with the same result (ref req_fe4777fd59). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-227"
+  },
+  "Id": "ticket-227",
+  "AccountId": "acct-6",
+  "Subject": "Error 403 from sanctions screening - first seen 11:27",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-09-15T18:58:53.000+0000",
+  "Description": "Could you check sanctions screening? It returns records belonging to a different workspace - error 403, request req_e4eab35ff7, on our regulated tenant. Not urgent yet, but it becomes urgent at the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-228"
+  },
+  "Id": "ticket-228",
+  "AccountId": "acct-6",
+  "Subject": "CSV export unavailable for everyone in the finance group since the schema change last sprint",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-07T16:10:14.000+0000",
+  "Description": "We are getting MemoryError back from /v1/merchant-dashboard/documents continuously since the schema change last sprint - error 504, request req_bc99913177. It looks like it started around 09:51; the CSV export rounds the totals differently from the export for everyone in the finance group."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-229"
+  },
+  "Id": "ticket-229",
+  "AccountId": "acct-6",
+  "Subject": "Performance regression in bulk delete - rejecting valid credentials",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-28T15:50:54.000+0000",
+  "Description": "We are getting java.lang.NullPointerException back from /v1/settlement-engine/jobs a handful of times since we doubled the ingest rate - error 503, request req_4ccb5e55c0. It looks like it started around 07:48; bulk delete rejects valid credentials for our warehouse scanners."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-230"
+  },
+  "Id": "ticket-230",
+  "AccountId": "acct-6",
+  "Subject": "API key rotation results do not match the export (req_184cc59925)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-12-17T16:22:54.000+0000",
+  "Description": "Escalating: java.lang.NullPointerException on /v1/kyc/jobs at 07:58, repeating every time the batch runs. Retries against us-west-2 fail the same way. Request req_184cc59925. We need API key rotation stable before the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-231"
+  },
+  "Id": "ticket-231",
+  "AccountId": "acct-6",
+  "Subject": "[500] Card authorisation webhook on the EU region",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-07-03T18:30:26.000+0000",
+  "Description": "Escalating: java.sql.SQLTimeoutException on /v1/merchant-dashboard/reports at 09:58, repeating on every second attempt. Retries against eu-west-1 fail the same way. Request req_d9ee45ceb0. We need card authorisation webhook stable before the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-232"
+  },
+  "Id": "ticket-232",
+  "AccountId": "acct-7",
+  "Subject": "Card authorisation webhook failing for every user with the analyst role since 02:39",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-19T05:00:31.000+0000",
+  "Description": "every user with the analyst role reports that the card authorisation webhook duplicates every record it writes. Started the moment we scaled up; no config changes on our side. Error code 403, request id req_29a6c4dba6."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-233"
+  },
+  "Id": "ticket-233",
+  "AccountId": "acct-7",
+  "Subject": "Mobile app - not saving changes (req_7067dd2aa7)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-08-28T05:26:17.000+0000",
+  "Description": "our warehouse scanners report that the mobile app reports success but never persists the change in eu-west-1. One trace, if it helps:\n  DELETE /v1/risk-scoring/jobs -> 400 *net.OpError after 27s (x-request-id: req_7067dd2aa7)\nWe have not changed anything since the version bump. This is blocking the migration off our legacy system."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-234"
+  },
+  "Id": "ticket-234",
+  "AccountId": "acct-7",
+  "Subject": "Search index reporting the wrong count since 07:25 on our on-premise gateway",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-04-30T09:28:43.000+0000",
+  "Description": "Could you check search index? It rounds the totals differently from the export - error 429, request req_40eff01424, on our on-premise gateway. Not urgent yet, but it becomes urgent at the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-235"
+  },
+  "Id": "ticket-235",
+  "AccountId": "acct-7",
+  "Subject": "Salesforce sync duplicating records on both production and sandbox",
+  "Type": "Question",
+  "Status": "New",
+  "Priority": "Low",
+  "CreatedDate": "2026-10-02T06:31:12.000+0000",
+  "Description": "Reporting this from both production and sandbox at 02:42: the Salesforce sync duplicates every record it writes. It has happened on every second attempt, always with error 500. We need it stable before the integration handover to our partner - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-236"
+  },
+  "Id": "ticket-236",
+  "AccountId": "acct-7",
+  "Subject": "Ledger export failing after retry in eu-west-1 since we doubled the ingest rate",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-27T11:18:48.000+0000",
+  "Description": "Reporting this from our sandbox at 07:57: the ledger export fails on the retry after the first attempt went through. It has happened only on the largest payloads, always with error 409. We need it stable before the integration handover to our partner - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-237"
+  },
+  "Id": "ticket-237",
+  "AccountId": "acct-7",
+  "Subject": "FetchError from /v1/risk-scoring/reports - sanctions screening on production (req_4c23d71cd7)",
+  "Type": "Question",
+  "Status": "Working",
+  "Priority": "High",
+  "CreatedDate": "2026-09-15T04:53:17.000+0000",
+  "Description": "Sanctions screening rejects a payload its own schema allows on production since Monday. Our gateway logs show:\n  PATCH /v1/risk-scoring/documents -> 401 FetchError after 21s (x-request-id: req_4c23d71cd7)\nEvery failing call is against /v1/risk-scoring/reports out of eu-west-1. Blocking the executive business review."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-238"
+  },
+  "Id": "ticket-238",
+  "AccountId": "acct-7",
+  "Subject": "The winter planning cycle blocked by sandbox refresh",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-01-02T08:22:55.000+0000",
+  "Description": "Sandbox refresh reports success but never persists the change on our staging tenant since we added the second region. Our gateway logs show:\n  DELETE /v1/payouts/webhooks -> 401 AbortError after 19s (x-request-id: req_640ef5943e)\nEvery failing call is against /v1/payouts/records out of eu-west-1. Blocking the winter planning cycle."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-239"
+  },
+  "Id": "ticket-239",
+  "AccountId": "acct-7",
+  "Subject": "ReferenceError on sandbox refresh since we doubled the ingest rate",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-07-22T09:57:40.000+0000",
+  "Description": "Reporting this from our staging tenant at 08:09: the sandbox refresh escapes the delimiters so the file cannot be parsed. It has happened a dozen times overnight, always with error 401. We need it stable before the seasonal traffic peak - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-240"
+  },
+  "Id": "ticket-240",
+  "AccountId": "acct-7",
+  "Subject": "Error 401 when using data residency setting (req_3fbf990cb1)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-07T15:03:25.000+0000",
+  "Description": "Raising on behalf of the field sales team: the data residency setting omits anything created in the last hour on our on-premise gateway. First occurrence around 14:28, repeating three or four times. This is the second thing we have had to work around before the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-241"
+  },
+  "Id": "ticket-241",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete chargeback queue the moment we scaled up",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-08-27T04:18:11.000+0000",
+  "Description": "Reporting this from our on-premise gateway at 00:40: the chargeback queue stalls at ninety per cent and then restarts. It has happened twice a shift, always with error 403. We need it stable before our disaster-recovery certification - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-242"
+  },
+  "Id": "ticket-242",
+  "AccountId": "acct-7",
+  "Subject": "Reconciliation report rejecting valid credentials for everyone in the finance group",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2024-10-22T10:25:29.000+0000",
+  "Description": "We are getting context.DeadlineExceeded back from /v1/card-authorizer/reports roughly hourly since the holiday freeze ended - error 409, request req_0569b2060c. It looks like it started around 09:03; the reconciliation report rejects valid credentials for everyone in the finance group."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-243"
+  },
+  "Id": "ticket-243",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete scheduled exports first thing today",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-01-08T10:26:50.000+0000",
+  "Description": "Raising on behalf of the analysts in our Berlin office: scheduled exports queues the work but never dispatches it on the shared demo workspace. First occurrence around 07:57, repeating a handful of times. This is the second thing we have had to work around before our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-244"
+  },
+  "Id": "ticket-244",
+  "AccountId": "acct-7",
+  "Subject": "Transaction dispute form failing for our whole support team since 01:21",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-03-29T04:54:05.000+0000",
+  "Description": "Our team noticed during the Thursday batch that the transaction dispute form fails on the retry after the first attempt went through. our whole support team is affected. We have not touched the configuration since Monday. Request id req_2a9df2ce14 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-245"
+  },
+  "Id": "ticket-245",
+  "AccountId": "acct-7",
+  "Subject": "UnauthorizedError from /v1/ledger/jobs - KYC check on our regulated tenant (req_2fa0913527)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-05-06T10:21:58.000+0000",
+  "Description": "Reporting this from our regulated tenant at 08:38: the KYC check stalls at ninety per cent and then restarts. It has happened continuously, always with error 422. We need it stable before the integration handover to our partner - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-246"
+  },
+  "Id": "ticket-246",
+  "AccountId": "acct-7",
+  "Subject": "Error 403 when using bulk import (req_574525cf02)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-02-16T13:24:23.000+0000",
+  "Description": "Bulk import renders an empty state despite matching rows on our regulated tenant since the holiday freeze ended. Our gateway logs show:\n  GET /v1/merchant-dashboard/invoices -> 403 java.util.concurrent.TimeoutException after 26s (x-request-id: req_574525cf02)\nEvery failing call is against /v1/merchant-dashboard/accounts out of eu-west-1. Blocking our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-247"
+  },
+  "Id": "ticket-247",
+  "AccountId": "acct-7",
+  "Subject": "The annual pricing refresh blocked by sanctions screening",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-11-27T10:29:04.000+0000",
+  "Description": "Could you check sanctions screening? It shows stale data until a hard refresh - error 400, request req_30e954054b, on the read-only replica. Not urgent yet, but it becomes urgent at the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-248"
+  },
+  "Id": "ticket-248",
+  "AccountId": "acct-7",
+  "Subject": "/v1/merchant-onboarding/reports returning 422 for our two busiest workspaces - trend chart unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-01-22T07:01:53.000+0000",
+  "Description": "Raising on behalf of our two busiest workspaces: the trend chart truncates anything longer than a few thousand characters on production. First occurrence around 02:45, repeating roughly hourly. This is the second thing we have had to work around before customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-249"
+  },
+  "Id": "ticket-249",
+  "AccountId": "acct-7",
+  "Subject": "Performance regression in sanctions screening - returning 500s",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-12-20T03:45:35.000+0000",
+  "Description": "Escalating: java.lang.OutOfMemoryError on /v1/merchant-dashboard/webhooks at 02:37, repeating continuously. Retries against us-west-2 fail the same way. Request req_85c7575bb6. We need sanctions screening stable before month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-250"
+  },
+  "Id": "ticket-250",
+  "AccountId": "acct-7",
+  "Subject": "/v1/settlement-engine/events returning 400 for two of our admins - trend chart unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-04-03T11:18:52.000+0000",
+  "Description": "two of our admins report that the trend chart shows stale data until a hard refresh in eu-west-1. One trace, if it helps:\n  POST /v1/settlement-engine/invoices -> 400 com.fasterxml.jackson.databind.JsonMappingException after 12s (x-request-id: req_7820d4b1f0)\nWe have not changed anything since your status page cleared the last incident. This is blocking customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-251"
+  },
+  "Id": "ticket-251",
+  "AccountId": "acct-7",
+  "Subject": "SAML metadata endpoint not saving changes since 08:48 on our second workspace",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-08-26T09:40:21.000+0000",
+  "Description": "We are getting java.util.concurrent.TimeoutException back from /v1/payments-api/sessions continuously since the holiday freeze ended - error 403, request req_a8b178c13c. It looks like it started around 08:48; the SAML metadata endpoint reports success but never persists the change for anyone off the corporate VPN."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-252"
+  },
+  "Id": "ticket-252",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete scheduled exports the moment we scaled up",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2024-10-16T08:49:10.000+0000",
+  "Description": "Our team noticed the moment we scaled up that scheduled exports rejects a payload its own schema allows. two of our admins are affected. We have not touched the configuration since the version bump. Request id req_881cb69ed4 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-253"
+  },
+  "Id": "ticket-253",
+  "AccountId": "acct-7",
+  "Subject": "Error 502 from custom fields - first seen 01:06",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2024-12-25T01:06:36.000+0000",
+  "Description": "We are getting AbortError back from /v1/kyc/exports roughly hourly since the last maintenance window - error 502, request req_45f25a7323. It looks like it started around 01:06; custom fields applies yesterday's configuration instead of the current one for two of our admins."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-254"
+  },
+  "Id": "ticket-254",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete KYC check earlier this week",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-25T04:30:54.000+0000",
+  "Description": "KYC check rejects a payload its own schema allows on both production and sandbox since your status page cleared the last incident. Our gateway logs show:\n  DELETE /v1/kyc/sessions -> 502 java.net.SocketTimeoutException after 14s (x-request-id: req_90a93c010c)\nEvery failing call is against /v1/kyc/events out of eu-west-1. Blocking payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-255"
+  },
+  "Id": "ticket-255",
+  "AccountId": "acct-7",
+  "Subject": "Performance regression in API key rotation - missing the newest records",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-07-29T14:12:34.000+0000",
+  "Description": "every user with the analyst role reports that API key rotation omits anything created in the last hour in eu-west-1. One trace, if it helps:\n  DELETE /v1/ledger/reports -> 422 ReferenceError after 25s (x-request-id: req_747fb9d49e)\nWe have not changed anything since the last maintenance window. This is blocking the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-256"
+  },
+  "Id": "ticket-256",
+  "AccountId": "acct-7",
+  "Subject": "ACH batch - queued but never running (req_9a3de68d9e)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-12T19:20:52.000+0000",
+  "Description": "We are evaluating ACH batch for the migration off our legacy system and hit a blocker: it queues the work but never dispatches it. Tried on production with the same result (ref req_9a3de68d9e). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-257"
+  },
+  "Id": "ticket-257",
+  "AccountId": "acct-7",
+  "Subject": "KYC check - reporting the wrong count (req_0125075238)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-31T00:57:47.000+0000",
+  "Description": "Our team noticed over the weekend that the KYC check rounds the totals differently from the export. every user with the analyst role is affected. We have not touched the configuration since the holiday freeze ended. Request id req_0125075238 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-258"
+  },
+  "Id": "ticket-258",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete chargeback queue overnight",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-17T22:30:41.000+0000",
+  "Description": "Since Monday, the chargeback queue drops accented characters from every name. It reproduces on both production and sandbox for the analysts in our Berlin office. Request id req_074c53392c is one example. This is blocking the migration off our legacy system."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-259"
+  },
+  "Id": "ticket-259",
+  "AccountId": "acct-7",
+  "Subject": "[504] Role permissions on our pre-production mirror",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-06-25T00:50:42.000+0000",
+  "Description": "Role permissions omits anything created in the last hour on our pre-production mirror since the version bump. Our gateway logs show:\n  GET /v1/ledger/exports -> 504 UnauthorizedError after 27s (x-request-id: req_490f982827)\nEvery failing call is against /v1/ledger/documents out of eu-west-1. Blocking our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-260"
+  },
+  "Id": "ticket-260",
+  "AccountId": "acct-7",
+  "Subject": "Retention policy missing the newest records on our sandbox",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-17T11:53:54.000+0000",
+  "Description": "the analysts in our Berlin office report that the retention policy omits anything created in the last hour in us-west-2. One trace, if it helps:\n  POST /v1/payments-api/invoices -> 409 UnauthorizedError after 9s (x-request-id: req_000dca6448)\nWe have not changed anything since our upgrade to the new plan. This is blocking payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-261"
+  },
+  "Id": "ticket-261",
+  "AccountId": "acct-7",
+  "Subject": "Need an update: reconciliation-worker fails calls with 502 errors since 04:35",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-26T23:05:11.000+0000",
+  "Description": "Since 04:35, reconciliation-worker fails calls with 502 errors in our staging tenant. Request req_c53b4c40ed failed again."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-262"
+  },
+  "Id": "ticket-262",
+  "AccountId": "acct-7",
+  "Subject": "API key rotation failing for our two busiest workspaces since 00:22",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-07-09T04:42:15.000+0000",
+  "Description": "our two busiest workspaces report that API key rotation rounds the totals differently from the export. Started yesterday afternoon; no config changes on our side. Error code 403, request id req_69dfbbabbe."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-263"
+  },
+  "Id": "ticket-263",
+  "AccountId": "acct-7",
+  "Subject": "Request: raise our ledger export rate limit before the regulator's submission deadline",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-17T13:13:21.000+0000",
+  "Description": "the field sales team reports that the ledger export escapes the delimiters so the file cannot be parsed in us-east-1. One trace, if it helps:\n  PUT /v1/settlement-engine/exports -> 422 javax.naming.AuthenticationException after 17s (x-request-id: req_2160c67b2b)\nWe have not changed anything since the Tuesday release. This is blocking the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-264"
+  },
+  "Id": "ticket-264",
+  "AccountId": "acct-7",
+  "Subject": "Question about audit log limits on the APAC region",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-04T08:09:27.000+0000",
+  "Description": "Audit log drops accented characters from every name on the APAC region since the schema change last sprint. Our gateway logs show:\n  DELETE /v1/settlement-engine/documents -> 401 java.net.SocketTimeoutException after 24s (x-request-id: req_7d13437e65)\nEvery failing call is against /v1/settlement-engine/events out of us-west-2. Blocking the migration off our legacy system."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-265"
+  },
+  "Id": "ticket-265",
+  "AccountId": "acct-7",
+  "Subject": "Performance regression in statement PDF - losing filters",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-06-03T02:47:18.000+0000",
+  "Description": "Our team noticed late last week that the statement PDF loses the filter selection on pagination. every user with the analyst role is affected. We have not touched the configuration since our auditors asked us to rotate keys. Request id req_34903f02f9 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-266"
+  },
+  "Id": "ticket-266",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete API key rotation yesterday afternoon",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-02-27T12:58:36.000+0000",
+  "Description": "API key rotation fails on the retry after the first attempt went through on production since the failover drill. Our gateway logs show:\n  PUT /v1/settlement-engine/reports -> 500 java.lang.NullPointerException after 2s (x-request-id: req_e45aec7611)\nEvery failing call is against /v1/settlement-engine/webhooks out of us-west-2. Blocking payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-267"
+  },
+  "Id": "ticket-267",
+  "AccountId": "acct-7",
+  "Subject": "KYC check unavailable for anyone off the corporate VPN since we added the second region",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-05-06T10:47:03.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: the KYC check silently drops the last page of results on our on-premise gateway. First occurrence around 08:34, repeating continuously. This is the second thing we have had to work around before the winter planning cycle."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-268"
+  },
+  "Id": "ticket-268",
+  "AccountId": "acct-7",
+  "Subject": "Card authorisation webhook reading stale configuration for our warehouse scanners",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-01-06T10:39:35.000+0000",
+  "Description": "our warehouse scanners report that the card authorisation webhook applies yesterday's configuration instead of the current one in us-west-2. One trace, if it helps:\n  PUT /v1/settlement-engine/jobs -> 403 java.sql.SQLTimeoutException after 20s (x-request-id: req_9e13a6e15c)\nWe have not changed anything since the weekend. This is blocking the winter planning cycle."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-269"
+  },
+  "Id": "ticket-269",
+  "AccountId": "acct-7",
+  "Subject": "Statement PDF intermittently failing for everyone in the finance group",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-08-07T04:30:40.000+0000",
+  "Description": "everyone in the finance group reports that the statement PDF omits anything created in the last hour in us-west-2. One trace, if it helps:\n  PUT /v1/merchant-onboarding/jobs -> 422 java.sql.SQLTimeoutException after 5s (x-request-id: req_90eceeaf76)\nWe have not changed anything since our auditors asked us to rotate keys. This is blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-270"
+  },
+  "Id": "ticket-270",
+  "AccountId": "acct-7",
+  "Subject": "/v1/reconciliation/records returning 504 for our whole support team - API key rotation unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-11-25T10:45:53.000+0000",
+  "Description": "API key rotation applies yesterday's configuration instead of the current one on the EU region since the version bump. Our gateway logs show:\n  GET /v1/reconciliation/accounts -> 504 java.net.SocketTimeoutException after 15s (x-request-id: req_b877d7033e)\nEvery failing call is against /v1/reconciliation/records out of us-west-2. Blocking our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-271"
+  },
+  "Id": "ticket-271",
+  "AccountId": "acct-7",
+  "Subject": "/v1/payouts/jobs returning 401 for our API integration - chargeback queue unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-03-25T11:25:57.000+0000",
+  "Description": "Could you check chargeback queue? It drops accented characters from every name - error 401, request req_caea438c76, on production. Not urgent yet, but it becomes urgent at the board reporting pack."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-272"
+  },
+  "Id": "ticket-272",
+  "AccountId": "acct-7",
+  "Subject": "ACH batch returning empty results in us-west-2 since we enabled SSO",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-01-28T01:58:17.000+0000",
+  "Description": "Our team noticed two days ago that the ACH batch renders an empty state despite matching rows. anyone off the corporate VPN is affected. We have not touched the configuration since we enabled SSO. Request id req_aa539e955f if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-273"
+  },
+  "Id": "ticket-273",
+  "AccountId": "acct-7",
+  "Subject": "Billing portal mangling accented names in eu-west-1 since our auditors asked us to rotate keys",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-06-07T05:48:01.000+0000",
+  "Description": "everyone in the finance group reports that the billing portal drops accented characters from every name in eu-west-1. One trace, if it helps:\n  DELETE /v1/reconciliation/invoices -> 409 *fs.PathError after 17s (x-request-id: req_80d1408b99)\nWe have not changed anything since our auditors asked us to rotate keys. This is blocking the board reporting pack."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-274"
+  },
+  "Id": "ticket-274",
+  "AccountId": "acct-7",
+  "Subject": "/v1/payouts/events returning 403 for the analysts in our Berlin office - billing portal unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-01T06:15:55.000+0000",
+  "Description": "Could you check billing portal? It queues the work but never dispatches it - error 403, request req_3f1697e69d, on the APAC region. Not urgent yet, but it becomes urgent at the board reporting pack."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-275"
+  },
+  "Id": "ticket-275",
+  "AccountId": "acct-7",
+  "Subject": "Card authorisation webhook unavailable for anyone off the corporate VPN since the last maintenance window",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-02T09:34:22.000+0000",
+  "Description": "We are evaluating card authorisation webhook for our disaster-recovery certification and hit a blocker: it returns records belonging to a different workspace. Tried on the read-only replica with the same result (ref req_357cf31381). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-276"
+  },
+  "Id": "ticket-276",
+  "AccountId": "acct-7",
+  "Subject": "Card authorisation webhook not saving changes for our two busiest workspaces",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-10-07T14:32:32.000+0000",
+  "Description": "Escalating: java.lang.NullPointerException on /v1/merchant-dashboard/accounts at 14:43, repeating only on the largest payloads. Retries against us-east-1 fail the same way. Request req_742f3f2adc. We need card authorisation webhook stable before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-277"
+  },
+  "Id": "ticket-277",
+  "AccountId": "acct-7",
+  "Subject": "The annual pricing refresh blocked by ACH batch",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-06-02T01:03:19.000+0000",
+  "Description": "We are getting ReferenceError back from /v1/payments-api/documents only on the largest payloads since the Tuesday release - error 504, request req_da1f8da10f. It looks like it started around 01:24; the ACH batch times out after roughly 30 seconds for two of our admins."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-278"
+  },
+  "Id": "ticket-278",
+  "AccountId": "acct-7",
+  "Subject": "Performance regression in REST API - queued but never running",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-02-10T02:20:39.000+0000",
+  "Description": "our API integration reports that the REST API queues the work but never dispatches it. Started late last week; no config changes on our side. Error code 429, request id req_41635744bd."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-279"
+  },
+  "Id": "ticket-279",
+  "AccountId": "acct-7",
+  "Subject": "/v1/ledger/exports returning 503 for everyone in the finance group - trend chart unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-06-16T06:08:02.000+0000",
+  "Description": "We are getting OperationalError back from /v1/ledger/exports about once an hour under load since Monday - error 503, request req_8a5f8f3ec7. It looks like it started around 01:31; the trend chart omits anything created in the last hour for everyone in the finance group."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-280"
+  },
+  "Id": "ticket-280",
+  "AccountId": "acct-7",
+  "Subject": "Ledger export intermittently failing for the analysts in our Berlin office",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-09T04:48:01.000+0000",
+  "Description": "Ledger export stalls at ninety per cent and then restarts on the APAC region since the schema change last sprint. Our gateway logs show:\n  GET /v1/reconciliation/webhooks -> 422 FetchError after 4s (x-request-id: req_48f3b3d15c)\nEvery failing call is against /v1/reconciliation/exports out of eu-west-1. Blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-281"
+  },
+  "Id": "ticket-281",
+  "AccountId": "acct-7",
+  "Subject": "The seasonal traffic peak blocked by scheduled exports",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-04-30T14:56:31.000+0000",
+  "Description": "Raising on behalf of about a dozen users: scheduled exports escapes the delimiters so the file cannot be parsed on the disaster-recovery site. First occurrence around 08:32, repeating on every second attempt. This is the second thing we have had to work around before the seasonal traffic peak."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-282"
+  },
+  "Id": "ticket-282",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete ledger export late last week",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-12-30T05:29:00.000+0000",
+  "Description": "Reporting this from our regulated tenant at 04:30: the ledger export queues the work but never dispatches it. It has happened continuously, always with error 500. We need it stable before our go-live next week - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-283"
+  },
+  "Id": "ticket-283",
+  "AccountId": "acct-7",
+  "Subject": "Reconciliation report producing an unparsable export in us-east-1 since the weekend",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-06-16T07:30:58.000+0000",
+  "Description": "We are evaluating reconciliation report for the quarterly audit and hit a blocker: it escapes the delimiters so the file cannot be parsed. Tried on the read-only replica with the same result (ref req_f581db2186). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-284"
+  },
+  "Id": "ticket-284",
+  "AccountId": "acct-7",
+  "Subject": "Transaction dispute form intermittently failing for every user with the analyst role",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-11-04T05:45:27.000+0000",
+  "Description": "Escalating: *errors.errorString on /v1/payments-api/jobs at 03:02, repeating a handful of times. Retries against eu-west-1 fail the same way. Request req_6951a263f1. We need transaction dispute form stable before the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-285"
+  },
+  "Id": "ticket-285",
+  "AccountId": "acct-7",
+  "Subject": "Error 422 when using chargeback queue (req_5e39047f11)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-14T12:58:22.000+0000",
+  "Description": "Reporting this from the EU region at 07:21: the chargeback queue orders the results differently on every call. It has happened a dozen times overnight, always with error 422. We need it stable before the board reporting pack - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-286"
+  },
+  "Id": "ticket-286",
+  "AccountId": "acct-7",
+  "Subject": "Error 422 when using data residency setting (req_e7025aab61)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-07-16T14:24:41.000+0000",
+  "Description": "our nightly job reports that the data residency setting applies yesterday's configuration instead of the current one in us-east-1. One trace, if it helps:\n  PUT /v1/card-authorizer/sessions -> 422 SystemError after 30s (x-request-id: req_e7025aab61)\nWe have not changed anything since the last maintenance window. This is blocking the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-287"
+  },
+  "Id": "ticket-287",
+  "AccountId": "acct-7",
+  "Subject": "Request: raise our sanctions screening rate limit before the quarterly audit",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-07-20T03:33:08.000+0000",
+  "Description": "Hi team - sanctions screening logs the user out mid-session. We noticed it halfway through the migration and it has happened twice a shift since. Correlation id req_a0b5f110e2. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-288"
+  },
+  "Id": "ticket-288",
+  "AccountId": "acct-7",
+  "Subject": "Retention policy intermittently failing for our warehouse scanners",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-12T09:19:30.000+0000",
+  "Description": "Our team noticed halfway through the migration that the retention policy rejects valid credentials. our warehouse scanners are affected. We have not touched the configuration since Monday. Request id req_84ac7d3f52 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-289"
+  },
+  "Id": "ticket-289",
+  "AccountId": "acct-7",
+  "Subject": "Bulk delete - reporting the wrong count (req_b44a0b5a44)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-26T01:38:11.000+0000",
+  "Description": "Since the version bump, bulk delete rounds the totals differently from the export. It reproduces on our second workspace for our two busiest workspaces. Request id req_b44a0b5a44 is one example. This is blocking our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-290"
+  },
+  "Id": "ticket-290",
+  "AccountId": "acct-7",
+  "Subject": "/v1/payouts/jobs returning 500 for everyone in the finance group - KYC check unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-03-02T13:28:10.000+0000",
+  "Description": "Raising on behalf of everyone in the finance group: the KYC check returns a 500 for about one request in ten on the shared demo workspace. First occurrence around 11:18, repeating about once an hour under load. This is the second thing we have had to work around before the annual pricing refresh."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-291"
+  },
+  "Id": "ticket-291",
+  "AccountId": "acct-7",
+  "Subject": "/v1/risk-scoring/exports returning 429 for our API integration - card authorisation webhook unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-05-22T16:32:38.000+0000",
+  "Description": "We are evaluating card authorisation webhook for customer onboarding and hit a blocker: it fails on roughly every third attempt. Tried on both production and sandbox with the same result (ref req_0d92de5c89). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-292"
+  },
+  "Id": "ticket-292",
+  "AccountId": "acct-7",
+  "Subject": "/v1/card-authorizer/reports returning 409 for the field sales team - transaction dispute form unusable",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-27T10:52:22.000+0000",
+  "Description": "We are getting java.lang.NullPointerException back from /v1/card-authorizer/reports only on the largest payloads since our upgrade to the new plan - error 409, request req_811c159299. It looks like it started around 09:55; the transaction dispute form rejects valid credentials for the field sales team."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-293"
+  },
+  "Id": "ticket-293",
+  "AccountId": "acct-7",
+  "Subject": "Request: raise our ACH batch rate limit before the seasonal traffic peak",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-08-19T10:05:03.000+0000",
+  "Description": "our nightly job reports that the ACH batch omits anything created in the last hour. Started two days ago; no config changes on our side. Error code 502, request id req_373cf7ad54."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-294"
+  },
+  "Id": "ticket-294",
+  "AccountId": "acct-7",
+  "Subject": "Chargeback queue timing out in us-east-1 since the failover drill",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-09-03T11:35:07.000+0000",
+  "Description": "Could you check chargeback queue? It times out after roughly 30 seconds - error 500, request req_2550231d35, on our pre-production mirror. Not urgent yet, but it becomes urgent at month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-295"
+  },
+  "Id": "ticket-295",
+  "AccountId": "acct-7",
+  "Subject": "Question about usage report limits on the Canadian data residency tenant",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-07-08T12:51:11.000+0000",
+  "Description": "We are getting com.fasterxml.jackson.databind.JsonMappingException back from /v1/reconciliation/invoices twice a shift since the failover drill - error 401, request req_dd4ae2919e. It looks like it started around 11:22; the usage report applies yesterday's configuration instead of the current one for every user with the analyst role."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-296"
+  },
+  "Id": "ticket-296",
+  "AccountId": "acct-7",
+  "Subject": "java.lang.NullPointerException on card authorisation webhook since the weekend",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-25T08:34:49.000+0000",
+  "Description": "Hi team - the card authorisation webhook escapes the delimiters so the file cannot be parsed. We noticed it over the weekend and it has happened every time the batch runs since. Correlation id req_c476637c25. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-297"
+  },
+  "Id": "ticket-297",
+  "AccountId": "acct-7",
+  "Subject": "java.lang.IllegalStateException from /v1/risk-scoring/jobs - SSO login on our staging tenant (req_736b673bce)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-10-04T09:14:13.000+0000",
+  "Description": "We are getting java.lang.IllegalStateException back from /v1/risk-scoring/jobs roughly hourly since the schema change last sprint - error 500, request req_736b673bce. It looks like it started around 08:10; SSO login orders the results differently on every call for the analysts in our Berlin office."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-298"
+  },
+  "Id": "ticket-298",
+  "AccountId": "acct-7",
+  "Subject": "Custom fields failing for our API integration since 11:24",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-02-19T11:25:39.000+0000",
+  "Description": "Since this morning, custom fields rounds the totals differently from the export. It reproduces on the shared demo workspace for our API integration. Request id req_f4b57dba64 is one example. This is blocking the board reporting pack."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-299"
+  },
+  "Id": "ticket-299",
+  "AccountId": "acct-7",
+  "Subject": "Search index returning stale data since 11:15 on the shared demo workspace",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-07-23T11:21:04.000+0000",
+  "Description": "Since the last maintenance window, the search index shows stale data until a hard refresh. It reproduces on the shared demo workspace for two of our admins. Request id req_701046bcb7 is one example. This is blocking month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-300"
+  },
+  "Id": "ticket-300",
+  "AccountId": "acct-7",
+  "Subject": "/v1/merchant-dashboard/sessions returning 429 for the analysts in our Berlin office - reconciliation report unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-11-11T10:26:27.000+0000",
+  "Description": "We are evaluating reconciliation report for our go-live next week and hit a blocker: it renders an empty state despite matching rows. Tried on the EU region with the same result (ref req_79a5a8b3f2). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-301"
+  },
+  "Id": "ticket-301",
+  "AccountId": "acct-7",
+  "Subject": "Chargeback queue failing for two of our admins since 03:26",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-07-29T03:30:08.000+0000",
+  "Description": "We are evaluating chargeback queue for customer onboarding and hit a blocker: it drops accented characters from every name. Tried on our regulated tenant with the same result (ref req_c8750fcef2). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-302"
+  },
+  "Id": "ticket-302",
+  "AccountId": "acct-7",
+  "Subject": "Ledger export reporting the wrong count on the Canadian data residency tenant",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-06-25T11:00:05.000+0000",
+  "Description": "Escalating: TimeoutError on /v1/ledger/accounts at 07:33, repeating roughly hourly. Retries against us-east-1 fail the same way. Request req_e973bca020. We need ledger export stable before the quarterly audit."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-303"
+  },
+  "Id": "ticket-303",
+  "AccountId": "acct-7",
+  "Subject": "Reconciliation report failing for our nightly job since 07:37",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-01-15T10:12:55.000+0000",
+  "Description": "Hi team - the reconciliation report reports success but never persists the change. We noticed it halfway through the migration and it has happened roughly hourly since. Correlation id req_22fb70816b. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-304"
+  },
+  "Id": "ticket-304",
+  "AccountId": "acct-7",
+  "Subject": "API key rotation unavailable for our warehouse scanners since the last maintenance window",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-04-30T09:10:47.000+0000",
+  "Description": "Reporting this from our second workspace at 07:33: API key rotation stalls at ninety per cent and then restarts. It has happened every time the batch runs, always with error 422. We need it stable before the quarterly audit - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-305"
+  },
+  "Id": "ticket-305",
+  "AccountId": "acct-7",
+  "Subject": "Error 403 when using chargeback queue (req_d8e850eaae)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-08T01:55:38.000+0000",
+  "Description": "Reporting this from our sandbox at 00:42: the chargeback queue returns records belonging to a different workspace. It has happened twice a shift, always with error 403. We need it stable before month-end close - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-306"
+  },
+  "Id": "ticket-306",
+  "AccountId": "acct-7",
+  "Subject": "payments-api times out on payments during the APAC region checks",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-07-02T13:51:42.000+0000",
+  "Description": "Our users report that payments-api times out on payments. It began around 19:21; the issue is still happening."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-307"
+  },
+  "Id": "ticket-307",
+  "AccountId": "acct-7",
+  "Subject": "Bulk delete unavailable for the field sales team since your status page cleared the last incident",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-05-30T12:14:34.000+0000",
+  "Description": "Our team noticed at the start of the shift that bulk delete loses the filter selection on pagination. the field sales team is affected. We have not touched the configuration since your status page cleared the last incident. Request id req_686d690ef9 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-308"
+  },
+  "Id": "ticket-308",
+  "AccountId": "acct-7",
+  "Subject": "Payout schedule dropping the last page on production",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-11-18T10:17:04.000+0000",
+  "Description": "Hi team - the payout schedule silently drops the last page of results. We noticed it this morning and it has happened only on the largest payloads since. Correlation id req_8c90daf793. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-309"
+  },
+  "Id": "ticket-309",
+  "AccountId": "acct-7",
+  "Subject": "[503] Workflow builder on our regulated tenant",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-10T10:05:28.000+0000",
+  "Description": "Could you check workflow builder? It rejects valid credentials - error 503, request req_3d29aa3b57, on our regulated tenant. Not urgent yet, but it becomes urgent at customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-310"
+  },
+  "Id": "ticket-310",
+  "AccountId": "acct-7",
+  "Subject": "Chargeback queue reading stale configuration for about a dozen users",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-08-04T08:33:32.000+0000",
+  "Description": "about a dozen users report that the chargeback queue applies yesterday's configuration instead of the current one. Started two days ago; no config changes on our side. Error code 422, request id req_ea91293ca6."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-311"
+  },
+  "Id": "ticket-311",
+  "AccountId": "acct-7",
+  "Subject": "com.fasterxml.jackson.databind.JsonMappingException from /v1/card-authorizer/documents - payout schedule on the Canadian data residency tenant (req_36d6b81045)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-23T15:03:05.000+0000",
+  "Description": "Could you check payout schedule? It fails on roughly every third attempt - error 409, request req_36d6b81045, on the Canadian data residency tenant. Not urgent yet, but it becomes urgent at the quarterly audit."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-312"
+  },
+  "Id": "ticket-312",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete card authorisation webhook earlier this week",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2026-08-20T16:03:14.000+0000",
+  "Description": "Could you check card authorisation webhook? It loses the filter selection on pagination - error 401, request req_f9848e949e, on the APAC region. Not urgent yet, but it becomes urgent at the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-313"
+  },
+  "Id": "ticket-313",
+  "AccountId": "acct-7",
+  "Subject": "The board reporting pack blocked by admin console",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-07-08T07:09:57.000+0000",
+  "Description": "every user with the analyst role reports that the admin console rejects a payload its own schema allows in us-west-2. One trace, if it helps:\n  GET /v1/settlement-engine/webhooks -> 400 PermissionError after 13s (x-request-id: req_82513b0c1a)\nWe have not changed anything since the version bump. This is blocking the board reporting pack."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-314"
+  },
+  "Id": "ticket-314",
+  "AccountId": "acct-7",
+  "Subject": "*errors.errorString from /v1/settlement-engine/records - transaction dispute form on our staging tenant (req_fbdf69c015)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-13T07:16:08.000+0000",
+  "Description": "Hi team - the transaction dispute form fails on the retry after the first attempt went through. We noticed it two days ago and it has happened continuously since. Correlation id req_fbdf69c015. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-315"
+  },
+  "Id": "ticket-315",
+  "AccountId": "acct-7",
+  "Subject": "Error 422 from transaction dispute form - first seen 07:36",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-07-07T10:55:32.000+0000",
+  "Description": "Could you check transaction dispute form? It rounds the totals differently from the export - error 422, request req_de9168a839, on our pre-production mirror. Not urgent yet, but it becomes urgent at the migration off our legacy system."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-316"
+  },
+  "Id": "ticket-316",
+  "AccountId": "acct-7",
+  "Subject": "/v1/merchant-onboarding/invoices returning 500 for our warehouse scanners - billing portal unusable",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-03-26T09:19:57.000+0000",
+  "Description": "We are evaluating billing portal for the board reporting pack and hit a blocker: it applies yesterday's configuration instead of the current one. Tried on our staging tenant with the same result (ref req_3e77585c69). What is the expected behaviour here?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-317"
+  },
+  "Id": "ticket-317",
+  "AccountId": "acct-7",
+  "Subject": "Transaction dispute form unavailable for our warehouse scanners since the holiday freeze ended",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-07-22T08:15:50.000+0000",
+  "Description": "our warehouse scanners report that the transaction dispute form fails on the retry after the first attempt went through in us-west-2. One trace, if it helps:\n  DELETE /v1/payments-api/records -> 500 OSError after 4s (x-request-id: req_857d540e04)\nWe have not changed anything since the holiday freeze ended. This is blocking our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-318"
+  },
+  "Id": "ticket-318",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete ACH batch halfway through the migration",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-01-19T06:29:37.000+0000",
+  "Description": "Our team noticed halfway through the migration that the ACH batch rounds the totals differently from the export. our nightly job is affected. We have not touched the configuration since our upgrade to the new plan. Request id req_37e6164686 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-319"
+  },
+  "Id": "ticket-319",
+  "AccountId": "acct-7",
+  "Subject": "Is there an incident? card-authorizer fails to save changes since 18:36",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-06-15T13:06:15.000+0000",
+  "Description": "Reports from our staging tenant show that card-authorizer fails to save changes since we added the second region. Our team is waiting on recovery."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-320"
+  },
+  "Id": "ticket-320",
+  "AccountId": "acct-7",
+  "Subject": "Ledger export failing for our two busiest workspaces since 05:17",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-05-25T06:11:28.000+0000",
+  "Description": "Reporting this from our pre-production mirror at 05:17: the ledger export rounds the totals differently from the export. It has happened every time the batch runs, always with error 409. We need it stable before the integration handover to our partner - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-321"
+  },
+  "Id": "ticket-321",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete ACH batch on Monday evening",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-05-26T13:47:41.000+0000",
+  "Description": "We are getting *errors.errorString back from /v1/payouts/jobs continuously since the version bump - error 500, request req_226382e97b. It looks like it started around 07:53; the ACH batch returns a 500 for about one request in ten for the field sales team."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-322"
+  },
+  "Id": "ticket-322",
+  "AccountId": "acct-7",
+  "Subject": "CSV export unavailable for our API integration since the Tuesday release",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-11-10T12:30:32.000+0000",
+  "Description": "Raising on behalf of our API integration: the CSV export reports success but never persists the change on the APAC region. First occurrence around 07:19, repeating on every second attempt. This is the second thing we have had to work around before month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-323"
+  },
+  "Id": "ticket-323",
+  "AccountId": "acct-7",
+  "Subject": "Reconciliation report returning stale data on the read-only replica",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-12-09T07:06:05.000+0000",
+  "Description": "Escalating: java.lang.IllegalStateException on /v1/kyc/invoices at 06:20, repeating a dozen times overnight. Retries against us-east-1 fail the same way. Request req_f251a4d589. We need reconciliation report stable before month-end close."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-324"
+  },
+  "Id": "ticket-324",
+  "AccountId": "acct-7",
+  "Subject": "java.lang.IllegalStateException from /v1/reconciliation/jobs - statement PDF on production (req_2f3886acbb)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-01-22T14:57:01.000+0000",
+  "Description": "Since Monday, the statement PDF sends the notification twice. It reproduces on production for every user with the analyst role. Request id req_2f3886acbb is one example. This is blocking our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-325"
+  },
+  "Id": "ticket-325",
+  "AccountId": "acct-7",
+  "Subject": "Chargeback queue results do not match the export (req_e1991242d2)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-02-28T20:26:39.000+0000",
+  "Description": "Hi team - the chargeback queue rejects a payload its own schema allows. We noticed it this morning and it has happened only on the largest payloads since. Correlation id req_e1991242d2. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-326"
+  },
+  "Id": "ticket-326",
+  "AccountId": "acct-7",
+  "Subject": "Sanctions screening intermittently failing for anyone off the corporate VPN",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-12-17T06:18:28.000+0000",
+  "Description": "Raising on behalf of anyone off the corporate VPN: sanctions screening stalls at ninety per cent and then restarts on our pre-production mirror. First occurrence around 03:03, repeating three or four times. This is the second thing we have had to work around before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-327"
+  },
+  "Id": "ticket-327",
+  "AccountId": "acct-7",
+  "Subject": "Transaction dispute form failing for every user with the analyst role since 06:58",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-09-15T11:16:32.000+0000",
+  "Description": "Since the Tuesday release, the transaction dispute form loses the filter selection on pagination. It reproduces on our staging tenant for every user with the analyst role. Request id req_5537f7bc1e is one example. This is blocking our SOC 2 evidence run."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-328"
+  },
+  "Id": "ticket-328",
+  "AccountId": "acct-7",
+  "Subject": "Sanctions screening rejecting valid credentials in us-west-2 since your status page cleared the last incident",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-04-02T08:39:24.000+0000",
+  "Description": "We are getting context.DeadlineExceeded back from /v1/card-authorizer/sessions roughly hourly since your status page cleared the last incident - error 400, request req_46bffe9da1. It looks like it started around 07:54; sanctions screening rejects valid credentials for our two busiest workspaces."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-329"
+  },
+  "Id": "ticket-329",
+  "AccountId": "acct-7",
+  "Subject": "Cannot complete sandbox refresh earlier this week",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2026-02-25T04:10:23.000+0000",
+  "Description": "Hi team - the sandbox refresh escapes the delimiters so the file cannot be parsed. We noticed it earlier this week and it has happened about once an hour under load since. Correlation id req_7c5f8d31fe. Happy to jump on a call if that is faster."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-330"
+  },
+  "Id": "ticket-330",
+  "AccountId": "acct-8",
+  "Subject": "OperationalError from /v1/payments-api/documents - usage report on our sandbox (req_2c164f21f4)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-09-09T02:04:23.000+0000",
+  "Description": "Our team noticed over the weekend that the usage report times out after roughly 30 seconds. every user with the analyst role is affected. We have not touched the configuration since the failover drill. Request id req_2c164f21f4 if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-331"
+  },
+  "Id": "ticket-331",
+  "AccountId": "acct-8",
+  "Subject": "Card authorisation webhook results do not match the export (req_c48f598663)",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2024-12-14T02:21:58.000+0000",
+  "Description": "Card authorisation webhook orders the results differently on every call on the EU region since we added the second region. Our gateway logs show:\n  POST /v1/risk-scoring/events -> 401 *pq.Error after 18s (x-request-id: req_c48f598663)\nEvery failing call is against /v1/risk-scoring/jobs out of eu-west-1. Blocking payroll cutover."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-332"
+  },
+  "Id": "ticket-332",
+  "AccountId": "acct-8",
+  "Subject": "[403] CSV export on our sandbox",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-02-24T22:57:02.000+0000",
+  "Description": "our nightly job reports that the CSV export drops accented characters from every name. Started overnight; no config changes on our side. Error code 403, request id req_a7c48d8040."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-333"
+  },
+  "Id": "ticket-333",
+  "AccountId": "acct-8",
+  "Subject": "Question about chargeback queue limits on the disaster-recovery site",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-10-24T23:09:42.000+0000",
+  "Description": "Chargeback queue rounds the totals differently from the export on the disaster-recovery site since the weekend. Our gateway logs show:\n  PATCH /v1/settlement-engine/documents -> 409 runtime.Error after 28s (x-request-id: req_818ccc1350)\nEvery failing call is against /v1/settlement-engine/invoices out of us-west-2. Blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-334"
+  },
+  "Id": "ticket-334",
+  "AccountId": "acct-8",
+  "Subject": "CSV export results do not match the export (req_1028604178)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-11-14T01:39:44.000+0000",
+  "Description": "our nightly job reports that the CSV export logs the user out mid-session in us-east-1. One trace, if it helps:\n  PUT /v1/settlement-engine/reports -> 401 org.apache.http.conn.HttpHostConnectException after 1s (x-request-id: req_1028604178)\nWe have not changed anything since we added the second region. This is blocking the integration handover to our partner."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-335"
+  },
+  "Id": "ticket-335",
+  "AccountId": "acct-8",
+  "Subject": "Search index returning 500s for our nightly job",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-01-04T05:50:43.000+0000",
+  "Description": "Could you check search index? It returns a 500 for about one request in ten - error 500, request req_cdbc08c79b, on production. Not urgent yet, but it becomes urgent at the regulator's submission deadline."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-336"
+  },
+  "Id": "ticket-336",
+  "AccountId": "acct-8",
+  "Subject": "Transaction dispute form rejecting valid input since 01:25 on production",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-12-25T01:10:56.000+0000",
+  "Description": "Reporting this from production at 01:25: the transaction dispute form rejects a payload its own schema allows. It has happened continuously, always with error 429. We need it stable before our SOC 2 evidence run - what do you need from us?"
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-337"
+  },
+  "Id": "ticket-337",
+  "AccountId": "acct-8",
+  "Subject": "Bulk delete results do not match the export (req_a361676cf0)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2024-10-13T21:05:08.000+0000",
+  "Description": "Raising on behalf of our two busiest workspaces: bulk delete shows stale data until a hard refresh on the EU region. First occurrence around 10:51, repeating roughly hourly. This is the second thing we have had to work around before our go-live next week."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-338"
+  },
+  "Id": "ticket-338",
+  "AccountId": "acct-8",
+  "Subject": "/v1/kyc/invoices returning 403 for our whole support team - trend chart unusable",
+  "Type": "Incident",
+  "Status": "Closed",
+  "Priority": "Medium",
+  "CreatedDate": "2025-12-25T18:43:06.000+0000",
+  "Description": "Our team noticed during the Thursday batch that the trend chart renders an empty state despite matching rows. our whole support team is affected. We have not touched the configuration since Monday. Request id req_e50541a4ac if you want a trace."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-339"
+  },
+  "Id": "ticket-339",
+  "AccountId": "acct-8",
+  "Subject": "Error 500 when using KYC check (req_07babcb9bc)",
+  "Type": "Question",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-02-18T19:34:44.000+0000",
+  "Description": "Since we added the second region, the KYC check stalls at ninety per cent and then restarts. It reproduces on the APAC region for about a dozen users. Request id req_07babcb9bc is one example. This is blocking customer onboarding."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-340"
+  },
+  "Id": "ticket-340",
+  "AccountId": "acct-8",
+  "Subject": "Error 422 when using ledger export (req_ae17687314)",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-02-21T14:02:16.000+0000",
+  "Description": "We are getting HTTPError back from /v1/reconciliation/exports roughly hourly since we added the second region - error 422, request req_ae17687314. It looks like it started around 09:28; the ledger export fails on roughly every third attempt for our whole support team."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-341"
+  },
+  "Id": "ticket-341",
+  "AccountId": "acct-8",
+  "Subject": "Error 500 when using scheduled exports (req_158fc2c52c)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2026-07-07T19:00:30.000+0000",
+  "Description": "about a dozen users report that scheduled exports renders an empty state despite matching rows in us-east-1. One trace, if it helps:\n  DELETE /v1/kyc/events -> 500 TimeoutError after 26s (x-request-id: req_158fc2c52c)\nWe have not changed anything since we enabled SSO. This is blocking the seasonal traffic peak."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-342"
+  },
+  "Id": "ticket-342",
+  "AccountId": "acct-8",
+  "Subject": "Our disaster-recovery certification blocked by card authorisation webhook",
+  "Type": "Feature Request",
+  "Status": "Closed",
+  "Priority": "High",
+  "CreatedDate": "2025-01-07T20:18:20.000+0000",
+  "Description": "Escalating: *json.SyntaxError on /v1/merchant-dashboard/exports at 17:20, repeating twice a shift. Retries against eu-west-1 fail the same way. Request req_4968de8133. We need card authorisation webhook stable before our disaster-recovery certification."
+ },
+ {
+  "attributes": {
+   "type": "Case",
+   "url": "/services/data/v60.0/sobjects/Case/ticket-343"
+  },
+  "Id": "ticket-343",
+  "AccountId": "acct-8",
+  "Subject": "Statement PDF results do not match the export (req_40e829997f)",
+  "Type": "Problem",
+  "Status": "Closed",
+  "Priority": "Low",
+  "CreatedDate": "2025-01-13T17:45:14.000+0000",
+  "Description": "Hi team - the statement PDF stalls at ninety per cent and then restarts. We noticed it over the weekend and it has happened continuously since. Correlation id req_40e829997f. Happy to jump on a call if that is faster."
+ }
+]

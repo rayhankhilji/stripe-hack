@@ -1,0 +1,1606 @@
+{
+ "files": [
+  {
+   "id": "doc-4277",
+   "name": "Campaign Asset Q3 v26.pdf",
+   "mimeType": "application/pdf",
+   "createdTime": "2026-10-09T11:37:28.000Z",
+   "modifiedTime": "2026-10-09T11:37:28.000Z",
+   "size": "3688",
+   "webViewLink": "https://drive.google.com/file/d/doc-4277/view",
+   "parents": [
+    "folder-shared-sales-enablement"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Campaign Asset Q3 v26.pdf",
+   "parentId": "folder-shared-sales-enablement",
+   "fileSize": "3688",
+   "viewUrl": "https://drive.google.com/file/d/doc-4277/view",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Campaign Asset Q3 v26 Internal \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tidewater Capital (acct-6) \u2014 Financial Ser"
+  },
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "doc-6977",
+   "name": "Campaign Asset Q3 - AJ's copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-05-01T10:06:04.000Z",
+   "modifiedTime": "2026-10-08T10:00:19.000Z",
+   "size": "3415",
+   "webViewLink": "https://drive.google.com/file/d/doc-6977/view",
+   "parents": [
+    "folder-shared-product-research-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Campaign Asset Q3 - AJ's copy.docx",
+   "parentId": "folder-shared-product-research-q4",
+   "fileSize": "3415",
+   "viewUrl": "https://drive.google.com/file/d/doc-6977/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Campaign Asset Q3 - AJ's copy Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier "
+  },
+  {
+   "id": "doc-3137",
+   "name": "Capacity Plan Q3 - NS",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T13:10:20.000Z",
+   "modifiedTime": "2026-10-07T13:10:20.000Z",
+   "size": "3914",
+   "webViewLink": "https://docs.google.com/document/d/doc-3137/edit",
+   "parents": [
+    "folder-shared-sales-pipeline-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - NS",
+   "parentId": "folder-shared-sales-pipeline-q4",
+   "fileSize": "3914",
+   "viewUrl": "https://docs.google.com/document/d/doc-3137/edit",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - NS Internal \u2014 Sapora Networks Record Owner: Ashley Mossshaw <ashleym@saporanetworks.com> (Senior Account Executive, Sales) Account: Tidewater Capital (acct-6) \u2014 Financial Services, "
+  },
+  {
+   "id": "doc-7939",
+   "name": "Vendor Review Q4 - 2025-12 (2) - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-23T18:41:07.000Z",
+   "modifiedTime": "2026-10-07T11:18:39.000Z",
+   "size": "3066",
+   "webViewLink": "https://docs.google.com/document/d/doc-7939/edit",
+   "parents": [
+    "folder-shared-sales-enablement"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q4 - 2025-12 (2) - copy",
+   "parentId": "folder-shared-sales-enablement",
+   "fileSize": "3066",
+   "viewUrl": "https://docs.google.com/document/d/doc-7939/edit",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q4 - 2025-12 (2) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Tidewater Capital (acct-6) \u2014 Financial Se"
+  },
+  {
+   "id": "doc-317",
+   "name": "Monthly Report Q3 - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-01-22T07:22:42.000Z",
+   "modifiedTime": "2026-10-06T15:01:10.000Z",
+   "size": "5506",
+   "webViewLink": "https://docs.google.com/document/d/doc-317/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q4-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q3 - copy",
+   "parentId": "folder-shared-finance-billing-2026-q4-archive",
+   "fileSize": "5506",
+   "viewUrl": "https://docs.google.com/document/d/doc-317/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 - copy Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Tidewater Capital (acct-6) \u2014 Financial Services"
+  },
+  {
+   "id": "doc-4157",
+   "name": "Quarterly Business Review Q4 - 2025-11 - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-06T13:37:00.000Z",
+   "modifiedTime": "2026-10-06T13:37:00.000Z",
+   "size": "3103",
+   "webViewLink": "https://docs.google.com/document/d/doc-4157/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q4 - 2025-11 - copy",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "3103",
+   "viewUrl": "https://docs.google.com/document/d/doc-4157/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q4 - 2025-11 - copy Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial"
+  },
+  {
+   "id": "doc-6737",
+   "name": "Monthly Report Q3 - draft final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-15T09:04:36.000Z",
+   "modifiedTime": "2026-10-06T05:12:04.000Z",
+   "size": "15325",
+   "webViewLink": "https://docs.google.com/document/d/doc-6737/edit",
+   "parents": [
+    "folder-shared-customer-success-pipeline-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 - draft final",
+   "parentId": "folder-shared-customer-success-pipeline-q4",
+   "fileSize": "15325",
+   "viewUrl": "https://docs.google.com/document/d/doc-6737/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 - draft final Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tidewater Capital (acct-"
+  },
+  {
+   "id": "doc-8657",
+   "name": "Events Extract Q3 (18)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T06:25:19.000Z",
+   "modifiedTime": "2026-10-01T12:15:52.000Z",
+   "size": "1480",
+   "webViewLink": "https://docs.google.com/document/d/doc-8657/edit",
+   "parents": [
+    "folder-shared-product-analytics-03"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Events Extract Q3 (18)",
+   "parentId": "folder-shared-product-analytics-03",
+   "fileSize": "1480",
+   "viewUrl": "https://docs.google.com/document/d/doc-8657/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Events Extract Q3 (18) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-mar"
+  },
+  {
+   "id": "doc-9009",
+   "name": "Tidewater Capital - Migration Runbook - APAC.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-07-22T15:50:12.000Z",
+   "modifiedTime": "2026-09-29T16:13:25.000Z",
+   "size": "4176",
+   "webViewLink": "https://drive.google.com/file/d/doc-9009/view",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tidewater Capital - Migration Runbook - APAC.docx",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "4176",
+   "viewUrl": "https://drive.google.com/file/d/doc-9009/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Migration Runbook - APAC Restricted \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financia"
+  },
+  {
+   "id": "doc-2957",
+   "name": "Nightly Job Log Q3 v13.txt",
+   "mimeType": "text/plain",
+   "createdTime": "2025-12-05T09:39:41.000Z",
+   "modifiedTime": "2026-09-24T12:42:10.000Z",
+   "size": "1272",
+   "webViewLink": "https://drive.google.com/file/d/doc-2957/view",
+   "parents": [
+    "folder-shared-engineering-builds-ingest-worker-07-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Nightly Job Log Q3 v13.txt",
+   "parentId": "folder-shared-engineering-builds-ingest-worker-07-archive",
+   "fileSize": "1272",
+   "viewUrl": "https://drive.google.com/file/d/doc-2957/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Nightly Job Log Q3 v13.txt Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financia"
+  },
+  {
+   "id": "doc-2297",
+   "name": "Spend Summary (Taylor's copy).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-09-23T16:55:56.000Z",
+   "modifiedTime": "2026-09-23T16:55:56.000Z",
+   "size": "1238",
+   "webViewLink": "https://drive.google.com/file/d/doc-2297/view",
+   "parents": [
+    "folder-shared-people-payroll-2026-06"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Frank",
+     "emailAddress": "felixf@saporanetworks.com",
+     "permissionId": "673918815016074258154",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Spend Summary (Taylor's copy).json",
+   "parentId": "folder-shared-people-payroll-2026-06",
+   "fileSize": "1238",
+   "viewUrl": "https://drive.google.com/file/d/doc-2297/view",
+   "owner": "felixf@saporanetworks.com",
+   "contentSnippet": "Spend Summary (Taylor's copy).json Internal \u2014 Sapora Networks Record Owner: Felix Frank <felixf@saporanetworks.com> (Head of People, People) Account: Tidewater Capital (acct-6) \u2014 Financial Services, t"
+  },
+  {
+   "id": "doc-6197",
+   "name": "Cohort Analysis Q3 - 2026-08 (Sam's copy).parquet",
+   "mimeType": "application/vnd.apache.parquet",
+   "createdTime": "2026-01-26T14:56:48.000Z",
+   "modifiedTime": "2026-09-22T17:55:52.000Z",
+   "size": "32165",
+   "webViewLink": "https://drive.google.com/file/d/doc-6197/view",
+   "parents": [
+    "folder-shared-product-analytics-06-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Hoffmann",
+     "emailAddress": "maximilianh@saporanetworks.com",
+     "permissionId": "694389390825917526723",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Cohort Analysis Q3 - 2026-08 (Sam's copy).parquet",
+   "parentId": "folder-shared-product-analytics-06-archive",
+   "fileSize": "32165",
+   "viewUrl": "https://drive.google.com/file/d/doc-6197/view",
+   "owner": "maximilianh@saporanetworks.com",
+   "contentSnippet": "Cohort Analysis Q3 - 2026-08 (Sam's copy).parquet Internal \u2014 Sapora Networks Record Owner: Maximilian Hoffmann <maximilianh@saporanetworks.com> (Senior Product Manager, Product) Account: Tidewater Cap"
+  },
+  {
+   "id": "doc-2731",
+   "name": "Monthly Report Q3 v37",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T13:08:50.000Z",
+   "modifiedTime": "2026-09-21T13:08:50.000Z",
+   "size": "5244",
+   "webViewLink": "https://docs.google.com/document/d/doc-2731/edit",
+   "parents": [
+    "folder-users-selink-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 v37",
+   "parentId": "folder-users-selink-downloads",
+   "fileSize": "5244",
+   "viewUrl": "https://docs.google.com/document/d/doc-2731/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 v37 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-mark"
+  },
+  {
+   "id": "doc-9634",
+   "name": "Schema Migration Q3 v105.py",
+   "mimeType": "text/x-python",
+   "createdTime": "2026-09-21T10:13:36.000Z",
+   "modifiedTime": "2026-09-21T10:13:36.000Z",
+   "size": "1028",
+   "webViewLink": "https://drive.google.com/file/d/doc-9634/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Schema Migration Q3 v105.py",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "1028",
+   "viewUrl": "https://drive.google.com/file/d/doc-9634/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Schema Migration Q3 v105.py Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financi"
+  },
+  {
+   "id": "doc-1506",
+   "name": "Event Photo v3 (1)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-17T23:23:15.000Z",
+   "modifiedTime": "2026-09-17T23:23:15.000Z",
+   "size": "2750",
+   "webViewLink": "https://docs.google.com/document/d/doc-1506/edit",
+   "parents": [
+    "folder-users-felixm-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Event Photo v3 (1)",
+   "parentId": "folder-users-felixm-downloads",
+   "fileSize": "2750",
+   "viewUrl": "https://docs.google.com/document/d/doc-1506/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Event Photo v3 Internal \u2014 Sapora Networks Record Owner: Carl Flintby <carlf@saporanetworks.com> (Demand Generation Manager, Marketing) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mi"
+  },
+  {
+   "id": "doc-1328",
+   "name": "Deploy Log Q3 final.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-09-17T18:52:01.000Z",
+   "modifiedTime": "2026-09-17T18:52:01.000Z",
+   "size": "1786",
+   "webViewLink": "https://drive.google.com/file/d/doc-1328/view",
+   "parents": [
+    "folder-shared-engineering-builds-api-08"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Log Q3 final.log",
+   "parentId": "folder-shared-engineering-builds-api-08",
+   "fileSize": "1786",
+   "viewUrl": "https://drive.google.com/file/d/doc-1328/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Deploy Log Q3 final.log Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financial S"
+  },
+  {
+   "id": "doc-7484",
+   "name": "Architecture Note - AJ's copy.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-03-13T11:51:28.000Z",
+   "modifiedTime": "2026-09-16T12:24:55.000Z",
+   "size": "3477",
+   "webViewLink": "https://drive.google.com/file/d/doc-7484/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-api-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note - AJ's copy.docx",
+   "parentId": "folder-shared-engineering-runbooks-api-archive",
+   "fileSize": "3477",
+   "viewUrl": "https://drive.google.com/file/d/doc-7484/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Architecture Note - AJ's copy Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tidewater Capital (acct-6) \u2014 Finan"
+  },
+  {
+   "id": "doc-2981",
+   "name": "Incident Timeline v6.ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-09-16T09:40:55.000Z",
+   "modifiedTime": "2026-09-16T09:40:55.000Z",
+   "size": "2527",
+   "webViewLink": "https://drive.google.com/file/d/doc-2981/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-platform"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline v6.ts",
+   "parentId": "folder-shared-engineering-runbooks-platform",
+   "fileSize": "2527",
+   "viewUrl": "https://drive.google.com/file/d/doc-2981/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Incident Timeline v6.ts Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financial Services"
+  },
+  {
+   "id": "doc-4747",
+   "name": "Vendor Review Q3 (89)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-14T16:32:46.000Z",
+   "modifiedTime": "2026-09-14T16:32:46.000Z",
+   "size": "1296",
+   "webViewLink": "https://docs.google.com/document/d/doc-4747/edit",
+   "parents": [
+    "folder-users-felixm-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 (89)",
+   "parentId": "folder-users-felixm-downloads",
+   "fileSize": "1296",
+   "viewUrl": "https://docs.google.com/document/d/doc-4747/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 (89) Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-mar"
+  },
+  {
+   "id": "doc-7167",
+   "name": "Onboarding Checklist Q3 - 24.07.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-11T18:59:23.000Z",
+   "modifiedTime": "2026-09-11T18:59:23.000Z",
+   "size": "4089",
+   "webViewLink": "https://docs.google.com/document/d/doc-7167/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q3 - 24.07.26",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "4089",
+   "viewUrl": "https://docs.google.com/document/d/doc-7167/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q3 - 24.07.26 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, "
+  },
+  {
+   "id": "doc-5407",
+   "name": "Data Processing Addendum Q3 - SW's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-15T15:18:18.000Z",
+   "modifiedTime": "2026-09-07T12:09:59.000Z",
+   "size": "17076",
+   "webViewLink": "https://docs.google.com/document/d/doc-5407/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q3 - SW's copy",
+   "parentId": "folder-shared-product-roadmap-q4",
+   "fileSize": "17076",
+   "viewUrl": "https://docs.google.com/document/d/doc-5407/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q3 - SW's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial S"
+  },
+  {
+   "id": "doc-4582",
+   "name": "Table Dump Q3 (11).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-09-01T18:01:17.000Z",
+   "modifiedTime": "2026-09-01T18:01:17.000Z",
+   "size": "1283",
+   "webViewLink": "https://drive.google.com/file/d/doc-4582/view",
+   "parents": [
+    "folder-shared-product-analytics-10"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Table Dump Q3 (11).json",
+   "parentId": "folder-shared-product-analytics-10",
+   "fileSize": "1283",
+   "viewUrl": "https://drive.google.com/file/d/doc-4582/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Table Dump Q3 (11).json Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-ma"
+  },
+  {
+   "id": "doc-7398",
+   "name": "Copy of Tidewater Capital - Pricing Worksheet - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T20:44:22.000Z",
+   "modifiedTime": "2026-08-31T20:44:22.000Z",
+   "size": "3451",
+   "webViewLink": "https://docs.google.com/document/d/doc-7398/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Tidewater Capital - Pricing Worksheet - sales_ops",
+   "parentId": "folder-shared-product-roadmap-q3",
+   "fileSize": "3451",
+   "viewUrl": "https://docs.google.com/document/d/doc-7398/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Pricing Worksheet - sales_ops Confidential \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tidewater Capi"
+  },
+  {
+   "id": "doc-6828",
+   "name": "Deploy Checklist Q1 - copy v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T19:35:36.000Z",
+   "modifiedTime": "2026-08-31T19:35:36.000Z",
+   "size": "3469",
+   "webViewLink": "https://docs.google.com/document/d/doc-6828/edit",
+   "parents": [
+    "folder-shared-engineering-platform-platform-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q1 - copy v2",
+   "parentId": "folder-shared-engineering-platform-platform-v2-0",
+   "fileSize": "3469",
+   "viewUrl": "https://docs.google.com/document/d/doc-6828/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q1 Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financial Servic"
+  },
+  {
+   "id": "doc-1722",
+   "name": "Capacity Plan Q3 - 2026-07",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-31T09:15:53.000Z",
+   "modifiedTime": "2026-08-31T09:15:53.000Z",
+   "size": "1024",
+   "webViewLink": "https://docs.google.com/document/d/doc-1722/edit",
+   "parents": [
+    "folder-users-selink-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - 2026-07",
+   "parentId": "folder-users-selink-downloads",
+   "fileSize": "1024",
+   "viewUrl": "https://docs.google.com/document/d/doc-1722/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - 2026-07 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid"
+  },
+  {
+   "id": "doc-8108",
+   "name": "Tidewater Capital - Data Processing Addendum (Taylor's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-16T12:01:54.000Z",
+   "modifiedTime": "2026-08-27T14:51:05.000Z",
+   "size": "10150",
+   "webViewLink": "https://docs.google.com/document/d/doc-8108/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations-tidewater-capital"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tidewater Capital - Data Processing Addendum (Taylor's copy)",
+   "parentId": "folder-shared-support-escalations-tidewater-capital",
+   "fileSize": "10150",
+   "viewUrl": "https://docs.google.com/document/d/doc-8108/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Data Processing Addendum (Taylor's copy) Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Tidewater Capital "
+  },
+  {
+   "id": "doc-179",
+   "name": "Capacity Plan",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-03T10:24:59.000Z",
+   "modifiedTime": "2026-08-24T23:44:04.000Z",
+   "size": "3433",
+   "webViewLink": "https://docs.google.com/document/d/doc-179/edit",
+   "parents": [
+    "folder-users-lisaw-downloads-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan",
+   "parentId": "folder-users-lisaw-downloads-archive",
+   "fileSize": "3433",
+   "viewUrl": "https://docs.google.com/document/d/doc-179/edit",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Internal \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-market, do"
+  },
+  {
+   "id": "doc-719",
+   "name": "Campaign Asset Q3 v3.zip",
+   "mimeType": "application/zip",
+   "createdTime": "2026-07-06T10:31:49.000Z",
+   "modifiedTime": "2026-08-24T08:45:35.000Z",
+   "size": "1063",
+   "webViewLink": "https://drive.google.com/file/d/doc-719/view",
+   "parents": [
+    "folder-users-simonn-screenshots-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": false,
+   "title": "Campaign Asset Q3 v3.zip",
+   "parentId": "folder-users-simonn-screenshots-2026",
+   "fileSize": "1063",
+   "viewUrl": "https://drive.google.com/file/d/doc-719/view",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Campaign Asset Q3 v3.zip Internal \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid-market, "
+  },
+  {
+   "id": "doc-8063",
+   "name": "Incident Timeline Q2 - 29.06.26.py",
+   "mimeType": "text/x-python",
+   "createdTime": "2026-08-17T18:02:23.000Z",
+   "modifiedTime": "2026-08-17T18:02:23.000Z",
+   "size": "2569",
+   "webViewLink": "https://drive.google.com/file/d/doc-8063/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline Q2 - 29.06.26.py",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "2569",
+   "viewUrl": "https://drive.google.com/file/d/doc-8063/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q2 - 29.06.26.py Restricted \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Tidewater Capital (acct-6) "
+  },
+  {
+   "id": "doc-5900",
+   "name": "Load Test Report Q2 - SW.py",
+   "mimeType": "text/x-python",
+   "createdTime": "2026-08-14T14:56:16.000Z",
+   "modifiedTime": "2026-08-14T14:56:16.000Z",
+   "size": "1311",
+   "webViewLink": "https://drive.google.com/file/d/doc-5900/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-api"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Load Test Report Q2 - SW.py",
+   "parentId": "folder-shared-engineering-runbooks-api",
+   "fileSize": "1311",
+   "viewUrl": "https://drive.google.com/file/d/doc-5900/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Load Test Report Q2 - SW.py Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financia"
+  },
+  {
+   "id": "doc-5317",
+   "name": "Onboarding Checklist Q2 (24)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-02-16T07:26:27.000Z",
+   "modifiedTime": "2026-08-14T13:07:24.000Z",
+   "size": "1693",
+   "webViewLink": "https://docs.google.com/document/d/doc-5317/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-1-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q2 (24)",
+   "parentId": "folder-shared-product-specs-v2-1-archive",
+   "fileSize": "1693",
+   "viewUrl": "https://docs.google.com/document/d/doc-5317/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q2 (24) Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier m"
+  },
+  {
+   "id": "doc-8126",
+   "name": "Onboarding Checklist Q2 v51",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-11T12:28:01.000Z",
+   "modifiedTime": "2026-08-11T12:28:01.000Z",
+   "size": "2511",
+   "webViewLink": "https://docs.google.com/document/d/doc-8126/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q2 v51",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "2511",
+   "viewUrl": "https://docs.google.com/document/d/doc-8126/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q2 v51 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mi"
+  },
+  {
+   "id": "doc-6443",
+   "name": "Copy of Pricing Worksheet Q1 v8",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-10T12:38:05.000Z",
+   "modifiedTime": "2026-08-10T12:38:05.000Z",
+   "size": "3812",
+   "webViewLink": "https://docs.google.com/document/d/doc-6443/edit",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Pricing Worksheet Q1 v8",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "3812",
+   "viewUrl": "https://docs.google.com/document/d/doc-6443/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Copy of Pricing Worksheet Q1 v8 Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financial "
+  },
+  {
+   "id": "doc-2924",
+   "name": "Data Processing Addendum Q2 - working_file",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-05T14:41:33.000Z",
+   "modifiedTime": "2026-08-05T14:41:33.000Z",
+   "size": "18083",
+   "webViewLink": "https://docs.google.com/document/d/doc-2924/edit",
+   "parents": [
+    "folder-users-felixm-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q2 - working_file",
+   "parentId": "folder-users-felixm-notes-2026",
+   "fileSize": "18083",
+   "viewUrl": "https://docs.google.com/document/d/doc-2924/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q2 - working_file Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Tidewater Capital (acct-6) \u2014 Financi"
+  },
+  {
+   "id": "doc-7463",
+   "name": "Warehouse Export Q2 (17).parquet",
+   "mimeType": "application/vnd.apache.parquet",
+   "createdTime": "2026-05-26T16:21:13.000Z",
+   "modifiedTime": "2026-08-05T09:26:22.000Z",
+   "size": "31772",
+   "webViewLink": "https://drive.google.com/file/d/doc-7463/view",
+   "parents": [
+    "folder-shared-product-analytics-04"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Warehouse Export Q2 (17).parquet",
+   "parentId": "folder-shared-product-analytics-04",
+   "fileSize": "31772",
+   "viewUrl": "https://drive.google.com/file/d/doc-7463/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Warehouse Export Q2 (17).parquet Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, ti"
+  },
+  {
+   "id": "doc-10285",
+   "name": "Tidewater Capital - Data Processing Addendum v6",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-05T08:34:18.000Z",
+   "modifiedTime": "2026-08-05T08:34:18.000Z",
+   "size": "4974",
+   "webViewLink": "https://docs.google.com/document/d/doc-10285/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tidewater Capital - Data Processing Addendum v6",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "4974",
+   "viewUrl": "https://docs.google.com/document/d/doc-10285/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Data Processing Addendum v6 Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Fin"
+  },
+  {
+   "id": "doc-5071",
+   "name": "Data Processing Addendum Q1 (Taylor's copy) (1)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-04T20:03:50.000Z",
+   "modifiedTime": "2026-08-04T20:03:50.000Z",
+   "size": "5440",
+   "webViewLink": "https://docs.google.com/document/d/doc-5071/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q1 (Taylor's copy) (1)",
+   "parentId": "folder-shared-product-roadmap-q1",
+   "fileSize": "5440",
+   "viewUrl": "https://docs.google.com/document/d/doc-5071/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q1 (Taylor's copy) Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Senior Software Engineer, Engineering) Account: Tidewater Capital (acc"
+  },
+  {
+   "id": "doc-2822",
+   "name": "Deploy Checklist Q2 (Jordan's copy).ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-07-31T12:48:51.000Z",
+   "modifiedTime": "2026-07-31T12:48:51.000Z",
+   "size": "1141",
+   "webViewLink": "https://drive.google.com/file/d/doc-2822/view",
+   "parents": [
+    "folder-shared-engineering-platform-platform-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Florian Becker",
+     "emailAddress": "florianb@saporanetworks.com",
+     "permissionId": "058664475702674706967",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 (Jordan's copy).ts",
+   "parentId": "folder-shared-engineering-platform-platform-v2-1",
+   "fileSize": "1141",
+   "viewUrl": "https://drive.google.com/file/d/doc-2822/view",
+   "owner": "florianb@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 (Jordan's copy).ts Internal \u2014 Sapora Networks Record Owner: Florian Becker <florianb@saporanetworks.com> (Site Reliability Engineer, Engineering) Account: Tidewater Capital (acct-6"
+  },
+  {
+   "id": "doc-3545",
+   "name": "Monthly Report Q2 v31",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-29T14:02:26.000Z",
+   "modifiedTime": "2026-07-29T14:02:26.000Z",
+   "size": "3657",
+   "webViewLink": "https://docs.google.com/document/d/doc-3545/edit",
+   "parents": [
+    "folder-shared-customer-success-pipeline-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q2 v31",
+   "parentId": "folder-shared-customer-success-pipeline-q1",
+   "fileSize": "3657",
+   "viewUrl": "https://docs.google.com/document/d/doc-3545/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 v31 Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Tidewater Capital (acct-6) \u2014 Finan"
+  },
+  {
+   "id": "doc-1095",
+   "name": "Refund Review Q2 for the EMEA handover workshop meeting",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-23T09:16:54.000Z",
+   "modifiedTime": "2026-07-23T09:16:54.000Z",
+   "size": "3706",
+   "webViewLink": "https://docs.google.com/document/d/doc-1095/edit",
+   "parents": [
+    "folder-users-markusm-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Markus M\u00fcller",
+     "emailAddress": "markusm@saporanetworks.com",
+     "permissionId": "215731061089566422325",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Refund Review Q2 for the EMEA handover workshop meeting",
+   "parentId": "folder-users-markusm-documents-2026",
+   "fileSize": "3706",
+   "viewUrl": "https://docs.google.com/document/d/doc-1095/edit",
+   "owner": "markusm@saporanetworks.com",
+   "contentSnippet": "Refund Review Q2 for the EMEA handover workshop meeting Internal \u2014 Sapora Networks Record Owner: Markus M\u00fcller <markusm@saporanetworks.com> (Financial Analyst, Finance) Account: Tidewater Capital (acc"
+  },
+  {
+   "id": "doc-3692",
+   "name": "Vendor Review Q2 v42",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-21T14:41:41.000Z",
+   "modifiedTime": "2026-07-21T14:41:41.000Z",
+   "size": "5566",
+   "webViewLink": "https://docs.google.com/document/d/doc-3692/edit",
+   "parents": [
+    "folder-shared-professional-services-reports-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q2 v42",
+   "parentId": "folder-shared-professional-services-reports-q3",
+   "fileSize": "5566",
+   "viewUrl": "https://docs.google.com/document/d/doc-3692/edit",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q2 v42 Internal \u2014 Sapora Networks Record Owner: Onuker Kaya <onukerk@saporanetworks.com> (Head of Professional Services, Professional Services) Account: Tidewater Capital (acct-6) \u2014 Fina"
+  },
+  {
+   "id": "folder-shared-support-escalations-tidewater-capital",
+   "name": "Tidewater Capital",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2024-07-17T16:07:50.000Z",
+   "modifiedTime": "2026-07-16T17:13:55.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-support-escalations-tidewater-capital",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-escalations"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Tidewater Capital",
+   "parentId": "folder-shared-support-escalations",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-support-escalations-tidewater-capital",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-2452",
+   "name": "Pricing Worksheet Q3 - NS's copy (1)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-16T14:03:14.000Z",
+   "modifiedTime": "2026-07-16T14:03:14.000Z",
+   "size": "2371",
+   "webViewLink": "https://docs.google.com/document/d/doc-2452/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - NS's copy (1)",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "2371",
+   "viewUrl": "https://docs.google.com/document/d/doc-2452/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - NS's copy Confidential \u2014 Sapora Networks Record Owner: Kazuo Morita <kazuom@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-6) \u2014 Financia"
+  },
+  {
+   "id": "doc-246",
+   "name": "Copy of Tidewater Capital - Migration Runbook - final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-09T10:34:27.000Z",
+   "modifiedTime": "2026-07-09T10:34:27.000Z",
+   "size": "3660",
+   "webViewLink": "https://docs.google.com/document/d/doc-246/edit",
+   "parents": [
+    "folder-shared-executive-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Copy of Tidewater Capital - Migration Runbook - final",
+   "parentId": "folder-shared-executive-documents-2026",
+   "fileSize": "3660",
+   "viewUrl": "https://docs.google.com/document/d/doc-246/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Migration Runbook - final Confidential \u2014 Sapora Networks Record Owner: Kazuo Morita <kazuom@saporanetworks.com> (Engineering Manager, Engineering) Account: Tidewater Capital (acct-"
+  },
+  {
+   "id": "doc-3025",
+   "name": "Security Review Q2 v21",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-23T04:35:53.000Z",
+   "modifiedTime": "2026-06-23T04:35:53.000Z",
+   "size": "15529",
+   "webViewLink": "https://docs.google.com/document/d/doc-3025/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q2 v21",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "15529",
+   "viewUrl": "https://docs.google.com/document/d/doc-3025/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Security Review Q2 v21 Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Tidewater Capital (acct-6) \u2014 Financial Services, tier mid"
+  },
+  {
+   "id": "doc-4100",
+   "name": "Tidewater Capital - Implementation Plan - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-08T10:35:59.000Z",
+   "modifiedTime": "2026-06-18T20:06:18.000Z",
+   "size": "7596",
+   "webViewLink": "https://docs.google.com/document/d/doc-4100/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tidewater-capital-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tidewater Capital - Implementation Plan - copy",
+   "parentId": "folder-shared-customer-success-accounts-tidewater-capital-security-review",
+   "fileSize": "7596",
+   "viewUrl": "https://docs.google.com/document/d/doc-4100/edit",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Implementation Plan - copy Internal \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Tidewater Capital (ac"
+  },
+  {
+   "id": "doc-6879",
+   "name": "Security Review Q2 v55",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-16T10:50:10.000Z",
+   "modifiedTime": "2026-06-16T10:50:10.000Z",
+   "size": "21930",
+   "webViewLink": "https://docs.google.com/document/d/doc-6879/edit",
+   "parents": [
+    "folder-users-ashleym-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q2 v55",
+   "parentId": "folder-users-ashleym-desktop",
+   "fileSize": "21930",
+   "viewUrl": "https://docs.google.com/document/d/doc-6879/edit",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Security Review Q2 v55 Confidential \u2014 Sapora Networks Record Owner: Ashley Mossshaw <ashleym@saporanetworks.com> (Account Executive, Sales) Account: Tidewater Capital (acct-6) \u2014 Financial Services, ti"
+  },
+  {
+   "id": "doc-1509",
+   "name": "Tidewater Capital - Quarterly Business Review - 24.04.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-12T16:57:46.000Z",
+   "modifiedTime": "2026-06-12T16:57:46.000Z",
+   "size": "2726",
+   "webViewLink": "https://docs.google.com/document/d/doc-1509/edit",
+   "parents": [
+    "folder-shared-customer-success-accounts-tidewater-capital-security-review"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Tidewater Capital - Quarterly Business Review - 24.04.26",
+   "parentId": "folder-shared-customer-success-accounts-tidewater-capital-security-review",
+   "fileSize": "2726",
+   "viewUrl": "https://docs.google.com/document/d/doc-1509/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Tidewater Capital - Quarterly Business Review - 24.04.26 Internal \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account:"
+  }
+ ],
+ "totalCount": 193,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtMzY5MiIsImZvbGRlci1zaGFyZWQtc3VwcG9ydC1lc2NhbGF0aW9ucy10aWRld2F0ZXItY2FwaXRhbCIsImRvYy0yNDUyIiwiZG9jLTI0NiIsImRvYy0zMDI1IiwiZG9jLTQxMDAiLCJkb2MtNjg3OSIsImRvYy0xNTA5Il19"
+}

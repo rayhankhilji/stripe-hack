@@ -1,0 +1,7 @@
+{
+ "id": "doc-8640",
+ "name": "Celestine Health - Payment Dispute (2).xlsx",
+ "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+ "truncated": false,
+ "content": "Celestine Health - Payment Dispute (2)\n\nRestricted \u2014 Sapora Networks\n\nRecord\nOwner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance)\nAccount: Celestine Health (acct-3) \u2014 Education, tier enterprise, domain celestinehealth.com\nDeal: Celestine Health - Platform (deal-17) \u2014 Prospecting, $250,000 closing 2026-10-31\n\nDispute summary\nCase DSP-91191 raised 2026-08-17 by Manuel Foo.\nDisputed amount $705.00, charged 2026-08-06.\nReason given: amount differs from the quote.\n\nCardholder details as supplied\nCopied from the chargeback packet the acquirer sent; do not re-share outside Finance.\n  Cardholder: Manuel Foo\n  Card number: [REDACTED-PAN]\n  Expiry: 10/28\n  Billing address: 59 Kingsway, Rotterdam\n  Contact: +1 (503) 555-0178\n\nEvidence\nDate | Event | Reference\n2026-08-06 | Charge authorised | ch_bd90bbe073f2a20c\n2026-08-08 | Receipt emailed | manuel@celestinehealth.com\n2026-08-15 | Dispute opened by issuer | dp_c89bf33a75a999d5\n\nRecommendation\nRepresent partially and refund the pro-rated remainder of the term.\nOwner: Christina Schubert. Deadline to respond: 2026-08-24.\n\nNext steps\n1. Redact the cardholder details from any copy leaving Finance.\n2. Close the case in the ledger once the issuer rules.\n3. Christina to chase the acquirer if there is no ruling by 2026-09-27."
+}

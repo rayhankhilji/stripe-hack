@@ -1,0 +1,54 @@
+{
+ "requestId": "rnvnj1gw2x9wyfo11ws",
+ "records": {
+  "totalRecords": 2,
+  "currentPageSize": 2,
+  "currentPageNumber": 0
+ },
+ "calls": [
+  {
+   "id": "7000000002642639433",
+   "url": "https://saporanetworks.app.gong.io/call?id=7000000002642639433",
+   "title": "Renewal sign-off - Vernall Capital",
+   "scheduled": "2025-05-02T13:00:49-07:00",
+   "started": "2025-05-02T13:05:45-07:00",
+   "duration": 1416,
+   "primaryUserId": "100000475004749",
+   "direction": "Conference",
+   "system": "Google Meet",
+   "scope": "External",
+   "media": "Video",
+   "language": "eng",
+   "workspaceId": "[REDACTED-PAN]",
+   "sdrDisposition": null,
+   "clientUniqueId": null,
+   "customData": null,
+   "purpose": "Executive alignment",
+   "meetingUrl": "https://meet.google.com/ybx-zwtb-aaa",
+   "isPrivate": false,
+   "calendarEventId": "call-419"
+  },
+  {
+   "id": "[REDACTED-PAN]",
+   "url": "https://saporanetworks.app.gong.io/call?id=[REDACTED-PAN]",
+   "title": "Final renewal sync - Vernall Capital",
+   "scheduled": "2025-05-09T14:45:34-07:00",
+   "started": "2025-05-09T14:45:34-07:00",
+   "duration": 668,
+   "primaryUserId": "100000475004749",
+   "direction": "Conference",
+   "system": "Zoom",
+   "scope": "External",
+   "media": "Video",
+   "language": "eng",
+   "workspaceId": "[REDACTED-PAN]",
+   "sdrDisposition": null,
+   "clientUniqueId": null,
+   "customData": null,
+   "purpose": "Executive alignment",
+   "meetingUrl": "https://zoom.us/j/2424808305",
+   "isPrivate": false,
+   "calendarEventId": "call-11"
+  }
+ ]
+}

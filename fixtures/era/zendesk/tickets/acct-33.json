@@ -1,0 +1,6535 @@
+[
+ {
+  "id": 4000134,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000134.json",
+  "external_id": "ticket-809",
+  "subject": "Card authorisation webhook returning stale data in eu-west-1 since Monday",
+  "raw_subject": "Card authorisation webhook returning stale data in eu-west-1 since Monday",
+  "description": "We are evaluating card authorisation webhook for the migration off our legacy system and hit a blocker: it shows stale data until a hard refresh. Tried on our regulated tenant with the same result (ref req_c868352233). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-01-23T22:36:41Z",
+  "updated_at": "2025-02-21T10:16:03Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1736504163,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000189,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000189.json",
+  "external_id": "ticket-866",
+  "subject": "Cannot complete payout schedule over the weekend",
+  "raw_subject": "Cannot complete payout schedule over the weekend",
+  "description": "Escalating: OperationalError on /v1/payments-api/accounts at 08:41, repeating a dozen times overnight. Retries against us-west-2 fail the same way. Request req_e98d1a512b. We need payout schedule stable before our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-02-24T11:34:59Z",
+  "updated_at": "2025-03-06T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1737590400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000191,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000191.json",
+  "external_id": "ticket-841",
+  "subject": "Error 401 from role permissions - first seen 02:16",
+  "raw_subject": "Error 401 from role permissions - first seen 02:16",
+  "description": "Since the Tuesday release, role permissions times out after roughly 30 seconds. It reproduces on the EU region for everyone in the finance group. Request id req_76e4500b54 is one example. This is blocking the executive business review.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000007,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-02-25T07:31:50Z",
+  "updated_at": "2025-03-06T13:01:49Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400191,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400191.json",
+   "assignee_id": 1000007,
+   "group_id": 5000007,
+   "requester_id": 2000201,
+   "ticket_id": 4000191,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-03-06T13:01:49Z",
+   "updated_at": "2025-03-06T13:01:49Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1737637309,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000198,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000198.json",
+  "external_id": "ticket-814",
+  "subject": "/v1/merchant-onboarding/records returning 504 for our warehouse scanners - card authorisation webhook unusable",
+  "raw_subject": "/v1/merchant-onboarding/records returning 504 for our warehouse scanners - card authorisation webhook unusable",
+  "description": "Raising on behalf of our warehouse scanners: the card authorisation webhook logs the user out mid-session on the read-only replica. First occurrence around 08:52, repeating only on the largest payloads. This is the second thing we have had to work around before the executive business review.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000197
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000197
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-03-04T18:54:27Z",
+  "updated_at": "2025-03-12T15:29:39Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1738164579,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000214,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000214.json",
+  "external_id": "ticket-863",
+  "subject": "Performance regression in reconciliation report - producing an unparsable export",
+  "raw_subject": "Performance regression in reconciliation report - producing an unparsable export",
+  "description": "We are getting org.apache.http.conn.HttpHostConnectException back from /v1/payments-api/accounts every time the batch runs since the Tuesday release - error 400, request req_997680bd39. It looks like it started around 12:51; the reconciliation report escapes the delimiters so the file cannot be parsed for our API integration.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-03-11T12:37:30Z",
+  "updated_at": "2025-03-19T11:39:50Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400214,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400214.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000201,
+   "ticket_id": 4000214,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-03-19T11:39:50Z",
+   "updated_at": "2025-03-19T11:39:50Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1738755590,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000238,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000238.json",
+  "external_id": "ticket-824",
+  "subject": "Error 403 from alert rule - first seen 13:00",
+  "raw_subject": "Error 403 from alert rule - first seen 13:00",
+  "description": "Our team noticed just before lunch that the alert rule loses the filter selection on pagination. our nightly job is affected. We have not touched the configuration since the Tuesday release. Request id req_717d794ff9 if you want a trace.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-03-20T15:49:48Z",
+  "updated_at": "2025-03-31T16:33:02Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1739809982,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000286,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000286.json",
+  "external_id": "ticket-858",
+  "subject": "Question about reconciliation report limits on the Canadian data residency tenant",
+  "raw_subject": "Question about reconciliation report limits on the Canadian data residency tenant",
+  "description": "Our team noticed yesterday afternoon that the reconciliation report stalls at ninety per cent and then restarts. our two busiest workspaces are affected. We have not touched the configuration since the holiday freeze ended. Request id req_f9e29cece9 if you want a trace.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000020,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-15T00:34:50Z",
+  "updated_at": "2025-04-21T08:23:35Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-04-17T20:34:50Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1741595015,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000287,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000287.json",
+  "external_id": "ticket-806",
+  "subject": "Question about statement PDF limits on both production and sandbox",
+  "raw_subject": "Question about statement PDF limits on both production and sandbox",
+  "description": "Could you check statement PDF? It applies yesterday's configuration instead of the current one - error 422, request req_79583061f1, on both production and sandbox. Not urgent yet, but it becomes urgent at the board reporting pack.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-15T07:46:10Z",
+  "updated_at": "2025-04-17T11:27:08Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1741260428,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000303,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000303.json",
+  "external_id": "ticket-813",
+  "subject": "Error 400 when using Salesforce sync (req_cad5fa4dc9)",
+  "raw_subject": "Error 400 when using Salesforce sync (req_cad5fa4dc9)",
+  "description": "Could you check Salesforce sync? It truncates anything longer than a few thousand characters - error 400, request req_cad5fa4dc9, on both production and sandbox. Not urgent yet, but it becomes urgent at month-end close.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-25T10:55:55Z",
+  "updated_at": "2025-05-22T15:03:27Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1744297407,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000320,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000320.json",
+  "external_id": "ticket-817",
+  "subject": "Statement PDF returning stale data since 10:04 on both production and sandbox",
+  "raw_subject": "Statement PDF returning stale data since 10:04 on both production and sandbox",
+  "description": "Reporting this from both production and sandbox at 10:04: the statement PDF shows stale data until a hard refresh. It has happened roughly hourly, always with error 422. We need it stable before our SOC 2 evidence run - what do you need from us?",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-05-03T23:49:40Z",
+  "updated_at": "2025-05-05T15:43:06Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-05-10T10:49:40Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1742830986,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000332,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000332.json",
+  "external_id": "ticket-830",
+  "subject": "Request: raise our ledger export rate limit before payroll cutover",
+  "raw_subject": "Request: raise our ledger export rate limit before payroll cutover",
+  "description": "Could you check ledger export? It duplicates every record it writes - error 500, request req_7b9b3f15ba, on our sandbox. Not urgent yet, but it becomes urgent at payroll cutover.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000007,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-05-12T11:49:24Z",
+  "updated_at": "2025-05-16T11:06:33Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-06-02T14:49:24Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1743764793,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000395,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000395.json",
+  "external_id": "ticket-834",
+  "subject": "[409] Card authorisation webhook on our pre-production mirror",
+  "raw_subject": "[409] Card authorisation webhook on our pre-production mirror",
+  "description": "Our team noticed earlier this week that the card authorisation webhook renders an empty state despite matching rows. our whole support team is affected. We have not touched the configuration since our auditors asked us to rotate keys. Request id req_b42d0d59b2 if you want a trace.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-06-18T14:53:53Z",
+  "updated_at": "2025-07-01T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1747782000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000399,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000399.json",
+  "external_id": "ticket-850",
+  "subject": "Error 500 from payout schedule - first seen 11:07",
+  "raw_subject": "Error 500 from payout schedule - first seen 11:07",
+  "description": "Reporting this from our regulated tenant at 11:07: the payout schedule returns a 500 for about one request in ten. It has happened only on the largest payloads, always with error 500. We need it stable before the migration off our legacy system - what do you need from us?",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-06-19T12:00:58Z",
+  "updated_at": "2025-07-07T23:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1748300400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000433,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000433.json",
+  "external_id": "ticket-820",
+  "subject": "Request: raise our reconciliation report rate limit before customer onboarding",
+  "raw_subject": "Request: raise our reconciliation report rate limit before customer onboarding",
+  "description": "Raising on behalf of our warehouse scanners: the reconciliation report shows stale data until a hard refresh on our staging tenant. First occurrence around 14:35, repeating about once an hour under load. This is the second thing we have had to work around before customer onboarding.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000037,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-02T16:10:00Z",
+  "updated_at": "2025-07-17T13:52:37Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1749131557,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000439,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000439.json",
+  "external_id": "ticket-843",
+  "subject": "Error 502 from sanctions screening - first seen 10:20",
+  "raw_subject": "Error 502 from sanctions screening - first seen 10:20",
+  "description": "Escalating: runtime.Error on /v1/merchant-dashboard/reports at 10:20, repeating a dozen times overnight. Retries against us-west-2 fail the same way. Request req_e1bfd682ff. We need sanctions screening stable before customer onboarding.",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-04T10:32:51Z",
+  "updated_at": "2025-08-06T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ozioma_carrcroft@borealfabrication.com",
+     "name": "Ozioma Carrcroft"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-07-23T01:32:51Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1750892400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000455,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000455.json",
+  "external_id": "ticket-805",
+  "subject": "/v1/payments-api/exports returning 502 for the analysts in our Berlin office - ACH batch unusable",
+  "raw_subject": "/v1/payments-api/exports returning 502 for the analysts in our Berlin office - ACH batch unusable",
+  "description": "Could you check ACH batch? It fails on the retry after the first attempt went through - error 502, request req_963e72fb81, on our regulated tenant. Not urgent yet, but it becomes urgent at payroll cutover.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-14T07:01:19Z",
+  "updated_at": "2025-07-15T15:40:25Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1748965225,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000456,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000456.json",
+  "external_id": "ticket-818",
+  "subject": "Request: raise our sanctions screening rate limit before the regulator's submission deadline",
+  "raw_subject": "Request: raise our sanctions screening rate limit before the regulator's submission deadline",
+  "description": "our nightly job reports that sanctions screening returns a 500 for about one request in ten. Started overnight; no config changes on our side. Error code 500, request id req_4faa2ef77f.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000031,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-14T08:55:21Z",
+  "updated_at": "2025-07-24T16:29:03Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1749745743,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000459,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000459.json",
+  "external_id": "ticket-862",
+  "subject": "Transaction dispute form failing after retry on the Canadian data residency tenant",
+  "raw_subject": "Transaction dispute form failing after retry on the Canadian data residency tenant",
+  "description": "our whole support team reports that the transaction dispute form fails on the retry after the first attempt went through in us-east-1. One trace, if it helps:\n  GET /v1/payments-api/webhooks -> 502 java.net.SocketTimeoutException after 30s (x-request-id: req_149281d601)\nWe have not changed anything since our upgrade to the new plan. This is blocking our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000196,
+   2000200
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000200,
+   2000196
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-14T13:50:29Z",
+  "updated_at": "2025-07-17T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400459,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400459.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000201,
+   "ticket_id": 4000459,
+   "score": "good",
+   "comment": "Quick and patient with my follow-up questions.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-07-17T23:00:00Z",
+   "updated_at": "2025-07-17T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1749164400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000466,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000466.json",
+  "external_id": "ticket-856",
+  "subject": "The winter planning cycle blocked by ACH batch",
+  "raw_subject": "The winter planning cycle blocked by ACH batch",
+  "description": "Raising on behalf of our API integration: the ACH batch applies yesterday's configuration instead of the current one on the APAC region. First occurrence around 08:41, repeating every time the batch runs. This is the second thing we have had to work around before the winter planning cycle.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000037,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-16T08:25:21Z",
+  "updated_at": "2025-07-24T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1749769200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000480,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000480.json",
+  "external_id": "ticket-804",
+  "subject": "Statement PDF failing for our API integration since 14:27",
+  "raw_subject": "Statement PDF failing for our API integration since 14:27",
+  "description": "We are getting ReferenceError back from /v1/reconciliation/invoices on every second attempt since this morning - error 403, request req_9fe0eb83ae. It looks like it started around 14:27; the statement PDF applies yesterday's configuration instead of the current one for our API integration.",
+  "status": "closed",
+  "priority": "high",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-22T21:37:33Z",
+  "updated_at": "2025-08-07T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-08-14T05:37:33Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1750978800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000515,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000515.json",
+  "external_id": "ticket-812",
+  "subject": "Chargeback queue dropping sessions on the disaster-recovery site",
+  "raw_subject": "Chargeback queue dropping sessions on the disaster-recovery site",
+  "description": "Could you check chargeback queue? It logs the user out mid-session - error 502, request req_7cf2f2f2c1, on the disaster-recovery site. Not urgent yet, but it becomes urgent at the executive business review.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-31T08:26:39Z",
+  "updated_at": "2025-09-02T10:48:31Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "caetana_runelund@borealfabrication.com",
+     "name": "Caetana Runelund"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1753181311,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000550,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000550.json",
+  "external_id": "ticket-839",
+  "subject": "Performance regression in webhook subscription - rejecting valid input",
+  "raw_subject": "Performance regression in webhook subscription - rejecting valid input",
+  "description": "our whole support team reports that the webhook subscription rejects a payload its own schema allows. Started late last week; no config changes on our side. Error code 400, request id req_fe1d70d273.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-08-19T09:59:25Z",
+  "updated_at": "2025-09-10T13:04:44Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1753880684,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000576,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000576.json",
+  "external_id": "ticket-826",
+  "subject": "Ledger export failing intermittently for our API integration",
+  "raw_subject": "Ledger export failing intermittently for our API integration",
+  "description": "Since your status page cleared the last incident, the ledger export fails on roughly every third attempt. It reproduces on both production and sandbox for our API integration. Request id req_7108fcb2c7 is one example. This is blocking the migration off our legacy system.",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000037,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-01T08:45:02Z",
+  "updated_at": "2025-09-05T08:09:34Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400576,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400576.json",
+   "assignee_id": 1000037,
+   "group_id": 5000004,
+   "requester_id": 2000196,
+   "ticket_id": 4000576,
+   "score": "good",
+   "comment": "Quick and patient with my follow-up questions.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-09-05T08:09:34Z",
+   "updated_at": "2025-09-05T08:09:34Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1753430974,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000591,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000591.json",
+  "external_id": "ticket-810",
+  "subject": "REST API intermittently failing for our whole support team",
+  "raw_subject": "REST API intermittently failing for our whole support team",
+  "description": "We are evaluating REST API for the executive business review and hit a blocker: it rounds the totals differently from the export. Tried on our staging tenant with the same result (ref req_1c12e57f53). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000007,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-04T19:42:54Z",
+  "updated_at": "2025-09-15T12:47:35Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ozioma_carrcroft@borealfabrication.com",
+     "name": "Ozioma Carrcroft"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1754311655,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000595,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000595.json",
+  "external_id": "ticket-859",
+  "subject": "Alert rule producing an unparsable export since 07:42 on the disaster-recovery site",
+  "raw_subject": "Alert rule producing an unparsable export since 07:42 on the disaster-recovery site",
+  "description": "Escalating: ReferenceError on /v1/merchant-onboarding/jobs at 07:42, repeating a handful of times. Retries against eu-west-1 fail the same way. Request req_b776d8d0f1. We need alert rule stable before the regulator's submission deadline.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000025,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-08T08:27:30Z",
+  "updated_at": "2025-09-15T07:03:15Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1754290995,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000616,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000616.json",
+  "external_id": "ticket-868",
+  "subject": "Invoice PDF failing after retry on our second workspace",
+  "raw_subject": "Invoice PDF failing after retry on our second workspace",
+  "description": "Invoice PDF fails on the retry after the first attempt went through on our second workspace since your status page cleared the last incident. Our gateway logs show:\n  GET /v1/kyc/accounts -> 503 PermissionError after 27s (x-request-id: req_c2719bc628)\nEvery failing call is against /v1/kyc/accounts out of eu-west-1. Blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000007,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   2000198,
+   2000200
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000198,
+   2000200
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-16T12:16:52Z",
+  "updated_at": "2025-09-22T10:34:19Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1754908459,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000641,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000641.json",
+  "external_id": "ticket-801",
+  "subject": "Error 500 when using statement PDF (req_d596af3d3d)",
+  "raw_subject": "Error 500 when using statement PDF (req_d596af3d3d)",
+  "description": "We are evaluating statement PDF for the quarterly audit and hit a blocker: it fails on roughly every third attempt. Tried on our sandbox with the same result (ref req_d596af3d3d). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000037,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-23T13:36:38Z",
+  "updated_at": "2025-10-01T23:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-09-25T22:36:38Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1755730800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000669,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000669.json",
+  "external_id": "ticket-836",
+  "subject": "[403] Reconciliation report on the Canadian data residency tenant",
+  "raw_subject": "[403] Reconciliation report on the Canadian data residency tenant",
+  "description": "Reconciliation report reports success but never persists the change on the Canadian data residency tenant since we added the second region. Our gateway logs show:\n  POST /v1/settlement-engine/exports -> 403 TimeoutError after 28s (x-request-id: req_24c5715047)\nEvery failing call is against /v1/settlement-engine/webhooks out of eu-west-1. Blocking the board reporting pack.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000014,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   1000002,
+   2000197,
+   2000198
+  ],
+  "follower_ids": [
+   1000002
+  ],
+  "email_cc_ids": [
+   2000198,
+   2000197
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-04T14:04:07Z",
+  "updated_at": "2025-10-13T07:18:36Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "caetana_runelund@borealfabrication.com",
+     "name": "Caetana Runelund"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-10-18T07:04:07Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1756711116,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000681,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000681.json",
+  "external_id": "ticket-838",
+  "subject": "ACH batch intermittently failing for the analysts in our Berlin office",
+  "raw_subject": "ACH batch intermittently failing for the analysts in our Berlin office",
+  "description": "Raising on behalf of the analysts in our Berlin office: the ACH batch logs the user out mid-session on the disaster-recovery site. First occurrence around 08:46, repeating twice a shift. This is the second thing we have had to work around before the integration handover to our partner.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-09T11:09:35Z",
+  "updated_at": "2025-11-03T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400681,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400681.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000196,
+   "ticket_id": 4000681,
+   "score": "bad",
+   "comment": null,
+   "reason": "The issue was not resolved",
+   "reason_id": 7450006,
+   "reason_code": 6,
+   "created_at": "2025-11-03T23:00:00Z",
+   "updated_at": "2025-11-03T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1758582000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000794,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000794.json",
+  "external_id": "ticket-827",
+  "subject": "Request: raise our statement PDF rate limit before the annual pricing refresh",
+  "raw_subject": "Request: raise our statement PDF rate limit before the annual pricing refresh",
+  "description": "every user with the analyst role reports that the statement PDF duplicates every record it writes. Started two days ago; no config changes on our side. Error code 400, request id req_8fd0f45cf7.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-24T09:58:53Z",
+  "updated_at": "2025-11-28T23:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1760742000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000837,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000837.json",
+  "external_id": "ticket-840",
+  "subject": "KYC check intermittently failing for our warehouse scanners",
+  "raw_subject": "KYC check intermittently failing for our warehouse scanners",
+  "description": "Could you check KYC check? It stalls at ninety per cent and then restarts - error 422, request req_583e86334d, on the shared demo workspace. Not urgent yet, but it becomes urgent at the annual pricing refresh.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-10T10:39:49Z",
+  "updated_at": "2025-12-19T15:28:57Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1762529337,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000852,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000852.json",
+  "external_id": "ticket-847",
+  "subject": "Activity feed unavailable for two of our admins since the failover drill",
+  "raw_subject": "Activity feed unavailable for two of our admins since the failover drill",
+  "description": "Raising on behalf of two of our admins: the activity feed drops accented characters from every name on our pre-production mirror. First occurrence around 13:57, repeating a dozen times overnight. This is the second thing we have had to work around before our disaster-recovery certification.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000031,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-15T16:12:48Z",
+  "updated_at": "2025-12-24T14:44:35Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-12-24T18:12:48Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1762958675,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000865,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000865.json",
+  "external_id": "ticket-816",
+  "subject": "Attachment upload results do not match the export (req_13857c2ab8)",
+  "raw_subject": "Attachment upload results do not match the export (req_13857c2ab8)",
+  "description": "Reporting this from the read-only replica at 08:53: attachment upload times out after roughly 30 seconds. It has happened on every second attempt, always with error 401. We need it stable before customer onboarding - what do you need from us?",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000197,
+   2000198
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000198,
+   2000197
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-18T10:56:27Z",
+  "updated_at": "2025-12-31T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-01-05T03:56:27Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1763510400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000883,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000883.json",
+  "external_id": "ticket-851",
+  "subject": "Role permissions - dropping the last page (req_13cb721614)",
+  "raw_subject": "Role permissions - dropping the last page (req_13cb721614)",
+  "description": "Reporting this from the shared demo workspace at 08:31: role permissions silently drops the last page of results. It has happened three or four times, always with error 409. We need it stable before the winter planning cycle - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000031,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-25T15:08:48Z",
+  "updated_at": "2026-01-08T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400883,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400883.json",
+   "assignee_id": 1000031,
+   "group_id": 5000007,
+   "requester_id": 2000201,
+   "ticket_id": 4000883,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-01-08T00:00:00Z",
+   "updated_at": "2026-01-08T00:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1764201600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000893,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000893.json",
+  "external_id": "ticket-853",
+  "subject": "/v1/reconciliation/records returning 403 for everyone in the finance group - sanctions screening unusable",
+  "raw_subject": "/v1/reconciliation/records returning 403 for everyone in the finance group - sanctions screening unusable",
+  "description": "Hi team - sanctions screening times out after roughly 30 seconds. We noticed it two days ago and it has happened only on the largest payloads since. Correlation id req_5b780b34a8. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-31T15:44:18Z",
+  "updated_at": "2026-01-01T17:50:07Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-01-08T16:44:18Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1763661007,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000949,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000949.json",
+  "external_id": "ticket-844",
+  "subject": "ACH batch failing for anyone off the corporate VPN since 11:17",
+  "raw_subject": "ACH batch failing for anyone off the corporate VPN since 11:17",
+  "description": "Our team noticed this morning that the ACH batch drops accented characters from every name. anyone off the corporate VPN is affected. We have not touched the configuration since our upgrade to the new plan. Request id req_b33af21da4 if you want a trace.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000014,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-21T13:26:30Z",
+  "updated_at": "2026-01-22T16:20:56Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1765470056,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001026,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001026.json",
+  "external_id": "ticket-860",
+  "subject": "Our go-live next week blocked by statement PDF",
+  "raw_subject": "Our go-live next week blocked by statement PDF",
+  "description": "Could you check statement PDF? It logs the user out mid-session - error 401, request req_165add0bc5, on the disaster-recovery site. Not urgent yet, but it becomes urgent at our go-live next week.",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-17T22:23:30Z",
+  "updated_at": "2026-02-26T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-02-19T12:23:30Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1768435200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001035,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001035.json",
+  "external_id": "ticket-857",
+  "subject": "Retention policy dropping the last page in us-east-1 since we added the second region",
+  "raw_subject": "Retention policy dropping the last page in us-east-1 since we added the second region",
+  "description": "Retention policy silently drops the last page of results on the EU region since we added the second region. Our gateway logs show:\n  PUT /v1/risk-scoring/documents -> 503 MemoryError after 2s (x-request-id: req_99480617e4)\nEvery failing call is against /v1/risk-scoring/records out of us-east-1. Blocking the winter planning cycle.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-20T12:10:04Z",
+  "updated_at": "2026-02-26T17:20:10Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-03-11T06:10:04Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1768497610,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001037,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001037.json",
+  "external_id": "ticket-845",
+  "subject": "Cannot complete transaction dispute form just before lunch",
+  "raw_subject": "Cannot complete transaction dispute form just before lunch",
+  "description": "Could you check transaction dispute form? It queues the work but never dispatches it - error 401, request req_b0a0d3e4be, on our sandbox. Not urgent yet, but it becomes urgent at the seasonal traffic peak.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-20T14:44:10Z",
+  "updated_at": "2026-03-03T15:24:59Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1768922699,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001061,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001061.json",
+  "external_id": "ticket-846",
+  "subject": "The winter planning cycle blocked by ledger export",
+  "raw_subject": "The winter planning cycle blocked by ledger export",
+  "description": "anyone off the corporate VPN reports that the ledger export fails on the retry after the first attempt went through in us-west-2. One trace, if it helps:\n  GET /v1/payouts/webhooks -> 401 RuntimeError after 12s (x-request-id: req_5052b5c67a)\nWe have not changed anything since Monday. This is blocking the winter planning cycle.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000199
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000199
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-02-27T10:19:58Z",
+  "updated_at": "2026-03-04T14:35:16Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1769006116,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001070,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001070.json",
+  "external_id": "ticket-835",
+  "subject": "Request: raise our admin console rate limit before month-end close",
+  "raw_subject": "Request: raise our admin console rate limit before month-end close",
+  "description": "Could you check admin console? It reports success but never persists the change - error 409, request req_05e08b7f3f, on our on-premise gateway. Not urgent yet, but it becomes urgent at month-end close.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-02T19:31:25Z",
+  "updated_at": "2026-03-13T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1769731200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001075,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001075.json",
+  "external_id": "ticket-861",
+  "subject": "[504] Chargeback queue on the shared demo workspace",
+  "raw_subject": "[504] Chargeback queue on the shared demo workspace",
+  "description": "our nightly job reports that the chargeback queue times out after roughly 30 seconds. Started two days ago; no config changes on our side. Error code 504, request id req_41b7434ad2.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-04T18:39:07Z",
+  "updated_at": "2026-03-25T10:13:02Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1770804782,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001131,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001131.json",
+  "external_id": "ticket-807",
+  "subject": "Ledger export double-sending since 09:50 on our second workspace",
+  "raw_subject": "Ledger export double-sending since 09:50 on our second workspace",
+  "description": "We are getting RuntimeError back from /v1/merchant-onboarding/records roughly hourly since the schema change last sprint - error 504, request req_4a381084a1. It looks like it started around 09:50; the ledger export sends the notification twice for our API integration.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000027,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-24T09:29:45Z",
+  "updated_at": "2026-03-31T14:25:07Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1771338307,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001214,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001214.json",
+  "external_id": "ticket-819",
+  "subject": "Payout schedule queued but never running for the analysts in our Berlin office",
+  "raw_subject": "Payout schedule queued but never running for the analysts in our Berlin office",
+  "description": "We are evaluating payout schedule for our disaster-recovery certification and hit a blocker: it queues the work but never dispatches it. Tried on the APAC region with the same result (ref req_05db3be18e). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000199
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000199
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-17T15:14:15Z",
+  "updated_at": "2026-04-29T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ozioma_carrcroft@borealfabrication.com",
+     "name": "Ozioma Carrcroft"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1773874800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001231,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001231.json",
+  "external_id": "ticket-802",
+  "subject": "KYC check rejecting valid input for two of our admins",
+  "raw_subject": "KYC check rejecting valid input for two of our admins",
+  "description": "KYC check rejects a payload its own schema allows on our regulated tenant since the failover drill. Our gateway logs show:\n  POST /v1/payments-api/documents -> 409 org.apache.http.conn.HttpHostConnectException after 10s (x-request-id: req_d635581b74)\nEvery failing call is against /v1/payments-api/events out of us-east-1. Blocking payroll cutover.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000198,
+   2000199
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000198,
+   2000199
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-24T08:39:18Z",
+  "updated_at": "2026-05-29T16:29:51Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1776443391,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001232,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001232.json",
+  "external_id": "ticket-808",
+  "subject": "Our SOC 2 evidence run blocked by sanctions screening",
+  "raw_subject": "Our SOC 2 evidence run blocked by sanctions screening",
+  "description": "Could you check sanctions screening? It applies yesterday's configuration instead of the current one - error 422, request req_e8d546ab9f, on the EU region. Not urgent yet, but it becomes urgent at our SOC 2 evidence run.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000196
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000196
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-24T12:32:02Z",
+  "updated_at": "2026-05-22T09:36:47Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "caetana_runelund@borealfabrication.com",
+     "name": "Caetana Runelund"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-04T15:32:02Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1775813807,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001243,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001243.json",
+  "external_id": "ticket-828",
+  "subject": "Billing portal returning stale data on the Canadian data residency tenant",
+  "raw_subject": "Billing portal returning stale data on the Canadian data residency tenant",
+  "description": "the analysts in our Berlin office report that the billing portal shows stale data until a hard refresh. Started on Monday evening; no config changes on our side. Error code 422, request id req_3a17b80568.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000031,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-30T18:21:03Z",
+  "updated_at": "2026-05-11T13:52:50Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "caetana_runelund@borealfabrication.com",
+     "name": "Caetana Runelund"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-21T07:21:03Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401243,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401243.json",
+   "assignee_id": 1000031,
+   "group_id": 5000007,
+   "requester_id": 2000199,
+   "ticket_id": 4001243,
+   "score": "bad",
+   "comment": "Nobody told us the maintenance window had moved.",
+   "reason": "The agent's attitude is unsatisfactory",
+   "reason_id": 7450008,
+   "reason_code": 8,
+   "created_at": "2026-05-11T13:52:50Z",
+   "updated_at": "2026-05-11T13:52:50Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1774878770,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001250,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001250.json",
+  "external_id": "ticket-832",
+  "subject": "Mobile app reporting the wrong count in eu-west-1 since our auditors asked us to rotate keys",
+  "raw_subject": "Mobile app reporting the wrong count in eu-west-1 since our auditors asked us to rotate keys",
+  "description": "Could you check mobile app? It rounds the totals differently from the export - error 503, request req_0a03c5de84, on the read-only replica. Not urgent yet, but it becomes urgent at our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-04T18:33:47Z",
+  "updated_at": "2026-05-07T17:25:36Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-08T12:33:47Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401250,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401250.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000201,
+   "ticket_id": 4001250,
+   "score": "good",
+   "comment": "Clear answer and a workaround while we waited for the fix.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-05-07T17:25:36Z",
+   "updated_at": "2026-05-07T17:25:36Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1774545936,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001271,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001271.json",
+  "external_id": "ticket-854",
+  "subject": "Data residency setting - returning an unstable order (req_73bc4bcd7f)",
+  "raw_subject": "Data residency setting - returning an unstable order (req_73bc4bcd7f)",
+  "description": "We are getting HTTPError back from /v1/reconciliation/documents a dozen times overnight since our auditors asked us to rotate keys - error 429, request req_73bc4bcd7f. It looks like it started around 08:16; the data residency setting orders the results differently on every call for anyone off the corporate VPN.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-11T10:46:48Z",
+  "updated_at": "2026-05-19T15:07:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401271,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401271.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000198,
+   "ticket_id": 4001271,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-05-19T15:07:00Z",
+   "updated_at": "2026-05-19T15:07:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1775574420,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001335,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001335.json",
+  "external_id": "ticket-842",
+  "subject": "Error 400 from reconciliation report - first seen 08:23",
+  "raw_subject": "Error 400 from reconciliation report - first seen 08:23",
+  "description": "Our team noticed overnight that the reconciliation report sends the notification twice. about a dozen users are affected. We have not touched the configuration since the schema change last sprint. Request id req_7c28cb4e44 if you want a trace.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-02T13:00:57Z",
+  "updated_at": "2026-06-19T14:12:51Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1778249571,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001344,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001344.json",
+  "external_id": "ticket-815",
+  "subject": "Statement PDF results do not match the export (req_658dd3c0e3)",
+  "raw_subject": "Statement PDF results do not match the export (req_658dd3c0e3)",
+  "description": "Escalating: com.fasterxml.jackson.databind.JsonMappingException on /v1/settlement-engine/sessions at 08:08, repeating every time the batch runs. Retries against us-east-1 fail the same way. Request req_658dd3c0e3. We need statement PDF stable before the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-06T08:14:22Z",
+  "updated_at": "2026-06-17T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401344,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401344.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000200,
+   "ticket_id": 4001344,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-06-17T23:00:00Z",
+   "updated_at": "2026-06-17T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1778108400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001356,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001356.json",
+  "external_id": "ticket-821",
+  "subject": "Our go-live next week blocked by statement PDF",
+  "raw_subject": "Our go-live next week blocked by statement PDF",
+  "description": "We are evaluating statement PDF for our go-live next week and hit a blocker: it sends the notification twice. Tried on production with the same result (ref req_b2bcba44c2). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000199,
+  "submitter_id": 2000199,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000196,
+   2000197
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000197,
+   2000196
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-10T10:32:46Z",
+  "updated_at": "2026-06-18T16:19:18Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1778170758,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001409,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001409.json",
+  "external_id": "ticket-825",
+  "subject": "Mobile app failing for our warehouse scanners since 09:10",
+  "raw_subject": "Mobile app failing for our warehouse scanners since 09:10",
+  "description": "our warehouse scanners report that the mobile app fails on roughly every third attempt in eu-west-1. One trace, if it helps:\n  PATCH /v1/settlement-engine/exports -> 422 javax.naming.AuthenticationException after 16s (x-request-id: req_2aade17fb8)\nWe have not changed anything since our auditors asked us to rotate keys. This is blocking the board reporting pack.",
+  "status": "solved",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-29T16:06:30Z",
+  "updated_at": "2026-07-31T12:59:09Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-07-03T08:06:30Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1781873949,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001442,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001442.json",
+  "external_id": "ticket-855",
+  "subject": "Statement PDF failing for our two busiest workspaces since 04:24",
+  "raw_subject": "Statement PDF failing for our two busiest workspaces since 04:24",
+  "description": "Since the schema change last sprint, the statement PDF loses the filter selection on pagination. It reproduces on our staging tenant for our two busiest workspaces. Request id req_301114c09c is one example. This is blocking the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000201
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000201
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-12T05:28:06Z",
+  "updated_at": "2026-07-20T13:32:52Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1780925572,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001453,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001453.json",
+  "external_id": "ticket-833",
+  "subject": "java.lang.OutOfMemoryError on saved views since we enabled SSO",
+  "raw_subject": "java.lang.OutOfMemoryError on saved views since we enabled SSO",
+  "description": "the analysts in our Berlin office report that saved views stalls at ninety per cent and then restarts in eu-west-1. One trace, if it helps:\n  PUT /v1/payouts/accounts -> 401 java.lang.OutOfMemoryError after 10s (x-request-id: req_b8bb3f09c6)\nWe have not changed anything since we enabled SSO. This is blocking the board reporting pack.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-16T08:04:24Z",
+  "updated_at": "2026-07-16T10:01:33Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401453,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401453.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000200,
+   "ticket_id": 4001453,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-07-16T10:01:33Z",
+   "updated_at": "2026-07-16T10:01:33Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1780567293,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001485,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001485.json",
+  "external_id": "ticket-865",
+  "subject": "API key rotation unavailable for our warehouse scanners since the holiday freeze ended",
+  "raw_subject": "API key rotation unavailable for our warehouse scanners since the holiday freeze ended",
+  "description": "We are getting *fs.PathError back from /v1/risk-scoring/events on every second attempt since the holiday freeze ended - error 502, request req_33c46a270a. It looks like it started around 15:45; API key rotation stalls at ninety per cent and then restarts for our warehouse scanners.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000200,
+  "submitter_id": 2000200,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000197
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000197
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-27T18:45:42Z",
+  "updated_at": "2026-07-28T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "matthew_bainmoor@borealfabrication.com",
+     "name": "Matthew Bainmoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401485,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401485.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000200,
+   "ticket_id": 4001485,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-07-28T23:00:00Z",
+   "updated_at": "2026-07-28T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1781650800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001498,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001498.json",
+  "external_id": "ticket-823",
+  "subject": "org.apache.http.conn.HttpHostConnectException on two-factor enrolment since we enabled SSO",
+  "raw_subject": "org.apache.http.conn.HttpHostConnectException on two-factor enrolment since we enabled SSO",
+  "description": "Two-factor enrolment shows stale data until a hard refresh on our staging tenant since we enabled SSO. Our gateway logs show:\n  PUT /v1/payments-api/sessions -> 429 org.apache.http.conn.HttpHostConnectException after 10s (x-request-id: req_902508947e)\nEvery failing call is against /v1/payments-api/records out of us-east-1. Blocking the seasonal traffic peak.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-30T09:16:09Z",
+  "updated_at": "2026-08-05T23:00:00Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1782342000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001502,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001502.json",
+  "external_id": "ticket-849",
+  "subject": "Performance regression in card authorisation webhook - leaking across workspaces",
+  "raw_subject": "Performance regression in card authorisation webhook - leaking across workspaces",
+  "description": "Card authorisation webhook returns records belonging to a different workspace on our regulated tenant since the failover drill. Our gateway logs show:\n  GET /v1/card-authorizer/webhooks -> 503 java.lang.NullPointerException after 1s (x-request-id: req_21042bc2e3)\nEvery failing call is against /v1/card-authorizer/documents out of us-east-1. Blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000004,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-02T13:16:49Z",
+  "updated_at": "2026-08-10T14:15:01Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1782742501,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001544,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001544.json",
+  "external_id": "ticket-867",
+  "subject": "Error 422 from reconciliation report - first seen 07:21",
+  "raw_subject": "Error 422 from reconciliation report - first seen 07:21",
+  "description": "Reconciliation report shows stale data until a hard refresh on the read-only replica since our auditors asked us to rotate keys. Our gateway logs show:\n  PUT /v1/card-authorizer/records -> 422 java.lang.IllegalStateException after 24s (x-request-id: req_78f2e4dcc1)\nEvery failing call is against /v1/card-authorizer/exports out of us-west-2. Blocking month-end close.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000027,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-12T08:16:21Z",
+  "updated_at": "2026-08-21T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1783724400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001555,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001555.json",
+  "external_id": "ticket-852",
+  "subject": "*pq.Error on sanctions screening since the Tuesday release",
+  "raw_subject": "*pq.Error on sanctions screening since the Tuesday release",
+  "description": "Our team noticed over the weekend that sanctions screening shows stale data until a hard refresh. our two busiest workspaces are affected. We have not touched the configuration since the Tuesday release. Request id req_6d2a9028bb if you want a trace.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000197,
+  "submitter_id": 2000197,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000199
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000199
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-17T13:54:22Z",
+  "updated_at": "2026-08-26T13:46:32Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "ozioma_carrcroft@borealfabrication.com",
+     "name": "Ozioma Carrcroft"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401555,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401555.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000197,
+   "ticket_id": 4001555,
+   "score": "bad",
+   "comment": "Closed before it was actually fixed.",
+   "reason": "The agent's attitude is unsatisfactory",
+   "reason_id": 7450008,
+   "reason_code": 8,
+   "created_at": "2026-08-26T13:46:32Z",
+   "updated_at": "2026-08-26T13:46:32Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784123192,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001583,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001583.json",
+  "external_id": "ticket-864",
+  "subject": "Ledger export - not saving changes (req_24d2c31edc)",
+  "raw_subject": "Ledger export - not saving changes (req_24d2c31edc)",
+  "description": "anyone off the corporate VPN reports that the ledger export reports success but never persists the change. Started overnight; no config changes on our side. Error code 429, request id req_24d2c31edc.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000016,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-24T11:34:36Z",
+  "updated_at": "2026-08-28T07:18:51Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-08-26T22:34:36Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1784272731,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001590,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001590.json",
+  "external_id": "ticket-811",
+  "subject": "Cannot complete chargeback queue yesterday afternoon",
+  "raw_subject": "Cannot complete chargeback queue yesterday afternoon",
+  "description": "our whole support team reports that the chargeback queue rounds the totals differently from the export in us-west-2. One trace, if it helps:\n  PATCH /v1/merchant-dashboard/sessions -> 400 MemoryError after 25s (x-request-id: req_dd48bc9e03)\nWe have not changed anything since Monday. This is blocking our SOC 2 evidence run.",
+  "status": "open",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-25T15:33:46Z",
+  "updated_at": "2026-08-25T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300002,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1784070000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001614,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001614.json",
+  "external_id": "ticket-803",
+  "subject": "Search index reading stale configuration for everyone in the finance group",
+  "raw_subject": "Search index reading stale configuration for everyone in the finance group",
+  "description": "Search index applies yesterday's configuration instead of the current one on the shared demo workspace since the failover drill. Our gateway logs show:\n  DELETE /v1/card-authorizer/exports -> 503 UnauthorizedError after 22s (x-request-id: req_bfba080441)\nEvery failing call is against /v1/card-authorizer/webhooks out of us-west-2. Blocking the integration handover to our partner.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000014,
+  "organization_id": 3000033,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-31T06:25:31Z",
+  "updated_at": "2026-09-15T07:11:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "cirino_glenworth@borealfabrication.com",
+     "name": "Cirino Glenworth"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-15T09:25:31Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785827460,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001615,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001615.json",
+  "external_id": "ticket-829",
+  "subject": "The executive business review blocked by payout schedule",
+  "raw_subject": "The executive business review blocked by payout schedule",
+  "description": "Payout schedule queues the work but never dispatches it on the read-only replica since we added the second region. Our gateway logs show:\n  POST /v1/kyc/webhooks -> 502 TypeError after 2s (x-request-id: req_4caf53742f)\nEvery failing call is against /v1/kyc/invoices out of us-east-1. Blocking the executive business review.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-31T08:02:28Z",
+  "updated_at": "2026-09-03T13:18:12Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784812692,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001672,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001672.json",
+  "external_id": "ticket-848",
+  "subject": "[503] Invoice PDF on the APAC region",
+  "raw_subject": "[503] Invoice PDF on the APAC region",
+  "description": "Reporting this from the APAC region at 07:49: the invoice PDF returns records belonging to a different workspace. It has happened a dozen times overnight, always with error 503. We need it stable before customer onboarding - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000198,
+  "submitter_id": 2000198,
+  "assignee_id": 1000041,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-09T07:32:06Z",
+  "updated_at": "2026-09-22T15:18:04Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1786461484,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001708,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001708.json",
+  "external_id": "ticket-837",
+  "subject": "SAML metadata endpoint timing out in us-west-2 since the failover drill",
+  "raw_subject": "SAML metadata endpoint timing out in us-west-2 since the failover drill",
+  "description": "Our team noticed halfway through the migration that the SAML metadata endpoint times out after roughly 30 seconds. two of our admins are affected. We have not touched the configuration since the failover drill. Request id req_9cf98aeb77 if you want a trace.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": 1000038,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-17T12:37:02Z",
+  "updated_at": "2026-09-29T13:37:44Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787060264,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001744,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001744.json",
+  "external_id": "ticket-831",
+  "subject": "Error 503 when using admin console (req_fe8a2ccbe2)",
+  "raw_subject": "Error 503 when using admin console (req_fe8a2ccbe2)",
+  "description": "Could you check admin console? It shows stale data until a hard refresh - error 503, request req_fe8a2ccbe2, on our pre-production mirror. Not urgent yet, but it becomes urgent at the quarterly audit.",
+  "status": "pending",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000201,
+  "submitter_id": 2000201,
+  "assignee_id": 1000007,
+  "organization_id": 3000033,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-26T12:28:47Z",
+  "updated_at": "2026-09-28T16:23:31Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "phuc_romansky@borealfabrication.com",
+     "name": "Phuc Romansky"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300003,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1786983811,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001789,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001789.json",
+  "external_id": "ticket-822",
+  "subject": "Chargeback queue dropping sessions on our sandbox",
+  "raw_subject": "Chargeback queue dropping sessions on our sandbox",
+  "description": "Hi team - the chargeback queue logs the user out mid-session. We noticed it at the start of the shift and it has happened continuously since. Correlation id req_78d10900a5. Happy to jump on a call if that is faster.",
+  "status": "new",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000196,
+  "submitter_id": 2000196,
+  "assignee_id": null,
+  "organization_id": 3000033,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_boreal_fabrication",
+   "smb",
+   "technology",
+   "technical_contact"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T17:24:58Z",
+  "updated_at": "2026-10-02T17:24:58Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_alderstead@borealfabrication.com",
+     "name": "Michael Alderstead"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787333098,
+  "forum_topic_id": null
+ }
+]

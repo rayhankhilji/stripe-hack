@@ -1,0 +1,1554 @@
+{
+ "ok": true,
+ "messages": [
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: New team scoping - Quillen Press (30m, 3 participants) \u2014 recording call-376 \u00b7 sentiment neutral",
+   "ts": "1789122729.001571",
+   "team": "T-saporanetworks",
+   "thread_ts": "1789122729.001571",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-24",
+    "user-30"
+   ],
+   "latest_reply": "1789126559.001201",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "a07f8B3",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (30m, 3 participants) \u2014 recording call-376 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "63975440-98cf-5beb-96f9-ce24eec64305",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-31",
+      "user-34"
+     ],
+     "count": 2
+    }
+   ],
+   "pinned_to": [
+    "acct-7"
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (43m, 4 participants) \u2014 recording call-373 \u00b7 sentiment positive",
+   "ts": "1788337724.002165",
+   "team": "T-saporanetworks",
+   "thread_ts": "1788337724.002165",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-29"
+   ],
+   "latest_reply": "1788342665.002566",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "17f2E4c",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (43m, 4 participants) \u2014 recording call-373 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f649cb74-8fd0-5983-9b05-e0cd635ec7e5",
+   "reactions": [
+    {
+     "name": "eyes",
+     "users": [
+      "user-29",
+      "user-7"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-370 \u00b7 sentiment neutral",
+   "ts": "1785311101.001162",
+   "team": "T-saporanetworks",
+   "thread_ts": "1785311101.001162",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-29",
+    "user-34"
+   ],
+   "latest_reply": "1785315795.001496",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "3c45282",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-370 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "9550cd21-cbb2-50ce-8edd-742398235831"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (25m, 3 participants) \u2014 recording call-361 \u00b7 sentiment positive",
+   "ts": "1781177151.002612",
+   "team": "T-saporanetworks",
+   "thread_ts": "1781177151.002612",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-24",
+    "user-28",
+    "user-29"
+   ],
+   "latest_reply": "1781181737.002858",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "a1db907",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (25m, 3 participants) \u2014 recording call-361 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f69eb5e4-0196-56bc-8707-8ad9b1824566"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Expansion order form - Quillen Press (15m, 3 participants) \u2014 recording call-228 \u00b7 sentiment neutral",
+   "ts": "1780488058.001339",
+   "team": "T-saporanetworks",
+   "thread_ts": "1780488058.001339",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-29",
+    "user-30",
+    "user-34",
+    "user-7"
+   ],
+   "latest_reply": "1780494447.002168",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "881c7C4",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion order form - Quillen Press (15m, 3 participants) \u2014 recording call-228 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "4c0eef5b-e3f7-53d9-9599-f73af136eb28",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-34",
+      "user-31",
+      "user-22",
+      "user-24",
+      "user-7",
+      "user-28"
+     ],
+     "count": 6
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-24",
+      "user-28",
+      "user-7"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-355 \u00b7 sentiment positive",
+   "ts": "1779277502.000423",
+   "team": "T-saporanetworks",
+   "thread_ts": "1779277502.000423",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-28",
+    "user-29"
+   ],
+   "latest_reply": "1779283203.000584",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "cc38128",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-355 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "7de9b680-e814-5122-9a4d-a0ea57318d8f"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (56m, 2 participants) \u2014 recording call-352 \u00b7 sentiment neutral",
+   "ts": "1779185236.000697",
+   "team": "T-saporanetworks",
+   "thread_ts": "1779185236.000697",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-29"
+   ],
+   "latest_reply": "1779188942.000763",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "8203218",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (56m, 2 participants) \u2014 recording call-352 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "316191a0-56c3-5bcf-a432-80c98999191b"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Change order paperwork - Quillen Press (15m, 4 participants) \u2014 recording call-200 \u00b7 sentiment neutral",
+   "ts": "1777033659.000101",
+   "team": "T-saporanetworks",
+   "thread_ts": "1777033659.000101",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-24",
+    "user-29",
+    "user-34"
+   ],
+   "latest_reply": "1777038255.002556",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b24cCC3",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Change order paperwork - Quillen Press (15m, 4 participants) \u2014 recording call-200 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f6c767d7-e339-5026-afe0-8fd590038725",
+   "reactions": [
+    {
+     "name": "eyes",
+     "users": [
+      "user-22",
+      "user-24",
+      "user-34"
+     ],
+     "count": 3
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-24",
+      "user-22"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (49m, 2 participants) \u2014 recording call-340 \u00b7 sentiment neutral",
+   "ts": "1776846942.002063",
+   "team": "T-saporanetworks",
+   "thread_ts": "1776846942.002063",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-28",
+    "user-30"
+   ],
+   "latest_reply": "1776850394.002835",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c9220Da",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (49m, 2 participants) \u2014 recording call-340 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "9e20cfa1-407f-5665-8a05-2efcf9dee14d",
+   "reactions": [
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-31",
+      "user-22",
+      "user-29"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Expansion scoping - Quillen Press (24m, 3 participants) \u2014 recording call-334 \u00b7 sentiment positive",
+   "ts": "1774528002.001423",
+   "team": "T-saporanetworks",
+   "thread_ts": "1774528002.001423",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-24",
+    "user-29"
+   ],
+   "latest_reply": "1774531491.002252",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "b5382D9",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (24m, 3 participants) \u2014 recording call-334 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "36a83669-5926-5f0b-a12a-70e28fc9d7a2",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-24",
+      "user-30",
+      "user-23"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-1",
+   "text": "Call summary: Expansion scoping - Quillen Press (91m, 5 participants) \u2014 recording call-20 \u00b7 sentiment neutral",
+   "ts": "1771849309.002351",
+   "team": "T-saporanetworks",
+   "thread_ts": "1771849309.002351",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-29",
+    "user-30",
+    "user-31"
+   ],
+   "latest_reply": "1771854727.001448",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "e90403b",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (91m, 5 participants) \u2014 recording call-20 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "837d45f0-11cb-5ab3-be53-cb6e69de6cd2",
+   "reactions": [
+    {
+     "name": "eyes",
+     "users": [
+      "user-7",
+      "user-24"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: New team scoping - Quillen Press (15m, 2 participants) \u2014 recording call-303 \u00b7 sentiment neutral",
+   "ts": "1769423402.002223",
+   "team": "T-saporanetworks",
+   "thread_ts": "1769423402.002223",
+   "reply_count": 13,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-28",
+    "user-30"
+   ],
+   "latest_reply": "1769426372.000293",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "690f849",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (15m, 2 participants) \u2014 recording call-303 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8dce8492-bb8b-574b-87ed-40a12e5197d6"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: New team scoping - Quillen Press (15m, 2 participants) \u2014 recording call-275 \u00b7 sentiment neutral",
+   "ts": "1766043906.000767",
+   "team": "T-saporanetworks",
+   "thread_ts": "1766043906.000767",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-28",
+    "user-34",
+    "user-7"
+   ],
+   "latest_reply": "1766047449.000191",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6e6953a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (15m, 2 participants) \u2014 recording call-275 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c190f2a1-a62f-5b0b-8ac2-0116953d172f"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Commercial review - Quillen Press (30m, 2 participants) \u2014 recording call-100 \u00b7 sentiment positive",
+   "ts": "1765542002.000923",
+   "team": "T-saporanetworks",
+   "thread_ts": "1765542002.000923",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-30",
+    "user-7"
+   ],
+   "latest_reply": "1765546378.001159",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "6afeB42",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Commercial review - Quillen Press (30m, 2 participants) \u2014 recording call-100 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "094dc8d3-be69-5059-a4f4-e55d9f5e867a"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Expansion scoping - Quillen Press (31m, 2 participants) \u2014 recording call-251 \u00b7 sentiment positive",
+   "ts": "1765269479.001121",
+   "team": "T-saporanetworks",
+   "thread_ts": "1765269479.001121",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-28",
+    "user-31",
+    "user-7"
+   ],
+   "latest_reply": "1765274468.002849",
+   "subscribed": false,
+   "edited": {
+    "user": "user-28",
+    "ts": "1765269599.692641"
+   },
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "4564346",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (31m, 2 participants) \u2014 recording call-251 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "9e3ee9ca-57b9-5e44-9591-15e136084ce3",
+   "reactions": [
+    {
+     "name": "pray",
+     "users": [
+      "user-22",
+      "user-24"
+     ],
+     "count": 2
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-1",
+      "user-7",
+      "user-23",
+      "user-34",
+      "user-31"
+     ],
+     "count": 5
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (28m, 3 participants) \u2014 recording call-243 \u00b7 sentiment positive",
+   "ts": "1761297187.000408",
+   "team": "T-saporanetworks",
+   "thread_ts": "1761297187.000408",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-30"
+   ],
+   "latest_reply": "1761300139.000881",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "57c9E8d",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (28m, 3 participants) \u2014 recording call-243 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "51328d99-6d3a-5a31-acf5-37a47c78d959"
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Quillen Press - Platform Q4 FY26 \u2192 Negotiation. Legal redlines returned; indemnity clause still open. cc <@user-24>",
+   "ts": "1760996507.000728",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "aef564a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Quillen Press - Platform Q4 FY26 \u2192 Negotiation. Legal redlines returned; indemnity clause still open. cc "
+        },
+        {
+         "type": "user",
+         "user_id": "user-24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "86f14497-4338-5683-aad1-4df4e41f837d"
+  },
+  {
+   "type": "message",
+   "user": "user-37",
+   "text": "Call summary: Data access review - Quillen Press (26m, 5 participants) \u2014 recording call-264 \u00b7 sentiment at-risk",
+   "ts": "1760702221.000082",
+   "team": "T-saporanetworks",
+   "thread_ts": "1760702221.000082",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-22",
+    "user-24",
+    "user-29",
+    "user-37"
+   ],
+   "latest_reply": "1760705539.001981",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "c2b689a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Data access review - Quillen Press (26m, 5 participants) \u2014 recording call-264 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "b9de2927-4cf0-5027-80f3-aa6ed76991be"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: Data access review - Quillen Press (24m, 4 participants) \u2014 recording call-187 \u00b7 sentiment at-risk",
+   "ts": "1760531375.002276",
+   "team": "T-saporanetworks",
+   "thread_ts": "1760531375.002276",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1760535790.000691",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "49f9D0a",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Data access review - Quillen Press (24m, 4 participants) \u2014 recording call-187 \u00b7 sentiment at-risk"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "46136274-3cb6-5334-af4f-3f6663a64cf8",
+   "reactions": [
+    {
+     "name": "heart",
+     "users": [
+      "user-24",
+      "user-28",
+      "user-31",
+      "user-7"
+     ],
+     "count": 4
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Data access review - Quillen Press (26m, 5 participants) \u2014 recording call-124 \u00b7 sentiment neutral",
+   "ts": "1760443036.000997",
+   "team": "T-saporanetworks",
+   "thread_ts": "1760443036.000997",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-23",
+    "user-29",
+    "user-30",
+    "user-34"
+   ],
+   "latest_reply": "1760447196.001057",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "7d3b1Ed",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Data access review - Quillen Press (26m, 5 participants) \u2014 recording call-124 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8e31e352-5eef-5276-ba16-7a62b2357a33",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-37",
+      "user-22",
+      "user-23"
+     ],
+     "count": 3
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-29",
+      "user-24"
+     ],
+     "count": 2
+    },
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-29",
+      "user-31",
+      "user-24"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Expansion scoping - Quillen Press (28m, 3 participants) \u2014 recording call-235 \u00b7 sentiment neutral",
+   "ts": "1759823998.001679",
+   "team": "T-saporanetworks",
+   "thread_ts": "1759823998.001679",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-29",
+    "user-30"
+   ],
+   "latest_reply": "1759827008.002789",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "5874298",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (28m, 3 participants) \u2014 recording call-235 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "3eb55d0d-8845-54fa-a86b-e03878dc2aa8",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-37",
+      "user-7",
+      "user-23",
+      "user-34"
+     ],
+     "count": 4
+    },
+    {
+     "name": "eyes",
+     "users": [
+      "user-22",
+      "user-30",
+      "user-7",
+      "user-23",
+      "user-24",
+      "user-34"
+     ],
+     "count": 6
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-23",
+      "user-22"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Growth planning - Quillen Press (15m, 2 participants) \u2014 recording call-86 \u00b7 sentiment neutral",
+   "ts": "1758802501.000762",
+   "team": "T-saporanetworks",
+   "thread_ts": "1758802501.000762",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-22",
+    "user-30"
+   ],
+   "latest_reply": "1758806835.002736",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "fa939Cb",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (15m, 2 participants) \u2014 recording call-86 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "1cc6b5b4-d017-5e86-9093-d81ecb422f13"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: New team scoping - Quillen Press (28m, 5 participants) \u2014 recording call-272 \u00b7 sentiment neutral",
+   "ts": "1758801836.001697",
+   "team": "T-saporanetworks",
+   "thread_ts": "1758801836.001697",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-28",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1758805964.002805",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "0a80631",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (28m, 5 participants) \u2014 recording call-272 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "026ffb10-6bf2-5c92-9b92-a2100a65c2b8"
+  },
+  {
+   "type": "message",
+   "user": "user-29",
+   "text": "Call summary: New team scoping - Quillen Press (30m, 3 participants) \u2014 recording call-236 \u00b7 sentiment positive",
+   "ts": "1757419238.000819",
+   "team": "T-saporanetworks",
+   "thread_ts": "1757419238.000819",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-29",
+    "user-31"
+   ],
+   "latest_reply": "1757422517.001638",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "4d7f888",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (30m, 3 participants) \u2014 recording call-236 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "e557ef5c-7bcc-5a1b-aa7b-6a13b262fb1b"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-215 \u00b7 sentiment neutral",
+   "ts": "1757412912.001733",
+   "team": "T-saporanetworks",
+   "thread_ts": "1757412912.001733",
+   "reply_count": 14,
+   "reply_users_count": 4,
+   "reply_users": [
+    "user-22",
+    "user-24",
+    "user-28",
+    "user-29"
+   ],
+   "latest_reply": "1757416564.000305",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "3fa313e",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (15m, 3 participants) \u2014 recording call-215 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "a6e021e1-e6e5-5483-9525-47c0365d4a2c"
+  },
+  {
+   "type": "message",
+   "user": "user-22",
+   "text": "Call summary: Growth planning - Quillen Press (29m, 4 participants) \u2014 recording call-153 \u00b7 sentiment positive",
+   "ts": "1755173691.002652",
+   "team": "T-saporanetworks",
+   "thread_ts": "1755173691.002652",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-29",
+    "user-7"
+   ],
+   "latest_reply": "1755177617.002038",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "05851F9",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (29m, 4 participants) \u2014 recording call-153 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "3c6107db-b3e9-56d6-92b9-e304e6860254"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Expansion scoping - Quillen Press (65m, 3 participants) \u2014 recording call-147 \u00b7 sentiment neutral",
+   "ts": "1751623607.001828",
+   "team": "T-saporanetworks",
+   "thread_ts": "1751623607.001828",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-28",
+    "user-30"
+   ],
+   "latest_reply": "1751627871.002832",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "2e5aCF5",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (65m, 3 participants) \u2014 recording call-147 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "340faa3d-b2a5-56e4-a1eb-a1c9c25a260b",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-24",
+      "user-23",
+      "user-22"
+     ],
+     "count": 3
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-30",
+      "user-37"
+     ],
+     "count": 2
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-22",
+      "user-30"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-37",
+   "text": "Call summary: Expansion scoping - Quillen Press (42m, 3 participants) \u2014 recording call-135 \u00b7 sentiment positive",
+   "ts": "1750422448.001829",
+   "team": "T-saporanetworks",
+   "thread_ts": "1750422448.001829",
+   "reply_count": 14,
+   "reply_users_count": 2,
+   "reply_users": [
+    "user-28",
+    "user-37"
+   ],
+   "latest_reply": "1750425487.001808",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "f6738E9",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Expansion scoping - Quillen Press (42m, 3 participants) \u2014 recording call-135 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "c9cc4ad7-7fcb-5b3d-a969-7ca072508216",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-23",
+      "user-31"
+     ],
+     "count": 2
+    },
+    {
+     "name": "heart",
+     "users": [
+      "user-31",
+      "user-23",
+      "user-34",
+      "user-1"
+     ],
+     "count": 4
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-7",
+      "user-31"
+     ],
+     "count": 2
+    },
+    {
+     "name": "pray",
+     "users": [
+      "user-22",
+      "user-24"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-37",
+   "text": "Call summary: Growth planning - Quillen Press (43m, 3 participants) \u2014 recording call-117 \u00b7 sentiment neutral",
+   "ts": "1749039199.000341",
+   "team": "T-saporanetworks",
+   "thread_ts": "1749039199.000341",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-37",
+    "user-7"
+   ],
+   "latest_reply": "1749045725.000126",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "47fe9Fe",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (43m, 3 participants) \u2014 recording call-117 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "b10a6e22-159e-579c-93cf-4ad06a641f9b"
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: Growth planning - Quillen Press (26m, 2 participants) \u2014 recording call-78 \u00b7 sentiment positive",
+   "ts": "1747127462.001083",
+   "team": "T-saporanetworks",
+   "thread_ts": "1747127462.001083",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-24",
+    "user-28",
+    "user-30"
+   ],
+   "latest_reply": "1747130871.001632",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "3b77074",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Growth planning - Quillen Press (26m, 2 participants) \u2014 recording call-78 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "18840fe6-a11d-5123-811c-aa75626abb53",
+   "reactions": [
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-7",
+      "user-30",
+      "user-22"
+     ],
+     "count": 3
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-34",
+      "user-30",
+      "user-1"
+     ],
+     "count": 3
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Call summary: New team scoping - Quillen Press (15m, 3 participants) \u2014 recording call-64 \u00b7 sentiment neutral",
+   "ts": "1744977040.000541",
+   "team": "T-saporanetworks",
+   "thread_ts": "1744977040.000541",
+   "reply_count": 14,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-22",
+    "user-28",
+    "user-34"
+   ],
+   "latest_reply": "1744980725.000026",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d531598",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: New team scoping - Quillen Press (15m, 3 participants) \u2014 recording call-64 \u00b7 sentiment neutral"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "eea3657c-ba65-58c9-9c9a-958482bc771c",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-30",
+      "user-22"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-28",
+   "text": "Quillen Press - Platform FY26 \u2192 Prospecting. Champion is engaged; economic buyer not yet identified.",
+   "ts": "1743452459.002901",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "ffcf86d",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Quillen Press - Platform FY26 \u2192 Prospecting. Champion is engaged; economic buyer not yet identified."
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "8f8f99e5-7e46-5e6c-934a-b469f82133c2",
+   "reactions": [
+    {
+     "name": "+1",
+     "users": [
+      "user-31",
+      "user-7"
+     ],
+     "count": 2
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-23",
+      "user-22",
+      "user-31",
+      "user-7",
+      "user-24",
+      "user-1",
+      "user-30",
+      "user-37"
+     ],
+     "count": 8
+    },
+    {
+     "name": "tada",
+     "users": [
+      "user-7",
+      "user-24"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-31",
+   "text": "Quillen Press - Renewal \u2192 Prospecting. Discovery booked - current tooling is spreadsheets plus a legacy import job. cc <@user-30>",
+   "ts": "1742075785.001586",
+   "team": "T-saporanetworks",
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "d5f25A8",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Quillen Press - Renewal \u2192 Prospecting. Discovery booked - current tooling is spreadsheets plus a legacy import job. cc "
+        },
+        {
+         "type": "user",
+         "user_id": "user-30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "f6e6e0bd-e03f-5b05-a605-d33b8d3a44ee",
+   "reactions": [
+    {
+     "name": "white_check_mark",
+     "users": [
+      "user-34",
+      "user-30",
+      "user-24"
+     ],
+     "count": 3
+    },
+    {
+     "name": "raised_hands",
+     "users": [
+      "user-34",
+      "user-30"
+     ],
+     "count": 2
+    },
+    {
+     "name": "+1",
+     "users": [
+      "user-22",
+      "user-34"
+     ],
+     "count": 2
+    },
+    {
+     "name": "heart",
+     "users": [
+      "user-1",
+      "user-22"
+     ],
+     "count": 2
+    }
+   ]
+  },
+  {
+   "type": "message",
+   "user": "user-30",
+   "text": "Call summary: Signature logistics - Quillen Press (10m, 2 participants) \u2014 recording call-172 \u00b7 sentiment positive",
+   "ts": "1709208622.000743",
+   "team": "T-saporanetworks",
+   "thread_ts": "1709208622.000743",
+   "reply_count": 11,
+   "reply_users_count": 3,
+   "reply_users": [
+    "user-1",
+    "user-22",
+    "user-30"
+   ],
+   "latest_reply": "1709212249.002491",
+   "subscribed": false,
+   "blocks": [
+    {
+     "type": "rich_text",
+     "block_id": "12285B1",
+     "elements": [
+      {
+       "type": "rich_text_section",
+       "elements": [
+        {
+         "type": "text",
+         "text": "Call summary: Signature logistics - Quillen Press (10m, 2 participants) \u2014 recording call-172 \u00b7 sentiment positive"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "client_msg_id": "6ca4248c-8a34-51db-8a74-354ee2692cf2",
+   "reactions": [
+    {
+     "name": "tada",
+     "users": [
+      "user-1",
+      "user-7",
+      "user-22"
+     ],
+     "count": 3
+    }
+   ],
+   "pinned_to": [
+    "acct-7"
+   ]
+  }
+ ],
+ "has_more": false,
+ "pin_count": 2,
+ "channel_actions_ts": null,
+ "channel_actions_count": 0,
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

@@ -1,0 +1,1614 @@
+{
+ "files": [
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "doc-620",
+   "name": "Onboarding Checklist Q3 - 2026",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-20T14:31:59.000Z",
+   "modifiedTime": "2026-10-06T15:28:59.000Z",
+   "size": "5017",
+   "webViewLink": "https://docs.google.com/document/d/doc-620/edit",
+   "parents": [
+    "folder-users-oscarn-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Oscar Novak",
+     "emailAddress": "oscarn@saporanetworks.com",
+     "permissionId": "316970317128726038947",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q3 - 2026",
+   "parentId": "folder-users-oscarn-documents-2026",
+   "fileSize": "5017",
+   "viewUrl": "https://docs.google.com/document/d/doc-620/edit",
+   "owner": "oscarn@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q3 - 2026 Internal \u2014 Sapora Networks Record Owner: Oscar Novak <oscarn@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Boreal Fabrication (acct-33) \u2014 Tec"
+  },
+  {
+   "id": "doc-9080",
+   "name": "Renewal Proposal Q3 - draft (8)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-05T14:57:35.000Z",
+   "modifiedTime": "2026-10-05T14:57:35.000Z",
+   "size": "10455",
+   "webViewLink": "https://docs.google.com/document/d/doc-9080/edit",
+   "parents": [
+    "folder-shared-engineering-architecture"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 - draft (8)",
+   "parentId": "folder-shared-engineering-architecture",
+   "fileSize": "10455",
+   "viewUrl": "https://docs.google.com/document/d/doc-9080/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 - draft (8) Confidential \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) "
+  },
+  {
+   "id": "doc-10293",
+   "name": "Vendor Review Q3 v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-05T12:25:45.000Z",
+   "modifiedTime": "2026-10-05T12:25:45.000Z",
+   "size": "3612",
+   "webViewLink": "https://docs.google.com/document/d/doc-10293/edit",
+   "parents": [
+    "folder-shared-product-analytics-08"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 v2",
+   "parentId": "folder-shared-product-analytics-08",
+   "fileSize": "3612",
+   "viewUrl": "https://docs.google.com/document/d/doc-10293/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 Internal \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier"
+  },
+  {
+   "id": "doc-6980",
+   "name": "Vendor Review Q3 for the exec roadmap steering committee",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-12-16T16:35:41.000Z",
+   "modifiedTime": "2026-10-02T16:24:34.000Z",
+   "size": "17068",
+   "webViewLink": "https://docs.google.com/document/d/doc-6980/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q4-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Markus M\u00fcller",
+     "emailAddress": "markusm@saporanetworks.com",
+     "permissionId": "215731061089566422325",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Vendor Review Q3 for the exec roadmap steering committee",
+   "parentId": "folder-shared-finance-billing-2026-q4-archive",
+   "fileSize": "17068",
+   "viewUrl": "https://docs.google.com/document/d/doc-6980/edit",
+   "owner": "markusm@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 for the exec roadmap steering committee Internal \u2014 Sapora Networks Record Owner: Markus M\u00fcller <markusm@saporanetworks.com> (Revenue Accountant, Finance) Account: Boreal Fabrication ("
+  },
+  {
+   "id": "doc-3260",
+   "name": "Security Review Q3 - MR's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-02T11:00:50.000Z",
+   "modifiedTime": "2026-10-02T11:00:50.000Z",
+   "size": "26801",
+   "webViewLink": "https://docs.google.com/document/d/doc-3260/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q3 - MR's copy",
+   "parentId": "folder-shared-product-specs-v1-5",
+   "fileSize": "26801",
+   "viewUrl": "https://docs.google.com/document/d/doc-3260/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Security Review Q3 - MR's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier s"
+  },
+  {
+   "id": "doc-7040",
+   "name": "Quarterly Business Review Q3 (131)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-29T11:05:35.000Z",
+   "modifiedTime": "2026-09-29T11:05:35.000Z",
+   "size": "8695",
+   "webViewLink": "https://docs.google.com/document/d/doc-7040/edit",
+   "parents": [
+    "folder-users-timk-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 (131)",
+   "parentId": "folder-users-timk-desktop",
+   "fileSize": "8695",
+   "viewUrl": "https://docs.google.com/document/d/doc-7040/edit",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 (131) Internal \u2014 Sapora Networks Record Owner: Tim Kuhn <timk@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technology, ti"
+  },
+  {
+   "id": "doc-3071",
+   "name": "Boreal Fabrication - Data Processing Addendum - 2026.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-08-25T17:35:41.000Z",
+   "modifiedTime": "2026-09-29T09:10:39.000Z",
+   "size": "6692",
+   "webViewLink": "https://drive.google.com/file/d/doc-3071/view",
+   "parents": [
+    "folder-shared-professional-services-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Boreal Fabrication - Data Processing Addendum - 2026.xlsx",
+   "parentId": "folder-shared-professional-services-documents-2026",
+   "fileSize": "6692",
+   "viewUrl": "https://drive.google.com/file/d/doc-3071/view",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Boreal Fabrication - Data Processing Addendum - 2026 Confidential \u2014 Sapora Networks Record Owner: Onuker Kaya <onukerk@saporanetworks.com> (Head of Professional Services, Professional Services) Accoun"
+  },
+  {
+   "id": "doc-984",
+   "name": "Copy of Monthly Report Q4 v3",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-28T20:04:22.000Z",
+   "modifiedTime": "2026-09-28T20:04:22.000Z",
+   "size": "3212",
+   "webViewLink": "https://docs.google.com/document/d/doc-984/edit",
+   "parents": [
+    "folder-shared-compliance-reports-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Daniela Schr\u00f6der",
+     "emailAddress": "danielas@saporanetworks.com",
+     "permissionId": "497333830400986499048",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Monthly Report Q4 v3",
+   "parentId": "folder-shared-compliance-reports-q4",
+   "fileSize": "3212",
+   "viewUrl": "https://docs.google.com/document/d/doc-984/edit",
+   "owner": "danielas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q4 v3 Internal \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb, domai"
+  },
+  {
+   "id": "doc-7400",
+   "name": "Capacity Plan Q3 - EMEA",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-23T11:13:39.000Z",
+   "modifiedTime": "2026-09-23T11:13:39.000Z",
+   "size": "3195",
+   "webViewLink": "https://docs.google.com/document/d/doc-7400/edit",
+   "parents": [
+    "folder-shared-sales-pipeline-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ashley Mossshaw",
+     "emailAddress": "ashleym@saporanetworks.com",
+     "permissionId": "453234268448185886573",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - EMEA",
+   "parentId": "folder-shared-sales-pipeline-q3",
+   "fileSize": "3195",
+   "viewUrl": "https://docs.google.com/document/d/doc-7400/edit",
+   "owner": "ashleym@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - EMEA Internal \u2014 Sapora Networks Record Owner: Ashley Mossshaw <ashleym@saporanetworks.com> (Senior Account Executive, Sales) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier"
+  },
+  {
+   "id": "doc-2780",
+   "name": "Capacity Plan Q3 - 2026-08 v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-22T15:26:54.000Z",
+   "modifiedTime": "2026-09-22T15:26:54.000Z",
+   "size": "3791",
+   "webViewLink": "https://docs.google.com/document/d/doc-2780/edit",
+   "parents": [
+    "folder-users-felixm-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - 2026-08 v2",
+   "parentId": "folder-users-felixm-downloads",
+   "fileSize": "3791",
+   "viewUrl": "https://docs.google.com/document/d/doc-2780/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - 2026-08 v2 Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb, "
+  },
+  {
+   "id": "doc-1849",
+   "name": "Quarterly Business Review final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-21T15:06:51.000Z",
+   "modifiedTime": "2026-09-21T15:06:51.000Z",
+   "size": "12310",
+   "webViewLink": "https://docs.google.com/document/d/doc-1849/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review final",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "12310",
+   "viewUrl": "https://docs.google.com/document/d/doc-1849/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review final Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb,"
+  },
+  {
+   "id": "doc-9165",
+   "name": "Security Review Q3 - shared_v2 - AJ's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-03-05T16:26:31.000Z",
+   "modifiedTime": "2026-09-21T13:35:35.000Z",
+   "size": "3114",
+   "webViewLink": "https://docs.google.com/document/d/doc-9165/edit",
+   "parents": [
+    "folder-users-selink-documents-2026-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q3 - shared_v2 - AJ's copy",
+   "parentId": "folder-users-selink-documents-2026-archive",
+   "fileSize": "3114",
+   "viewUrl": "https://docs.google.com/document/d/doc-9165/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Security Review Q3 - shared_v2 - AJ's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Techno"
+  },
+  {
+   "id": "doc-8457",
+   "name": "Spend Summary Q3 - 2026-08 - copy.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-04-28T20:59:54.000Z",
+   "modifiedTime": "2026-09-21T07:47:02.000Z",
+   "size": "4607",
+   "webViewLink": "https://drive.google.com/file/d/doc-8457/view",
+   "parents": [
+    "folder-shared-sales-pipeline-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Spend Summary Q3 - 2026-08 - copy.xlsx",
+   "parentId": "folder-shared-sales-pipeline-q4",
+   "fileSize": "4607",
+   "viewUrl": "https://drive.google.com/file/d/doc-8457/view",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q3 - 2026-08 - copy Internal \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier "
+  },
+  {
+   "id": "doc-2920",
+   "name": "Monthly Report Q3 v38",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-18T14:34:22.000Z",
+   "modifiedTime": "2026-09-18T14:34:22.000Z",
+   "size": "4086",
+   "webViewLink": "https://docs.google.com/document/d/doc-2920/edit",
+   "parents": [
+    "folder-users-onukerk-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 v38",
+   "parentId": "folder-users-onukerk-downloads",
+   "fileSize": "4086",
+   "viewUrl": "https://docs.google.com/document/d/doc-2920/edit",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 v38 Internal \u2014 Sapora Networks Record Owner: Onuker Kaya <onukerk@saporanetworks.com> (Head of Professional Services, Professional Services) Account: Boreal Fabrication (acct-33) \u2014 T"
+  },
+  {
+   "id": "doc-5704",
+   "name": "Architecture Note Q3 v11.yaml",
+   "mimeType": "application/yaml",
+   "createdTime": "2026-09-18T02:27:39.000Z",
+   "modifiedTime": "2026-09-18T02:27:39.000Z",
+   "size": "1353",
+   "webViewLink": "https://drive.google.com/file/d/doc-5704/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1188"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q3 v11.yaml",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1188",
+   "fileSize": "1353",
+   "viewUrl": "https://drive.google.com/file/d/doc-5704/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q3 v11.yaml Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technology, ti"
+  },
+  {
+   "id": "doc-6233",
+   "name": "Incident Timeline Q3 - 30.07.26.sql",
+   "mimeType": "application/sql",
+   "createdTime": "2026-09-17T14:28:01.000Z",
+   "modifiedTime": "2026-09-17T14:28:01.000Z",
+   "size": "2681",
+   "webViewLink": "https://drive.google.com/file/d/doc-6233/view",
+   "parents": [
+    "folder-shared-engineering-runbooks-webapp"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline Q3 - 30.07.26.sql",
+   "parentId": "folder-shared-engineering-runbooks-webapp",
+   "fileSize": "2681",
+   "viewUrl": "https://drive.google.com/file/d/doc-6233/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q3 - 30.07.26.sql Restricted \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Techno"
+  },
+  {
+   "id": "doc-8969",
+   "name": "Data Processing Addendum Q3 - INTL v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-04T18:24:10.000Z",
+   "modifiedTime": "2026-09-17T08:29:14.000Z",
+   "size": "8098",
+   "webViewLink": "https://docs.google.com/document/d/doc-8969/edit",
+   "parents": [
+    "folder-users-ulkudeso-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q3 - INTL v2",
+   "parentId": "folder-users-ulkudeso-documents-2026",
+   "fileSize": "8098",
+   "viewUrl": "https://docs.google.com/document/d/doc-8969/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q3 - INTL v2 Confidential \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Boreal Fabrication (acct-33) \u2014 Tech"
+  },
+  {
+   "id": "doc-636",
+   "name": "Pricing Worksheet Q3 - CR's copy.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-09-15T03:32:51.000Z",
+   "modifiedTime": "2026-09-15T03:32:51.000Z",
+   "size": "5304",
+   "webViewLink": "https://drive.google.com/file/d/doc-636/view",
+   "parents": [
+    "folder-users-janusm-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - CR's copy.xlsx",
+   "parentId": "folder-users-janusm-documents-2026",
+   "fileSize": "5304",
+   "viewUrl": "https://drive.google.com/file/d/doc-636/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - CR's copy Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technol"
+  },
+  {
+   "id": "doc-680",
+   "name": "Renewal Proposal Q3 - MR",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-22T10:16:54.000Z",
+   "modifiedTime": "2026-09-10T12:17:42.000Z",
+   "size": "1648",
+   "webViewLink": "https://docs.google.com/document/d/doc-680/edit",
+   "parents": [
+    "folder-shared-compliance-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Daniela Schr\u00f6der",
+     "emailAddress": "danielas@saporanetworks.com",
+     "permissionId": "497333830400986499048",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 - MR",
+   "parentId": "folder-shared-compliance-documents-2026",
+   "fileSize": "1648",
+   "viewUrl": "https://docs.google.com/document/d/doc-680/edit",
+   "owner": "danielas@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 - MR Confidential \u2014 Sapora Networks Record Owner: Daniela Schr\u00f6der <danielas@saporanetworks.com> (Head of Compliance, Compliance) Account: Boreal Fabrication (acct-33) \u2014 Technology"
+  },
+  {
+   "id": "doc-3155",
+   "name": "Monthly Report Q3 v43",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-10T11:38:02.000Z",
+   "modifiedTime": "2026-09-10T11:38:02.000Z",
+   "size": "5572",
+   "webViewLink": "https://docs.google.com/document/d/doc-3155/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q3 v43",
+   "parentId": "folder-shared-finance-billing-2026-q1",
+   "fileSize": "5572",
+   "viewUrl": "https://docs.google.com/document/d/doc-3155/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 v43 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier sm"
+  },
+  {
+   "id": "doc-4202",
+   "name": "Copy of Security Review Q4 v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-03T09:58:40.000Z",
+   "modifiedTime": "2026-09-03T09:58:40.000Z",
+   "size": "12224",
+   "webViewLink": "https://docs.google.com/document/d/doc-4202/edit",
+   "parents": [
+    "folder-shared-sales-territories-emea"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Security Review Q4 v2",
+   "parentId": "folder-shared-sales-territories-emea",
+   "fileSize": "12224",
+   "viewUrl": "https://docs.google.com/document/d/doc-4202/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Security Review Q4 v2 Confidential \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technolo"
+  },
+  {
+   "id": "doc-6675",
+   "name": "Vendor Review (24)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-10T17:56:58.000Z",
+   "modifiedTime": "2026-09-02T16:08:38.000Z",
+   "size": "3841",
+   "webViewLink": "https://docs.google.com/document/d/doc-6675/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Vendor Review (24)",
+   "parentId": "folder-shared-finance-billing-2026-q4",
+   "fileSize": "3841",
+   "viewUrl": "https://docs.google.com/document/d/doc-6675/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Vendor Review (24) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb, "
+  },
+  {
+   "id": "doc-1450",
+   "name": "Monthly Report Q3 - 2026-07",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-28T18:57:54.000Z",
+   "modifiedTime": "2026-09-02T11:28:02.000Z",
+   "size": "2389",
+   "webViewLink": "https://docs.google.com/document/d/doc-1450/edit",
+   "parents": [
+    "folder-shared-sales-pipeline-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Klaudia Simon",
+     "emailAddress": "klaudias@saporanetworks.com",
+     "permissionId": "885909868794380205103",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 - 2026-07",
+   "parentId": "folder-shared-sales-pipeline-q4",
+   "fileSize": "2389",
+   "viewUrl": "https://docs.google.com/document/d/doc-1450/edit",
+   "owner": "klaudias@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 - 2026-07 Internal \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb"
+  },
+  {
+   "id": "doc-6840",
+   "name": "Capacity Plan Q3 - draft v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-06-27T20:00:42.000Z",
+   "modifiedTime": "2026-08-31T13:47:49.000Z",
+   "size": "6070",
+   "webViewLink": "https://docs.google.com/document/d/doc-6840/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-models-2026-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Capacity Plan Q3 - draft v2",
+   "parentId": "folder-shared-finance-models-2026-archive",
+   "fileSize": "6070",
+   "viewUrl": "https://docs.google.com/document/d/doc-6840/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - draft v2 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, t"
+  },
+  {
+   "id": "doc-3375",
+   "name": "Monthly Report Q3 (62).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-08-28T15:22:13.000Z",
+   "modifiedTime": "2026-08-28T15:22:13.000Z",
+   "size": "1351",
+   "webViewLink": "https://drive.google.com/file/d/doc-3375/view",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-models-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q3 (62).json",
+   "parentId": "folder-shared-finance-models-2026",
+   "fileSize": "1351",
+   "viewUrl": "https://drive.google.com/file/d/doc-3375/view",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 (62).json Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, t"
+  },
+  {
+   "id": "doc-1670",
+   "name": "Schema Migration Q3 (Alex's copy).ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-08-28T12:07:20.000Z",
+   "modifiedTime": "2026-08-28T12:07:20.000Z",
+   "size": "1067",
+   "webViewLink": "https://drive.google.com/file/d/doc-1670/view",
+   "parents": [
+    "folder-shared-engineering-platform-api-v1-6"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Schema Migration Q3 (Alex's copy).ts",
+   "parentId": "folder-shared-engineering-platform-api-v1-6",
+   "fileSize": "1067",
+   "viewUrl": "https://drive.google.com/file/d/doc-1670/view",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Schema Migration Q3 (Alex's copy).ts Internal \u2014 Sapora Networks Record Owner: Tim Kuhn <timk@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technology, "
+  },
+  {
+   "id": "doc-9268",
+   "name": "Boreal Fabrication - Pricing Worksheet - 2026-07",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-27T11:08:17.000Z",
+   "modifiedTime": "2026-08-27T11:08:17.000Z",
+   "size": "6868",
+   "webViewLink": "https://docs.google.com/document/d/doc-9268/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Boreal Fabrication - Pricing Worksheet - 2026-07",
+   "parentId": "folder-shared-product-specs-v1-5",
+   "fileSize": "6868",
+   "viewUrl": "https://docs.google.com/document/d/doc-9268/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Boreal Fabrication - Pricing Worksheet - 2026-07 Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 "
+  },
+  {
+   "id": "doc-6338",
+   "name": "Launch Deck Q3 - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-26T17:17:35.000Z",
+   "modifiedTime": "2026-08-26T17:17:35.000Z",
+   "size": "2347",
+   "webViewLink": "https://docs.google.com/document/d/doc-6338/edit",
+   "parents": [
+    "folder-users-stefanief-screenshots-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Launch Deck Q3 - sales_ops",
+   "parentId": "folder-users-stefanief-screenshots-2026",
+   "fileSize": "2347",
+   "viewUrl": "https://docs.google.com/document/d/doc-6338/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Launch Deck Q3 - sales_ops Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technol"
+  },
+  {
+   "id": "doc-5960",
+   "name": "Capacity Plan Q3 (117)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-25T11:00:02.000Z",
+   "modifiedTime": "2026-08-25T11:00:02.000Z",
+   "size": "3941",
+   "webViewLink": "https://docs.google.com/document/d/doc-5960/edit",
+   "parents": [
+    "folder-shared-customer-success-pipeline-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 (117)",
+   "parentId": "folder-shared-customer-success-pipeline-q3",
+   "fileSize": "3941",
+   "viewUrl": "https://docs.google.com/document/d/doc-5960/edit",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 (117) Internal \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Boreal Fabrication (acct-33) \u2014 Technology, ti"
+  },
+  {
+   "id": "doc-4915",
+   "name": "Vendor Review Q3 (91)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-01-06T17:33:43.000Z",
+   "modifiedTime": "2026-08-25T09:37:51.000Z",
+   "size": "8236",
+   "webViewLink": "https://docs.google.com/document/d/doc-4915/edit",
+   "parents": [
+    "folder-users-christinas-downloads-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 (91)",
+   "parentId": "folder-users-christinas-downloads-archive",
+   "fileSize": "8236",
+   "viewUrl": "https://docs.google.com/document/d/doc-4915/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 (91) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier sm"
+  },
+  {
+   "id": "doc-973",
+   "name": "Copy of Events Extract Q1 - old",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-24T15:58:37.000Z",
+   "modifiedTime": "2026-08-24T15:58:37.000Z",
+   "size": "1680",
+   "webViewLink": "https://docs.google.com/document/d/doc-973/edit",
+   "parents": [
+    "folder-users-onukerk-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Onuker Kaya",
+     "emailAddress": "onukerk@saporanetworks.com",
+     "permissionId": "193656497093325720211",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Events Extract Q1 - old",
+   "parentId": "folder-users-onukerk-documents-2026",
+   "fileSize": "1680",
+   "viewUrl": "https://docs.google.com/document/d/doc-973/edit",
+   "owner": "onukerk@saporanetworks.com",
+   "contentSnippet": "Events Extract Q1 - old Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb, domain "
+  },
+  {
+   "id": "doc-10172",
+   "name": "Pricing Worksheet Q3 - 2026-07 - AJ's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T09:47:44.000Z",
+   "modifiedTime": "2026-08-21T11:06:10.000Z",
+   "size": "2258",
+   "webViewLink": "https://docs.google.com/document/d/doc-10172/edit",
+   "parents": [
+    "folder-shared-compliance-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Esmeralda Bellthorpe",
+     "emailAddress": "esmeraldab@saporanetworks.com",
+     "permissionId": "077001835444695732174",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - 2026-07 - AJ's copy",
+   "parentId": "folder-shared-compliance-documents-2026",
+   "fileSize": "2258",
+   "viewUrl": "https://docs.google.com/document/d/doc-10172/edit",
+   "owner": "esmeraldab@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - 2026-07 - AJ's copy Confidential \u2014 Sapora Networks Record Owner: Esmeralda Bellthorpe <esmeraldab@saporanetworks.com> (Risk Analyst, Compliance) Account: Boreal Fabrication (acc"
+  },
+  {
+   "id": "doc-4502",
+   "name": "Pricing Worksheet Q3 (42)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-20T09:02:28.000Z",
+   "modifiedTime": "2026-08-20T09:02:28.000Z",
+   "size": "4367",
+   "webViewLink": "https://docs.google.com/document/d/doc-4502/edit",
+   "parents": [
+    "folder-users-esmeraldab-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Esmeralda Bellthorpe",
+     "emailAddress": "esmeraldab@saporanetworks.com",
+     "permissionId": "077001835444695732174",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 (42)",
+   "parentId": "folder-users-esmeraldab-notes-2026",
+   "fileSize": "4367",
+   "viewUrl": "https://docs.google.com/document/d/doc-4502/edit",
+   "owner": "esmeraldab@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 (42) Confidential \u2014 Sapora Networks Record Owner: Esmeralda Bellthorpe <esmeraldab@saporanetworks.com> (Risk Analyst, Compliance) Account: Boreal Fabrication (acct-33) \u2014 Technolog"
+  },
+  {
+   "id": "doc-560",
+   "name": "Quarterly Business Review Q3 (Sam's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T16:41:57.000Z",
+   "modifiedTime": "2026-08-17T16:41:57.000Z",
+   "size": "3205",
+   "webViewLink": "https://docs.google.com/document/d/doc-560/edit",
+   "parents": [
+    "folder-users-christinas-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 (Sam's copy)",
+   "parentId": "folder-users-christinas-documents-2026",
+   "fileSize": "3205",
+   "viewUrl": "https://docs.google.com/document/d/doc-560/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 (Sam's copy) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014"
+  },
+  {
+   "id": "doc-9295",
+   "name": "Monthly Report Q2 (132).xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-02-23T12:21:50.000Z",
+   "modifiedTime": "2026-08-14T15:21:03.000Z",
+   "size": "4609",
+   "webViewLink": "https://drive.google.com/file/d/doc-9295/view",
+   "parents": [
+    "folder-users-christinas-downloads-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q2 (132).xlsx",
+   "parentId": "folder-users-christinas-downloads-archive",
+   "fileSize": "4609",
+   "viewUrl": "https://drive.google.com/file/d/doc-9295/view",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 (132) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier "
+  },
+  {
+   "id": "doc-2352",
+   "name": "Monthly Report Q2 - 2026 - copy.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-07-20T09:55:18.000Z",
+   "modifiedTime": "2026-08-11T08:36:42.000Z",
+   "size": "4608",
+   "webViewLink": "https://drive.google.com/file/d/doc-2352/view",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Monthly Report Q2 - 2026 - copy.xlsx",
+   "parentId": "folder-shared-finance-billing-2026-q1",
+   "fileSize": "4608",
+   "viewUrl": "https://drive.google.com/file/d/doc-2352/view",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 - 2026 - copy Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technolog"
+  },
+  {
+   "id": "doc-4253",
+   "name": "On-Call Handover Q2 - 2026 - copy.yaml",
+   "mimeType": "application/yaml",
+   "createdTime": "2026-07-03T16:53:28.000Z",
+   "modifiedTime": "2026-08-04T09:35:26.000Z",
+   "size": "1387",
+   "webViewLink": "https://drive.google.com/file/d/doc-4253/view",
+   "parents": [
+    "folder-shared-engineering-platform-billing-service-v1-6"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Elizabeth Marshby",
+     "emailAddress": "elizabethm@saporanetworks.com",
+     "permissionId": "114953379751046152091",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "On-Call Handover Q2 - 2026 - copy.yaml",
+   "parentId": "folder-shared-engineering-platform-billing-service-v1-6",
+   "fileSize": "1387",
+   "viewUrl": "https://drive.google.com/file/d/doc-4253/view",
+   "owner": "elizabethm@saporanetworks.com",
+   "contentSnippet": "On-Call Handover Q2 - 2026 - copy.yaml Internal \u2014 Sapora Networks Record Owner: Elizabeth Marshby <elizabethm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-3"
+  },
+  {
+   "id": "doc-5630",
+   "name": "Pricing Worksheet Q2 - INTL",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-03T13:36:46.000Z",
+   "modifiedTime": "2026-08-03T13:36:46.000Z",
+   "size": "2905",
+   "webViewLink": "https://docs.google.com/document/d/doc-5630/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q2 - INTL",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "2905",
+   "viewUrl": "https://docs.google.com/document/d/doc-5630/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q2 - INTL Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb,"
+  },
+  {
+   "id": "doc-8448",
+   "name": "Load Test Report Q2 v52.tar.gz",
+   "mimeType": "application/gzip",
+   "createdTime": "2026-06-18T11:14:24.000Z",
+   "modifiedTime": "2026-07-30T13:21:40.000Z",
+   "size": "628",
+   "webViewLink": "https://drive.google.com/file/d/doc-8448/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Load Test Report Q2 v52.tar.gz",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "628",
+   "viewUrl": "https://drive.google.com/file/d/doc-8448/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Load Test Report Q2 v52.tar.gz Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Tec"
+  },
+  {
+   "id": "doc-3156",
+   "name": "Deploy Checklist Q2 - old.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-02-02T10:23:02.000Z",
+   "modifiedTime": "2026-07-29T23:47:01.000Z",
+   "size": "1239",
+   "webViewLink": "https://drive.google.com/file/d/doc-3156/view",
+   "parents": [
+    "folder-shared-engineering-platform-checkout-service-v1-6-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 - old.json",
+   "parentId": "folder-shared-engineering-platform-checkout-service-v1-6-archive",
+   "fileSize": "1239",
+   "viewUrl": "https://drive.google.com/file/d/doc-3156/view",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 - old.json Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technology, t"
+  },
+  {
+   "id": "doc-3548",
+   "name": "Security Review Q2 (Sam's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-08T10:16:36.000Z",
+   "modifiedTime": "2026-07-28T10:41:41.000Z",
+   "size": "6490",
+   "webViewLink": "https://docs.google.com/document/d/doc-3548/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-playbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Security Review Q2 (Sam's copy)",
+   "parentId": "folder-shared-support-playbooks",
+   "fileSize": "6490",
+   "viewUrl": "https://docs.google.com/document/d/doc-3548/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Security Review Q2 (Sam's copy) Confidential \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier"
+  },
+  {
+   "id": "doc-9281",
+   "name": "Architecture Note Q2 (Morgan's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-23T14:42:00.000Z",
+   "modifiedTime": "2026-07-23T14:42:00.000Z",
+   "size": "7211",
+   "webViewLink": "https://docs.google.com/document/d/doc-9281/edit",
+   "parents": [
+    "folder-shared-engineering-runbooks-billing-service"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q2 (Morgan's copy)",
+   "parentId": "folder-shared-engineering-runbooks-billing-service",
+   "fileSize": "7211",
+   "viewUrl": "https://docs.google.com/document/d/doc-9281/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q2 (Morgan's copy) Internal \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Technol"
+  },
+  {
+   "id": "doc-9869",
+   "name": "Spend Summary Q2 (153)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-14T17:50:29.000Z",
+   "modifiedTime": "2026-07-22T16:28:08.000Z",
+   "size": "1309",
+   "webViewLink": "https://docs.google.com/document/d/doc-9869/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Spend Summary Q2 (153)",
+   "parentId": "folder-shared-finance-billing-2026-q4",
+   "fileSize": "1309",
+   "viewUrl": "https://docs.google.com/document/d/doc-9869/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q2 (153) Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier s"
+  },
+  {
+   "id": "doc-7909",
+   "name": "Deploy Checklist Q2 (68).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-05-26T18:35:02.000Z",
+   "modifiedTime": "2026-07-20T09:31:07.000Z",
+   "size": "1182",
+   "webViewLink": "https://drive.google.com/file/d/doc-7909/view",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 (68).json",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "1182",
+   "viewUrl": "https://drive.google.com/file/d/doc-7909/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 (68).json Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Tec"
+  },
+  {
+   "id": "doc-8948",
+   "name": "Security Review Q2 - 2026-05",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-15T11:02:06.000Z",
+   "modifiedTime": "2026-07-15T11:02:06.000Z",
+   "size": "12559",
+   "webViewLink": "https://docs.google.com/document/d/doc-8948/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q2 - 2026-05",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "12559",
+   "viewUrl": "https://docs.google.com/document/d/doc-8948/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Security Review Q2 - 2026-05 Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb"
+  },
+  {
+   "id": "doc-4292",
+   "name": "Quarterly Business Review Q2 - PT's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-10-01T10:14:54.000Z",
+   "modifiedTime": "2026-07-08T15:32:58.000Z",
+   "size": "5820",
+   "webViewLink": "https://docs.google.com/document/d/doc-4292/edit",
+   "parents": [
+    "folder-users-anjab-notes-2026-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Anja Beck",
+     "emailAddress": "anjab@saporanetworks.com",
+     "permissionId": "158489070806742066034",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q2 - PT's copy",
+   "parentId": "folder-users-anjab-notes-2026-archive",
+   "fileSize": "5820",
+   "viewUrl": "https://docs.google.com/document/d/doc-4292/edit",
+   "owner": "anjab@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q2 - PT's copy Internal \u2014 Sapora Networks Record Owner: Anja Beck <anjab@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Boreal Fabrication (acct-33"
+  },
+  {
+   "id": "doc-1195",
+   "name": "Vendor Review Q2 v9",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-08T15:52:01.000Z",
+   "modifiedTime": "2026-07-06T20:38:49.000Z",
+   "size": "2512",
+   "webViewLink": "https://docs.google.com/document/d/doc-1195/edit",
+   "parents": [
+    "folder-users-klaudias-downloads-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Klaudia Simon",
+     "emailAddress": "klaudias@saporanetworks.com",
+     "permissionId": "885909868794380205103",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q2 v9",
+   "parentId": "folder-users-klaudias-downloads-archive",
+   "fileSize": "2512",
+   "viewUrl": "https://docs.google.com/document/d/doc-1195/edit",
+   "owner": "klaudias@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q2 v9 Internal \u2014 Sapora Networks Record Owner: Klaudia Simon <klaudias@saporanetworks.com> (Account Executive, Sales) Account: Boreal Fabrication (acct-33) \u2014 Technology, tier smb, domain"
+  },
+  {
+   "id": "doc-3263",
+   "name": "Load Test Report Q2 - 2026-05",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-04-14T11:54:11.000Z",
+   "modifiedTime": "2026-07-06T12:47:26.000Z",
+   "size": "11337",
+   "webViewLink": "https://docs.google.com/document/d/doc-3263/edit",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1102"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Load Test Report Q2 - 2026-05",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1102",
+   "fileSize": "11337",
+   "viewUrl": "https://docs.google.com/document/d/doc-3263/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Load Test Report Q2 - 2026-05 Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Boreal Fabrication (acct-33) \u2014 Tech"
+  }
+ ],
+ "totalCount": 168,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtMzU0OCIsImRvYy05MjgxIiwiZG9jLTk4NjkiLCJkb2MtNzkwOSIsImRvYy04OTQ4IiwiZG9jLTQyOTIiLCJkb2MtMTE5NSIsImRvYy0zMjYzIl19"
+}

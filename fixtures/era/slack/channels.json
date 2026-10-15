@@ -1,0 +1,4019 @@
+{
+ "ok": true,
+ "channels": [
+  {
+   "id": "chan-general",
+   "name": "general",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1658988067,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": true,
+   "unlinked": 0,
+   "name_normalized": "general",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1661391209532,
+   "is_member": true,
+   "topic": {
+    "value": "Company-wide announcements and work-based matters",
+    "creator": "user-0",
+    "last_set": 1658988067
+   },
+   "purpose": {
+    "value": "Company-wide announcements and work-based matters",
+    "creator": "user-0",
+    "last_set": 1658988067
+   },
+   "previous_names": [],
+   "num_members": 51
+  },
+  {
+   "id": "chan-random",
+   "name": "random",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1698480998,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "random",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1768376519215,
+   "is_member": true,
+   "topic": {
+    "value": "No work talk. Pets, plants and puzzles welcome.",
+    "creator": "user-0",
+    "last_set": 1698480998
+   },
+   "purpose": {
+    "value": "Non-work banter and links",
+    "creator": "user-0",
+    "last_set": 1698480998
+   },
+   "previous_names": [],
+   "num_members": 51
+  },
+  {
+   "id": "chan-support",
+   "name": "support",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1698060103,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "support",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1772330639136,
+   "is_member": true,
+   "topic": {
+    "value": "Support queue for Sapora Networks customers \u00b7 page @oncall for anything customer-visible",
+    "creator": "user-0",
+    "last_set": 1698060103
+   },
+   "purpose": {
+    "value": "Customer support triage and escalations",
+    "creator": "user-0",
+    "last_set": 1698060103
+   },
+   "previous_names": [
+    "customer-support"
+   ],
+   "num_members": 44
+  },
+  {
+   "id": "chan-alerts",
+   "name": "alerts",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1698060103,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "alerts",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1764018626862,
+   "is_member": true,
+   "topic": {
+    "value": "Machine-posted alerts; humans reply in thread",
+    "creator": "user-0",
+    "last_set": 1698060103
+   },
+   "purpose": {
+    "value": "Automated cost, security, and posture alerts",
+    "creator": "user-0",
+    "last_set": 1698060103
+   },
+   "previous_names": [],
+   "num_members": 20
+  },
+  {
+   "id": "chan-sales",
+   "name": "sales",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1699423588,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "sales",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1751890889744,
+   "is_member": false,
+   "topic": {
+    "value": "Forecast call Mondays 09:30 \u00b7 pipeline hygiene before month end",
+    "creator": "user-0",
+    "last_set": 1699423588
+   },
+   "purpose": {
+    "value": "Pipeline, forecast and deal help",
+    "creator": "user-0",
+    "last_set": 1699423588
+   },
+   "previous_names": [],
+   "num_members": 32
+  },
+  {
+   "id": "chan-engineering",
+   "name": "engineering",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697356883,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "engineering",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1728522890389,
+   "is_member": false,
+   "topic": {
+    "value": "Deploys pause Friday 16:00 \u00b7 runbooks in the bookmark bar",
+    "creator": "user-0",
+    "last_set": 1697356883
+   },
+   "purpose": {
+    "value": "Engineering-wide: design, review, and what is shipping",
+    "creator": "user-0",
+    "last_set": 1697356883
+   },
+   "previous_names": [
+    "eng"
+   ],
+   "num_members": 37
+  },
+  {
+   "id": "chan-marketing",
+   "name": "marketing",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1759389357,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "marketing",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1779530111005,
+   "is_member": false,
+   "topic": {
+    "value": "Campaign calendar in the bookmarks",
+    "creator": "user-0",
+    "last_set": 1759389357
+   },
+   "purpose": {
+    "value": "Campaigns, content and launch comms",
+    "creator": "user-0",
+    "last_set": 1759389357
+   },
+   "previous_names": [
+    "growth"
+   ],
+   "num_members": 18
+  },
+  {
+   "id": "chan-incidents",
+   "name": "incidents",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697372419,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "incidents",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1761526629136,
+   "is_member": true,
+   "topic": {
+    "value": "Machine-posted; humans reply in thread",
+    "creator": "user-0",
+    "last_set": 1697372419
+   },
+   "purpose": {
+    "value": "Live incident coordination. Declare here, then open a channel",
+    "creator": "user-0",
+    "last_set": 1697372419
+   },
+   "previous_names": [],
+   "num_members": 44
+  },
+  {
+   "id": "chan-renewals",
+   "name": "renewals",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1746968634,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "renewals",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1769684581486,
+   "is_member": false,
+   "topic": {
+    "value": "Forecast call Mondays 09:30 \u00b7 pipeline hygiene before month end",
+    "creator": "user-0",
+    "last_set": 1746968634
+   },
+   "purpose": {
+    "value": "Renewal risk, upsell and churn saves",
+    "creator": "user-0",
+    "last_set": 1746968634
+   },
+   "previous_names": [],
+   "num_members": 27
+  },
+  {
+   "id": "chan-customer-feedback",
+   "name": "customer-feedback",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697472299,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "customer-feedback",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1765157142400,
+   "is_member": false,
+   "topic": {
+    "value": "Escalate with the ticket link and the account name",
+    "creator": "user-0",
+    "last_set": 1697472299
+   },
+   "purpose": {
+    "value": "Verbatims from customers, straight from the desk",
+    "creator": "user-0",
+    "last_set": 1697472299
+   },
+   "previous_names": [],
+   "num_members": 44
+  },
+  {
+   "id": "chan-eng-platform",
+   "name": "eng-platform",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697442889,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "eng-platform",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1732449578477,
+   "is_member": true,
+   "topic": {
+    "value": "Deploys pause Friday 16:00 \u00b7 runbooks in the bookmark bar",
+    "creator": "user-0",
+    "last_set": 1697442889
+   },
+   "purpose": {
+    "value": "Platform, build, and the deploy pipeline",
+    "creator": "user-0",
+    "last_set": 1697442889
+   },
+   "previous_names": [],
+   "num_members": 34
+  },
+  {
+   "id": "chan-deals-emea",
+   "name": "deals-emea",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1748188120,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "deals-emea",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1759452446482,
+   "is_member": false,
+   "topic": {
+    "value": "Forecast call Mondays 09:30 \u00b7 pipeline hygiene before month end",
+    "creator": "user-0",
+    "last_set": 1748188120
+   },
+   "purpose": {
+    "value": "EMEA pipeline and forecast",
+    "creator": "user-0",
+    "last_set": 1748188120
+   },
+   "previous_names": [],
+   "num_members": 26
+  },
+  {
+   "id": "chan-security",
+   "name": "security",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1759412864,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "security",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1783409531849,
+   "is_member": true,
+   "topic": {
+    "value": "Machine-posted; humans reply in thread",
+    "creator": "user-0",
+    "last_set": 1759412864
+   },
+   "purpose": {
+    "value": "Security reviews, findings, and customer questionnaires",
+    "creator": "user-0",
+    "last_set": 1759412864
+   },
+   "previous_names": [],
+   "num_members": 41
+  },
+  {
+   "id": "chan-onboarding",
+   "name": "onboarding",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1749927203,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "onboarding",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1773624235580,
+   "is_member": false,
+   "topic": {
+    "value": "Forecast call Mondays 09:30 \u00b7 pipeline hygiene before month end",
+    "creator": "user-0",
+    "last_set": 1749927203
+   },
+   "purpose": {
+    "value": "New customer onboarding and time-to-value",
+    "creator": "user-0",
+    "last_set": 1749927203
+   },
+   "previous_names": [],
+   "num_members": 25
+  },
+  {
+   "id": "chan-product",
+   "name": "product",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697457325,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "product",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1763732713176,
+   "is_member": false,
+   "topic": {
+    "value": "Deploys pause Friday 16:00 \u00b7 runbooks in the bookmark bar",
+    "creator": "user-0",
+    "last_set": 1697457325
+   },
+   "purpose": {
+    "value": "Roadmap, specs and trade-offs",
+    "creator": "user-0",
+    "last_set": 1697457325
+   },
+   "previous_names": [],
+   "num_members": 44
+  },
+  {
+   "id": "chan-support-escalations",
+   "name": "support-escalations",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1759399152,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "support-escalations",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1768287006457,
+   "is_member": false,
+   "topic": {
+    "value": "Escalate with the ticket link and the account name",
+    "creator": "user-0",
+    "last_set": 1759399152
+   },
+   "purpose": {
+    "value": "Escalated tickets that need engineering",
+    "creator": "user-0",
+    "last_set": 1759399152
+   },
+   "previous_names": [],
+   "num_members": 36
+  },
+  {
+   "id": "chan-eng-backend",
+   "name": "eng-backend",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1700663508,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "eng-backend",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1701494342282,
+   "is_member": false,
+   "topic": {
+    "value": "Deploys pause Friday 16:00 \u00b7 runbooks in the bookmark bar",
+    "creator": "user-0",
+    "last_set": 1700663508
+   },
+   "purpose": {
+    "value": "Services, data model, migrations",
+    "creator": "user-0",
+    "last_set": 1700663508
+   },
+   "previous_names": [],
+   "num_members": 30
+  },
+  {
+   "id": "chan-deals-amer",
+   "name": "deals-amer",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1759561200,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "deals-amer",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1787131035927,
+   "is_member": false,
+   "topic": {
+    "value": "Forecast call Mondays 09:30 \u00b7 pipeline hygiene before month end",
+    "creator": "user-0",
+    "last_set": 1759561200
+   },
+   "purpose": {
+    "value": "AMER pipeline and forecast",
+    "creator": "user-0",
+    "last_set": 1759561200
+   },
+   "previous_names": [],
+   "num_members": 24
+  },
+  {
+   "id": "chan-launch-orbit",
+   "name": "launch-orbit",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1699270069,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "launch-orbit",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1708552343032,
+   "is_member": false,
+   "topic": {
+    "value": "Working channel for launch orbit",
+    "creator": "user-0",
+    "last_set": 1699270069
+   },
+   "purpose": {
+    "value": "Working channel for launch orbit",
+    "creator": "user-0",
+    "last_set": 1699270069
+   },
+   "previous_names": [],
+   "num_members": 28
+  },
+  {
+   "id": "chan-launch-pioneer",
+   "name": "launch-pioneer",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697461233,
+   "creator": "user-0",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "launch-pioneer",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1722836372545,
+   "is_member": false,
+   "topic": {
+    "value": "Working channel for launch pioneer",
+    "creator": "user-0",
+    "last_set": 1697461233
+   },
+   "purpose": {
+    "value": "Working channel for launch pioneer",
+    "creator": "user-0",
+    "last_set": 1697461233
+   },
+   "previous_names": [],
+   "num_members": 30
+  },
+  {
+   "id": "acct-0",
+   "name": "primrose-partners",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1790726400,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "primrose-partners",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790909938796,
+   "is_member": true,
+   "topic": {
+    "value": "enterprise \u00b7 Insurance \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1790726400
+   },
+   "purpose": {
+    "value": "Primrose Partners deal room. Customer-facing comms go through @ashleym",
+    "creator": "user-22",
+    "last_set": 1790726400
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-1",
+   "name": "ardentia-media",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1713596512,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "ardentia-media",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1787754274470,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Media \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1713596512
+   },
+   "purpose": {
+    "value": "Ardentia Media deal room. Customer-facing comms go through @ashleym",
+    "creator": "user-22",
+    "last_set": 1713596512
+   },
+   "previous_names": [],
+   "num_members": 12
+  },
+  {
+   "id": "acct-2",
+   "name": "sable",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1740402006,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "sable",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1753244552602,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1740402006
+   },
+   "purpose": {
+    "value": "Shared context for the Sable account (225 seats)",
+    "creator": "user-22",
+    "last_set": 1740402006
+   },
+   "previous_names": [],
+   "num_members": 14
+  },
+  {
+   "id": "acct-3",
+   "name": "celestine-health",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1789200093,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "celestine-health",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789410473328,
+   "is_member": true,
+   "topic": {
+    "value": "enterprise \u00b7 Education \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1789200093
+   },
+   "purpose": {
+    "value": "Shared context for the Celestine Health account (7000 seats)",
+    "creator": "user-30",
+    "last_set": 1789200093
+   },
+   "previous_names": [],
+   "num_members": 17
+  },
+  {
+   "id": "acct-4",
+   "name": "vantella-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1786989953,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "vantella-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1787707478380,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1786989953
+   },
+   "purpose": {
+    "value": "Vantella Technologies (smb, Banking) account channel",
+    "creator": "user-22",
+    "last_set": 1786989953
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-5",
+   "name": "sirocco",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1753632067,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "sirocco",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1780144851741,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1753632067
+   },
+   "purpose": {
+    "value": "Shared context for the Sirocco account (22 seats)",
+    "creator": "user-7",
+    "last_set": 1753632067
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-6",
+   "name": "tidewater-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1725116433,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "tidewater-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1737860379094,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1725116433
+   },
+   "purpose": {
+    "value": "Tidewater Capital: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-30",
+    "last_set": 1725116433
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-7",
+   "name": "quillen-press",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1709035222,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "quillen-press",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1763454419698,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Telecommunications \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1709035222
+   },
+   "purpose": {
+    "value": "Quillen Press: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-30",
+    "last_set": 1709035222
+   },
+   "previous_names": [],
+   "num_members": 12
+  },
+  {
+   "id": "acct-8",
+   "name": "vernall-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1746043249,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "vernall-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1768240549567,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Insurance \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1746043249
+   },
+   "purpose": {
+    "value": "Shared context for the Vernall Capital account (82 seats)",
+    "creator": "user-30",
+    "last_set": 1746043249
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-9",
+   "name": "flora-analytics",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1754409619,
+   "creator": "user-7",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "flora-analytics",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1782095470000,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1754409619
+   },
+   "purpose": {
+    "value": "Flora Analytics deal room. Customer-facing comms go through @anjab",
+    "creator": "user-7",
+    "last_set": 1754409619
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-10",
+   "name": "venturis-manufacturing",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1782288316,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "venturis-manufacturing",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788841559346,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1782288316
+   },
+   "purpose": {
+    "value": "Venturis Manufacturing: onboarding, adoption, and the smb renewal",
+    "creator": "user-30",
+    "last_set": 1782288316
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-11",
+   "name": "aural-bank",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1786969852,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "aural-bank",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789107561308,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1786969852
+   },
+   "purpose": {
+    "value": "Everything Aural Bank \u2014 support, renewals, escalations",
+    "creator": "user-22",
+    "last_set": 1786969852
+   },
+   "previous_names": [],
+   "num_members": 6
+  },
+  {
+   "id": "acct-12",
+   "name": "luceris-studios",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1775064665,
+   "creator": "user-31",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "luceris-studios",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1782963239252,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Technology \u00b7 renewal owner @oscarn",
+    "creator": "user-31",
+    "last_set": 1775064665
+   },
+   "purpose": {
+    "value": "Luceris Studios: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-31",
+    "last_set": 1775064665
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-13",
+   "name": "fairchild-payments",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1719392448,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "fairchild-payments",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1761651067376,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Insurance \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1719392448
+   },
+   "purpose": {
+    "value": "Fairchild Payments (smb, Insurance) account channel",
+    "creator": "user-22",
+    "last_set": 1719392448
+   },
+   "previous_names": [],
+   "num_members": 13
+  },
+  {
+   "id": "acct-14",
+   "name": "hyssop-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1786214739,
+   "creator": "user-23",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "hyssop-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1787229574359,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @wesleyr",
+    "creator": "user-23",
+    "last_set": 1786214739
+   },
+   "purpose": {
+    "value": "Hyssop Capital deal room. Customer-facing comms go through @wesleyr",
+    "creator": "user-23",
+    "last_set": 1786214739
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-15",
+   "name": "bright-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1778346643,
+   "creator": "user-27",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "bright-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788105640664,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @timothys",
+    "creator": "user-27",
+    "last_set": 1778346643
+   },
+   "purpose": {
+    "value": "Bright Financial (mid-market, Financial Services) account channel",
+    "creator": "user-27",
+    "last_set": 1778346643
+   },
+   "previous_names": [],
+   "num_members": 14
+  },
+  {
+   "id": "acct-16",
+   "name": "cairn-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1751390117,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "cairn-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790300393252,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1751390117
+   },
+   "purpose": {
+    "value": "Everything Cairn Technologies \u2014 support, renewals, escalations",
+    "creator": "user-22",
+    "last_set": 1751390117
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-17",
+   "name": "finitra-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1768323633,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "finitra-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1784113976048,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1768323633
+   },
+   "purpose": {
+    "value": "Everything Finitra Financial \u2014 support, renewals, escalations",
+    "creator": "user-30",
+    "last_set": 1768323633
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-18",
+   "name": "celora-credit-union",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1767510041,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "celora-credit-union",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1775433600000,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1767510041
+   },
+   "purpose": {
+    "value": "Celora Credit Union (smb, Banking) account channel",
+    "creator": "user-30",
+    "last_set": 1767510041
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-19",
+   "name": "snowfall",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1789223620,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "snowfall",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789375179097,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1789223620
+   },
+   "purpose": {
+    "value": "Snowfall: onboarding, adoption, and the smb renewal",
+    "creator": "user-22",
+    "last_set": 1789223620
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-20",
+   "name": "armitage-credit-union",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1785934806,
+   "creator": "user-31",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "armitage-credit-union",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788474896262,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @oscarn",
+    "creator": "user-31",
+    "last_set": 1785934806
+   },
+   "purpose": {
+    "value": "Armitage Credit Union deal room. Customer-facing comms go through @oscarn",
+    "creator": "user-31",
+    "last_set": 1785934806
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-21",
+   "name": "tenet-group",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1787146269,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "tenet-group",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788537221444,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Telecommunications \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1787146269
+   },
+   "purpose": {
+    "value": "Tenet Group (mid-market, Telecommunications) account channel",
+    "creator": "user-7",
+    "last_set": 1787146269
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-22",
+   "name": "garnett-partners",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1766594496,
+   "creator": "user-45",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "garnett-partners",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788327977000,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @priyab",
+    "creator": "user-45",
+    "last_set": 1766594496
+   },
+   "purpose": {
+    "value": "Garnett Partners: onboarding, adoption, and the smb renewal",
+    "creator": "user-45",
+    "last_set": 1766594496
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-23",
+   "name": "amberpass-systems",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1783778414,
+   "creator": "user-27",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "amberpass-systems",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786188280415,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @timothys",
+    "creator": "user-27",
+    "last_set": 1783778414
+   },
+   "purpose": {
+    "value": "Shared context for the Amberpass Systems account (350 seats)",
+    "creator": "user-27",
+    "last_set": 1783778414
+   },
+   "previous_names": [],
+   "num_members": 12
+  },
+  {
+   "id": "acct-24",
+   "name": "blythe-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1774378818,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "blythe-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790717881261,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Insurance \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1774378818
+   },
+   "purpose": {
+    "value": "Shared context for the Blythe Financial account (270 seats)",
+    "creator": "user-22",
+    "last_set": 1774378818
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-25",
+   "name": "myrtle-systems",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1776858328,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "myrtle-systems",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789792632485,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1776858328
+   },
+   "purpose": {
+    "value": "Shared context for the Myrtle Systems account (52 seats)",
+    "creator": "user-22",
+    "last_set": 1776858328
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-26",
+   "name": "lichen-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1778562031,
+   "creator": "user-23",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "lichen-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1781083979913,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @wesleyr",
+    "creator": "user-23",
+    "last_set": 1778562031
+   },
+   "purpose": {
+    "value": "Lichen Technologies deal room. Customer-facing comms go through @wesleyr",
+    "creator": "user-23",
+    "last_set": 1778562031
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-27",
+   "name": "alcott-analytics",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1776539206,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "alcott-analytics",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790551137581,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1776539206
+   },
+   "purpose": {
+    "value": "Everything Alcott Analytics \u2014 support, renewals, escalations",
+    "creator": "user-30",
+    "last_set": 1776539206
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-28",
+   "name": "sonnet-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1790600496,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "sonnet-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790619705132,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Banking \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1790600496
+   },
+   "purpose": {
+    "value": "Everything Sonnet Financial \u2014 support, renewals, escalations",
+    "creator": "user-22",
+    "last_set": 1790600496
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-29",
+   "name": "altessa",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1775424682,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "altessa",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1781568000000,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Real Estate \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1775424682
+   },
+   "purpose": {
+    "value": "Shared context for the Altessa account (33 seats)",
+    "creator": "user-30",
+    "last_set": 1775424682
+   },
+   "previous_names": [],
+   "num_members": 6
+  },
+  {
+   "id": "acct-30",
+   "name": "maplestone",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1763387110,
+   "creator": "user-28",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "maplestone",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1763895107074,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Media \u00b7 renewal owner @klaudias",
+    "creator": "user-28",
+    "last_set": 1763387110
+   },
+   "purpose": {
+    "value": "Maplestone (smb, Media) account channel",
+    "creator": "user-28",
+    "last_set": 1763387110
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-31",
+   "name": "unitaria-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1790757920,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "unitaria-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1791015047446,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1790757920
+   },
+   "purpose": {
+    "value": "Unitaria Financial: onboarding, adoption, and the smb renewal",
+    "creator": "user-7",
+    "last_set": 1790757920
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-32",
+   "name": "benevra-partners",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1724248929,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "benevra-partners",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789664620680,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1724248929
+   },
+   "purpose": {
+    "value": "Benevra Partners (smb, Financial Services) account channel",
+    "creator": "user-22",
+    "last_set": 1724248929
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-33",
+   "name": "boreal-fabrication",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1762782301,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "boreal-fabrication",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1774405194798,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1762782301
+   },
+   "purpose": {
+    "value": "Boreal Fabrication (smb, Technology) account channel",
+    "creator": "user-30",
+    "last_set": 1762782301
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-34",
+   "name": "aspen-analytics",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1788020196,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "aspen-analytics",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789857627019,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Media \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1788020196
+   },
+   "purpose": {
+    "value": "Shared context for the Aspen Analytics account (17 seats)",
+    "creator": "user-22",
+    "last_set": 1788020196
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-35",
+   "name": "fieldcrest-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1773854125,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "fieldcrest-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1785400009999,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1773854125
+   },
+   "purpose": {
+    "value": "Everything Fieldcrest Capital \u2014 support, renewals, escalations",
+    "creator": "user-22",
+    "last_set": 1773854125
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-36",
+   "name": "grantham-payments",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1788337820,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "grantham-payments",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789809541077,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Investment Management \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1788337820
+   },
+   "purpose": {
+    "value": "Shared context for the Grantham Payments account (285 seats)",
+    "creator": "user-22",
+    "last_set": 1788337820
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-37",
+   "name": "basaltpeak-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1767592828,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "basaltpeak-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1772170220986,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1767592828
+   },
+   "purpose": {
+    "value": "Basaltpeak Financial: onboarding, adoption, and the smb renewal",
+    "creator": "user-7",
+    "last_set": 1767592828
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-38",
+   "name": "berylpeak-broadcasting",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1759074089,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "berylpeak-broadcasting",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1762297347595,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Telecommunications \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1759074089
+   },
+   "purpose": {
+    "value": "Berylpeak Broadcasting (smb, Telecommunications) account channel",
+    "creator": "user-22",
+    "last_set": 1759074089
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-39",
+   "name": "bayfern-care",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1707691711,
+   "creator": "user-7",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "bayfern-care",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790577426000,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Nonprofit \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1707691711
+   },
+   "purpose": {
+    "value": "Bayfern Care deal room. Customer-facing comms go through @anjab",
+    "creator": "user-7",
+    "last_set": 1707691711
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-40",
+   "name": "jarvis-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1774094474,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "jarvis-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1774742721456,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1774094474
+   },
+   "purpose": {
+    "value": "Shared context for the Jarvis Technologies account (239 seats)",
+    "creator": "user-30",
+    "last_set": 1774094474
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-41",
+   "name": "glint-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1789049833,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "glint-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789593976501,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1789049833
+   },
+   "purpose": {
+    "value": "Glint Capital deal room. Customer-facing comms go through @lisaw",
+    "creator": "user-30",
+    "last_set": 1789049833
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-42",
+   "name": "celsara-partners",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1772634605,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "celsara-partners",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1776197352899,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Financial Services \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1772634605
+   },
+   "purpose": {
+    "value": "Celsara Partners: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-7",
+    "last_set": 1772634605
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-43",
+   "name": "tressler-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1780331548,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "tressler-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790210475123,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Banking \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1780331548
+   },
+   "purpose": {
+    "value": "Tressler Technologies (mid-market, Banking) account channel",
+    "creator": "user-22",
+    "last_set": 1780331548
+   },
+   "previous_names": [],
+   "num_members": 12
+  },
+  {
+   "id": "acct-44",
+   "name": "birchbrook-logistics",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697105882,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "birchbrook-logistics",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1733523226073,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1697105882
+   },
+   "purpose": {
+    "value": "Birchbrook Logistics (smb, Technology) account channel",
+    "creator": "user-30",
+    "last_set": 1697105882
+   },
+   "previous_names": [],
+   "num_members": 6
+  },
+  {
+   "id": "acct-45",
+   "name": "quarry-international",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1778599226,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "quarry-international",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1779027707988,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Real Estate \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1778599226
+   },
+   "purpose": {
+    "value": "Quarry International deal room. Customer-facing comms go through @ashleym",
+    "creator": "user-22",
+    "last_set": 1778599226
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-46",
+   "name": "downpour-credit-union",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1787757601,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "downpour-credit-union",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788760430743,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1787757601
+   },
+   "purpose": {
+    "value": "Downpour Credit Union (smb, Banking) account channel",
+    "creator": "user-30",
+    "last_set": 1787757601
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-47",
+   "name": "rafferty",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1702998002,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "rafferty",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1781852303736,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Media \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1702998002
+   },
+   "purpose": {
+    "value": "Rafferty deal room. Customer-facing comms go through @lisaw",
+    "creator": "user-30",
+    "last_set": 1702998002
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-48",
+   "name": "skyfield",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1777960893,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "skyfield",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790778290178,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Banking \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1777960893
+   },
+   "purpose": {
+    "value": "Skyfield: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-22",
+    "last_set": 1777960893
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-49",
+   "name": "rudley-payments",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1771853417,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "rudley-payments",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1776853013873,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Investment Management \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1771853417
+   },
+   "purpose": {
+    "value": "Rudley Payments (smb, Investment Management) account channel",
+    "creator": "user-22",
+    "last_set": 1771853417
+   },
+   "previous_names": [],
+   "num_members": 6
+  },
+  {
+   "id": "acct-50",
+   "name": "arvelis-financial",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1775384116,
+   "creator": "user-28",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "arvelis-financial",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786124949331,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @klaudias",
+    "creator": "user-28",
+    "last_set": 1775384116
+   },
+   "purpose": {
+    "value": "Arvelis Financial deal room. Customer-facing comms go through @klaudias",
+    "creator": "user-28",
+    "last_set": 1775384116
+   },
+   "previous_names": [],
+   "num_members": 12
+  },
+  {
+   "id": "acct-51",
+   "name": "boland-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1707751857,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "boland-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1718501116256,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Insurance \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1707751857
+   },
+   "purpose": {
+    "value": "Shared context for the Boland Capital account (300 seats)",
+    "creator": "user-7",
+    "last_set": 1707751857
+   },
+   "previous_names": [],
+   "num_members": 11
+  },
+  {
+   "id": "acct-52",
+   "name": "civaro-systems",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1779888748,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "civaro-systems",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788774228796,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Media \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1779888748
+   },
+   "purpose": {
+    "value": "Shared context for the Civaro Systems account (166 seats)",
+    "creator": "user-22",
+    "last_set": 1779888748
+   },
+   "previous_names": [],
+   "num_members": 7
+  },
+  {
+   "id": "acct-53",
+   "name": "solace-materials",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1774418491,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "solace-materials",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1774962864159,
+   "is_member": true,
+   "topic": {
+    "value": "enterprise \u00b7 Technology \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1774418491
+   },
+   "purpose": {
+    "value": "Solace Materials deal room. Customer-facing comms go through @lisaw",
+    "creator": "user-30",
+    "last_set": 1774418491
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-54",
+   "name": "everard-capital",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1788013877,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "everard-capital",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788390554879,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Banking \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1788013877
+   },
+   "purpose": {
+    "value": "Everard Capital (smb, Banking) account channel",
+    "creator": "user-22",
+    "last_set": 1788013877
+   },
+   "previous_names": [],
+   "num_members": 5
+  },
+  {
+   "id": "acct-55",
+   "name": "mosscrest",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1785837961,
+   "creator": "user-28",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "mosscrest",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786360589553,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Government \u00b7 renewal owner @klaudias",
+    "creator": "user-28",
+    "last_set": 1785837961
+   },
+   "purpose": {
+    "value": "Everything Mosscrest \u2014 support, renewals, escalations",
+    "creator": "user-28",
+    "last_set": 1785837961
+   },
+   "previous_names": [],
+   "num_members": 8
+  },
+  {
+   "id": "acct-56",
+   "name": "loxham-media",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1771083006,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "loxham-media",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1783635561527,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Technology \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1771083006
+   },
+   "purpose": {
+    "value": "Everything Loxham Media \u2014 support, renewals, escalations",
+    "creator": "user-7",
+    "last_set": 1771083006
+   },
+   "previous_names": [],
+   "num_members": 9
+  },
+  {
+   "id": "acct-57",
+   "name": "croswell-technologies",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1752501690,
+   "creator": "user-30",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "croswell-technologies",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1767614954852,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Financial Services \u00b7 renewal owner @lisaw",
+    "creator": "user-30",
+    "last_set": 1752501690
+   },
+   "purpose": {
+    "value": "Croswell Technologies deal room. Customer-facing comms go through @lisaw",
+    "creator": "user-30",
+    "last_set": 1752501690
+   },
+   "previous_names": [],
+   "num_members": 6
+  },
+  {
+   "id": "acct-58",
+   "name": "vox-systems",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1774104325,
+   "creator": "user-7",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "vox-systems",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1779141534447,
+   "is_member": true,
+   "topic": {
+    "value": "mid-market \u00b7 Telecommunications \u00b7 renewal owner @anjab",
+    "creator": "user-7",
+    "last_set": 1774104325
+   },
+   "purpose": {
+    "value": "Vox Systems: onboarding, adoption, and the mid-market renewal",
+    "creator": "user-7",
+    "last_set": 1774104325
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "acct-59",
+   "name": "aperture-fabrication",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1787232549,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "aperture-fabrication",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790375975779,
+   "is_member": true,
+   "topic": {
+    "value": "smb \u00b7 Technology \u00b7 renewal owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1787232549
+   },
+   "purpose": {
+    "value": "Aperture Fabrication deal room. Customer-facing comms go through @ashleym",
+    "creator": "user-22",
+    "last_set": 1787232549
+   },
+   "previous_names": [],
+   "num_members": 10
+  },
+  {
+   "id": "chan-ext-primrose-partners",
+   "name": "ext-primrose-partners",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1784474896,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "ext-primrose-partners",
+   "is_shared": true,
+   "is_ext_shared": true,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks",
+    "T523KC23AG3"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788914062311,
+   "is_member": true,
+   "topic": {
+    "value": "Slack Connect \u00b7 Primrose Partners \u00b7 escalations and release notes",
+    "creator": "user-22",
+    "last_set": 1784474896
+   },
+   "purpose": {
+    "value": "Shared channel with Primrose Partners",
+    "creator": "user-22",
+    "last_set": 1784474896
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-ext-ardentia-media",
+   "name": "ext-ardentia-media",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1714045168,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "ext-ardentia-media",
+   "is_shared": true,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": true,
+   "pending_shared": [
+    "T3KP8C18BLG"
+   ],
+   "pending_connected_team_ids": [
+    "T3KP8C18BLG"
+   ],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786453026824,
+   "is_member": true,
+   "topic": {
+    "value": "Slack Connect \u00b7 Ardentia Media \u00b7 escalations and release notes",
+    "creator": "user-22",
+    "last_set": 1714045168
+   },
+   "purpose": {
+    "value": "Shared channel with Ardentia Media",
+    "creator": "user-22",
+    "last_set": 1714045168
+   },
+   "previous_names": [],
+   "num_members": 2
+  },
+  {
+   "id": "chan-birchbrook-logistics-launch",
+   "name": "birchbrook-logistics-launch",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697102282,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "birchbrook-logistics-launch",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1699281086000,
+   "is_member": false,
+   "topic": {
+    "value": "Birchbrook Logistics - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1697102282
+   },
+   "purpose": {
+    "value": "Birchbrook Logistics - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1697102282
+   },
+   "previous_names": [],
+   "num_members": 2
+  },
+  {
+   "id": "chan-croswell-technologies-launch",
+   "name": "croswell-technologies-launch",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1697622547,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "croswell-technologies-launch",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1699626924000,
+   "is_member": false,
+   "topic": {
+    "value": "Croswell Technologies - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1697622547
+   },
+   "purpose": {
+    "value": "Croswell Technologies - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1697622547
+   },
+   "previous_names": [],
+   "num_members": 2
+  },
+  {
+   "id": "chan-basaltpeak-financial-launch",
+   "name": "basaltpeak-financial-launch",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1699951971,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "basaltpeak-financial-launch",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1703009383000,
+   "is_member": false,
+   "topic": {
+    "value": "Basaltpeak Financial - Pilot \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1699951971
+   },
+   "purpose": {
+    "value": "Basaltpeak Financial - Pilot \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1699951971
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-rafferty-launch",
+   "name": "rafferty-launch",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1702308637,
+   "creator": "user-30",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "rafferty-launch",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1705436221000,
+   "is_member": false,
+   "topic": {
+    "value": "Rafferty - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1702308637
+   },
+   "purpose": {
+    "value": "Rafferty - Platform \u2014 launch",
+    "creator": "user-30",
+    "last_set": 1702308637
+   },
+   "previous_names": [],
+   "num_members": 2
+  },
+  {
+   "id": "chan-primrose-partners-deal-room",
+   "name": "primrose-partners-deal-room",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1783870096,
+   "creator": "user-22",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "primrose-partners-deal-room",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790448217697,
+   "is_member": false,
+   "topic": {
+    "value": "Negotiation \u00b7 $375,000 \u00b7 owner @ashleym",
+    "creator": "user-22",
+    "last_set": 1783870096
+   },
+   "purpose": {
+    "value": "Primrose Partners - Enterprise Platform Agreement \u2014 war room",
+    "creator": "user-22",
+    "last_set": 1783870096
+   },
+   "previous_names": [],
+   "num_members": 2
+  },
+  {
+   "id": "chan-inc-1000-card-authorizer",
+   "name": "inc-1000-card-authorizer",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1781527660,
+   "creator": "user-4",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1000-card-authorizer",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1782307473000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV2 resolved \u00b7 card-authorizer \u00b7 alert: card-authorizer node disk usage \u00b7 dashboard svc-card-authorizer",
+    "creator": "user-4",
+    "last_set": 1781527660
+   },
+   "purpose": {
+    "value": "Incident 1000 \u00b7 card-authorizer \u00b7 card-authorizer nodes are out of disk",
+    "creator": "user-4",
+    "last_set": 1781527660
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1001-merchant-dashboard",
+   "name": "inc-1001-merchant-dashboard",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1782216986,
+   "creator": "user-39",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1001-merchant-dashboard",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1782998603000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV2 resolved \u00b7 merchant-dashboard \u00b7 alert: merchant-dashboard HTTP 4xx rate \u00b7 dashboard svc-merchant-dashboard",
+    "creator": "user-39",
+    "last_set": 1782216986
+   },
+   "purpose": {
+    "value": "Incident 1001 \u00b7 merchant-dashboard \u00b7 merchant-dashboard is returning 404 for valid routes",
+    "creator": "user-39",
+    "last_set": 1782216986
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1002-payments-api",
+   "name": "inc-1002-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1783000191,
+   "creator": "user-46",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1002-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1783785468000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV3 resolved \u00b7 payments-api \u00b7 alert: payments-api upstream latency \u00b7 dashboard svc-payments-api",
+    "creator": "user-46",
+    "last_set": 1783000191
+   },
+   "purpose": {
+    "value": "Incident 1002 \u00b7 payments-api \u00b7 payments-api payment calls are timing out",
+    "creator": "user-46",
+    "last_set": 1783000191
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1003-payments-api",
+   "name": "inc-1003-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1783875780,
+   "creator": "user-41",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1003-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1784666648000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV3 resolved \u00b7 payments-api \u00b7 alert: payments-api cache hit ratio \u00b7 dashboard svc-payments-api",
+    "creator": "user-41",
+    "last_set": 1783875780
+   },
+   "purpose": {
+    "value": "Incident 1003 \u00b7 payments-api \u00b7 payments-api origin load spiked",
+    "creator": "user-41",
+    "last_set": 1783875780
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1004-reconciliation-worker",
+   "name": "inc-1004-reconciliation-worker",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1784571181,
+   "creator": "user-41",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1004-reconciliation-worker",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1785352013000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV1 resolved \u00b7 reconciliation-worker \u00b7 alert: reconciliation-worker pod restarts \u00b7 dashboard svc-reconciliation-worker",
+    "creator": "user-41",
+    "last_set": 1784571181
+   },
+   "purpose": {
+    "value": "Incident 1004 \u00b7 reconciliation-worker \u00b7 reconciliation-worker pods are restarting",
+    "creator": "user-41",
+    "last_set": 1784571181
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1005-payouts-service",
+   "name": "inc-1005-payouts-service",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1785440390,
+   "creator": "user-2",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1005-payouts-service",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786224517000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV4 resolved \u00b7 payouts-service \u00b7 alert: payouts-service database pool saturation \u00b7 dashboard svc-payouts-service",
+    "creator": "user-2",
+    "last_set": 1785440390
+   },
+   "purpose": {
+    "value": "Incident 1005 \u00b7 payouts-service \u00b7 payouts-service is refusing connections",
+    "creator": "user-2",
+    "last_set": 1785440390
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1006-payments-api",
+   "name": "inc-1006-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1786211520,
+   "creator": "user-16",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1006-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1786993840000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV4 resolved \u00b7 payments-api \u00b7 alert: payments-api HTTP 5xx rate \u00b7 dashboard svc-payments-api",
+    "creator": "user-16",
+    "last_set": 1786211520
+   },
+   "purpose": {
+    "value": "Incident 1006 \u00b7 payments-api \u00b7 error rate above 5% on payments-api",
+    "creator": "user-16",
+    "last_set": 1786211520
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1007-payments-api",
+   "name": "inc-1007-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1786644188,
+   "creator": "user-44",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1007-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1787424168000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV4 resolved \u00b7 payments-api \u00b7 alert: payments-api pod restarts \u00b7 dashboard svc-payments-api",
+    "creator": "user-44",
+    "last_set": 1786644188
+   },
+   "purpose": {
+    "value": "Incident 1007 \u00b7 payments-api \u00b7 payments-api pods are restarting",
+    "creator": "user-44",
+    "last_set": 1786644188
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1008-reconciliation-worker",
+   "name": "inc-1008-reconciliation-worker",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1787784960,
+   "creator": "user-29",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1008-reconciliation-worker",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1788571193000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV3 resolved \u00b7 reconciliation-worker \u00b7 alert: reconciliation-worker upstream errors \u00b7 dashboard svc-reconciliation-worker",
+    "creator": "user-29",
+    "last_set": 1787784960
+   },
+   "purpose": {
+    "value": "Incident 1008 \u00b7 reconciliation-worker \u00b7 reconciliation-worker cannot reach its upstream",
+    "creator": "user-29",
+    "last_set": 1787784960
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1009-payments-api",
+   "name": "inc-1009-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1788453897,
+   "creator": "user-14",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1009-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789234785000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV3 resolved \u00b7 payments-api \u00b7 alert: payments-api upstream errors \u00b7 dashboard svc-payments-api",
+    "creator": "user-14",
+    "last_set": 1788453897
+   },
+   "purpose": {
+    "value": "Incident 1009 \u00b7 payments-api \u00b7 payments-api cannot reach its upstream",
+    "creator": "user-14",
+    "last_set": 1788453897
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1010-kyc-service",
+   "name": "inc-1010-kyc-service",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1789149191,
+   "creator": "user-14",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1010-kyc-service",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1789935751000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV4 resolved \u00b7 kyc-service \u00b7 alert: kyc-service pod restarts \u00b7 dashboard svc-kyc-service",
+    "creator": "user-14",
+    "last_set": 1789149191
+   },
+   "purpose": {
+    "value": "Incident 1010 \u00b7 kyc-service \u00b7 kyc-service pods are restarting",
+    "creator": "user-14",
+    "last_set": 1789149191
+   },
+   "previous_names": [],
+   "num_members": 3
+  },
+  {
+   "id": "chan-inc-1011-risk-scoring",
+   "name": "inc-1011-risk-scoring",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1790091246,
+   "creator": "user-38",
+   "is_archived": true,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1011-risk-scoring",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790874558000,
+   "is_member": true,
+   "topic": {
+    "value": "SEV2 resolved \u00b7 risk-scoring \u00b7 alert: risk-scoring HTTP 5xx rate \u00b7 dashboard svc-risk-scoring",
+    "creator": "user-38",
+    "last_set": 1790091246
+   },
+   "purpose": {
+    "value": "Incident 1011 \u00b7 risk-scoring \u00b7 error rate above 5% on risk-scoring",
+    "creator": "user-38",
+    "last_set": 1790091246
+   },
+   "previous_names": [],
+   "num_members": 4
+  },
+  {
+   "id": "chan-inc-1012-payments-api",
+   "name": "inc-1012-payments-api",
+   "is_channel": true,
+   "is_group": false,
+   "is_im": false,
+   "is_mpim": false,
+   "is_private": false,
+   "created": 1790712683,
+   "creator": "user-38",
+   "is_archived": false,
+   "is_general": false,
+   "unlinked": 0,
+   "name_normalized": "inc-1012-payments-api",
+   "is_shared": false,
+   "is_ext_shared": false,
+   "is_org_shared": false,
+   "is_pending_ext_shared": false,
+   "pending_shared": [],
+   "pending_connected_team_ids": [],
+   "shared_team_ids": [
+    "T-saporanetworks"
+   ],
+   "context_team_id": "T-saporanetworks",
+   "parent_conversation": null,
+   "updated": 1790867185402,
+   "is_member": true,
+   "topic": {
+    "value": "SEV2 ACTIVE \u00b7 payments-api \u00b7 alert: payments-api HTTP 4xx rate \u00b7 dashboard svc-payments-api",
+    "creator": "user-38",
+    "last_set": 1790712683
+   },
+   "purpose": {
+    "value": "Incident 1012 \u00b7 payments-api \u00b7 payments-api is returning 404 for valid routes",
+    "creator": "user-38",
+    "last_set": 1790712683
+   },
+   "previous_names": [],
+   "num_members": 3
+  }
+ ],
+ "response_metadata": {
+  "next_cursor": ""
+ }
+}

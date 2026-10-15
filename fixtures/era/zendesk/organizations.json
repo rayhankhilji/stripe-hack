@@ -1,0 +1,2121 @@
+[
+ {
+  "id": 3000000,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000000.json",
+  "external_id": "acct-0",
+  "name": "Primrose Partners",
+  "domain_names": [
+   "primrosepartners.co.uk"
+  ],
+  "details": "Insurance",
+  "notes": "",
+  "tags": [
+   "enterprise",
+   "insurance",
+   "prospect",
+   "premium_support"
+  ],
+  "created_at": "2026-07-12T15:28:16Z",
+  "updated_at": "2026-08-31T04:34:30Z",
+  "organization_fields": {
+   "industry": "Insurance",
+   "tier": "enterprise",
+   "employees": 43,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10117",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000001,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000001.json",
+  "external_id": "acct-1",
+  "name": "Ardentia Media",
+  "domain_names": [
+   "ardentiamedia.com"
+  ],
+  "details": "Media",
+  "notes": "57 seats on the Business plan, up for renewal 2027-03-21. Renewal conversations run through the account team.",
+  "tags": [
+   "mid-market",
+   "media"
+  ],
+  "created_at": "2024-04-18T11:39:28Z",
+  "updated_at": "2025-10-07T06:51:34Z",
+  "organization_fields": {
+   "industry": "Media",
+   "tier": "mid-market",
+   "employees": 525,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Tel Aviv",
+   "region": "Tel Aviv District",
+   "country": "Israel",
+   "postal_code": "6801296",
+   "signed_on": "2024-05-02",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 57,
+   "arr": 26460,
+   "renewal_date": "2027-05-02"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000002,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000002.json",
+  "external_id": "acct-2",
+  "name": "Sable",
+  "domain_names": [
+   "sable.com"
+  ],
+  "details": "Financial Services",
+  "notes": "30 seats on the Business plan, up for renewal 2027-07-06. Renewal conversations run through the account team.",
+  "tags": [
+   "mid-market",
+   "financial_services"
+  ],
+  "created_at": "2025-01-16T14:13:13Z",
+  "updated_at": "2026-05-23T02:50:36Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 225,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10117",
+   "signed_on": "2026-08-17",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 30,
+   "arr": 15500,
+   "renewal_date": "2027-08-17"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000003,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000003.json",
+  "external_id": "acct-3",
+  "name": "Celestine Health",
+  "domain_names": [
+   "celestinehealth.com"
+  ],
+  "details": "Education",
+  "notes": "",
+  "tags": [
+   "enterprise",
+   "education"
+  ],
+  "created_at": "2026-09-11T13:39:42Z",
+  "updated_at": "2026-09-21T02:34:35Z",
+  "organization_fields": {
+   "industry": "Education",
+   "tier": "enterprise",
+   "employees": 7000,
+   "account_owner": "Lisa Williams",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "018956",
+   "signed_on": "2026-10-04",
+   "account_status": "customer",
+   "plan": "enterprise",
+   "seats": 231,
+   "arr": 250000,
+   "renewal_date": "2027-10-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000004,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000004.json",
+  "external_id": "acct-4",
+  "name": "Vantella Technologies",
+  "domain_names": [
+   "vantellatech.com"
+  ],
+  "details": "Banking",
+  "notes": "",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2025-04-08T11:12:24Z",
+  "updated_at": "2026-02-25T06:37:10Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 85,
+   "account_owner": "Ashley Mossshaw",
+   "city": "San Francisco",
+   "region": "CA",
+   "country": "United States",
+   "postal_code": "94110",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000005,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000005.json",
+  "external_id": "acct-5",
+  "name": "Sirocco",
+  "domain_names": [
+   "sirocco.com"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "smb",
+   "financial_services",
+   "premium_support"
+  ],
+  "created_at": "2024-06-27T14:02:26Z",
+  "updated_at": "2026-02-06T09:03:01Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 22,
+   "account_owner": "Anja Beck",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "United States",
+   "postal_code": "60654",
+   "signed_on": "2024-07-22",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 9,
+   "arr": 8757,
+   "renewal_date": "2027-08-03"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000006,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000006.json",
+  "external_id": "acct-6",
+  "name": "Tidewater Capital",
+  "domain_names": [
+   "tidewater-capital.com"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "financial_services"
+  ],
+  "created_at": "2024-08-26T17:32:53Z",
+  "updated_at": "2025-11-29T18:07:21Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 600,
+   "account_owner": "Lisa Williams",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "United States",
+   "postal_code": "60607",
+   "signed_on": "2024-09-12",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 20,
+   "arr": 9700,
+   "renewal_date": "2027-09-19"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000007,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000007.json",
+  "external_id": "acct-7",
+  "name": "Quillen Press",
+  "domain_names": [
+   "quillen-press.com"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "telecommunications"
+  ],
+  "created_at": "2024-02-14T09:58:15Z",
+  "updated_at": "2026-07-11T09:03:29Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "mid-market",
+   "employees": 700,
+   "account_owner": "Lisa Williams",
+   "city": "Bengaluru",
+   "region": "Karnataka",
+   "country": "India",
+   "postal_code": "560103",
+   "signed_on": "2024-03-01",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 111,
+   "arr": 72136,
+   "renewal_date": "2027-03-01"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000008,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000008.json",
+  "external_id": "acct-8",
+  "name": "Vernall Capital",
+  "domain_names": [
+   "vernall.io"
+  ],
+  "details": "Insurance",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "insurance"
+  ],
+  "created_at": "2024-04-16T09:34:45Z",
+  "updated_at": "2026-08-07T10:05:12Z",
+  "organization_fields": {
+   "industry": "Insurance",
+   "tier": "smb",
+   "employees": 82,
+   "account_owner": "Lisa Williams",
+   "city": "San Francisco",
+   "region": "CA",
+   "country": "United States",
+   "postal_code": "94110",
+   "signed_on": "2024-05-03",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 32,
+   "arr": 20000,
+   "renewal_date": "2027-05-11"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000009,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000009.json",
+  "external_id": "acct-9",
+  "name": "Flora Analytics",
+  "domain_names": [
+   "floraanalytics.io"
+  ],
+  "details": "Technology",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "technology",
+   "churned"
+  ],
+  "created_at": "2024-08-05T09:31:10Z",
+  "updated_at": "2026-08-25T10:45:27Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 70,
+   "account_owner": "Anja Beck",
+   "city": "San Francisco",
+   "region": "CA",
+   "country": "United States",
+   "postal_code": "94103",
+   "signed_on": "2024-08-20",
+   "account_status": "churned",
+   "plan": "team",
+   "seats": 19,
+   "arr": 3861,
+   "churned_on": "2026-06-13"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000010,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000010.json",
+  "external_id": "acct-10",
+  "name": "Venturis Manufacturing",
+  "domain_names": [
+   "venturismfg.io"
+  ],
+  "details": "Technology",
+  "notes": "18 seats on the Team plan, up for renewal 2027-04-04. Renewal conversations run through the account team.",
+  "tags": [
+   "smb",
+   "technology"
+  ],
+  "created_at": "2024-04-29T09:35:26Z",
+  "updated_at": "2026-09-21T18:53:45Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 57,
+   "account_owner": "Lisa Williams",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "12043",
+   "signed_on": "2024-05-23",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 18,
+   "arr": 3984,
+   "renewal_date": "2027-05-16"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000011,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000011.json",
+  "external_id": "acct-11",
+  "name": "Aural Bank",
+  "domain_names": [
+   "auralbank.com"
+  ],
+  "details": "Financial Services",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "mid-market",
+   "financial_services",
+   "prospect"
+  ],
+  "created_at": "2026-03-25T15:15:00Z",
+  "updated_at": "2026-09-02T01:38:32Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 418,
+   "account_owner": "Ashley Mossshaw",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10018",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000012,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000012.json",
+  "external_id": "acct-12",
+  "name": "Luceris Studios",
+  "domain_names": [
+   "luceris.com"
+  ],
+  "details": "Technology",
+  "notes": "Runs their own technology integration; escalate API questions to engineering.",
+  "tags": [
+   "mid-market",
+   "technology",
+   "prospect"
+  ],
+  "created_at": "2025-06-19T14:50:34Z",
+  "updated_at": "2026-09-20T10:32:33Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "mid-market",
+   "employees": 225,
+   "account_owner": "Oscar Novak",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "EC2A 4NE",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000013,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000013.json",
+  "external_id": "acct-13",
+  "name": "Fairchild Payments",
+  "domain_names": [
+   "fairchild.com"
+  ],
+  "details": "Insurance",
+  "notes": "",
+  "tags": [
+   "smb",
+   "insurance",
+   "escalation_watch"
+  ],
+  "created_at": "2024-06-25T09:26:34Z",
+  "updated_at": "2026-01-22T08:35:04Z",
+  "organization_fields": {
+   "industry": "Insurance",
+   "tier": "smb",
+   "employees": 130,
+   "account_owner": "Ashley Mossshaw",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "EC2A 4NE",
+   "signed_on": "2024-07-15",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 46,
+   "arr": 22000,
+   "renewal_date": "2027-07-05"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000014,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000014.json",
+  "external_id": "acct-14",
+  "name": "Hyssop Capital",
+  "domain_names": [
+   "hyssop.co"
+  ],
+  "details": "Telecommunications",
+  "notes": "Account owner is Wesley Roseton. Loop them in before any credit or refund.",
+  "tags": [
+   "smb",
+   "telecommunications",
+   "prospect"
+  ],
+  "created_at": "2026-01-06T08:38:03Z",
+  "updated_at": "2026-08-30T18:54:02Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 175,
+   "account_owner": "Wesley Roseton",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5H 2N2",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000015,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000015.json",
+  "external_id": "acct-15",
+  "name": "Bright Financial",
+  "domain_names": [
+   "brightfinancial.com"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "financial_services",
+   "escalation_watch"
+  ],
+  "created_at": "2025-12-18T12:54:35Z",
+  "updated_at": "2026-07-18T13:04:21Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 225,
+   "account_owner": "Timothy Sandthorpe",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5V 3L9",
+   "signed_on": "2026-07-08",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 13,
+   "arr": 7600,
+   "renewal_date": "2027-07-08"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000016,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000016.json",
+  "external_id": "acct-16",
+  "name": "Cairn Technologies",
+  "domain_names": [
+   "cairntech.com"
+  ],
+  "details": "Financial Services",
+  "notes": "Account owner is Ashley Mossshaw. Loop them in before any credit or refund.",
+  "tags": [
+   "smb",
+   "financial_services"
+  ],
+  "created_at": "2024-05-10T16:25:19Z",
+  "updated_at": "2026-06-06T01:12:00Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 180,
+   "account_owner": "Ashley Mossshaw",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10013",
+   "signed_on": "2024-06-02",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 39,
+   "arr": 6888,
+   "renewal_date": "2027-06-02"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000017,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000017.json",
+  "external_id": "acct-17",
+  "name": "Finitra Financial",
+  "domain_names": [
+   "finitrafinancial.com"
+  ],
+  "details": "Banking",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2025-10-22T06:37:20Z",
+  "updated_at": "2025-12-22T07:11:24Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 150,
+   "account_owner": "Lisa Williams",
+   "city": "Dublin",
+   "region": "Leinster",
+   "country": "Ireland",
+   "postal_code": "D04 V4X7",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000018,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000018.json",
+  "external_id": "acct-18",
+  "name": "Celora Credit Union",
+  "domain_names": [
+   "ccu.com.au"
+  ],
+  "details": "Banking",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect",
+   "premium_support"
+  ],
+  "created_at": "2025-06-16T22:51:48Z",
+  "updated_at": "2025-10-06T14:50:25Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 24,
+   "account_owner": "Lisa Williams",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "079903",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000019,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000019.json",
+  "external_id": "acct-19",
+  "name": "Snowfall",
+  "domain_names": [
+   "snowfall.co"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "smb",
+   "telecommunications",
+   "prospect"
+  ],
+  "created_at": "2026-09-08T19:33:06Z",
+  "updated_at": "2026-09-15T20:53:50Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 90,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10117",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000020,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000020.json",
+  "external_id": "acct-20",
+  "name": "Armitage Credit Union",
+  "domain_names": [
+   "acu.com"
+  ],
+  "details": "Banking",
+  "notes": "",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect",
+   "escalation_watch"
+  ],
+  "created_at": "2025-06-16T10:32:20Z",
+  "updated_at": "2026-04-26T23:28:36Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 17,
+   "account_owner": "Oscar Novak",
+   "city": "Amsterdam",
+   "region": "North Holland",
+   "country": "Netherlands",
+   "postal_code": "1097 DN",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000021,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000021.json",
+  "external_id": "acct-21",
+  "name": "Tenet Group",
+  "domain_names": [
+   "tenet.com"
+  ],
+  "details": "Telecommunications",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "mid-market",
+   "telecommunications"
+  ],
+  "created_at": "2026-08-10T11:18:35Z",
+  "updated_at": "2026-08-26T08:31:42Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "mid-market",
+   "employees": 700,
+   "account_owner": "Anja Beck",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5H 2N2",
+   "signed_on": "2026-10-04",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 95,
+   "arr": 50000,
+   "renewal_date": "2027-10-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000022,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000022.json",
+  "external_id": "acct-22",
+  "name": "Garnett Partners",
+  "domain_names": [
+   "garnett.ai"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "smb",
+   "telecommunications",
+   "prospect",
+   "escalation_watch"
+  ],
+  "created_at": "2025-02-06T17:15:44Z",
+  "updated_at": "2026-04-09T21:46:11Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 150,
+   "account_owner": "Priya Bellshaw",
+   "city": "Amsterdam",
+   "region": "North Holland",
+   "country": "Netherlands",
+   "postal_code": "1097 DN",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000023,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000023.json",
+  "external_id": "acct-23",
+  "name": "Amberpass Systems",
+  "domain_names": [
+   "amberpasssys.co.uk"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "financial_services",
+   "prospect",
+   "escalation_watch"
+  ],
+  "created_at": "2026-06-30T12:42:34Z",
+  "updated_at": "2026-07-24T06:07:54Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 350,
+   "account_owner": "Timothy Sandthorpe",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5V 3L9",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000024,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000024.json",
+  "external_id": "acct-24",
+  "name": "Blythe Financial",
+  "domain_names": [
+   "blythe-financial.com"
+  ],
+  "details": "Insurance",
+  "notes": "Account owner is Ashley Mossshaw. Loop them in before any credit or refund.",
+  "tags": [
+   "mid-market",
+   "insurance",
+   "prospect"
+  ],
+  "created_at": "2026-02-04T04:57:51Z",
+  "updated_at": "2026-05-30T07:00:09Z",
+  "organization_fields": {
+   "industry": "Insurance",
+   "tier": "mid-market",
+   "employees": 270,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5V 3L9",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000025,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000025.json",
+  "external_id": "acct-25",
+  "name": "Myrtle Systems",
+  "domain_names": [
+   "myrtlesys.com"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "smb",
+   "telecommunications",
+   "prospect"
+  ],
+  "created_at": "2025-04-28T19:44:49Z",
+  "updated_at": "2026-09-28T19:38:59Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 52,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Bengaluru",
+   "region": "Karnataka",
+   "country": "India",
+   "postal_code": "560001",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000026,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000026.json",
+  "external_id": "acct-26",
+  "name": "Lichen Technologies",
+  "domain_names": [
+   "lichentech.com"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "smb",
+   "financial_services",
+   "prospect"
+  ],
+  "created_at": "2026-04-09T14:43:52Z",
+  "updated_at": "2026-05-07T18:16:31Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 120,
+   "account_owner": "Wesley Roseton",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "018956",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000027,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000027.json",
+  "external_id": "acct-27",
+  "name": "Alcott Analytics",
+  "domain_names": [
+   "alcott.com"
+  ],
+  "details": "Technology",
+  "notes": "",
+  "tags": [
+   "smb",
+   "technology"
+  ],
+  "created_at": "2024-04-16T16:59:22Z",
+  "updated_at": "2026-01-27T06:57:28Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 115,
+   "account_owner": "Lisa Williams",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10018",
+   "signed_on": "2024-05-13",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 49,
+   "arr": 20000,
+   "renewal_date": "2027-05-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000028,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000028.json",
+  "external_id": "acct-28",
+  "name": "Sonnet Financial",
+  "domain_names": [
+   "sonnet.com"
+  ],
+  "details": "Banking",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "mid-market",
+   "banking",
+   "escalation_watch"
+  ],
+  "created_at": "2026-09-15T13:51:11Z",
+  "updated_at": "2026-09-27T18:19:30Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "mid-market",
+   "employees": 585,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "12043",
+   "signed_on": "2026-10-04",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 90,
+   "arr": 125000,
+   "renewal_date": "2027-10-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000029,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000029.json",
+  "external_id": "acct-29",
+  "name": "Altessa",
+  "domain_names": [
+   "altessa.com"
+  ],
+  "details": "Real Estate",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "real_estate",
+   "prospect"
+  ],
+  "created_at": "2026-02-10T18:46:04Z",
+  "updated_at": "2026-04-21T20:38:12Z",
+  "organization_fields": {
+   "industry": "Real Estate",
+   "tier": "smb",
+   "employees": 33,
+   "account_owner": "Lisa Williams",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5V 3L9",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000030,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000030.json",
+  "external_id": "acct-30",
+  "name": "Maplestone",
+  "domain_names": [
+   "maplestone.com"
+  ],
+  "details": "Media",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "media",
+   "prospect",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "created_at": "2025-08-19T11:46:48Z",
+  "updated_at": "2026-06-09T00:57:39Z",
+  "organization_fields": {
+   "industry": "Media",
+   "tier": "smb",
+   "employees": 45,
+   "account_owner": "Klaudia Simon",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "EC2A 4NE",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000031,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000031.json",
+  "external_id": "acct-31",
+  "name": "Unitaria Financial",
+  "domain_names": [
+   "unitaria.com"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "smb",
+   "telecommunications",
+   "prospect"
+  ],
+  "created_at": "2026-09-08T09:52:53Z",
+  "updated_at": "2026-10-03T14:21:19Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 55,
+   "account_owner": "Anja Beck",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10999",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000032,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000032.json",
+  "external_id": "acct-32",
+  "name": "Benevra Partners",
+  "domain_names": [
+   "benevra.co.uk"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "smb",
+   "financial_services"
+  ],
+  "created_at": "2024-08-21T09:42:47Z",
+  "updated_at": "2025-11-20T01:38:15Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 93,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10117",
+   "signed_on": "2024-08-31",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 35,
+   "arr": 12872,
+   "renewal_date": "2027-08-31"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000033,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000033.json",
+  "external_id": "acct-33",
+  "name": "Boreal Fabrication",
+  "domain_names": [
+   "borealfabrication.com"
+  ],
+  "details": "Technology",
+  "notes": "",
+  "tags": [
+   "smb",
+   "technology"
+  ],
+  "created_at": "2025-01-08T11:37:41Z",
+  "updated_at": "2025-09-14T11:22:17Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 150,
+   "account_owner": "Lisa Williams",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "W1T 1JY",
+   "signed_on": "2026-01-06",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 59,
+   "arr": 10000,
+   "renewal_date": "2027-01-06"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000034,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000034.json",
+  "external_id": "acct-34",
+  "name": "Aspen Analytics",
+  "domain_names": [
+   "aspenanalytics.com"
+  ],
+  "details": "Media",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "media",
+   "prospect"
+  ],
+  "created_at": "2026-07-25T20:32:28Z",
+  "updated_at": "2026-07-31T23:19:58Z",
+  "organization_fields": {
+   "industry": "Media",
+   "tier": "smb",
+   "employees": 17,
+   "account_owner": "Ashley Mossshaw",
+   "city": "S\u00e3o Paulo",
+   "region": "SP",
+   "country": "Brazil",
+   "postal_code": "04538-133",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000035,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000035.json",
+  "external_id": "acct-35",
+  "name": "Fieldcrest Capital",
+  "domain_names": [
+   "fieldcrest-capital.com"
+  ],
+  "details": "Telecommunications",
+  "notes": "20 seats on the Team plan, up for renewal 2027-06-30. Renewal conversations run through the account team.",
+  "tags": [
+   "smb",
+   "telecommunications"
+  ],
+  "created_at": "2025-06-11T11:55:06Z",
+  "updated_at": "2025-10-11T06:16:29Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 75,
+   "account_owner": "Ashley Mossshaw",
+   "city": "San Francisco",
+   "region": "CA",
+   "country": "United States",
+   "postal_code": "94301",
+   "signed_on": "2026-08-11",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 20,
+   "arr": 16000,
+   "renewal_date": "2027-08-11"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000036,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000036.json",
+  "external_id": "acct-36",
+  "name": "Grantham Payments",
+  "domain_names": [
+   "grantham-payments.com"
+  ],
+  "details": "Investment Management",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "mid-market",
+   "investment_management",
+   "prospect",
+   "premium_support"
+  ],
+  "created_at": "2026-08-06T11:19:24Z",
+  "updated_at": "2026-10-03T23:49:41Z",
+  "organization_fields": {
+   "industry": "Investment Management",
+   "tier": "mid-market",
+   "employees": 285,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10999",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000037,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000037.json",
+  "external_id": "acct-37",
+  "name": "Basaltpeak Financial",
+  "domain_names": [
+   "basaltpeak-financial.io"
+  ],
+  "details": "Banking",
+  "notes": "49 seats on the Team plan, up for renewal 2026-10-23. Renewal conversations run through the account team.",
+  "tags": [
+   "smb",
+   "banking"
+  ],
+  "created_at": "2023-11-14T09:52:51Z",
+  "updated_at": "2026-04-15T00:15:53Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 177,
+   "account_owner": "Anja Beck",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "018956",
+   "signed_on": "2023-12-10",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 49,
+   "arr": 17000,
+   "renewal_date": "2026-12-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000038,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000038.json",
+  "external_id": "acct-38",
+  "name": "Berylpeak Broadcasting",
+  "domain_names": [
+   "berylpeak-broadcasting.ai"
+  ],
+  "details": "Telecommunications",
+  "notes": "Runs their own telecommunications integration; escalate API questions to engineering.",
+  "tags": [
+   "smb",
+   "telecommunications"
+  ],
+  "created_at": "2024-09-17T11:50:48Z",
+  "updated_at": "2026-02-04T02:35:53Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "smb",
+   "employees": 29,
+   "account_owner": "Ashley Mossshaw",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "SE1 9SG",
+   "signed_on": "2024-10-11",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 7,
+   "arr": 9900,
+   "renewal_date": "2026-10-11"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000039,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000039.json",
+  "external_id": "acct-39",
+  "name": "Bayfern Care",
+  "domain_names": [
+   "bayfern.co"
+  ],
+  "details": "Nonprofit",
+  "notes": "",
+  "tags": [
+   "smb",
+   "nonprofit",
+   "churned",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "created_at": "2024-02-07T11:37:06Z",
+  "updated_at": "2026-10-01T01:23:50Z",
+  "organization_fields": {
+   "industry": "Nonprofit",
+   "tier": "smb",
+   "employees": 145,
+   "account_owner": "Anja Beck",
+   "city": "Sydney",
+   "region": "NSW",
+   "country": "Australia",
+   "postal_code": "2010",
+   "signed_on": "2024-02-19",
+   "account_status": "churned",
+   "plan": "team",
+   "seats": 65,
+   "arr": 42500,
+   "churned_on": "2026-09-19"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000040,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000040.json",
+  "external_id": "acct-40",
+  "name": "Jarvis Technologies",
+  "domain_names": [
+   "jarvistech.co"
+  ],
+  "details": "Financial Services",
+  "notes": "Runs their own financial services integration; escalate API questions to engineering.",
+  "tags": [
+   "mid-market",
+   "financial_services"
+  ],
+  "created_at": "2024-01-31T09:39:02Z",
+  "updated_at": "2025-11-21T19:47:30Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 239,
+   "account_owner": "Lisa Williams",
+   "city": "Bengaluru",
+   "region": "Karnataka",
+   "country": "India",
+   "postal_code": "560001",
+   "signed_on": "2024-02-21",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 52,
+   "arr": 30000,
+   "renewal_date": "2027-03-10"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000041,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000041.json",
+  "external_id": "acct-41",
+  "name": "Glint Capital",
+  "domain_names": [
+   "glintcapital.io"
+  ],
+  "details": "Financial Services",
+  "notes": "Runs their own financial services integration; escalate API questions to engineering.",
+  "tags": [
+   "smb",
+   "financial_services",
+   "prospect"
+  ],
+  "created_at": "2026-09-10T14:17:13Z",
+  "updated_at": "2026-09-24T11:17:45Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 160,
+   "account_owner": "Lisa Williams",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5H 2N2",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000042,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000042.json",
+  "external_id": "acct-42",
+  "name": "Celsara Partners",
+  "domain_names": [
+   "celsara.com"
+  ],
+  "details": "Financial Services",
+  "notes": "Runs their own financial services integration; escalate API questions to engineering.",
+  "tags": [
+   "mid-market",
+   "financial_services",
+   "prospect",
+   "escalation_watch",
+   "premium_support"
+  ],
+  "created_at": "2026-01-30T15:08:33Z",
+  "updated_at": "2026-10-02T02:06:35Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "mid-market",
+   "employees": 370,
+   "account_owner": "Anja Beck",
+   "city": "Toronto",
+   "region": "ON",
+   "country": "Canada",
+   "postal_code": "M5V 3L9",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000043,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000043.json",
+  "external_id": "acct-43",
+  "name": "Tressler Technologies",
+  "domain_names": [
+   "tresslertech.co"
+  ],
+  "details": "Banking",
+  "notes": "Evaluating \u2014 no contract signed yet. Route anything commercial to the account team.",
+  "tags": [
+   "mid-market",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2025-12-24T10:46:29Z",
+  "updated_at": "2026-02-03T03:43:19Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "mid-market",
+   "employees": 325,
+   "account_owner": "Ashley Mossshaw",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "11201",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000044,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000044.json",
+  "external_id": "acct-44",
+  "name": "Birchbrook Logistics",
+  "domain_names": [
+   "birchbrooklogistics.net"
+  ],
+  "details": "Technology",
+  "notes": "13 seats on the Team plan, up for renewal 2026-09-30. Renewal conversations run through the account team.",
+  "tags": [
+   "smb",
+   "technology"
+  ],
+  "created_at": "2023-10-12T10:18:02Z",
+  "updated_at": "2026-06-26T09:31:39Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 95,
+   "account_owner": "Lisa Williams",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "10117",
+   "signed_on": "2023-10-28",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 13,
+   "arr": 2600,
+   "renewal_date": "2026-11-11"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000045,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000045.json",
+  "external_id": "acct-45",
+  "name": "Quarry International",
+  "domain_names": [
+   "quarryintl.co"
+  ],
+  "details": "Real Estate",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "real_estate"
+  ],
+  "created_at": "2024-11-28T18:05:40Z",
+  "updated_at": "2026-01-23T17:07:42Z",
+  "organization_fields": {
+   "industry": "Real Estate",
+   "tier": "mid-market",
+   "employees": 1800,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Amsterdam",
+   "region": "North Holland",
+   "country": "Netherlands",
+   "postal_code": "1097 DN",
+   "signed_on": "2025-01-29",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 106,
+   "arr": 51798,
+   "renewal_date": "2027-01-27"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000046,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000046.json",
+  "external_id": "acct-46",
+  "name": "Downpour Credit Union",
+  "domain_names": [
+   "dcu.io"
+  ],
+  "details": "Banking",
+  "notes": "Evaluating \u2014 no contract signed yet. Route anything commercial to the account team.",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2026-01-29T15:53:27Z",
+  "updated_at": "2026-03-15T23:42:47Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 89,
+   "account_owner": "Lisa Williams",
+   "city": "San Francisco",
+   "region": "CA",
+   "country": "United States",
+   "postal_code": "94110",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000047,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000047.json",
+  "external_id": "acct-47",
+  "name": "Rafferty",
+  "domain_names": [
+   "rafferty.com.au"
+  ],
+  "details": "Media",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "media"
+  ],
+  "created_at": "2023-12-11T16:30:37Z",
+  "updated_at": "2026-07-14T04:19:20Z",
+  "organization_fields": {
+   "industry": "Media",
+   "tier": "smb",
+   "employees": 135,
+   "account_owner": "Lisa Williams",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10001",
+   "signed_on": "2024-01-07",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 58,
+   "arr": 17000,
+   "renewal_date": "2027-01-06"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000048,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000048.json",
+  "external_id": "acct-48",
+  "name": "Skyfield",
+  "domain_names": [
+   "skyfield.com"
+  ],
+  "details": "Banking",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2025-10-02T16:15:21Z",
+  "updated_at": "2025-11-03T04:32:54Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "mid-market",
+   "employees": 225,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "018956",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000049,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000049.json",
+  "external_id": "acct-49",
+  "name": "Rudley Payments",
+  "domain_names": [
+   "rudleypayments.com"
+  ],
+  "details": "Investment Management",
+  "notes": "",
+  "tags": [
+   "smb",
+   "investment_management"
+  ],
+  "created_at": "2025-06-26T16:36:50Z",
+  "updated_at": "2026-09-29T09:48:18Z",
+  "organization_fields": {
+   "industry": "Investment Management",
+   "tier": "smb",
+   "employees": 26,
+   "account_owner": "Ashley Mossshaw",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "SE1 9SG",
+   "signed_on": "2026-03-26",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 7,
+   "arr": 2600,
+   "renewal_date": "2027-03-26"
+  },
+  "group_id": 5000004,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000050,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000050.json",
+  "external_id": "acct-50",
+  "name": "Arvelis Financial",
+  "domain_names": [
+   "arvelis.com"
+  ],
+  "details": "Financial Services",
+  "notes": "",
+  "tags": [
+   "smb",
+   "financial_services",
+   "prospect"
+  ],
+  "created_at": "2025-08-29T09:04:45Z",
+  "updated_at": "2026-04-04T15:12:31Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 130,
+   "account_owner": "Klaudia Simon",
+   "city": "Tel Aviv",
+   "region": "Tel Aviv District",
+   "country": "Israel",
+   "postal_code": "6701101",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000051,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000051.json",
+  "external_id": "acct-51",
+  "name": "Boland Capital",
+  "domain_names": [
+   "bolandcapital.fr"
+  ],
+  "details": "Insurance",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "insurance"
+  ],
+  "created_at": "2024-02-06T10:26:00Z",
+  "updated_at": "2026-08-01T21:24:31Z",
+  "organization_fields": {
+   "industry": "Insurance",
+   "tier": "mid-market",
+   "employees": 300,
+   "account_owner": "Anja Beck",
+   "city": "S\u00e3o Paulo",
+   "region": "SP",
+   "country": "Brazil",
+   "postal_code": "01310-100",
+   "signed_on": "2024-02-21",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 38,
+   "arr": 35000,
+   "renewal_date": "2027-02-26"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000052,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000052.json",
+  "external_id": "acct-52",
+  "name": "Civaro Systems",
+  "domain_names": [
+   "civarosys.com"
+  ],
+  "details": "Media",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "media",
+   "prospect"
+  ],
+  "created_at": "2026-05-21T17:36:36Z",
+  "updated_at": "2026-08-02T10:39:10Z",
+  "organization_fields": {
+   "industry": "Media",
+   "tier": "smb",
+   "employees": 166,
+   "account_owner": "Ashley Mossshaw",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10013",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000053,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000053.json",
+  "external_id": "acct-53",
+  "name": "Solace Materials",
+  "domain_names": [
+   "solacematerials.com"
+  ],
+  "details": "Technology",
+  "notes": "Account owner is Lisa Williams. Loop them in before any credit or refund.",
+  "tags": [
+   "enterprise",
+   "technology",
+   "prospect"
+  ],
+  "created_at": "2025-05-06T13:40:16Z",
+  "updated_at": "2026-08-14T06:18:23Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "enterprise",
+   "employees": 2000,
+   "account_owner": "Lisa Williams",
+   "city": "Singapore",
+   "region": "Central Region",
+   "country": "Singapore",
+   "postal_code": "079903",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000054,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000054.json",
+  "external_id": "acct-54",
+  "name": "Everard Capital",
+  "domain_names": [
+   "everard-capital.io"
+  ],
+  "details": "Banking",
+  "notes": "",
+  "tags": [
+   "smb",
+   "banking",
+   "prospect"
+  ],
+  "created_at": "2026-07-25T10:28:48Z",
+  "updated_at": "2026-09-10T19:46:13Z",
+  "organization_fields": {
+   "industry": "Banking",
+   "tier": "smb",
+   "employees": 48,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Chicago",
+   "region": "IL",
+   "country": "United States",
+   "postal_code": "60654",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000055,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000055.json",
+  "external_id": "acct-55",
+  "name": "Mosscrest",
+  "domain_names": [
+   "mosscrest.co"
+  ],
+  "details": "Government",
+  "notes": "Prefers email to the help centre. Do not close a ticket without a written reply.",
+  "tags": [
+   "smb",
+   "government",
+   "prospect"
+  ],
+  "created_at": "2026-08-04T10:06:01Z",
+  "updated_at": "2026-08-10T18:12:21Z",
+  "organization_fields": {
+   "industry": "Government",
+   "tier": "smb",
+   "employees": 85,
+   "account_owner": "Klaudia Simon",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10018",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000056,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000056.json",
+  "external_id": "acct-56",
+  "name": "Loxham Media",
+  "domain_names": [
+   "loxham-media.com"
+  ],
+  "details": "Technology",
+  "notes": "Account owner is Anja Beck. Loop them in before any credit or refund.",
+  "tags": [
+   "mid-market",
+   "technology"
+  ],
+  "created_at": "2025-04-16T14:44:02Z",
+  "updated_at": "2026-03-09T08:55:05Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "mid-market",
+   "employees": 300,
+   "account_owner": "Anja Beck",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10001",
+   "signed_on": "2025-12-12",
+   "account_status": "customer",
+   "plan": "business",
+   "seats": 25,
+   "arr": 15000,
+   "renewal_date": "2026-12-12"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000057,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000057.json",
+  "external_id": "acct-57",
+  "name": "Croswell Technologies",
+  "domain_names": [
+   "croswelltech.co"
+  ],
+  "details": "Financial Services",
+  "notes": "33 seats on the Team plan, up for renewal 2026-09-19. Renewal conversations run through the account team.",
+  "tags": [
+   "smb",
+   "financial_services"
+  ],
+  "created_at": "2023-10-18T10:49:07Z",
+  "updated_at": "2026-04-16T00:13:39Z",
+  "organization_fields": {
+   "industry": "Financial Services",
+   "tier": "smb",
+   "employees": 80,
+   "account_owner": "Lisa Williams",
+   "city": "London",
+   "region": "England",
+   "country": "United Kingdom",
+   "postal_code": "W1T 1JY",
+   "signed_on": "2023-11-01",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 33,
+   "arr": 7100,
+   "renewal_date": "2026-10-31"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ },
+ {
+  "id": 3000058,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000058.json",
+  "external_id": "acct-58",
+  "name": "Vox Systems",
+  "domain_names": [
+   "voxsys.io"
+  ],
+  "details": "Telecommunications",
+  "notes": "",
+  "tags": [
+   "mid-market",
+   "telecommunications",
+   "prospect"
+  ],
+  "created_at": "2026-01-06T21:59:09Z",
+  "updated_at": "2026-01-20T10:40:20Z",
+  "organization_fields": {
+   "industry": "Telecommunications",
+   "tier": "mid-market",
+   "employees": 425,
+   "account_owner": "Anja Beck",
+   "city": "New York",
+   "region": "NY",
+   "country": "United States",
+   "postal_code": "10013",
+   "account_status": "prospect"
+  },
+  "group_id": null,
+  "shared_tickets": true,
+  "shared_comments": true,
+  "deleted_at": null
+ },
+ {
+  "id": 3000059,
+  "url": "https://saporanetworks.zendesk.com/api/v2/organizations/3000059.json",
+  "external_id": "acct-59",
+  "name": "Aperture Fabrication",
+  "domain_names": [
+   "aperture.com"
+  ],
+  "details": "Technology",
+  "notes": "",
+  "tags": [
+   "smb",
+   "technology",
+   "escalation_watch"
+  ],
+  "created_at": "2026-08-20T13:29:09Z",
+  "updated_at": "2026-09-09T13:44:49Z",
+  "organization_fields": {
+   "industry": "Technology",
+   "tier": "smb",
+   "employees": 150,
+   "account_owner": "Ashley Mossshaw",
+   "city": "Berlin",
+   "region": "Berlin",
+   "country": "Germany",
+   "postal_code": "12043",
+   "signed_on": "2026-10-04",
+   "account_status": "customer",
+   "plan": "team",
+   "seats": 53,
+   "arr": 11500,
+   "renewal_date": "2027-10-04"
+  },
+  "group_id": 5000004,
+  "shared_tickets": false,
+  "shared_comments": false,
+  "deleted_at": null
+ }
+]

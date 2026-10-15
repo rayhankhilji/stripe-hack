@@ -1,0 +1,229 @@
+{
+ "callId": "7000000003307496878",
+ "transcript": [
+  {
+   "speakerId": "6000000001625645984",
+   "topic": "Agenda",
+   "sentences": [
+    {
+     "start": 0,
+     "end": 31516,
+     "text": "Procurement has the order form for 144 seats - shall we walk their questions?"
+    },
+    {
+     "start": 31916,
+     "end": 63023,
+     "text": "To be honest, at 144 seats you are on the mid tier, so let me show you both."
+    },
+    {
+     "start": 63423,
+     "end": 97806,
+     "text": "Between us, the data cleanup is usually the work people underestimate before launch."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Agenda",
+   "sentences": [
+    {
+     "start": 102109,
+     "end": 111523,
+     "text": "Is this being recorded?"
+    },
+    {
+     "start": 111923,
+     "end": 146715,
+     "text": "I want to send it to the people who could not make it - I can check the exact figure."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000000400708406",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 151935,
+     "end": 189993,
+     "text": "We can run the migration against a copy of your data first, so nobody is guessing at go-live."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 194321,
+     "end": 220924,
+     "text": "Security review is the gate the COO worries about, not the price."
+    },
+    {
+     "start": 221324,
+     "end": 260207,
+     "text": "When v1.2.1 went out, how did you know before your customers told you - does that work for you?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 264116,
+     "end": 287033,
+     "text": "We would need a 12 month term rather than an annual one."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 288265,
+     "end": 326333,
+     "text": "The thing is, if Vidhi leaves, does anyone else at Quillen Press know how this is configured?"
+    },
+    {
+     "start": 326733,
+     "end": 333282,
+     "text": "Yep, that works."
+    },
+    {
+     "start": 333682,
+     "end": 359062,
+     "text": "I will confirm whether the COO signs off or someone else does."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 360242,
+     "end": 390122,
+     "text": "I mean, is the $80,000 number the renewal or the renewal plus the add-on?"
+    },
+    {
+     "start": 390522,
+     "end": 422448,
+     "text": "We are still comparing you and the tool their US team already uses internally."
+    },
+    {
+     "start": 422848,
+     "end": 450273,
+     "text": "How much of the onboarding is your team and how much lands on mine?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Contract redlines",
+   "sentences": [
+    {
+     "start": 452787,
+     "end": 474072,
+     "text": "The COO wants a written comparison before we decide."
+    },
+    {
+     "start": 474472,
+     "end": 502306,
+     "text": "Our own p95 budget is 1004 ms; where does yours sit under that load?"
+    },
+    {
+     "start": 502706,
+     "end": 527267,
+     "text": "How does onboarding look if we start in the new fiscal year?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000001625645984",
+   "topic": "Order form",
+   "sentences": [
+    {
+     "start": 529728,
+     "end": 554282,
+     "text": "Let - let me get the COO whatever the security review needs."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000001625645984",
+   "topic": "Order form",
+   "sentences": [
+    {
+     "start": 555953,
+     "end": 600974,
+     "text": "Vidhi, customers your size move cost per transaction inside a quarter; beyond that it is your process, not us."
+    },
+    {
+     "start": 601374,
+     "end": 631252,
+     "text": "I can bring a solutions engineer to the transaction dispute form session."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000000400708406",
+   "topic": "Order form",
+   "sentences": [
+    {
+     "start": 633604,
+     "end": 681079,
+     "text": "Realistically, the transaction dispute form limit is per-project, not per-account - that usually changes the sizing."
+    },
+    {
+     "start": 681479,
+     "end": 719133,
+     "text": "The failure mode there is a retry, not a dropped record; I can send you what the queue does."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000001625645984",
+   "topic": "Order form",
+   "sentences": [
+    {
+     "start": 724595,
+     "end": 758569,
+     "text": "Then let us aim at a decision date rather than a start date - the end of the month?"
+    },
+    {
+     "start": 758969,
+     "end": 794989,
+     "text": "Ok, so we can pin Quillen Press to eu-west-1 - it is a setting, not a migration project."
+    },
+    {
+     "start": 795389,
+     "end": 805623,
+     "text": "What do you think, Vidhi?"
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000001625645984",
+   "topic": "Next steps",
+   "sentences": [
+    {
+     "start": 808833,
+     "end": 854667,
+     "text": "For what it is worth, I will send the transaction dispute form write-up and the pricing in one email, not three."
+    }
+   ]
+  },
+  {
+   "speakerId": "6000000002397766284",
+   "topic": "Next steps",
+   "sentences": [
+    {
+     "start": 859734,
+     "end": 897383,
+     "text": "Sorry, if the eu-west-1 answer holds, the rest of this is straightforward for Quillen Press."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1607 @@
+{
+ "files": [
+  {
+   "id": "sheet-accounts",
+   "name": "Accounts",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-09-25T19:18:34.000Z",
+   "modifiedTime": "2026-10-08T23:49:03.000Z",
+   "size": "37932",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Accounts",
+   "parentId": "root",
+   "fileSize": "37932",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-accounts/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Account ID Name Domain Industry Tier Employees Owner acct-0 Primrose Partners primrosepartners.co.uk Fintech enterprise 43 ashleym@saporanetworks.com acct-1 Ardentia Media ardentiamedia.com Media mid-"
+  },
+  {
+   "id": "doc-4327",
+   "name": "Onboarding Checklist Q3 - NS",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-28T15:48:31.000Z",
+   "modifiedTime": "2026-10-08T23:19:47.000Z",
+   "size": "5967",
+   "webViewLink": "https://docs.google.com/document/d/doc-4327/edit",
+   "parents": [
+    "folder-users-ulkudeso-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q3 - NS",
+   "parentId": "folder-users-ulkudeso-notes-2026",
+   "fileSize": "5967",
+   "viewUrl": "https://docs.google.com/document/d/doc-4327/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q3 - NS Internal \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tie"
+  },
+  {
+   "id": "sheet-deals",
+   "name": "Deals Pipeline",
+   "mimeType": "application/vnd.google-apps.spreadsheet",
+   "createdTime": "2026-10-08T07:02:35.000Z",
+   "modifiedTime": "2026-10-08T13:56:39.000Z",
+   "size": "52852",
+   "webViewLink": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "parents": [
+    "root"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Nora Pfeiffer",
+     "emailAddress": "norap@saporanetworks.com",
+     "permissionId": "619113866976706043591",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deals Pipeline",
+   "parentId": "root",
+   "fileSize": "52852",
+   "viewUrl": "https://docs.google.com/spreadsheets/d/sheet-deals/edit",
+   "owner": "norap@saporanetworks.com",
+   "contentSnippet": "Deal ID Name Account ID Amount Stage Owner Close Date deal-0 Sable - Pilot FY26 acct-2 7500 Prospecting ashleym@saporanetworks.com 2026-11-12 deal-1 Ardentia Media - Renewal acct-1 49000 Closed Won os"
+  },
+  {
+   "id": "doc-2527",
+   "name": "Build Log Q3 v5.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-19T15:49:36.000Z",
+   "modifiedTime": "2026-10-08T12:40:48.000Z",
+   "size": "2298",
+   "webViewLink": "https://drive.google.com/file/d/doc-2527/view",
+   "parents": [
+    "folder-shared-engineering-builds-ingest-worker-05"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Build Log Q3 v5.log",
+   "parentId": "folder-shared-engineering-builds-ingest-worker-05",
+   "fileSize": "2298",
+   "viewUrl": "https://drive.google.com/file/d/doc-2527/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Build Log Q3 v5.log Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-4447",
+   "name": "Renewal Proposal Q3 - sales_ops",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-29T11:52:53.000Z",
+   "modifiedTime": "2026-10-08T12:23:56.000Z",
+   "size": "5719",
+   "webViewLink": "https://docs.google.com/document/d/doc-4447/edit",
+   "parents": [
+    "folder-users-selink-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 - sales_ops",
+   "parentId": "folder-users-selink-documents-2026",
+   "fileSize": "5719",
+   "viewUrl": "https://docs.google.com/document/d/doc-4447/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 - sales_ops Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tie"
+  },
+  {
+   "id": "doc-4627",
+   "name": "Implementation Plan Q3 v47.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-10-07T15:46:28.000Z",
+   "modifiedTime": "2026-10-07T15:46:28.000Z",
+   "size": "4092",
+   "webViewLink": "https://drive.google.com/file/d/doc-4627/view",
+   "parents": [
+    "folder-shared-product-specs-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q3 v47.docx",
+   "parentId": "folder-shared-product-specs-v1-5",
+   "fileSize": "4092",
+   "viewUrl": "https://drive.google.com/file/d/doc-4627/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q3 v47 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-mar"
+  },
+  {
+   "id": "doc-1087",
+   "name": "Spend Summary Q3 - 2026",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-10-07T11:09:55.000Z",
+   "modifiedTime": "2026-10-07T11:09:55.000Z",
+   "size": "4180",
+   "webViewLink": "https://docs.google.com/document/d/doc-1087/edit",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-reporting-06"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Spend Summary Q3 - 2026",
+   "parentId": "folder-shared-support-reporting-06",
+   "fileSize": "4180",
+   "viewUrl": "https://docs.google.com/document/d/doc-1087/edit",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q3 - 2026 Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-marke"
+  },
+  {
+   "id": "doc-3547",
+   "name": "Architecture Note Q3 (Taylor's copy).ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-10-06T14:33:11.000Z",
+   "modifiedTime": "2026-10-06T14:33:11.000Z",
+   "size": "1325",
+   "webViewLink": "https://drive.google.com/file/d/doc-3547/view",
+   "parents": [
+    "folder-shared-engineering-platform-billing-service-v1-4"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q3 (Taylor's copy).ts",
+   "parentId": "folder-shared-engineering-platform-billing-service-v1-4",
+   "fileSize": "1325",
+   "viewUrl": "https://drive.google.com/file/d/doc-3547/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q3 (Taylor's copy).ts Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 "
+  },
+  {
+   "id": "doc-9599",
+   "name": "Security Review Q1 v15 - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-03T15:22:25.000Z",
+   "modifiedTime": "2026-10-06T10:13:39.000Z",
+   "size": "4682",
+   "webViewLink": "https://docs.google.com/document/d/doc-9599/edit",
+   "parents": [
+    "folder-users-selink-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q1 v15 - copy",
+   "parentId": "folder-users-selink-downloads",
+   "fileSize": "4682",
+   "viewUrl": "https://docs.google.com/document/d/doc-9599/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Security Review Q1 v15 Confidential \u2014 Sapora Networks Record Owner: Nora Pfeiffer <norap@saporanetworks.com> (Head of Customer Success, Customer Success) Account: Quillen Press (acct-7) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-10327",
+   "name": "Security Review Q3 (142)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-14T19:27:14.000Z",
+   "modifiedTime": "2026-10-05T09:54:22.000Z",
+   "size": "8989",
+   "webViewLink": "https://docs.google.com/document/d/doc-10327/edit",
+   "parents": [
+    "folder-users-janusm-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Janus Mayer",
+     "emailAddress": "janusm@saporanetworks.com",
+     "permissionId": "114862890364564478094",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Security Review Q3 (142)",
+   "parentId": "folder-users-janusm-documents-2026",
+   "fileSize": "8989",
+   "viewUrl": "https://docs.google.com/document/d/doc-10327/edit",
+   "owner": "janusm@saporanetworks.com",
+   "contentSnippet": "Security Review Q3 (142) Confidential \u2014 Sapora Networks Record Owner: Janus Mayer <janusm@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunications, t"
+  },
+  {
+   "id": "doc-4267",
+   "name": "Capacity Plan Q3 - 2026-08 final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-02-23T08:57:30.000Z",
+   "modifiedTime": "2026-10-02T07:00:10.000Z",
+   "size": "13113",
+   "webViewLink": "https://docs.google.com/document/d/doc-4267/edit",
+   "parents": [
+    "folder-shared-compliance-reports-q2-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Esmeralda Bellthorpe",
+     "emailAddress": "esmeraldab@saporanetworks.com",
+     "permissionId": "077001835444695732174",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q3 - 2026-08 final",
+   "parentId": "folder-shared-compliance-reports-q2-archive",
+   "fileSize": "13113",
+   "viewUrl": "https://docs.google.com/document/d/doc-4267/edit",
+   "owner": "esmeraldab@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q3 - 2026-08 final Internal \u2014 Sapora Networks Record Owner: Esmeralda Bellthorpe <esmeraldab@saporanetworks.com> (Risk Analyst, Compliance) Account: Quillen Press (acct-7) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-7927",
+   "name": "Pricing Worksheet Q3 (79).xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2025-12-24T10:36:48.000Z",
+   "modifiedTime": "2026-10-01T11:18:46.000Z",
+   "size": "5335",
+   "webViewLink": "https://drive.google.com/file/d/doc-7927/view",
+   "parents": [
+    "folder-users-wesleyr-documents-2026-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Wesley Roseton",
+     "emailAddress": "wesleyr@saporanetworks.com",
+     "permissionId": "946908630162117501095",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 (79).xlsx",
+   "parentId": "folder-users-wesleyr-documents-2026-archive",
+   "fileSize": "5335",
+   "viewUrl": "https://drive.google.com/file/d/doc-7927/view",
+   "owner": "wesleyr@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 (79) Confidential \u2014 Sapora Networks Record Owner: Wesley Roseton <wesleyr@saporanetworks.com> (Account Executive, Sales) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier"
+  },
+  {
+   "id": "doc-1147",
+   "name": "Monthly Report v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-30T11:29:46.000Z",
+   "modifiedTime": "2026-09-30T11:29:46.000Z",
+   "size": "4236",
+   "webViewLink": "https://docs.google.com/document/d/doc-1147/edit",
+   "parents": [
+    "folder-users-lisaw-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Lisa Williams",
+     "emailAddress": "lisaw@saporanetworks.com",
+     "permissionId": "129529184707755539217",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report v2",
+   "parentId": "folder-users-lisaw-downloads",
+   "fileSize": "4236",
+   "viewUrl": "https://docs.google.com/document/d/doc-1147/edit",
+   "owner": "lisaw@saporanetworks.com",
+   "contentSnippet": "Monthly Report v2 Internal \u2014 Sapora Networks Record Owner: Lisa Williams <lisaw@saporanetworks.com> (Account Executive, Sales) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-market, do"
+  },
+  {
+   "id": "doc-5947",
+   "name": "Quarterly Business Review Q3 v95",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-14T11:01:42.000Z",
+   "modifiedTime": "2026-09-30T10:51:36.000Z",
+   "size": "5710",
+   "webViewLink": "https://docs.google.com/document/d/doc-5947/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quarterly Business Review Q3 v95",
+   "parentId": "folder-shared-product-specs-v2-0",
+   "fileSize": "5710",
+   "viewUrl": "https://docs.google.com/document/d/doc-5947/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quarterly Business Review Q3 v95 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier m"
+  },
+  {
+   "id": "doc-7334",
+   "name": "Quillen Press - Renewal Proposal final",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-07-29T20:17:43.000Z",
+   "modifiedTime": "2026-09-30T10:36:54.000Z",
+   "size": "3513",
+   "webViewLink": "https://docs.google.com/document/d/doc-7334/edit",
+   "parents": [
+    "folder-shared-product-specs-v1-5-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quillen Press - Renewal Proposal final",
+   "parentId": "folder-shared-product-specs-v1-5-archive",
+   "fileSize": "3513",
+   "viewUrl": "https://docs.google.com/document/d/doc-7334/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Renewal Proposal final Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunicatio"
+  },
+  {
+   "id": "doc-3907",
+   "name": "Pricing Worksheet Q3 (36)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-28T21:13:25.000Z",
+   "modifiedTime": "2026-09-28T21:13:25.000Z",
+   "size": "2746",
+   "webViewLink": "https://docs.google.com/document/d/doc-3907/edit",
+   "parents": [
+    "folder-users-timothys-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Timothy Sandthorpe",
+     "emailAddress": "timothys@saporanetworks.com",
+     "permissionId": "494301183804314959997",
+     "me": false
+    }
+   ],
+   "starred": true,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 (36)",
+   "parentId": "folder-users-timothys-desktop",
+   "fileSize": "2746",
+   "viewUrl": "https://docs.google.com/document/d/doc-3907/edit",
+   "owner": "timothys@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 (36) Confidential \u2014 Sapora Networks Record Owner: Timothy Sandthorpe <timothys@saporanetworks.com> (Customer Success Manager, Customer Success) Account: Quillen Press (acct-7) \u2014 T"
+  },
+  {
+   "id": "doc-6247",
+   "name": "On-Call Handover Q3 (46).json",
+   "mimeType": "application/json",
+   "createdTime": "2026-09-23T09:19:00.000Z",
+   "modifiedTime": "2026-09-23T09:19:00.000Z",
+   "size": "1386",
+   "webViewLink": "https://drive.google.com/file/d/doc-6247/view",
+   "parents": [
+    "folder-users-ignazh-notes-platform"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Ignaz Hartmann",
+     "emailAddress": "ignazh@saporanetworks.com",
+     "permissionId": "269925150025503982684",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "On-Call Handover Q3 (46).json",
+   "parentId": "folder-users-ignazh-notes-platform",
+   "fileSize": "1386",
+   "viewUrl": "https://drive.google.com/file/d/doc-6247/view",
+   "owner": "ignazh@saporanetworks.com",
+   "contentSnippet": "On-Call Handover Q3 (46).json Internal \u2014 Sapora Networks Record Owner: Ignaz Hartmann <ignazh@saporanetworks.com> (Software Engineer, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunications,"
+  },
+  {
+   "id": "doc-5920",
+   "name": "Quillen Press - Data Processing Addendum",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-11-26T19:59:57.000Z",
+   "modifiedTime": "2026-09-22T14:51:41.000Z",
+   "size": "4167",
+   "webViewLink": "https://docs.google.com/document/d/doc-5920/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-0-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quillen Press - Data Processing Addendum",
+   "parentId": "folder-shared-product-specs-v2-0-archive",
+   "fileSize": "4167",
+   "viewUrl": "https://docs.google.com/document/d/doc-5920/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Data Processing Addendum Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunicat"
+  },
+  {
+   "id": "doc-367",
+   "name": "Pricing Worksheet Q3",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-22T10:49:21.000Z",
+   "modifiedTime": "2026-09-22T10:49:21.000Z",
+   "size": "9778",
+   "webViewLink": "https://docs.google.com/document/d/doc-367/edit",
+   "parents": [
+    "folder-users-danielas-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Daniela Schr\u00f6der",
+     "emailAddress": "danielas@saporanetworks.com",
+     "permissionId": "497333830400986499048",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3",
+   "parentId": "folder-users-danielas-documents-2026",
+   "fileSize": "9778",
+   "viewUrl": "https://docs.google.com/document/d/doc-367/edit",
+   "owner": "danielas@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 Confidential \u2014 Sapora Networks Record Owner: Daniela Schr\u00f6der <danielas@saporanetworks.com> (Head of Compliance, Compliance) Account: Quillen Press (acct-7) \u2014 Telecommunications, "
+  },
+  {
+   "id": "doc-7795",
+   "name": "Architecture Note Q3 v34.yaml",
+   "mimeType": "application/yaml",
+   "createdTime": "2026-09-22T00:26:17.000Z",
+   "modifiedTime": "2026-09-22T00:26:17.000Z",
+   "size": "1443",
+   "webViewLink": "https://drive.google.com/file/d/doc-7795/view",
+   "parents": [
+    "folder-shared-engineering-platform-billing-service-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q3 v34.yaml",
+   "parentId": "folder-shared-engineering-platform-billing-service-v1-5",
+   "fileSize": "1443",
+   "viewUrl": "https://drive.google.com/file/d/doc-7795/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q3 v34.yaml Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommun"
+  },
+  {
+   "id": "doc-1836",
+   "name": "Quillen Press - Security Review - 2026",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-17T10:03:43.000Z",
+   "modifiedTime": "2026-09-21T09:26:53.000Z",
+   "size": "5032",
+   "webViewLink": "https://docs.google.com/document/d/doc-1836/edit",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quillen Press - Security Review - 2026",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "5032",
+   "viewUrl": "https://docs.google.com/document/d/doc-1836/edit",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Security Review - 2026 Confidential \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Quillen Press (acct-7) \u2014 Telecommu"
+  },
+  {
+   "id": "doc-7028",
+   "name": "Architecture Note Q3 - APAC.py",
+   "mimeType": "text/x-python",
+   "createdTime": "2026-03-20T07:59:25.000Z",
+   "modifiedTime": "2026-09-21T05:55:40.000Z",
+   "size": "1232",
+   "webViewLink": "https://drive.google.com/file/d/doc-7028/view",
+   "parents": [
+    "folder-shared-engineering-platform-platform-v2-1-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Elizabeth Marshby",
+     "emailAddress": "elizabethm@saporanetworks.com",
+     "permissionId": "114953379751046152091",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Architecture Note Q3 - APAC.py",
+   "parentId": "folder-shared-engineering-platform-platform-v2-1-archive",
+   "fileSize": "1232",
+   "viewUrl": "https://drive.google.com/file/d/doc-7028/view",
+   "owner": "elizabethm@saporanetworks.com",
+   "contentSnippet": "Architecture Note Q3 - APAC.py Internal \u2014 Sapora Networks Record Owner: Elizabeth Marshby <elizabethm@saporanetworks.com> (Site Reliability Engineer, Engineering) Account: Quillen Press (acct-7) \u2014 Tel"
+  },
+  {
+   "id": "doc-1225",
+   "name": "Pricing Worksheet Q3 - 31.07.26",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-18T09:36:43.000Z",
+   "modifiedTime": "2026-09-18T12:34:11.000Z",
+   "size": "4736",
+   "webViewLink": "https://docs.google.com/document/d/doc-1225/edit",
+   "parents": [
+    "folder-users-elisabethb-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Elisabeth Becker",
+     "emailAddress": "elisabethb@saporanetworks.com",
+     "permissionId": "195561295003419669642",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - 31.07.26",
+   "parentId": "folder-users-elisabethb-documents-2026",
+   "fileSize": "4736",
+   "viewUrl": "https://docs.google.com/document/d/doc-1225/edit",
+   "owner": "elisabethb@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - 31.07.26 Confidential \u2014 Sapora Networks Record Owner: Elisabeth Becker <elisabethb@saporanetworks.com> (Implementation Consultant, Professional Services) Account: Quillen Press "
+  },
+  {
+   "id": "doc-2907",
+   "name": "Monthly Report Q3 - 2026 (2).xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-09-18T10:28:11.000Z",
+   "modifiedTime": "2026-09-18T10:28:11.000Z",
+   "size": "4584",
+   "webViewLink": "https://drive.google.com/file/d/doc-2907/view",
+   "parents": [
+    "folder-users-felixm-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q3 - 2026 (2).xlsx",
+   "parentId": "folder-users-felixm-downloads",
+   "fileSize": "4584",
+   "viewUrl": "https://drive.google.com/file/d/doc-2907/view",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q3 - 2026 (2) Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-"
+  },
+  {
+   "id": "doc-4111",
+   "name": "Vendor Review Q3 - working_file v3",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-01-23T15:54:01.000Z",
+   "modifiedTime": "2026-09-17T09:32:45.000Z",
+   "size": "5663",
+   "webViewLink": "https://docs.google.com/document/d/doc-4111/edit",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-billing-2026-q2-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Vendor Review Q3 - working_file v3",
+   "parentId": "folder-shared-finance-billing-2026-q2-archive",
+   "fileSize": "5663",
+   "viewUrl": "https://docs.google.com/document/d/doc-4111/edit",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 - working_file v3 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Quillen Press (acct-7) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-9575",
+   "name": "Copy of Incident Timeline Q2 - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-16T10:58:58.000Z",
+   "modifiedTime": "2026-09-16T10:58:58.000Z",
+   "size": "12374",
+   "webViewLink": "https://docs.google.com/document/d/doc-9575/edit",
+   "parents": [
+    "folder-shared-engineering-platform-api-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Erhardt Herrmann",
+     "emailAddress": "erhardth@saporanetworks.com",
+     "permissionId": "639033507719358619490",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Incident Timeline Q2 - copy",
+   "parentId": "folder-shared-engineering-platform-api-v2-1",
+   "fileSize": "12374",
+   "viewUrl": "https://docs.google.com/document/d/doc-9575/edit",
+   "owner": "erhardth@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q2 - copy Restricted \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommun"
+  },
+  {
+   "id": "doc-3860",
+   "name": "Quillen Press - Migration Runbook v2",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-14T09:59:38.000Z",
+   "modifiedTime": "2026-09-14T09:59:38.000Z",
+   "size": "8556",
+   "webViewLink": "https://docs.google.com/document/d/doc-3860/edit",
+   "parents": [
+    "folder-shared-executive-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Quillen Press - Migration Runbook v2",
+   "parentId": "folder-shared-executive-documents-2026",
+   "fileSize": "8556",
+   "viewUrl": "https://docs.google.com/document/d/doc-3860/edit",
+   "owner": "simonn@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Migration Runbook v2 Restricted \u2014 Sapora Networks Record Owner: Simon Neumann <simonn@saporanetworks.com> (CEO, Executive) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mi"
+  },
+  {
+   "id": "doc-2222",
+   "name": "Monthly Report Q2 - draft - copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-11T07:56:05.000Z",
+   "modifiedTime": "2026-09-11T07:56:05.000Z",
+   "size": "2187",
+   "webViewLink": "https://docs.google.com/document/d/doc-2222/edit",
+   "parents": [
+    "folder-shared-engineering-platform-billing-service-v1-5"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q2 - draft - copy",
+   "parentId": "folder-shared-engineering-platform-billing-service-v1-5",
+   "fileSize": "2187",
+   "viewUrl": "https://docs.google.com/document/d/doc-2222/edit",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 - draft Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Quillen Press (acct-7) \u2014 Telecommunications, t"
+  },
+  {
+   "id": "doc-6268",
+   "name": "Copy of Brand Template Q1 v4.zip",
+   "mimeType": "application/zip",
+   "createdTime": "2026-07-14T11:24:24.000Z",
+   "modifiedTime": "2026-09-09T12:38:33.000Z",
+   "size": "1050",
+   "webViewLink": "https://drive.google.com/file/d/doc-6268/view",
+   "parents": [
+    "folder-shared-people-payroll-2026-06"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Frank",
+     "emailAddress": "felixf@saporanetworks.com",
+     "permissionId": "673918815016074258154",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Brand Template Q1 v4.zip",
+   "parentId": "folder-shared-people-payroll-2026-06",
+   "fileSize": "1050",
+   "viewUrl": "https://drive.google.com/file/d/doc-6268/view",
+   "owner": "felixf@saporanetworks.com",
+   "contentSnippet": "Brand Template Q1 v4.zip Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-marke"
+  },
+  {
+   "id": "file-kb-postmortem-ops-inc-8",
+   "name": "Postmortem: reconciliation-worker cannot reach its upstream (INC-1008)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-04T10:35:30.000Z",
+   "modifiedTime": "2026-09-07T18:29:14.000Z",
+   "size": "3986",
+   "webViewLink": "https://docs.google.com/document/d/file-kb-postmortem-ops-inc-8/edit",
+   "parents": [
+    "folder-support-knowledge-base-engineering-runbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Courtney Martinez",
+     "emailAddress": "courtneym@saporanetworks.com",
+     "permissionId": "541255210224541757264",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Postmortem: reconciliation-worker cannot reach its upstream (INC-1008)",
+   "parentId": "folder-support-knowledge-base-engineering-runbooks",
+   "fileSize": "3986",
+   "viewUrl": "https://docs.google.com/document/d/file-kb-postmortem-ops-inc-8/edit",
+   "owner": "courtneym@saporanetworks.com",
+   "contentSnippet": "Postmortem: reconciliation-worker cannot reach its upstream (INC-1008) sev3 on reconciliation-worker for 145 minutes, caused by an expired credential. Timeline, impact and the follow-up actions. Impac"
+  },
+  {
+   "id": "doc-4297",
+   "name": "Spend Summary Q3 - 2026-07 - copy.json",
+   "mimeType": "application/json",
+   "createdTime": "2026-04-07T18:43:58.000Z",
+   "modifiedTime": "2026-09-04T17:54:04.000Z",
+   "size": "1336",
+   "webViewLink": "https://drive.google.com/file/d/doc-4297/view",
+   "driveId": "drive-2",
+   "parents": [
+    "folder-shared-support-reporting-06-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Raymond Ashton",
+     "emailAddress": "raymonda@saporanetworks.com",
+     "permissionId": "688080477940176697043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Spend Summary Q3 - 2026-07 - copy.json",
+   "parentId": "folder-shared-support-reporting-06-archive",
+   "fileSize": "1336",
+   "viewUrl": "https://drive.google.com/file/d/doc-4297/view",
+   "owner": "raymonda@saporanetworks.com",
+   "contentSnippet": "Spend Summary Q3 - 2026-07 - copy.json Internal \u2014 Sapora Networks Record Owner: Raymond Ashton <raymonda@saporanetworks.com> (Senior Support Engineer, Support) Account: Quillen Press (acct-7) \u2014 Teleco"
+  },
+  {
+   "id": "doc-3637",
+   "name": "Service Runbook Q3 (27).ts",
+   "mimeType": "text/typescript",
+   "createdTime": "2026-02-09T18:41:38.000Z",
+   "modifiedTime": "2026-09-04T05:21:04.000Z",
+   "size": "1340",
+   "webViewLink": "https://drive.google.com/file/d/doc-3637/view",
+   "parents": [
+    "folder-shared-engineering-platform-webapp-v2-1-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Service Runbook Q3 (27).ts",
+   "parentId": "folder-shared-engineering-platform-webapp-v2-1-archive",
+   "fileSize": "1340",
+   "viewUrl": "https://drive.google.com/file/d/doc-3637/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Service Runbook Q3 (27).ts Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunica"
+  },
+  {
+   "id": "file-kb-incident-ops-inc-8",
+   "name": "Known issue: reconciliation-worker cannot reach its upstream (sev3)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-02T15:16:50.000Z",
+   "modifiedTime": "2026-09-03T08:28:38.000Z",
+   "size": "7036",
+   "webViewLink": "https://docs.google.com/document/d/file-kb-incident-ops-inc-8/edit",
+   "parents": [
+    "folder-support-knowledge-base-engineering-runbooks"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Courtney Martinez",
+     "emailAddress": "courtneym@saporanetworks.com",
+     "permissionId": "541255210224541757264",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Known issue: reconciliation-worker cannot reach its upstream (sev3)",
+   "parentId": "folder-support-knowledge-base-engineering-runbooks",
+   "fileSize": "7036",
+   "viewUrl": "https://docs.google.com/document/d/file-kb-incident-ops-inc-8/edit",
+   "owner": "courtneym@saporanetworks.com",
+   "contentSnippet": "Known issue: reconciliation-worker cannot reach its upstream (sev3) reconciliation-worker upstream errors fired on reconciliation-worker in prod. Cause: an expired credential. This is the page the des"
+  },
+  {
+   "id": "folder-shared-legal-contracts-quillen-press",
+   "name": "Quillen Press",
+   "mimeType": "application/vnd.google-apps.folder",
+   "createdTime": "2024-11-07T09:14:17.000Z",
+   "modifiedTime": "2026-09-03T08:00:04.000Z",
+   "webViewLink": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-quillen-press",
+   "parents": [
+    "folder-shared-legal-contracts"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Simon Neumann",
+     "emailAddress": "simonn@saporanetworks.com",
+     "permissionId": "457401185252933570592",
+     "me": true
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": true,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Quillen Press",
+   "parentId": "folder-shared-legal-contracts",
+   "viewUrl": "https://drive.google.com/drive/folders/folder-shared-legal-contracts-quillen-press",
+   "owner": "simonn@saporanetworks.com"
+  },
+  {
+   "id": "doc-2867",
+   "name": "Vendor Review Q3 - 2026-07 v2.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2025-10-16T19:02:37.000Z",
+   "modifiedTime": "2026-09-01T18:43:10.000Z",
+   "size": "4666",
+   "webViewLink": "https://drive.google.com/file/d/doc-2867/view",
+   "parents": [
+    "folder-users-felixm-downloads-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Felix Mayer",
+     "emailAddress": "felixm@saporanetworks.com",
+     "permissionId": "715229755423615946743",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Vendor Review Q3 - 2026-07 v2.xlsx",
+   "parentId": "folder-users-felixm-downloads-archive",
+   "fileSize": "4666",
+   "viewUrl": "https://drive.google.com/file/d/doc-2867/view",
+   "owner": "felixm@saporanetworks.com",
+   "contentSnippet": "Vendor Review Q3 - 2026-07 v2 Internal \u2014 Sapora Networks Record Owner: Felix Mayer <felixm@saporanetworks.com> (Head of Support, Support) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid"
+  },
+  {
+   "id": "doc-9577",
+   "name": "Renewal Proposal Q3 v150",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-09-01T14:16:19.000Z",
+   "modifiedTime": "2026-09-01T14:16:19.000Z",
+   "size": "9794",
+   "webViewLink": "https://docs.google.com/document/d/doc-9577/edit",
+   "parents": [
+    "folder-users-markusm-notes-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Markus M\u00fcller",
+     "emailAddress": "markusm@saporanetworks.com",
+     "permissionId": "215731061089566422325",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Renewal Proposal Q3 v150",
+   "parentId": "folder-users-markusm-notes-2026",
+   "fileSize": "9794",
+   "viewUrl": "https://docs.google.com/document/d/doc-9577/edit",
+   "owner": "markusm@saporanetworks.com",
+   "contentSnippet": "Renewal Proposal Q3 v150 Confidential \u2014 Sapora Networks Record Owner: Markus M\u00fcller <markusm@saporanetworks.com> (Revenue Accountant, Finance) Account: Quillen Press (acct-7) \u2014 Telecommunications, tie"
+  },
+  {
+   "id": "doc-1573",
+   "name": "Build Log Q3 - CR's copy.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-26T07:00:49.000Z",
+   "modifiedTime": "2026-08-26T07:00:49.000Z",
+   "size": "2162",
+   "webViewLink": "https://drive.google.com/file/d/doc-1573/view",
+   "parents": [
+    "folder-shared-engineering-builds-platform-03"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Tim Kuhn",
+     "emailAddress": "timk@saporanetworks.com",
+     "permissionId": "839247674579832623428",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Build Log Q3 - CR's copy.log",
+   "parentId": "folder-shared-engineering-builds-platform-03",
+   "fileSize": "2162",
+   "viewUrl": "https://drive.google.com/file/d/doc-1573/view",
+   "owner": "timk@saporanetworks.com",
+   "contentSnippet": "Build Log Q3 - CR's copy.log Internal \u2014 Sapora Networks Record Owner: Tim Kuhn <timk@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier m"
+  },
+  {
+   "id": "doc-10321",
+   "name": "Pricing Worksheet Q3 - 2026-07 - SW's copy.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-08-25T14:39:49.000Z",
+   "modifiedTime": "2026-08-25T14:39:49.000Z",
+   "size": "5284",
+   "webViewLink": "https://drive.google.com/file/d/doc-10321/view",
+   "parents": [
+    "folder-shared-product-specs-v2-1"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Pricing Worksheet Q3 - 2026-07 - SW's copy.xlsx",
+   "parentId": "folder-shared-product-specs-v2-1",
+   "fileSize": "5284",
+   "viewUrl": "https://drive.google.com/file/d/doc-10321/view",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q3 - 2026-07 - SW's copy Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-1897",
+   "name": "Incident Timeline Q3 - latest",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-24T18:59:28.000Z",
+   "modifiedTime": "2026-08-24T18:59:28.000Z",
+   "size": "6370",
+   "webViewLink": "https://docs.google.com/document/d/doc-1897/edit",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1240"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Incident Timeline Q3 - latest",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1240",
+   "fileSize": "6370",
+   "viewUrl": "https://docs.google.com/document/d/doc-1897/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Incident Timeline Q3 - latest Restricted \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecomm"
+  },
+  {
+   "id": "doc-7843",
+   "name": "Copy of Pricing Worksheet Q2 - internal_only.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-08-12T10:01:12.000Z",
+   "modifiedTime": "2026-08-17T16:50:26.000Z",
+   "size": "5339",
+   "webViewLink": "https://drive.google.com/file/d/doc-7843/view",
+   "parents": [
+    "folder-shared-sales-pipeline-q3"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Brian Armitham",
+     "emailAddress": "briana@saporanetworks.com",
+     "permissionId": "068202377155603086905",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Copy of Pricing Worksheet Q2 - internal_only.xlsx",
+   "parentId": "folder-shared-sales-pipeline-q3",
+   "fileSize": "5339",
+   "viewUrl": "https://drive.google.com/file/d/doc-7843/view",
+   "owner": "briana@saporanetworks.com",
+   "contentSnippet": "Pricing Worksheet Q2 - internal_only Confidential \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications"
+  },
+  {
+   "id": "doc-9803",
+   "name": "Quillen Press - Implementation Plan - AJ's copy",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2025-12-18T07:18:35.000Z",
+   "modifiedTime": "2026-08-14T17:08:19.000Z",
+   "size": "2866",
+   "webViewLink": "https://docs.google.com/document/d/doc-9803/edit",
+   "parents": [
+    "folder-shared-product-roadmap-q3-archive"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Quillen Press - Implementation Plan - AJ's copy",
+   "parentId": "folder-shared-product-roadmap-q3-archive",
+   "fileSize": "2866",
+   "viewUrl": "https://docs.google.com/document/d/doc-9803/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Implementation Plan - AJ's copy Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommuni"
+  },
+  {
+   "id": "doc-696",
+   "name": "Capacity Plan Q2 v9",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-07-31T23:34:17.000Z",
+   "modifiedTime": "2026-08-14T12:04:22.000Z",
+   "size": "7209",
+   "webViewLink": "https://docs.google.com/document/d/doc-696/edit",
+   "parents": [
+    "folder-users-stefanief-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Capacity Plan Q2 v9",
+   "parentId": "folder-users-stefanief-downloads",
+   "fileSize": "7209",
+   "viewUrl": "https://docs.google.com/document/d/doc-696/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Capacity Plan Q2 v9 Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunications, "
+  },
+  {
+   "id": "doc-9441",
+   "name": "Ingest Log Q2 v13.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-14T12:02:08.000Z",
+   "modifiedTime": "2026-08-14T12:02:08.000Z",
+   "size": "2134",
+   "webViewLink": "https://drive.google.com/file/d/doc-9441/view",
+   "parents": [
+    "folder-shared-engineering-builds-checkout-service-11"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Maximilian Ludwig",
+     "emailAddress": "maximilianl@saporanetworks.com",
+     "permissionId": "050013066084107510622",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Ingest Log Q2 v13.log",
+   "parentId": "folder-shared-engineering-builds-checkout-service-11",
+   "fileSize": "2134",
+   "viewUrl": "https://drive.google.com/file/d/doc-9441/view",
+   "owner": "maximilianl@saporanetworks.com",
+   "contentSnippet": "Ingest Log Q2 v13.log Internal \u2014 Sapora Networks Record Owner: Maximilian Ludwig <maximilianl@saporanetworks.com> (Head of Engineering, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunication"
+  },
+  {
+   "id": "doc-10130",
+   "name": "Monthly Report Q2 v144.xlsx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "createdTime": "2026-08-14T05:58:28.000Z",
+   "modifiedTime": "2026-08-14T05:58:28.000Z",
+   "size": "4556",
+   "webViewLink": "https://drive.google.com/file/d/doc-10130/view",
+   "parents": [
+    "folder-users-ulkudeso-downloads"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "\u00dclk\u00fcde\u015f \u00d6zt\u00fcrk",
+     "emailAddress": "ulkudeso@saporanetworks.com",
+     "permissionId": "612981840186441155477",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Monthly Report Q2 v144.xlsx",
+   "parentId": "folder-users-ulkudeso-downloads",
+   "fileSize": "4556",
+   "viewUrl": "https://drive.google.com/file/d/doc-10130/view",
+   "owner": "ulkudeso@saporanetworks.com",
+   "contentSnippet": "Monthly Report Q2 v144 Internal \u2014 Sapora Networks Record Owner: \u00dclk\u00fcde\u015f \u00d6zt\u00fcrk <ulkudeso@saporanetworks.com> (Product Designer, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-"
+  },
+  {
+   "id": "doc-6367",
+   "name": "Onboarding Checklist Q2 v25",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-06-18T18:49:05.000Z",
+   "modifiedTime": "2026-08-13T16:07:10.000Z",
+   "size": "3417",
+   "webViewLink": "https://docs.google.com/document/d/doc-6367/edit",
+   "parents": [
+    "folder-users-selink-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Selin Kara",
+     "emailAddress": "selink@saporanetworks.com",
+     "permissionId": "439860048100914897230",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Onboarding Checklist Q2 v25",
+   "parentId": "folder-users-selink-desktop",
+   "fileSize": "3417",
+   "viewUrl": "https://docs.google.com/document/d/doc-6367/edit",
+   "owner": "selink@saporanetworks.com",
+   "contentSnippet": "Onboarding Checklist Q2 v25 Internal \u2014 Sapora Networks Record Owner: Selin Kara <selink@saporanetworks.com> (Head of Product, Product) Account: Quillen Press (acct-7) \u2014 Telecommunications, tier mid-ma"
+  },
+  {
+   "id": "doc-631",
+   "name": "Data Processing Addendum Q2 - INTL",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-12T22:13:25.000Z",
+   "modifiedTime": "2026-08-12T22:13:25.000Z",
+   "size": "14766",
+   "webViewLink": "https://docs.google.com/document/d/doc-631/edit",
+   "parents": [
+    "folder-users-stefanief-desktop"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Data Processing Addendum Q2 - INTL",
+   "parentId": "folder-users-stefanief-desktop",
+   "fileSize": "14766",
+   "viewUrl": "https://docs.google.com/document/d/doc-631/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Data Processing Addendum Q2 - INTL Confidential \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 T"
+  },
+  {
+   "id": "doc-9771",
+   "name": "Quillen Press - Quarterly Business Review - 2026-06.docx",
+   "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "createdTime": "2026-06-08T16:14:21.000Z",
+   "modifiedTime": "2026-08-10T11:53:09.000Z",
+   "size": "3811",
+   "webViewLink": "https://drive.google.com/file/d/doc-9771/view",
+   "driveId": "drive-1",
+   "parents": [
+    "folder-shared-finance-contracts-quillen-press"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Christina Schubert",
+     "emailAddress": "christinas@saporanetworks.com",
+     "permissionId": "529648984412600343043",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": false,
+   "shared": true,
+   "title": "Quillen Press - Quarterly Business Review - 2026-06.docx",
+   "parentId": "folder-shared-finance-contracts-quillen-press",
+   "fileSize": "3811",
+   "viewUrl": "https://drive.google.com/file/d/doc-9771/view",
+   "owner": "christinas@saporanetworks.com",
+   "contentSnippet": "Quillen Press - Quarterly Business Review - 2026-06 Internal \u2014 Sapora Networks Record Owner: Christina Schubert <christinas@saporanetworks.com> (Head of Finance, Finance) Account: Quillen Press (acct-"
+  },
+  {
+   "id": "doc-4342",
+   "name": "Implementation Plan Q2 - 2026-06",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-05-21T20:47:14.000Z",
+   "modifiedTime": "2026-08-06T12:33:28.000Z",
+   "size": "6869",
+   "webViewLink": "https://docs.google.com/document/d/doc-4342/edit",
+   "parents": [
+    "folder-shared-compliance-documents-2026"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Esmeralda Bellthorpe",
+     "emailAddress": "esmeraldab@saporanetworks.com",
+     "permissionId": "077001835444695732174",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Implementation Plan Q2 - 2026-06",
+   "parentId": "folder-shared-compliance-documents-2026",
+   "fileSize": "6869",
+   "viewUrl": "https://docs.google.com/document/d/doc-4342/edit",
+   "owner": "esmeraldab@saporanetworks.com",
+   "contentSnippet": "Implementation Plan Q2 - 2026-06 Internal \u2014 Sapora Networks Record Owner: Esmeralda Bellthorpe <esmeraldab@saporanetworks.com> (Risk Analyst, Compliance) Account: Quillen Press (acct-7) \u2014 Telecommunic"
+  },
+  {
+   "id": "doc-913",
+   "name": "Nightly Job Log Q1 - copy final.log",
+   "mimeType": "text/plain",
+   "createdTime": "2026-08-05T11:58:25.000Z",
+   "modifiedTime": "2026-08-05T11:58:25.000Z",
+   "size": "2143",
+   "webViewLink": "https://drive.google.com/file/d/doc-913/view",
+   "parents": [
+    "folder-shared-engineering-builds-api-01"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Nightly Job Log Q1 - copy final.log",
+   "parentId": "folder-shared-engineering-builds-api-01",
+   "fileSize": "2143",
+   "viewUrl": "https://drive.google.com/file/d/doc-913/view",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Nightly Job Log Q1.log Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telecommunication"
+  },
+  {
+   "id": "doc-5770",
+   "name": "Deploy Checklist Q2 (Riley's copy)",
+   "mimeType": "application/vnd.google-apps.document",
+   "createdTime": "2026-08-03T14:58:24.000Z",
+   "modifiedTime": "2026-08-03T14:58:24.000Z",
+   "size": "3612",
+   "webViewLink": "https://docs.google.com/document/d/doc-5770/edit",
+   "parents": [
+    "folder-shared-engineering-incidents-2026-inc-1240"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Stefanie Friedrich",
+     "emailAddress": "stefanief@saporanetworks.com",
+     "permissionId": "944728047388187887720",
+     "me": false
+    }
+   ],
+   "starred": false,
+   "trashed": false,
+   "ownedByMe": false,
+   "sharedWithMe": true,
+   "shared": true,
+   "title": "Deploy Checklist Q2 (Riley's copy)",
+   "parentId": "folder-shared-engineering-incidents-2026-inc-1240",
+   "fileSize": "3612",
+   "viewUrl": "https://docs.google.com/document/d/doc-5770/edit",
+   "owner": "stefanief@saporanetworks.com",
+   "contentSnippet": "Deploy Checklist Q2 (Riley's copy) Internal \u2014 Sapora Networks Record Owner: Stefanie Friedrich <stefanief@saporanetworks.com> (Engineering Manager, Engineering) Account: Quillen Press (acct-7) \u2014 Telec"
+  }
+ ],
+ "totalCount": 204,
+ "nextPageToken": "~!!~eyJvIjo1MCwidCI6WyJkb2MtOTQ0MSIsImRvYy0xMDEzMCIsImRvYy02MzY3IiwiZG9jLTYzMSIsImRvYy05NzcxIiwiZG9jLTQzNDIiLCJkb2MtOTEzIiwiZG9jLTU3NzAiXX0"
+}

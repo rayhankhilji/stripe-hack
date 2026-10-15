@@ -1,0 +1,7625 @@
+[
+ {
+  "id": 4000029,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000029.json",
+  "external_id": "ticket-216",
+  "subject": "Payout schedule silently truncating for about a dozen users",
+  "raw_subject": "Payout schedule silently truncating for about a dozen users",
+  "description": "about a dozen users report that the payout schedule truncates anything longer than a few thousand characters. Started late last week; no config changes on our side. Error code 429, request id req_b320dce6ad.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-10-30T20:19:17Z",
+  "updated_at": "2024-11-08T16:07:09Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1727453229,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000059,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000059.json",
+  "external_id": "ticket-220",
+  "subject": "Question about sanctions screening limits on the EU region",
+  "raw_subject": "Question about sanctions screening limits on the EU region",
+  "description": "Sanctions screening shows stale data until a hard refresh on the EU region since the failover drill. Our gateway logs show:\n  PATCH /v1/merchant-onboarding/exports -> 403 java.net.SocketTimeoutException after 3s (x-request-id: req_6a7b0f8a70)\nEvery failing call is against /v1/merchant-onboarding/webhooks out of us-east-1. Blocking our SOC 2 evidence run.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-11-26T14:02:43Z",
+  "updated_at": "2024-11-29T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2024-12-04T07:02:43Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1729292400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000066,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000066.json",
+  "external_id": "ticket-209",
+  "subject": "The annual pricing refresh blocked by CSV export",
+  "raw_subject": "The annual pricing refresh blocked by CSV export",
+  "description": "Reporting this from our on-premise gateway at 09:24: the CSV export drops accented characters from every name. It has happened roughly hourly, always with error 429. We need it stable before the annual pricing refresh - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000014,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000051
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000051
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-03T12:18:01Z",
+  "updated_at": "2024-12-13T14:13:50Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_greymoor@tidewater-capital.com",
+     "name": "Michael Greymoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1730470430,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000078,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000078.json",
+  "external_id": "ticket-230",
+  "subject": "API key rotation results do not match the export (req_184cc59925)",
+  "raw_subject": "API key rotation results do not match the export (req_184cc59925)",
+  "description": "Escalating: java.lang.NullPointerException on /v1/kyc/jobs at 07:58, repeating every time the batch runs. Retries against us-west-2 fail the same way. Request req_184cc59925. We need API key rotation stable before the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-17T16:22:54Z",
+  "updated_at": "2025-01-03T16:52:09Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1732294329,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000092,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000092.json",
+  "external_id": "ticket-223",
+  "subject": "Cannot complete audit log over the weekend",
+  "raw_subject": "Cannot complete audit log over the weekend",
+  "description": "Our team noticed over the weekend that the audit log returns records belonging to a different workspace. our whole support team is affected. We have not touched the configuration since the Tuesday release. Request id req_1e46e01d65 if you want a trace.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2024-12-24T14:26:53Z",
+  "updated_at": "2025-01-11T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1732924800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000105,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000105.json",
+  "external_id": "ticket-155",
+  "subject": "Request: raise our ACH batch rate limit before our go-live next week",
+  "raw_subject": "Request: raise our ACH batch rate limit before our go-live next week",
+  "description": "every user with the analyst role reports that the ACH batch omits anything created in the last hour in eu-west-1. One trace, if it helps:\n  PUT /v1/card-authorizer/documents -> 401 HTTPError after 16s (x-request-id: req_86121da51c)\nWe have not changed anything since your status page cleared the last incident. This is blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000051
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000051
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-01-03T18:15:12Z",
+  "updated_at": "2025-01-10T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1732838400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000143,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000143.json",
+  "external_id": "ticket-221",
+  "subject": "ACH batch - producing an unparsable export (req_62534de753)",
+  "raw_subject": "ACH batch - producing an unparsable export (req_62534de753)",
+  "description": "Raising on behalf of our API integration: the ACH batch escapes the delimiters so the file cannot be parsed on both production and sandbox. First occurrence around 09:18, repeating roughly hourly. This is the second thing we have had to work around before customer onboarding.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-01-28T17:27:58Z",
+  "updated_at": "2025-02-14T16:02:39Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1735920159,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000146,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000146.json",
+  "external_id": "ticket-201",
+  "subject": "KYC check duplicating records since 14:36 on our second workspace",
+  "raw_subject": "KYC check duplicating records since 14:36 on our second workspace",
+  "description": "We are evaluating KYC check for customer onboarding and hit a blocker: it duplicates every record it writes. Tried on our second workspace with the same result (ref req_6fa9905748). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-01-29T15:31:23Z",
+  "updated_at": "2025-02-03T13:40:41Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1734961241,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000151,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000151.json",
+  "external_id": "ticket-224",
+  "subject": "/v1/payouts/webhooks returning 409 for the field sales team - statement PDF unusable",
+  "raw_subject": "/v1/payouts/webhooks returning 409 for the field sales team - statement PDF unusable",
+  "description": "We are getting SequelizeConnectionAcquireTimeoutError back from /v1/payouts/webhooks a handful of times since the version bump - error 409, request req_2cedb60081. It looks like it started around 06:58; the statement PDF applies yesterday's configuration instead of the current one for the field sales team.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000037,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-02-03T19:19:26Z",
+  "updated_at": "2025-02-26T00:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1736899200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000229,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000229.json",
+  "external_id": "ticket-214",
+  "subject": "Payout schedule intermittently failing for two of our admins",
+  "raw_subject": "Payout schedule intermittently failing for two of our admins",
+  "description": "Reporting this from our pre-production mirror at 01:04: the payout schedule renders an empty state despite matching rows. It has happened only on the largest payloads, always with error 502. We need it stable before the quarterly audit - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000037,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-03-19T01:24:49Z",
+  "updated_at": "2025-03-21T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-04-02T12:24:49Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1738886400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000278,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000278.json",
+  "external_id": "ticket-195",
+  "subject": "The integration handover to our partner blocked by Salesforce sync",
+  "raw_subject": "The integration handover to our partner blocked by Salesforce sync",
+  "description": "Salesforce sync silently drops the last page of results on the read-only replica since Monday. Our gateway logs show:\n  PUT /v1/payments-api/accounts -> 400 RuntimeError after 7s (x-request-id: req_5ca8d4ac66)\nEvery failing call is against /v1/payments-api/documents out of us-west-2. Blocking the integration handover to our partner.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-08T16:48:48Z",
+  "updated_at": "2025-04-23T15:33:01Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1741793581,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000284,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000284.json",
+  "external_id": "ticket-219",
+  "subject": "/v1/risk-scoring/reports returning 500 for our whole support team - card authorisation webhook unusable",
+  "raw_subject": "/v1/risk-scoring/reports returning 500 for our whole support team - card authorisation webhook unusable",
+  "description": "Card authorisation webhook duplicates every record it writes on the disaster-recovery site since your status page cleared the last incident. Our gateway logs show:\n  POST /v1/risk-scoring/reports -> 500 AbortError after 19s (x-request-id: req_03f0c89370)\nEvery failing call is against /v1/risk-scoring/reports out of us-east-1. Blocking the migration off our legacy system.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000048
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000048
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-14T14:03:26Z",
+  "updated_at": "2025-04-22T14:12:26Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400284,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400284.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000052,
+   "ticket_id": 4000284,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-04-22T14:12:26Z",
+   "updated_at": "2025-04-22T14:12:26Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1741702346,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000291,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000291.json",
+  "external_id": "ticket-183",
+  "subject": "Request: raise our chargeback queue rate limit before our go-live next week",
+  "raw_subject": "Request: raise our chargeback queue rate limit before our go-live next week",
+  "description": "Chargeback queue rejects valid credentials on our sandbox since your status page cleared the last incident. Our gateway logs show:\n  GET /v1/settlement-engine/exports -> 409 AbortError after 3s (x-request-id: req_b60970af30)\nEvery failing call is against /v1/settlement-engine/documents out of us-west-2. Blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000038
+  ],
+  "follower_ids": [
+   1000038
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-16T21:22:03Z",
+  "updated_at": "2025-04-28T14:59:08Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1742223548,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000299,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000299.json",
+  "external_id": "ticket-157",
+  "subject": "java.sql.SQLTransientConnectionException on Salesforce sync since the weekend",
+  "raw_subject": "java.sql.SQLTransientConnectionException on Salesforce sync since the weekend",
+  "description": "Hi team - the Salesforce sync escapes the delimiters so the file cannot be parsed. We noticed it overnight and it has happened only on the largest payloads since. Correlation id req_9126932987. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000046,
+   2000052
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000052,
+   2000046
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-23T22:12:14Z",
+  "updated_at": "2025-05-01T10:08:22Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1742465302,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000309,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000309.json",
+  "external_id": "ticket-170",
+  "subject": "[400] Payout schedule on production",
+  "raw_subject": "[400] Payout schedule on production",
+  "description": "We are evaluating payout schedule for the integration handover to our partner and hit a blocker: it queues the work but never dispatches it. Tried on production with the same result (ref req_43bb7043c3). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-04-28T18:31:54Z",
+  "updated_at": "2025-04-28T22:03:49Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400309,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400309.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000050,
+   "ticket_id": 4000309,
+   "score": "good",
+   "comment": "Exactly what I needed, and they checked back afterwards.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-04-28T22:03:49Z",
+   "updated_at": "2025-04-28T22:03:49Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1742249029,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000369,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000369.json",
+  "external_id": "ticket-160",
+  "subject": "Payout schedule rejecting valid input in us-west-2 since our upgrade to the new plan",
+  "raw_subject": "Payout schedule rejecting valid input in us-west-2 since our upgrade to the new plan",
+  "description": "Payout schedule rejects a payload its own schema allows on production since our upgrade to the new plan. Our gateway logs show:\n  PUT /v1/ledger/records -> 401 java.lang.OutOfMemoryError after 17s (x-request-id: req_bb7b6acdf7)\nEvery failing call is against /v1/ledger/documents out of us-west-2. Blocking the executive business review.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-05-30T14:14:47Z",
+  "updated_at": "2025-06-10T13:54:05Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "nicole_bainham@tidewater-capital.com",
+     "name": "Nicole Bainham"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1745934845,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000373,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000373.json",
+  "external_id": "ticket-208",
+  "subject": "/v1/merchant-onboarding/reports returning 429 for anyone off the corporate VPN - KYC check unusable",
+  "raw_subject": "/v1/merchant-onboarding/reports returning 429 for anyone off the corporate VPN - KYC check unusable",
+  "description": "Could you check KYC check? It times out after roughly 30 seconds - error 429, request req_2f50f6bd5e, on our staging tenant. Not urgent yet, but it becomes urgent at our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000046
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000046
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-06-03T10:28:57Z",
+  "updated_at": "2025-06-06T15:23:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "chinyere_okafor@tidewater-capital.com",
+     "name": "Chinyere Okafor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-06-08T09:28:57Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400373,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400373.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000052,
+   "ticket_id": 4000373,
+   "score": "good",
+   "comment": "Sorted the same day, thank you.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-06-06T15:23:00Z",
+   "updated_at": "2025-06-06T15:23:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1745594580,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000396,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000396.json",
+  "external_id": "ticket-181",
+  "subject": "/v1/payments-api/webhooks returning 502 for anyone off the corporate VPN - reconciliation report unusable",
+  "raw_subject": "/v1/payments-api/webhooks returning 502 for anyone off the corporate VPN - reconciliation report unusable",
+  "description": "Raising on behalf of anyone off the corporate VPN: the reconciliation report times out after roughly 30 seconds on the APAC region. First occurrence around 08:24, repeating continuously. This is the second thing we have had to work around before the executive business review.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-06-18T23:32:34Z",
+  "updated_at": "2025-06-24T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400396,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400396.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000050,
+   "ticket_id": 4000396,
+   "score": "good",
+   "comment": "Fast reply and it worked first time.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-06-24T23:00:00Z",
+   "updated_at": "2025-06-24T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1747177200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000435,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000435.json",
+  "external_id": "ticket-194",
+  "subject": "Statement PDF - mangling accented names (req_8812b8d647)",
+  "raw_subject": "Statement PDF - mangling accented names (req_8812b8d647)",
+  "description": "Since we added the second region, the statement PDF drops accented characters from every name. It reproduces on production for our warehouse scanners. Request id req_8812b8d647 is one example. This is blocking the executive business review.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000052
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000052
+  ],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-02T20:54:15Z",
+  "updated_at": "2025-08-04T16:05:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-07-06T11:54:15Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1750694700,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000437,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000437.json",
+  "external_id": "ticket-196",
+  "subject": "Data residency setting reading stale configuration for our nightly job",
+  "raw_subject": "Data residency setting reading stale configuration for our nightly job",
+  "description": "our nightly job reports that the data residency setting applies yesterday's configuration instead of the current one. Started the moment we scaled up; no config changes on our side. Error code 403, request id req_d7d7e0d706.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004,
+   2000049
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [
+   2000049
+  ],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-03T15:23:13Z",
+  "updated_at": "2025-07-11T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "patrick_miller@tidewater-capital.com",
+     "name": "Patrick Miller"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1748646000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000438,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000438.json",
+  "external_id": "ticket-231",
+  "subject": "[500] Card authorisation webhook on the EU region",
+  "raw_subject": "[500] Card authorisation webhook on the EU region",
+  "description": "Escalating: java.sql.SQLTimeoutException on /v1/merchant-dashboard/reports at 09:58, repeating on every second attempt. Retries against eu-west-1 fail the same way. Request req_d9ee45ceb0. We need card authorisation webhook stable before the executive business review.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000046
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000046
+  ],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-03T18:30:26Z",
+  "updated_at": "2025-09-24T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1755126000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000464,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000464.json",
+  "external_id": "ticket-191",
+  "subject": "Question about reconciliation report limits on the APAC region",
+  "raw_subject": "Question about reconciliation report limits on the APAC region",
+  "description": "Since this morning, the reconciliation report reports success but never persists the change. It reproduces on the APAC region for our nightly job. Request id req_d15906e94f is one example. This is blocking the regulator's submission deadline.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000037,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-15T23:47:52Z",
+  "updated_at": "2025-07-16T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1749078000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000487,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000487.json",
+  "external_id": "ticket-156",
+  "subject": "Error 502 when using KYC check (req_cd0b40822d)",
+  "raw_subject": "Error 502 when using KYC check (req_cd0b40822d)",
+  "description": "anyone off the corporate VPN reports that the KYC check fails on the retry after the first attempt went through. Started two days ago; no config changes on our side. Error code 502, request id req_cd0b40822d.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000037,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-07-23T21:31:04Z",
+  "updated_at": "2025-07-30T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1750287600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000566,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000566.json",
+  "external_id": "ticket-174",
+  "subject": "Request: raise our sandbox refresh rate limit before the annual pricing refresh",
+  "raw_subject": "Request: raise our sandbox refresh rate limit before the annual pricing refresh",
+  "description": "Raising on behalf of anyone off the corporate VPN: the sandbox refresh times out after roughly 30 seconds on our staging tenant. First occurrence around 08:42, repeating a handful of times. This is the second thing we have had to work around before the annual pricing refresh.",
+  "status": "solved",
+  "priority": "urgent",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "urgent",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-08-27T17:53:58Z",
+  "updated_at": "2025-08-28T02:57:34Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1752721054,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000582,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000582.json",
+  "external_id": "ticket-217",
+  "subject": "/v1/kyc/jobs returning 500 for our API integration - webhook subscription unusable",
+  "raw_subject": "/v1/kyc/jobs returning 500 for our API integration - webhook subscription unusable",
+  "description": "We are getting java.lang.OutOfMemoryError back from /v1/kyc/jobs twice a shift since the last maintenance window - error 500, request req_fc47d2a773. It looks like it started around 09:25; the webhook subscription truncates anything longer than a few thousand characters for our API integration.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-02T23:54:33Z",
+  "updated_at": "2025-09-11T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1754002800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000597,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000597.json",
+  "external_id": "ticket-186",
+  "subject": "Sandbox refresh reading stale configuration on the EU region",
+  "raw_subject": "Sandbox refresh reading stale configuration on the EU region",
+  "description": "the field sales team reports that the sandbox refresh applies yesterday's configuration instead of the current one. Started last Friday; no config changes on our side. Error code 401, request id req_232b220e21.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-08T15:29:16Z",
+  "updated_at": "2025-09-12T13:44:24Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1754055864,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000611,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000611.json",
+  "external_id": "ticket-218",
+  "subject": "CSV export unavailable for anyone off the corporate VPN since our auditors asked us to rotate keys",
+  "raw_subject": "CSV export unavailable for anyone off the corporate VPN since our auditors asked us to rotate keys",
+  "description": "Could you check CSV export? It drops accented characters from every name - error 429, request req_b88c2aa43e, on the EU region. Not urgent yet, but it becomes urgent at our SOC 2 evidence run.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000048,
+   2000051
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000051,
+   2000048
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-15T22:29:59Z",
+  "updated_at": "2025-09-23T23:00:00Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1755039600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000622,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000622.json",
+  "external_id": "ticket-204",
+  "subject": "/v1/kyc/webhooks returning 403 for our API integration - Slack notification unusable",
+  "raw_subject": "/v1/kyc/webhooks returning 403 for our API integration - Slack notification unusable",
+  "description": "We are getting JSONDecodeError back from /v1/kyc/webhooks three or four times since your status page cleared the last incident - error 403, request req_c889776385. It looks like it started around 00:30; the Slack notification fails on roughly every third attempt for our API integration.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-18T01:12:56Z",
+  "updated_at": "2025-09-19T10:47:49Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "patrick_miller@tidewater-capital.com",
+     "name": "Patrick Miller"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-09-20T08:12:56Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1754650069,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000628,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000628.json",
+  "external_id": "ticket-212",
+  "subject": "Error 504 when using KYC check (req_8e299b2f3d)",
+  "raw_subject": "Error 504 when using KYC check (req_8e299b2f3d)",
+  "description": "Raising on behalf of anyone off the corporate VPN: the KYC check truncates anything longer than a few thousand characters on the read-only replica. First occurrence around 03:42, repeating roughly hourly. This is the second thing we have had to work around before our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000046,
+   2000050
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000046,
+   2000050
+  ],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-19T21:16:05Z",
+  "updated_at": "2025-11-05T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "christopher_clearwick@tidewater-capital.com",
+     "name": "Christopher Clearwick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400628,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400628.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000049,
+   "ticket_id": 4000628,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-11-05T23:00:00Z",
+   "updated_at": "2025-11-05T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1758754800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000635,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000635.json",
+  "external_id": "ticket-188",
+  "subject": "runtime.Error from /v1/reconciliation/exports - ACH batch on our pre-production mirror (req_286ed7f202)",
+  "raw_subject": "runtime.Error from /v1/reconciliation/exports - ACH batch on our pre-production mirror (req_286ed7f202)",
+  "description": "Hi team - the ACH batch fails on the retry after the first attempt went through. We noticed it the moment we scaled up and it has happened every time the batch runs since. Correlation id req_286ed7f202. Happy to jump on a call if that is faster.",
+  "status": "closed",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-22T15:06:41Z",
+  "updated_at": "2025-10-03T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "patrick_miller@tidewater-capital.com",
+     "name": "Patrick Miller"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1755903600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000636,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000636.json",
+  "external_id": "ticket-215",
+  "subject": "Cannot complete payout schedule halfway through the migration",
+  "raw_subject": "Cannot complete payout schedule halfway through the migration",
+  "description": "everyone in the finance group reports that the payout schedule omits anything created in the last hour in us-west-2. One trace, if it helps:\n  PATCH /v1/payouts/exports -> 401 TimeoutError after 19s (x-request-id: req_dae0f3d252)\nWe have not changed anything since the holiday freeze ended. This is blocking the integration handover to our partner.",
+  "status": "closed",
+  "priority": "low",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000007,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-09-22T15:07:14Z",
+  "updated_at": "2025-11-04T12:16:19Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rachel_alderton@tidewater-capital.com",
+     "name": "Rachel Alderton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-09-25T13:07:14Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1758629779,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000666,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000666.json",
+  "external_id": "ticket-182",
+  "subject": "The quarterly audit blocked by activity feed",
+  "raw_subject": "The quarterly audit blocked by activity feed",
+  "description": "our two busiest workspaces report that the activity feed reports success but never persists the change. Started during the Thursday batch; no config changes on our side. Error code 504, request id req_b4d4ff2def.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-03T16:09:08Z",
+  "updated_at": "2025-10-17T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_greymoor@tidewater-capital.com",
+     "name": "Michael Greymoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1757113200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000691,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000691.json",
+  "external_id": "ticket-173",
+  "subject": "Cannot complete mobile app the moment we scaled up",
+  "raw_subject": "Cannot complete mobile app the moment we scaled up",
+  "description": "We are getting FetchError back from /v1/merchant-onboarding/jobs on every second attempt since the weekend - error 429, request req_cbf64a913b. It looks like it started around 11:00; the mobile app fails on the retry after the first attempt went through for our nightly job.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000047
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000047
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-14T23:55:47Z",
+  "updated_at": "2025-10-17T15:15:07Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1757085307,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000694,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000694.json",
+  "external_id": "ticket-154",
+  "subject": "Transaction dispute form - rejecting valid credentials (req_44f6f5386b)",
+  "raw_subject": "Transaction dispute form - rejecting valid credentials (req_44f6f5386b)",
+  "description": "Reporting this from our on-premise gateway at 22:05: the transaction dispute form rejects valid credentials. It has happened twice a shift, always with error 500. We need it stable before month-end close - what do you need from us?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-15T22:24:28Z",
+  "updated_at": "2025-11-03T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1758582000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000710,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000710.json",
+  "external_id": "ticket-164",
+  "subject": "Reconciliation report intermittently failing for the field sales team",
+  "raw_subject": "Reconciliation report intermittently failing for the field sales team",
+  "description": "Could you check reconciliation report? It loses the filter selection on pagination - error 400, request req_26d0b2ca25, on our staging tenant. Not urgent yet, but it becomes urgent at the annual pricing refresh.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000037,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-10-21T17:13:17Z",
+  "updated_at": "2025-10-23T14:02:04Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "patrick_miller@tidewater-capital.com",
+     "name": "Patrick Miller"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1757599324,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000741,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000741.json",
+  "external_id": "ticket-192",
+  "subject": "Retention policy failing intermittently since 00:10 on the EU region",
+  "raw_subject": "Retention policy failing intermittently since 00:10 on the EU region",
+  "description": "Escalating: ConnectionResetError on /v1/reconciliation/exports at 00:10, repeating three or four times. Retries against eu-west-1 fail the same way. Request req_da9d7bdb5b. We need retention policy stable before the integration handover to our partner.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-04T01:41:36Z",
+  "updated_at": "2025-11-11T12:57:55Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400741,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400741.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000046,
+   "ticket_id": 4000741,
+   "score": "good",
+   "comment": "Fast reply and it worked first time.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-11-11T12:57:55Z",
+   "updated_at": "2025-11-11T12:57:55Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1759237075,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000745,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000745.json",
+  "external_id": "ticket-187",
+  "subject": "Invoice PDF missing the newest records in us-west-2 since the Tuesday release",
+  "raw_subject": "Invoice PDF missing the newest records in us-west-2 since the Tuesday release",
+  "description": "Our team noticed the moment we scaled up that the invoice PDF omits anything created in the last hour. everyone in the finance group is affected. We have not touched the configuration since the Tuesday release. Request id req_1d2adb2962 if you want a trace.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000016,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-04T13:20:40Z",
+  "updated_at": "2025-11-24T14:55:23Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1760367323,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000802,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000802.json",
+  "external_id": "ticket-161",
+  "subject": "/v1/card-authorizer/reports returning 422 for the analysts in our Berlin office - statement PDF unusable",
+  "raw_subject": "/v1/card-authorizer/reports returning 422 for the analysts in our Berlin office - statement PDF unusable",
+  "description": "Hi team - the statement PDF orders the results differently on every call. We noticed it yesterday afternoon and it has happened about once an hour under load since. Correlation id req_39d1b04c0b. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-11-27T19:36:19Z",
+  "updated_at": "2026-01-16T14:43:46Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400802,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400802.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000047,
+   "ticket_id": 4000802,
+   "score": "bad",
+   "comment": "Closed before it was actually fixed.",
+   "reason": "The agent's knowledge is unsatisfactory",
+   "reason_id": 7450007,
+   "reason_code": 7,
+   "created_at": "2026-01-16T14:43:46Z",
+   "updated_at": "2026-01-16T14:43:46Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1764945826,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000825,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000825.json",
+  "external_id": "ticket-165",
+  "subject": "/v1/card-authorizer/exports returning 422 for anyone off the corporate VPN - card authorisation webhook unusable",
+  "raw_subject": "/v1/card-authorizer/exports returning 422 for anyone off the corporate VPN - card authorisation webhook unusable",
+  "description": "We are getting java.util.concurrent.TimeoutException back from /v1/card-authorizer/exports only on the largest payloads since we added the second region - error 422, request req_ff0c0db0c3. It looks like it started around 08:33; the card authorisation webhook duplicates every record it writes for anyone off the corporate VPN.",
+  "status": "closed",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-04T20:23:05Z",
+  "updated_at": "2025-12-12T17:19:35Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-12-21T11:23:05Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400825,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400825.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000050,
+   "ticket_id": 4000825,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2025-12-12T17:19:35Z",
+   "updated_at": "2025-12-12T17:19:35Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1761931175,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000860,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000860.json",
+  "external_id": "ticket-162",
+  "subject": "Chargeback queue queued but never running since 01:59 on our regulated tenant",
+  "raw_subject": "Chargeback queue queued but never running since 01:59 on our regulated tenant",
+  "description": "Hi team - the chargeback queue queues the work but never dispatches it. We noticed it halfway through the migration and it has happened continuously since. Correlation id req_1f1dee3abf. Happy to jump on a call if that is faster.",
+  "status": "closed",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2025-12-17T01:25:53Z",
+  "updated_at": "2026-01-07T16:52:12Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2025-12-20T01:25:53Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1764175932,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000894,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000894.json",
+  "external_id": "ticket-163",
+  "subject": "PermissionError from /v1/merchant-dashboard/invoices - saved views on the EU region (req_c4dc708e54)",
+  "raw_subject": "PermissionError from /v1/merchant-dashboard/invoices - saved views on the EU region (req_c4dc708e54)",
+  "description": "our whole support team reports that saved views silently drops the last page of results in us-west-2. One trace, if it helps:\n  DELETE /v1/merchant-dashboard/exports -> 429 PermissionError after 6s (x-request-id: req_c4dc708e54)\nWe have not changed anything since we enabled SSO. This is blocking the integration handover to our partner.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-01T18:14:54Z",
+  "updated_at": "2026-01-14T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "chinyere_okafor@tidewater-capital.com",
+     "name": "Chinyere Okafor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1764720000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000909,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000909.json",
+  "external_id": "ticket-228",
+  "subject": "CSV export unavailable for everyone in the finance group since the schema change last sprint",
+  "raw_subject": "CSV export unavailable for everyone in the finance group since the schema change last sprint",
+  "description": "We are getting MemoryError back from /v1/merchant-dashboard/documents continuously since the schema change last sprint - error 504, request req_bc99913177. It looks like it started around 09:51; the CSV export rounds the totals differently from the export for everyone in the finance group.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000049,
+   2000050
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000049,
+   2000050
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-07T16:10:14Z",
+  "updated_at": "2026-01-22T00:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rachel_alderton@tidewater-capital.com",
+     "name": "Rachel Alderton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1765411200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000922,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000922.json",
+  "external_id": "ticket-197",
+  "subject": "Error 504 from sandbox refresh - first seen 05:35",
+  "raw_subject": "Error 504 from sandbox refresh - first seen 05:35",
+  "description": "Escalating: java.lang.OutOfMemoryError on /v1/risk-scoring/jobs at 05:35, repeating twice a shift. Retries against us-east-1 fail the same way. Request req_4ae0e3fbea. We need sandbox refresh stable before customer onboarding.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000050
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000050
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-14T21:18:02Z",
+  "updated_at": "2026-02-04T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1766534400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000928,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000928.json",
+  "external_id": "ticket-213",
+  "subject": "Sanctions screening queued but never running since 08:33 on our pre-production mirror",
+  "raw_subject": "Sanctions screening queued but never running since 08:33 on our pre-production mirror",
+  "description": "We are evaluating sanctions screening for the regulator's submission deadline and hit a blocker: it queues the work but never dispatches it. Tried on our pre-production mirror with the same result (ref req_1c74cb8042). What is the expected behaviour here?",
+  "status": "closed",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000007,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000031,
+   2000046,
+   2000048
+  ],
+  "follower_ids": [
+   1000031
+  ],
+  "email_cc_ids": [
+   2000046,
+   2000048
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-16T16:34:50Z",
+  "updated_at": "2026-01-23T14:38:02Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1765550282,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000937,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000937.json",
+  "external_id": "ticket-203",
+  "subject": "Search index rejecting valid input on both production and sandbox",
+  "raw_subject": "Search index rejecting valid input on both production and sandbox",
+  "description": "Escalating: *json.SyntaxError on /v1/settlement-engine/jobs at 10:11, repeating a handful of times. Retries against us-west-2 fail the same way. Request req_7b45bcfdc0. We need search index stable before our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000052
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000052
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-19T17:18:39Z",
+  "updated_at": "2026-01-22T15:47:17Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-01-28T06:18:39Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1765468037,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000948,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000948.json",
+  "external_id": "ticket-177",
+  "subject": "Performance regression in reconciliation report - leaking across workspaces",
+  "raw_subject": "Performance regression in reconciliation report - leaking across workspaces",
+  "description": "Could you check reconciliation report? It returns records belonging to a different workspace - error 403, request req_7a5276a053, on our sandbox. Not urgent yet, but it becomes urgent at customer onboarding.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000016,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-20T19:46:33Z",
+  "updated_at": "2026-03-18T10:18:27Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1770200307,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4000973,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4000973.json",
+  "external_id": "ticket-200",
+  "subject": "Mobile app returning stale data for about a dozen users",
+  "raw_subject": "Mobile app returning stale data for about a dozen users",
+  "description": "Mobile app shows stale data until a hard refresh on the EU region since we doubled the ingest rate. Our gateway logs show:\n  PUT /v1/ledger/webhooks -> 429 MemoryError after 21s (x-request-id: req_68365c1ca1)\nEvery failing call is against /v1/ledger/jobs out of eu-west-1. Blocking the regulator's submission deadline.",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "urgent",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-01-29T01:34:07Z",
+  "updated_at": "2026-02-03T14:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-02-06T09:34:07Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11400973,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11400973.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000046,
+   "ticket_id": 4000973,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-02-03T14:00:00Z",
+   "updated_at": "2026-02-03T14:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1766498400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001083,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001083.json",
+  "external_id": "ticket-153",
+  "subject": "Chargeback queue dropping the last page since 11:02 on our on-premise gateway",
+  "raw_subject": "Chargeback queue dropping the last page since 11:02 on our on-premise gateway",
+  "description": "We are getting MemoryError back from /v1/settlement-engine/invoices on every second attempt since the Tuesday release - error 422, request req_144f88f431. It looks like it started around 11:02; the chargeback queue silently drops the last page of results for our whole support team.",
+  "status": "closed",
+  "priority": "low",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-06T14:15:15Z",
+  "updated_at": "2026-04-04T00:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-04-12T05:15:15Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1771632000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001085,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001085.json",
+  "external_id": "ticket-168",
+  "subject": "Sanctions screening duplicating records for everyone in the finance group",
+  "raw_subject": "Sanctions screening duplicating records for everyone in the finance group",
+  "description": "Since our upgrade to the new plan, sanctions screening duplicates every record it writes. It reproduces on our second workspace for everyone in the finance group. Request id req_0749dbb9f4 is one example. This is blocking the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-06T21:10:10Z",
+  "updated_at": "2026-03-13T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1769731200,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001110,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001110.json",
+  "external_id": "ticket-193",
+  "subject": "Error 403 when using saved views (req_5735f230eb)",
+  "raw_subject": "Error 403 when using saved views (req_5735f230eb)",
+  "description": "our whole support team reports that saved views sends the notification twice. Started first thing today; no config changes on our side. Error code 403, request id req_5735f230eb.",
+  "status": "solved",
+  "priority": "low",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000025,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   2000048
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000048
+  ],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-16T16:57:06Z",
+  "updated_at": "2026-03-18T17:22:13Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_greymoor@tidewater-capital.com",
+     "name": "Michael Greymoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "mobile_app"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1770225733,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001114,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001114.json",
+  "external_id": "ticket-206",
+  "subject": "Statement PDF results do not match the export (req_d6dbd4e33a)",
+  "raw_subject": "Statement PDF results do not match the export (req_d6dbd4e33a)",
+  "description": "Statement PDF escapes the delimiters so the file cannot be parsed on our sandbox since we enabled SSO. Our gateway logs show:\n  DELETE /v1/kyc/accounts -> 400 *fs.PathError after 29s (x-request-id: req_d6dbd4e33a)\nEvery failing call is against /v1/kyc/jobs out of eu-west-1. Blocking customer onboarding.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000027,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-03-17T20:05:16Z",
+  "updated_at": "2026-03-20T15:59:40Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401114,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401114.json",
+   "assignee_id": 1000027,
+   "group_id": 5000007,
+   "requester_id": 2000048,
+   "ticket_id": 4001114,
+   "score": "bad",
+   "comment": "I had to explain the problem three times to three people.",
+   "reason": "The agent's knowledge is unsatisfactory",
+   "reason_id": 7450007,
+   "reason_code": 7,
+   "created_at": "2026-03-20T15:59:40Z",
+   "updated_at": "2026-03-20T15:59:40Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1770393580,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001178,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001178.json",
+  "external_id": "ticket-226",
+  "subject": "Statement PDF dropping sessions since 08:26 on the APAC region",
+  "raw_subject": "Statement PDF dropping sessions since 08:26 on the APAC region",
+  "description": "We are evaluating statement PDF for payroll cutover and hit a blocker: it logs the user out mid-session. Tried on the APAC region with the same result (ref req_fe4777fd59). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-07T15:25:01Z",
+  "updated_at": "2026-04-14T16:23:16Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "chinyere_okafor@tidewater-capital.com",
+     "name": "Chinyere Okafor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-04-20T06:25:01Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1772554996,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001203,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001203.json",
+  "external_id": "ticket-198",
+  "subject": "Question about REST API limits on the EU region",
+  "raw_subject": "Question about REST API limits on the EU region",
+  "description": "Escalating: java.lang.IllegalStateException on /v1/merchant-onboarding/exports at 07:37, repeating about once an hour under load. Retries against eu-west-1 fail the same way. Request req_6486b90877. We need REST API stable before payroll cutover.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-15T16:54:51Z",
+  "updated_at": "2026-04-18T00:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1772841600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001204,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001204.json",
+  "external_id": "ticket-167",
+  "subject": "The migration off our legacy system blocked by reconciliation report",
+  "raw_subject": "The migration off our legacy system blocked by reconciliation report",
+  "description": "Our team noticed last Friday that the reconciliation report rejects a payload its own schema allows. anyone off the corporate VPN is affected. We have not touched the configuration since your status page cleared the last incident. Request id req_dc4c011db3 if you want a trace.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-15T22:13:26Z",
+  "updated_at": "2026-04-27T09:49:04Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "nicole_bainham@tidewater-capital.com",
+     "name": "Nicole Bainham"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-04-24T20:13:26Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401204,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401204.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000047,
+   "ticket_id": 4001204,
+   "score": "bad",
+   "comment": "Took four days to get a first reply.",
+   "reason": "The issue took too long to resolve",
+   "reason_id": 7450005,
+   "reason_code": 5,
+   "created_at": "2026-04-27T09:49:04Z",
+   "updated_at": "2026-04-27T09:49:04Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1773654544,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001223,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001223.json",
+  "external_id": "ticket-178",
+  "subject": "Request: raise our payout schedule rate limit before the annual pricing refresh",
+  "raw_subject": "Request: raise our payout schedule rate limit before the annual pricing refresh",
+  "description": "Payout schedule truncates anything longer than a few thousand characters on our sandbox since the last maintenance window. Our gateway logs show:\n  POST /v1/ledger/webhooks -> 429 TypeError after 1s (x-request-id: req_fac64b58f6)\nEvery failing call is against /v1/ledger/webhooks out of us-west-2. Blocking the annual pricing refresh.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   2000049,
+   2000052
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000049,
+   2000052
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-04-20T16:34:44Z",
+  "updated_at": "2026-04-23T23:00:00Z",
+  "via": {
+   "channel": "chat",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1773356400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001258,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001258.json",
+  "external_id": "ticket-210",
+  "subject": "/v1/merchant-onboarding/reports returning 429 for our whole support team - card authorisation webhook unusable",
+  "raw_subject": "/v1/merchant-onboarding/reports returning 429 for our whole support team - card authorisation webhook unusable",
+  "description": "our whole support team reports that the card authorisation webhook sends the notification twice. Started two days ago; no config changes on our side. Error code 429, request id req_fcf870d1f4.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-05T18:06:41Z",
+  "updated_at": "2026-05-18T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rachel_alderton@tidewater-capital.com",
+     "name": "Rachel Alderton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1775516400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001260,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001260.json",
+  "external_id": "ticket-225",
+  "subject": "SequelizeConnectionAcquireTimeoutError from /v1/kyc/sessions - ACH batch on our sandbox (req_28f6978174)",
+  "raw_subject": "SequelizeConnectionAcquireTimeoutError from /v1/kyc/sessions - ACH batch on our sandbox (req_28f6978174)",
+  "description": "our API integration reports that the ACH batch times out after roughly 30 seconds in eu-west-1. One trace, if it helps:\n  DELETE /v1/kyc/exports -> 502 SequelizeConnectionAcquireTimeoutError after 3s (x-request-id: req_28f6978174)\nWe have not changed anything since the schema change last sprint. This is blocking the annual pricing refresh.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-05T18:31:17Z",
+  "updated_at": "2026-05-18T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1775516400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001304,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001304.json",
+  "external_id": "ticket-176",
+  "subject": "[502] Chargeback queue on the read-only replica",
+  "raw_subject": "[502] Chargeback queue on the read-only replica",
+  "description": "Chargeback queue applies yesterday's configuration instead of the current one on the read-only replica since our upgrade to the new plan. Our gateway logs show:\n  PATCH /v1/settlement-engine/exports -> 502 *net.OpError after 27s (x-request-id: req_e8737a569c)\nEvery failing call is against /v1/settlement-engine/events out of us-east-1. Blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-05-22T18:33:38Z",
+  "updated_at": "2026-05-27T08:05:48Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "michael_greymoor@tidewater-capital.com",
+     "name": "Michael Greymoor"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-05-26T16:33:38Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401304,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401304.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000046,
+   "ticket_id": 4001304,
+   "score": "good",
+   "comment": "Clear answer and a workaround while we waited for the fix.",
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-05-27T08:05:48Z",
+   "updated_at": "2026-05-27T08:05:48Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1776240348,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001341,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001341.json",
+  "external_id": "ticket-207",
+  "subject": "Question about statement PDF limits on the EU region",
+  "raw_subject": "Question about statement PDF limits on the EU region",
+  "description": "We are getting OSError back from /v1/payouts/events a handful of times since our auditors asked us to rotate keys - error 403, request req_64f136f0b6. It looks like it started around 12:16; the statement PDF fails on the retry after the first attempt went through for anyone off the corporate VPN.",
+  "status": "closed",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-04T16:17:42Z",
+  "updated_at": "2026-06-15T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401341,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401341.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000048,
+   "ticket_id": 4001341,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-06-15T23:00:00Z",
+   "updated_at": "2026-06-15T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1777935600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001343,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001343.json",
+  "external_id": "ticket-185",
+  "subject": "Statement PDF losing filters in eu-west-1 since Monday",
+  "raw_subject": "Statement PDF losing filters in eu-west-1 since Monday",
+  "description": "Since Monday, the statement PDF loses the filter selection on pagination. It reproduces on our staging tenant for our nightly job. Request id req_6e4357d290 is one example. This is blocking our go-live next week.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-05T19:30:49Z",
+  "updated_at": "2026-06-25T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1778799600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001380,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001380.json",
+  "external_id": "ticket-175",
+  "subject": "The board reporting pack blocked by chargeback queue",
+  "raw_subject": "The board reporting pack blocked by chargeback queue",
+  "description": "Hi team - the chargeback queue fails on the retry after the first attempt went through. We noticed it this morning and it has happened about once an hour under load since. Correlation id req_60b27e0531. Happy to jump on a call if that is faster.",
+  "status": "closed",
+  "priority": "urgent",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000004
+  ],
+  "follower_ids": [
+   1000004
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "urgent",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-16T19:19:43Z",
+  "updated_at": "2026-06-22T13:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "nicole_bainham@tidewater-capital.com",
+     "name": "Nicole Bainham"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "sign_in"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-06-19T23:19:43Z",
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401380,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401380.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000047,
+   "ticket_id": 4001380,
+   "score": "bad",
+   "comment": "Took four days to get a first reply.",
+   "reason": "The issue took too long to resolve",
+   "reason_id": 7450005,
+   "reason_code": 5,
+   "created_at": "2026-06-22T13:00:00Z",
+   "updated_at": "2026-06-22T13:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1778504400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001386,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001386.json",
+  "external_id": "ticket-205",
+  "subject": "Question about ledger export limits on our pre-production mirror",
+  "raw_subject": "Question about ledger export limits on our pre-production mirror",
+  "description": "Ledger export times out after roughly 30 seconds on our pre-production mirror since Monday. Our gateway logs show:\n  PATCH /v1/merchant-dashboard/exports -> 422 java.lang.NullPointerException after 26s (x-request-id: req_ffc6e853fa)\nEvery failing call is against /v1/merchant-dashboard/events out of eu-west-1. Blocking month-end close.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000014,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   1000040
+  ],
+  "follower_ids": [
+   1000040
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-19T00:30:27Z",
+  "updated_at": "2026-06-19T12:44:51Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "nicole_bainham@tidewater-capital.com",
+     "name": "Nicole Bainham"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1778244291,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001410,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001410.json",
+  "external_id": "ticket-169",
+  "subject": "Question about KYC check limits on the EU region",
+  "raw_subject": "Question about KYC check limits on the EU region",
+  "description": "Hi team - the KYC check rounds the totals differently from the export. We noticed it two days ago and it has happened about once an hour under load since. Correlation id req_bf02e507d6. Happy to jump on a call if that is faster.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": 1000031,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   1000027
+  ],
+  "follower_ids": [
+   1000027
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-06-29T16:20:26Z",
+  "updated_at": "2026-07-03T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1779490800,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001448,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001448.json",
+  "external_id": "ticket-171",
+  "subject": "ACH batch failing for about a dozen users since 09:50",
+  "raw_subject": "ACH batch failing for about a dozen users since 09:50",
+  "description": "Escalating: SystemError on /v1/risk-scoring/records at 09:50, repeating only on the largest payloads. Retries against us-west-2 fail the same way. Request req_a23aa025b0. We need ACH batch stable before the executive business review.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-14T20:07:23Z",
+  "updated_at": "2026-07-20T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401448,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401448.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000046,
+   "ticket_id": 4001448,
+   "score": "bad",
+   "comment": "The answer was a link to an article that does not cover our setup.",
+   "reason": "The issue took too long to resolve",
+   "reason_id": 7450005,
+   "reason_code": 5,
+   "created_at": "2026-07-20T23:00:00Z",
+   "updated_at": "2026-07-20T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1780959600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001451,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001451.json",
+  "external_id": "ticket-202",
+  "subject": "Cannot complete chargeback queue yesterday afternoon",
+  "raw_subject": "Cannot complete chargeback queue yesterday afternoon",
+  "description": "Reporting this from the EU region at 10:29: the chargeback queue returns a 500 for about one request in ten. It has happened three or four times, always with error 500. We need it stable before the executive business review - what do you need from us?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000046,
+  "submitter_id": 2000046,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000041,
+   2000049,
+   2000051
+  ],
+  "follower_ids": [
+   1000041
+  ],
+  "email_cc_ids": [
+   2000049,
+   2000051
+  ],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-15T14:42:29Z",
+  "updated_at": "2026-08-10T11:01:02Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1782730862,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001464,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001464.json",
+  "external_id": "ticket-158",
+  "subject": "Support needed: reconciliation-worker keeps dropping requests with 502s (req_3b3f1110e3)",
+  "raw_subject": "Support needed: reconciliation-worker keeps dropping requests with 502s (req_3b3f1110e3)",
+  "description": "Since 13:17, reconciliation-worker keeps dropping requests with 502s in production. Request req_3b3f1110e3 failed again.",
+  "status": "solved",
+  "priority": "low",
+  "type": "incident",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000014,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [
+   1000020
+  ],
+  "follower_ids": [
+   1000020
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "incident",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-07-20T18:17:47Z",
+  "updated_at": "2026-08-09T17:02:37Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": "5.11.5"
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": "5.11.5"
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": 4001462,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995001,
+  "generated_timestamp": 1782666157,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001529,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001529.json",
+  "external_id": "ticket-166",
+  "subject": "/v1/payments-api/events returning 409 for our two busiest workspaces - retention policy unusable",
+  "raw_subject": "/v1/payments-api/events returning 409 for our two busiest workspaces - retention policy unusable",
+  "description": "our two busiest workspaces report that the retention policy sends the notification twice in us-east-1. One trace, if it helps:\n  POST /v1/payments-api/events -> 409 java.io.IOException after 7s (x-request-id: req_00e0126222)\nWe have not changed anything since the version bump. This is blocking the regulator's submission deadline.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-07T17:29:39Z",
+  "updated_at": "2026-08-25T14:09:58Z",
+  "via": {
+   "channel": "api",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401529,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401529.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000050,
+   "ticket_id": 4001529,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-08-25T14:09:58Z",
+   "updated_at": "2026-08-25T14:09:58Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1784038198,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001547,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001547.json",
+  "external_id": "ticket-180",
+  "subject": "The winter planning cycle blocked by KYC check",
+  "raw_subject": "The winter planning cycle blocked by KYC check",
+  "description": "We are evaluating KYC check for the winter planning cycle and hit a blocker: it truncates anything longer than a few thousand characters. Tried on our second workspace with the same result (ref req_3cb8bcb362). What is the expected behaviour here?",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-12T15:13:14Z",
+  "updated_at": "2026-08-26T09:09:43Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "patrick_miller@tidewater-capital.com",
+     "name": "Patrick Miller"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784106583,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001586,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001586.json",
+  "external_id": "ticket-199",
+  "subject": "ReferenceError on chargeback queue since the schema change last sprint",
+  "raw_subject": "ReferenceError on chargeback queue since the schema change last sprint",
+  "description": "Escalating: ReferenceError on /v1/reconciliation/exports at 09:26, repeating a handful of times. Retries against us-east-1 fail the same way. Request req_1842f4b21c. We need chargeback queue stable before our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000031,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-24T19:51:07Z",
+  "updated_at": "2026-08-25T23:00:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401586,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401586.json",
+   "assignee_id": 1000031,
+   "group_id": 5000007,
+   "requester_id": 2000049,
+   "ticket_id": 4001586,
+   "score": "bad",
+   "comment": null,
+   "reason": "The agent's knowledge is unsatisfactory",
+   "reason_id": 7450007,
+   "reason_code": 7,
+   "created_at": "2026-08-25T23:00:00Z",
+   "updated_at": "2026-08-25T23:00:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1784070000,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001610,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001610.json",
+  "external_id": "ticket-229",
+  "subject": "Performance regression in bulk delete - rejecting valid credentials",
+  "raw_subject": "Performance regression in bulk delete - rejecting valid credentials",
+  "description": "We are getting java.lang.NullPointerException back from /v1/settlement-engine/jobs a handful of times since we doubled the ingest rate - error 503, request req_4ccb5e55c0. It looks like it started around 07:48; bulk delete rejects valid credentials for our warehouse scanners.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000038,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-08-28T15:50:54Z",
+  "updated_at": "2026-09-14T14:41:48Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rachel_alderton@tidewater-capital.com",
+     "name": "Rachel Alderton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401610,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401610.json",
+   "assignee_id": 1000038,
+   "group_id": 5000004,
+   "requester_id": 2000048,
+   "ticket_id": 4001610,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-14T14:41:48Z",
+   "updated_at": "2026-09-14T14:41:48Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785768108,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001641,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001641.json",
+  "external_id": "ticket-179",
+  "subject": "Question about statement PDF limits on the APAC region",
+  "raw_subject": "Question about statement PDF limits on the APAC region",
+  "description": "Statement PDF rounds the totals differently from the export on the APAC region since our upgrade to the new plan. Our gateway logs show:\n  POST /v1/risk-scoring/reports -> 403 org.apache.http.conn.HttpHostConnectException after 15s (x-request-id: req_33ddc4c1d0)\nEvery failing call is against /v1/risk-scoring/events out of eu-west-1. Blocking payroll cutover.",
+  "status": "solved",
+  "priority": "high",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000038
+  ],
+  "follower_ids": [
+   1000038
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-03T23:16:29Z",
+  "updated_at": "2026-09-10T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "rachel_alderton@tidewater-capital.com",
+     "name": "Rachel Alderton"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1785452400,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001649,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001649.json",
+  "external_id": "ticket-189",
+  "subject": "Cannot complete chargeback queue first thing today",
+  "raw_subject": "Cannot complete chargeback queue first thing today",
+  "description": "Chargeback queue duplicates every record it writes on the APAC region since we doubled the ingest rate. Our gateway logs show:\n  POST /v1/card-authorizer/exports -> 500 java.sql.SQLTimeoutException after 26s (x-request-id: req_6cfca828ae)\nEvery failing call is against /v1/card-authorizer/reports out of eu-west-1. Blocking our disaster-recovery certification.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-04T15:12:41Z",
+  "updated_at": "2026-09-18T23:00:00Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "christopher_clearwick@tidewater-capital.com",
+     "name": "Christopher Clearwick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "data_export"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786143600,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001651,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001651.json",
+  "external_id": "ticket-172",
+  "subject": "Workflow builder results do not match the export (req_934f0ee801)",
+  "raw_subject": "Workflow builder results do not match the export (req_934f0ee801)",
+  "description": "We are getting *url.Error back from /v1/kyc/reports a handful of times since the last maintenance window - error 504, request req_934f0ee801. It looks like it started around 07:08; the workflow builder omits anything created in the last hour for about a dozen users.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000050,
+  "submitter_id": 2000050,
+  "assignee_id": 1000004,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [
+   1000037
+  ],
+  "follower_ids": [
+   1000037
+  ],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-04T17:53:06Z",
+  "updated_at": "2026-09-10T13:21:52Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "joshua_ashwell@tidewater-capital.com",
+     "name": "Joshua Ashwell"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401651,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401651.json",
+   "assignee_id": 1000004,
+   "group_id": 5000004,
+   "requester_id": 2000050,
+   "ticket_id": 4001651,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-10T13:21:52Z",
+   "updated_at": "2026-09-10T13:21:52Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1785417712,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001699,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001699.json",
+  "external_id": "ticket-227",
+  "subject": "Error 403 from sanctions screening - first seen 11:27",
+  "raw_subject": "Error 403 from sanctions screening - first seen 11:27",
+  "description": "Could you check sanctions screening? It returns records belonging to a different workspace - error 403, request req_e4eab35ff7, on our regulated tenant. Not urgent yet, but it becomes urgent at the integration handover to our partner.",
+  "status": "closed",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000051,
+  "submitter_id": 2000051,
+  "assignee_id": 1000007,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-15T18:58:53Z",
+  "updated_at": "2026-09-28T07:24:48Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": null
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401699,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401699.json",
+   "assignee_id": 1000007,
+   "group_id": 5000007,
+   "requester_id": 2000051,
+   "ticket_id": 4001699,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-28T07:24:48Z",
+   "updated_at": "2026-09-28T07:24:48Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1786951488,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001715,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001715.json",
+  "external_id": "ticket-211",
+  "subject": "Cannot complete API key rotation during the Thursday batch",
+  "raw_subject": "Cannot complete API key rotation during the Thursday batch",
+  "description": "API key rotation silently drops the last page of results on the disaster-recovery site since the version bump. Our gateway logs show:\n  GET /v1/card-authorizer/documents -> 403 AbortError after 27s (x-request-id: req_5b29978082)\nEvery failing call is against /v1/card-authorizer/webhooks out of eu-west-1. Blocking the seasonal traffic peak.",
+  "status": "solved",
+  "priority": "high",
+  "type": "task",
+  "recipient": "support@saporanetworks.zendesk.com",
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": 1000007,
+  "organization_id": 3000006,
+  "group_id": 5000007,
+  "collaborator_ids": [
+   2000050
+  ],
+  "follower_ids": [],
+  "email_cc_ids": [
+   2000050
+  ],
+  "tags": [
+   "task",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-18T00:53:31Z",
+  "updated_at": "2026-09-22T16:21:24Z",
+  "via": {
+   "channel": "email",
+   "source": {
+    "from": {
+     "address": "christopher_clearwick@tidewater-capital.com",
+     "name": "Christopher Clearwick"
+    },
+    "to": {
+     "address": "support@saporanetworks.zendesk.com",
+     "name": "Support"
+    },
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": "2026-09-20T14:53:31Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1786465284,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001751,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001751.json",
+  "external_id": "ticket-159",
+  "subject": "Error 403 from search index - first seen 00:59",
+  "raw_subject": "Error 403 from search index - first seen 00:59",
+  "description": "Since the version bump, the search index loses the filter selection on pagination. It reproduces on both production and sandbox for every user with the analyst role. Request id req_a27473c56d is one example. This is blocking the executive business review.",
+  "status": "solved",
+  "priority": "normal",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000047,
+  "submitter_id": 2000047,
+  "assignee_id": 1000041,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-09-29T03:29:48Z",
+  "updated_at": "2026-09-30T16:36:00Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300005,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": {
+   "id": 11401751,
+   "url": "https://saporanetworks.zendesk.com/api/v2/satisfaction_ratings/11401751.json",
+   "assignee_id": 1000041,
+   "group_id": 5000004,
+   "requester_id": 2000047,
+   "ticket_id": 4001751,
+   "score": "good",
+   "comment": null,
+   "reason": "No reason provided",
+   "reason_id": 7450000,
+   "reason_code": 0,
+   "created_at": "2026-09-30T16:36:00Z",
+   "updated_at": "2026-09-30T16:36:00Z"
+  },
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1787157360,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001781,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001781.json",
+  "external_id": "ticket-190",
+  "subject": "Reconciliation report missing the newest records for everyone in the finance group",
+  "raw_subject": "Reconciliation report missing the newest records for everyone in the finance group",
+  "description": "We are getting UnauthorizedError back from /v1/payouts/jobs about once an hour under load since Monday - error 401, request req_6e087028ad. It looks like it started around 11:12; the reconciliation report omits anything created in the last hour for everyone in the finance group.",
+  "status": "new",
+  "priority": "low",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000052,
+  "submitter_id": 2000052,
+  "assignee_id": null,
+  "organization_id": 3000006,
+  "group_id": 5000002,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "low",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "escalated_to_engineering"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T12:40:10Z",
+  "updated_at": "2026-10-02T12:40:10Z",
+  "via": {
+   "channel": "voice",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "reporting"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": true
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7100001,
+  "generated_timestamp": 1787316010,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001793,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001793.json",
+  "external_id": "ticket-222",
+  "subject": "Request: raise our card authorisation webhook rate limit before the annual pricing refresh",
+  "raw_subject": "Request: raise our card authorisation webhook rate limit before the annual pricing refresh",
+  "description": "Card authorisation webhook fails on the retry after the first attempt went through on our second workspace since this morning. Our gateway logs show:\n  POST /v1/reconciliation/reports -> 504 MemoryError after 1s (x-request-id: req_3ad1de126b)\nEvery failing call is against /v1/reconciliation/invoices out of us-west-2. Blocking the annual pricing refresh.",
+  "status": "new",
+  "priority": "normal",
+  "type": "task",
+  "recipient": null,
+  "requester_id": 2000049,
+  "submitter_id": 2000049,
+  "assignee_id": null,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "task",
+   "normal",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services",
+   "vip"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T20:27:08Z",
+  "updated_at": "2026-10-02T20:27:08Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "billing"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": "2026-10-07T05:27:08Z",
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995002,
+  "generated_timestamp": 1787344028,
+  "forum_topic_id": null
+ },
+ {
+  "id": 4001796,
+  "url": "https://saporanetworks.zendesk.com/api/v2/tickets/4001796.json",
+  "external_id": "ticket-184",
+  "subject": "KYC check results do not match the export (req_349079f790)",
+  "raw_subject": "KYC check results do not match the export (req_349079f790)",
+  "description": "Could you check KYC check? It applies yesterday's configuration instead of the current one - error 409, request req_349079f790, on the read-only replica. Not urgent yet, but it becomes urgent at our SOC 2 evidence run.",
+  "status": "new",
+  "priority": "high",
+  "type": "question",
+  "recipient": null,
+  "requester_id": 2000048,
+  "submitter_id": 2000048,
+  "assignee_id": null,
+  "organization_id": 3000006,
+  "group_id": 5000004,
+  "collaborator_ids": [],
+  "follower_ids": [],
+  "email_cc_ids": [],
+  "tags": [
+   "question",
+   "high",
+   "account_tidewater_capital",
+   "mid-market",
+   "financial_services"
+  ],
+  "has_incidents": false,
+  "created_at": "2026-10-02T22:51:54Z",
+  "updated_at": "2026-10-02T22:51:54Z",
+  "via": {
+   "channel": "web",
+   "source": {
+    "from": {},
+    "to": {},
+    "rel": null
+   }
+  },
+  "custom_fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "fields": [
+   {
+    "id": 7990001,
+    "value": "integrations"
+   },
+   {
+    "id": 7990002,
+    "value": null
+   },
+   {
+    "id": 7990003,
+    "value": false
+   },
+   {
+    "id": 7990004,
+    "value": null
+   }
+  ],
+  "custom_status_id": 7300001,
+  "due_at": null,
+  "problem_id": null,
+  "satisfaction_rating": null,
+  "sharing_agreement_ids": [],
+  "followup_ids": [],
+  "from_messaging_channel": false,
+  "allow_channelback": false,
+  "allow_attachments": true,
+  "is_public": true,
+  "brand_id": 7000001,
+  "ticket_form_id": 7995003,
+  "generated_timestamp": 1787352714,
+  "forum_topic_id": null
+ }
+]

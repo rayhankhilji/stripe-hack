@@ -1,0 +1,54 @@
+{
+ "requestId": "1k8yih1hqa2j55of0nx",
+ "records": {
+  "totalRecords": 2,
+  "currentPageSize": 2,
+  "currentPageNumber": 0
+ },
+ "calls": [
+  {
+   "id": "7000000000222062552",
+   "url": "https://saporanetworks.app.gong.io/call?id=7000000000222062552",
+   "title": "Admin walkthrough - Flora Analytics",
+   "scheduled": "2025-08-07T09:00:19-07:00",
+   "started": "2025-08-07T09:02:27-07:00",
+   "duration": 2580,
+   "primaryUserId": "100000475004749",
+   "direction": "Conference",
+   "system": "Zoom",
+   "scope": "External",
+   "media": "Video",
+   "language": "eng",
+   "workspaceId": "[REDACTED-PAN]",
+   "sdrDisposition": null,
+   "clientUniqueId": null,
+   "customData": null,
+   "purpose": "Product demo",
+   "meetingUrl": "https://zoom.us/j/1445936427",
+   "isPrivate": false,
+   "calendarEventId": "call-416"
+  },
+  {
+   "id": "7000000003216222276",
+   "url": "https://saporanetworks.app.gong.io/call?id=7000000003216222276",
+   "title": "Renewal signature logistics - Flora Analytics",
+   "scheduled": "2025-09-02T14:01:50-07:00",
+   "started": "2025-09-02T14:05:21-07:00",
+   "duration": 1679,
+   "primaryUserId": "100000475004749",
+   "direction": "Conference",
+   "system": "Google Meet",
+   "scope": "External",
+   "media": "Video",
+   "language": "eng",
+   "workspaceId": "[REDACTED-PAN]",
+   "sdrDisposition": null,
+   "clientUniqueId": null,
+   "customData": null,
+   "purpose": "Executive alignment",
+   "meetingUrl": "https://meet.google.com/nuc-ihie-aaa",
+   "isPrivate": false,
+   "calendarEventId": "call-8"
+  }
+ ]
+}

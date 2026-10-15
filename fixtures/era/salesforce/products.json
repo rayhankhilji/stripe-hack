@@ -1,0 +1,98 @@
+[
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-0"
+  },
+  "Id": "prod-0",
+  "Name": "Payments Core",
+  "ProductCode": "FIN-PAY",
+  "Family": "Payments",
+  "Description": "Payments Core (Payments), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-1"
+  },
+  "Id": "prod-1",
+  "Name": "Ledger & Reconciliation",
+  "ProductCode": "FIN-LEDG",
+  "Family": "Payments",
+  "Description": "Ledger & Reconciliation (Payments), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-2"
+  },
+  "Id": "prod-2",
+  "Name": "KYC & Onboarding",
+  "ProductCode": "FIN-KYC",
+  "Family": "Risk",
+  "Description": "KYC & Onboarding (Risk), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-3"
+  },
+  "Id": "prod-3",
+  "Name": "Fraud Detection",
+  "ProductCode": "FIN-FRAUD",
+  "Family": "Risk",
+  "Description": "Fraud Detection (Risk), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-4"
+  },
+  "Id": "prod-4",
+  "Name": "Regulatory Reporting",
+  "ProductCode": "FIN-REG",
+  "Family": "Compliance",
+  "Description": "Regulatory Reporting (Compliance), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-5"
+  },
+  "Id": "prod-5",
+  "Name": "Card Issuing",
+  "ProductCode": "FIN-CARD",
+  "Family": "Payments",
+  "Description": "Card Issuing (Payments), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-6"
+  },
+  "Id": "prod-6",
+  "Name": "Treasury Automation",
+  "ProductCode": "FIN-TREAS",
+  "Family": "Payments",
+  "Description": "Treasury Automation (Payments), sold per year.",
+  "IsActive": true
+ },
+ {
+  "attributes": {
+   "type": "Product2",
+   "url": "/services/data/v60.0/sobjects/Product2/prod-7"
+  },
+  "Id": "prod-7",
+  "Name": "Audit Evidence Pack",
+  "ProductCode": "FIN-AUDIT",
+  "Family": "Compliance",
+  "Description": "Audit Evidence Pack (Compliance), sold per year.",
+  "IsActive": true
+ }
+]
