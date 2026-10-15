@@ -203,7 +203,7 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
               <StatusPill status={f.status} />
             </TableCell>
             <TableCell className="text-right">
-              <time dateTime={f.updatedAt} className="font-mono text-xs text-fg-subtle" title={f.updatedAt}>
+              <time dateTime={f.updatedAt} className="whitespace-nowrap font-mono text-xs text-fg-subtle" title={f.updatedAt}>
                 {relativeTime(f.updatedAt, now)}
               </time>
             </TableCell>
