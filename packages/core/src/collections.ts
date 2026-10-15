@@ -137,7 +137,7 @@ export async function suppressRemindersForInvoice(invoiceId: string, reason: str
       .update(schema.collectionReminder)
       .set({ status: "suppressed", suppressedReason: reason })
       .where(and(eq(schema.collectionReminder.invoiceId, invoiceId), inArray(schema.collectionReminder.status, ["scheduled", "drafted"])))
-      .returning({ outboxMessageId: schema.collectionReminder.outboxMessageId });
+      .returning();
     const outboxIds = rows.flatMap((r) => (r.outboxMessageId ? [r.outboxMessageId] : []));
     if (outboxIds.length > 0) {
       await tx
@@ -244,7 +244,7 @@ async function sweepOpenInvoice(inv: InvoiceRow, customer: CustomerRow, hasDispu
       .update(schema.collectionReminder)
       .set({ status: "drafted" })
       .where(and(eq(schema.collectionReminder.id, latest.id), eq(schema.collectionReminder.status, "scheduled")))
-      .returning({ id: schema.collectionReminder.id });
+      .returning();
     if (!claimed) return null;
     const [msg] = await tx
       .insert(schema.outboxMessage)
@@ -257,7 +257,7 @@ async function sweepOpenInvoice(inv: InvoiceRow, customer: CustomerRow, hasDispu
         bodyMd,
         invoiceId: inv.id,
       })
-      .returning({ id: schema.outboxMessage.id });
+      .returning();
     if (!msg) return null;
     await tx.update(schema.collectionReminder).set({ outboxMessageId: msg.id }).where(eq(schema.collectionReminder.id, latest.id));
     if (superseded.length > 0) {
