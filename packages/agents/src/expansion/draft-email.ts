@@ -9,7 +9,7 @@ import { loadPrompt } from "../prompts";
 type Signal = { id: string; system: string; recordType: string; externalId: string; title: string; quote: string };
 
 const EmailSchema = z.object({ subject: z.string(), bodyMd: z.string(), citedEvidenceIds: z.array(z.string()) });
-// The draft never discusses commercial terms: any money, percentage or pricing language rejects it.
+// The draft never discusses commercial terms: money, percentages or pricing language reject it.
 const PRICING = /[$€£]|\d+(\.\d+)?\s?%|\b(discount\w*|pric\w*|cost\w*|credit\w*|rebate\w*|free|complimentary|\d+\s?(usd|dollars?))\b/i;
 
 function toDto(m: typeof schema.outboxMessage.$inferSelect): OutboxMessageDTO {
