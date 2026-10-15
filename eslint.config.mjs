@@ -61,8 +61,8 @@ export default tseslint.config(
     languageOptions: {
       parserOptions: {
         projectService: {
-          // Root-level TS files are not part of any package tsconfig.
-          allowDefaultProject: ["*.ts", "e2e/*.ts"],
+          // Root, e2e and scripts TS files are not part of any package tsconfig.
+          allowDefaultProject: ["*.ts", "e2e/*.ts", "scripts/*.ts"],
           defaultProject: "tsconfig.base.json",
         },
         tsconfigRootDir: import.meta.dirname,
