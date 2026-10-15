@@ -8,7 +8,8 @@ export type SkeletonProps = HTMLAttributes<HTMLDivElement> & {
 
 /** Loading placeholder with a soft shimmer (static under reduced motion). Size it with className. */
 export function Skeleton({ className, lines, ...props }: SkeletonProps) {
-  const block = "rounded-control bg-surface-muted bg-[linear-gradient(90deg,transparent_0%,var(--color-surface)_50%,transparent_100%)] bg-size-[200%_100%] motion-safe:animate-shimmer";
+  const block =
+    "rounded-control bg-surface-muted bg-[linear-gradient(90deg,transparent_0%,var(--color-surface)_50%,transparent_100%)] bg-size-[200%_100%] motion-safe:animate-shimmer";
   if (lines && lines > 1) {
     return (
       <div aria-hidden className={cn("flex flex-col gap-2", className)} {...props}>

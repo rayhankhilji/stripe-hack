@@ -15,8 +15,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-forest text-porcelain shadow-soft hover:bg-forest-2 dark:bg-petal dark:text-forest dark:hover:bg-petal-soft",
-        secondary: "border border-border bg-surface text-fg shadow-soft hover:border-border-strong hover:bg-surface-muted",
+        primary:
+          "bg-forest text-porcelain shadow-soft hover:bg-forest-2 dark:bg-petal dark:text-forest dark:hover:bg-petal-soft",
+        secondary:
+          "border border-border bg-surface text-fg shadow-soft hover:border-border-strong hover:bg-surface-muted",
         ghost: "text-fg-muted hover:bg-surface-muted hover:text-fg",
         danger: "border border-punch/25 bg-surface text-punch hover:border-punch/40 hover:bg-punch/8 dark:text-petal",
         accent: "bg-punch text-white shadow-soft hover:bg-punch-deep",

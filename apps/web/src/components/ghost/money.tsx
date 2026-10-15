@@ -43,7 +43,15 @@ function render(cents: number, currency: string, format: NonNullable<MoneyProps[
 }
 
 /** Tabular money figure. The animation interpolates display only; the final text is always the exact `cents`. */
-export function Money({ cents, currency = "usd", size = "sm", format = "short", animate: shouldAnimate, tone = "default", className }: MoneyProps) {
+export function Money({
+  cents,
+  currency = "usd",
+  size = "sm",
+  format = "short",
+  animate: shouldAnimate,
+  tone = "default",
+  className,
+}: MoneyProps) {
   const reduced = useReducedMotion();
   const [shown, setShown] = useState(shouldAnimate && !reduced ? 0 : cents);
   const from = useRef(shouldAnimate && !reduced ? 0 : cents);

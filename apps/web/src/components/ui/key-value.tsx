@@ -13,7 +13,8 @@ export type KeyValueProps = {
 
 /** Definition list for record facts. Values render "—" when null/undefined/empty. */
 export function KeyValue({ items, layout = "rows", columns = 3, className }: KeyValueProps) {
-  const show = (v: ReactNode) => (v === null || v === undefined || v === "" ? <span className="text-fg-subtle">—</span> : v);
+  const show = (v: ReactNode) =>
+    v === null || v === undefined || v === "" ? <span className="text-fg-subtle">—</span> : v;
   if (layout === "grid") {
     return (
       <dl
@@ -28,7 +29,9 @@ export function KeyValue({ items, layout = "rows", columns = 3, className }: Key
         {items.map((item, i) => (
           <div key={i} className="min-w-0">
             <dt className="text-2xs font-medium uppercase tracking-wider text-fg-subtle">{item.label}</dt>
-            <dd className={cn("mt-1 truncate text-sm text-fg", item.mono && "font-mono text-xs")}>{show(item.value)}</dd>
+            <dd className={cn("mt-1 truncate text-sm text-fg", item.mono && "font-mono text-xs")}>
+              {show(item.value)}
+            </dd>
             {item.hint ? <dd className="mt-0.5 text-xs text-fg-subtle">{item.hint}</dd> : null}
           </div>
         ))}

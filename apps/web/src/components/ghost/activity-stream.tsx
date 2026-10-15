@@ -52,7 +52,13 @@ export type ActivityStreamProps = {
  * The agent's live activity = the audit feed. Newest first. New events fade in (y 6px, 220ms)
  * and their node pulses once; existing events never re-animate.
  */
-export function ActivityStream({ events, limit, compact, emptyLabel = "No activity yet.", className }: ActivityStreamProps) {
+export function ActivityStream({
+  events,
+  limit,
+  compact,
+  emptyLabel = "No activity yet.",
+  className,
+}: ActivityStreamProps) {
   const reduced = useReducedMotion();
   const sorted = [...events].sort((a, b) => b.occurredAt.localeCompare(a.occurredAt));
   const shown = limit ? sorted.slice(0, limit) : sorted;
@@ -86,7 +92,9 @@ export function ActivityStream({ events, limit, compact, emptyLabel = "No activi
               transition={{ duration: DURATION.base, ease: EASE_GHOST }}
               className={cn("relative flex gap-3", compact ? "pb-3" : "pb-4", "last:pb-0")}
             >
-              {i < shown.length - 1 ? <span aria-hidden className="absolute left-1.5 top-4 -bottom-0.5 w-px bg-border" /> : null}
+              {i < shown.length - 1 ? (
+                <span aria-hidden className="absolute left-1.5 top-4 -bottom-0.5 w-px bg-border" />
+              ) : null}
               <span aria-hidden className="relative mt-1.5 grid size-3 shrink-0 place-items-center">
                 {isFresh && !reduced ? (
                   <motion.span
@@ -96,11 +104,21 @@ export function ActivityStream({ events, limit, compact, emptyLabel = "No activi
                     transition={{ duration: 0.9, ease: EASE_GHOST }}
                   />
                 ) : null}
-                <span className={cn("relative size-2.5 rounded-full ring-4 ring-surface", NODE[e.kind], i === 0 && "size-3")} />
+                <span
+                  className={cn(
+                    "relative size-2.5 rounded-full ring-4 ring-surface",
+                    NODE[e.kind],
+                    i === 0 && "size-3",
+                  )}
+                />
               </span>
               <div className="min-w-0 flex-1">
                 <div className="flex items-baseline gap-2">
-                  <p className={cn("min-w-0 flex-1 text-fg", compact ? "text-xs" : "text-sm", i === 0 && "font-medium")}>{e.summary}</p>
+                  <p
+                    className={cn("min-w-0 flex-1 text-fg", compact ? "text-xs" : "text-sm", i === 0 && "font-medium")}
+                  >
+                    {e.summary}
+                  </p>
                   <time dateTime={e.occurredAt} className="shrink-0 font-mono text-2xs tabular-nums text-fg-subtle">
                     {formatTime(e.occurredAt)}
                   </time>
@@ -116,7 +134,9 @@ export function ActivityStream({ events, limit, compact, emptyLabel = "No activi
                       <span>{kindLabel}</span>
                     </>
                   ) : null}
-                  {e.externalRef && !compact ? <MonoId value={e.externalRef} truncate={22} className="py-0 text-2xs" /> : null}
+                  {e.externalRef && !compact ? (
+                    <MonoId value={e.externalRef} truncate={22} className="py-0 text-2xs" />
+                  ) : null}
                 </div>
               </div>
             </motion.li>

@@ -10,7 +10,6 @@ import { Providers } from "./providers";
 const fraunces = Fraunces({
   subsets: ["latin"],
   weight: ["600"],
-  axes: ["SOFT", "WONK"],
   variable: "--font-fraunces",
   display: "swap",
 });
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "rgb(5 32 24)" // --color-forest,
+  themeColor: "rgb(5 32 24)", // --color-forest,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

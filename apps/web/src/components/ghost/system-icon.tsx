@@ -1,5 +1,14 @@
 import type { EraSystem } from "@ghost/shared";
-import { AudioLines, Cloud, Database, FileText, LifeBuoy, MessagesSquare, SquareKanban, type LucideIcon } from "lucide-react";
+import {
+  AudioLines,
+  Cloud,
+  Database,
+  FileText,
+  LifeBuoy,
+  MessagesSquare,
+  SquareKanban,
+  type LucideIcon,
+} from "lucide-react";
 import { cn } from "../../lib/cn";
 import { systemLabel } from "../../lib/format/systems";
 

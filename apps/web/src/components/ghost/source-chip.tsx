@@ -16,7 +16,9 @@ type FlatSource = {
   isFixture?: boolean;
 };
 
-export type SourceChipProps = (({ source: SourceRef } & Partial<Record<keyof FlatSource, never>>) | ({ source?: undefined } & FlatSource)) & {
+export type SourceChipProps = (
+  ({ source: SourceRef } & Partial<Record<keyof FlatSource, never>>) | ({ source?: undefined } & FlatSource)
+) & {
   /** Verbatim quote shown in the drawer. */
   quote?: string;
   verified?: boolean;

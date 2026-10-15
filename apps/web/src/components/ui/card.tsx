@@ -21,7 +21,8 @@ export function Card({ title, description, action, flush, interactive, className
     <div
       className={cn(
         "rounded-card border border-border bg-surface text-fg",
-        interactive && "transition-[box-shadow,border-color,transform] duration-220 ease-ghost hover:-translate-y-px hover:border-border-strong hover:shadow-lift",
+        interactive &&
+          "transition-[box-shadow,border-color,transform] duration-220 ease-ghost hover:-translate-y-px hover:border-border-strong hover:shadow-lift",
         className,
       )}
       {...props}

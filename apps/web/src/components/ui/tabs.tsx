@@ -67,14 +67,15 @@ export const TabsTrigger = forwardRef<ElementRef<typeof TabsPrimitive.Trigger>, 
   );
 });
 
-export const TabsContent = forwardRef<ElementRef<typeof TabsPrimitive.Content>, ComponentPropsWithoutRef<typeof TabsPrimitive.Content>>(
-  function TabsContent({ className, ...props }, ref) {
-    return (
-      <TabsPrimitive.Content
-        ref={ref}
-        className={cn("pt-5 outline-none data-[state=active]:animate-fade-in", className)}
-        {...props}
-      />
-    );
-  },
-);
+export const TabsContent = forwardRef<
+  ElementRef<typeof TabsPrimitive.Content>,
+  ComponentPropsWithoutRef<typeof TabsPrimitive.Content>
+>(function TabsContent({ className, ...props }, ref) {
+  return (
+    <TabsPrimitive.Content
+      ref={ref}
+      className={cn("pt-5 outline-none data-[state=active]:animate-fade-in", className)}
+      {...props}
+    />
+  );
+});
