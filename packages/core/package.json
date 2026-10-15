@@ -17,6 +17,8 @@
     "@ghost/knowledge": "workspace:*",
     "@ghost/shared": "workspace:*",
     "@ghost/stripe": "workspace:*",
-    "drizzle-orm": "^0.45.4"
+    "drizzle-orm": "^0.45.4",
+    "@ghost/agents": "workspace:*",
+    "@ghost/ingest": "workspace:*"
   }
 }
