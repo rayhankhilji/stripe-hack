@@ -16,6 +16,7 @@
     "@ghost/db": "workspace:*",
     "@ghost/knowledge": "workspace:*",
     "@ghost/shared": "workspace:*",
-    "@ghost/stripe": "workspace:*"
+    "@ghost/stripe": "workspace:*",
+    "drizzle-orm": "^0.45.4"
   }
 }

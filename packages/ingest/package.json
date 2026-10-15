@@ -16,7 +16,8 @@
     "@ghost/db": "workspace:*",
     "@ghost/era": "workspace:*",
     "@ghost/knowledge": "workspace:*",
-    "@ghost/shared": "workspace:*"
+    "@ghost/shared": "workspace:*",
+    "drizzle-orm": "^0.45.4"
   },
   "devDependencies": {
     "tsx": "^4.23.15"
