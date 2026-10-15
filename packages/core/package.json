@@ -1,0 +1,21 @@
+{
+  "name": "@ghost/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ghost/billing": "workspace:*",
+    "@ghost/db": "workspace:*",
+    "@ghost/knowledge": "workspace:*",
+    "@ghost/shared": "workspace:*",
+    "@ghost/stripe": "workspace:*"
+  }
+}
