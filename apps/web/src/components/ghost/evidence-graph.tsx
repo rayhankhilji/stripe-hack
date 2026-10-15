@@ -39,7 +39,13 @@ function initials(name: string): string {
  * Customer node in the centre, source systems around it, revenue trails between them.
  * A trail draws in (stroke-dashoffset) when its system becomes active. Pure SVG; inherits panel tokens.
  */
-export function EvidenceGraph({ customerName, systems = ERA_SYSTEMS, activeSystems = [], counts, className }: EvidenceGraphProps) {
+export function EvidenceGraph({
+  customerName,
+  systems = ERA_SYSTEMS,
+  activeSystems = [],
+  counts,
+  className,
+}: EvidenceGraphProps) {
   const uid = useId();
   const active = new Set(activeSystems);
   const n = systems.length;
@@ -69,7 +75,14 @@ export function EvidenceGraph({ customerName, systems = ERA_SYSTEMS, activeSyste
         const on = active.has(system);
         return (
           <g key={`trail-${system}`}>
-            <path d={d} fill="none" stroke="var(--color-border-strong)" strokeWidth={1} strokeDasharray="2 5" strokeLinecap="round" />
+            <path
+              d={d}
+              fill="none"
+              stroke="var(--color-border-strong)"
+              strokeWidth={1}
+              strokeDasharray="2 5"
+              strokeLinecap="round"
+            />
             <path
               d={d}
               fill="none"
@@ -101,7 +114,7 @@ export function EvidenceGraph({ customerName, systems = ERA_SYSTEMS, activeSyste
                 className={cn(
                   "grid size-full place-items-center rounded-xl transition-[box-shadow,transform] duration-280 ease-ghost [&_svg]:size-5",
                   tile,
-                  on && "shadow-ring",
+                  on && "outline-2 outline-offset-2 outline-accent",
                 )}
               >
                 <Icon strokeWidth={2.25} aria-hidden />
@@ -121,7 +134,12 @@ export function EvidenceGraph({ customerName, systems = ERA_SYSTEMS, activeSyste
 
       <g transform={`translate(${CX - CENTER / 2} ${CY - CENTER / 2})`}>
         <rect width={CENTER} height={CENTER} rx={22} className="fill-petal" />
-        <text x={CENTER / 2} y={CENTER / 2 + 8} textAnchor="middle" className="fill-forest font-display text-2xl font-semibold">
+        <text
+          x={CENTER / 2}
+          y={CENTER / 2 + 8}
+          textAnchor="middle"
+          className="fill-forest font-display text-2xl font-semibold"
+        >
           {initials(customerName)}
         </text>
       </g>

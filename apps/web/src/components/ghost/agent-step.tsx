@@ -33,7 +33,10 @@ export function AgentStep({ state, title, detail, meta, last, className }: Agent
       {last ? null : (
         <span
           aria-hidden
-          className={cn("absolute left-2.5 top-6 -bottom-0 w-px", state === "done" ? "bg-punch/40 dark:bg-petal/50" : "bg-border")}
+          className={cn(
+            "absolute left-2.5 top-6 -bottom-0 w-px",
+            state === "done" ? "bg-punch/40 dark:bg-petal/50" : "bg-border",
+          )}
         />
       )}
       <span

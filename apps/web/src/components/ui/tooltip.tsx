@@ -14,7 +14,14 @@ export type TooltipProps = {
 };
 
 /** Self-contained tooltip (brings its own provider). The child must be a focusable element or forward refs. */
-export function Tooltip({ content, children, side = "top", align = "center", delayDuration = 250, className }: TooltipProps) {
+export function Tooltip({
+  content,
+  children,
+  side = "top",
+  align = "center",
+  delayDuration = 250,
+  className,
+}: TooltipProps) {
   return (
     <TooltipPrimitive.Provider delayDuration={delayDuration} skipDelayDuration={150}>
       <TooltipPrimitive.Root>

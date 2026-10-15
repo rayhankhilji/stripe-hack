@@ -2,7 +2,10 @@ import { forwardRef, type HTMLAttributes, type TdHTMLAttributes, type ThHTMLAttr
 import { cn } from "../../lib/cn";
 
 /** Data table. Compose with TableHeader/TableBody/TableRow/TableHead/TableCell. Numeric cells: `numeric`. */
-export const Table = forwardRef<HTMLTableElement, HTMLAttributes<HTMLTableElement>>(function Table({ className, ...props }, ref) {
+export const Table = forwardRef<HTMLTableElement, HTMLAttributes<HTMLTableElement>>(function Table(
+  { className, ...props },
+  ref,
+) {
   return (
     <div className="relative w-full overflow-x-auto scrollbar-quiet">
       <table ref={ref} className={cn("w-full caption-bottom border-collapse text-sm", className)} {...props} />
@@ -10,19 +13,17 @@ export const Table = forwardRef<HTMLTableElement, HTMLAttributes<HTMLTableElemen
   );
 });
 
-export const TableHeader = forwardRef<HTMLTableSectionElement, HTMLAttributes<HTMLTableSectionElement>>(function TableHeader(
-  { className, ...props },
-  ref,
-) {
-  return <thead ref={ref} className={cn("[&_tr]:border-b [&_tr]:border-border", className)} {...props} />;
-});
+export const TableHeader = forwardRef<HTMLTableSectionElement, HTMLAttributes<HTMLTableSectionElement>>(
+  function TableHeader({ className, ...props }, ref) {
+    return <thead ref={ref} className={cn("[&_tr]:border-b [&_tr]:border-border", className)} {...props} />;
+  },
+);
 
-export const TableBody = forwardRef<HTMLTableSectionElement, HTMLAttributes<HTMLTableSectionElement>>(function TableBody(
-  { className, ...props },
-  ref,
-) {
-  return <tbody ref={ref} className={cn("[&_tr:last-child]:border-0", className)} {...props} />;
-});
+export const TableBody = forwardRef<HTMLTableSectionElement, HTMLAttributes<HTMLTableSectionElement>>(
+  function TableBody({ className, ...props }, ref) {
+    return <tbody ref={ref} className={cn("[&_tr:last-child]:border-0", className)} {...props} />;
+  },
+);
 
 export type TableRowProps = HTMLAttributes<HTMLTableRowElement> & {
   /** Row is clickable: pointer cursor and hover tint. */
@@ -53,7 +54,10 @@ export const TableRow = forwardRef<HTMLTableRowElement, TableRowProps>(function 
 
 export type TableHeadProps = ThHTMLAttributes<HTMLTableCellElement> & { numeric?: boolean };
 
-export const TableHead = forwardRef<HTMLTableCellElement, TableHeadProps>(function TableHead({ className, numeric, ...props }, ref) {
+export const TableHead = forwardRef<HTMLTableCellElement, TableHeadProps>(function TableHead(
+  { className, numeric, ...props },
+  ref,
+) {
   return (
     <th
       ref={ref}
@@ -69,11 +73,18 @@ export const TableHead = forwardRef<HTMLTableCellElement, TableHeadProps>(functi
 
 export type TableCellProps = TdHTMLAttributes<HTMLTableCellElement> & { numeric?: boolean };
 
-export const TableCell = forwardRef<HTMLTableCellElement, TableCellProps>(function TableCell({ className, numeric, ...props }, ref) {
+export const TableCell = forwardRef<HTMLTableCellElement, TableCellProps>(function TableCell(
+  { className, numeric, ...props },
+  ref,
+) {
   return (
     <td
       ref={ref}
-      className={cn("px-4 py-3 align-middle text-fg first:pl-5 last:pr-5", numeric && "text-right tabular-nums", className)}
+      className={cn(
+        "px-4 py-3 align-middle text-fg first:pl-5 last:pr-5",
+        numeric && "text-right tabular-nums",
+        className,
+      )}
       {...props}
     />
   );

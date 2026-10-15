@@ -42,7 +42,9 @@ export function SourceDrawer({ source, open, onOpenChange, quote, verified, chil
               <p className="text-xs font-medium text-fg-subtle">
                 {systemLabel(source.system)} · {source.recordType}
               </p>
-              <DialogPrimitive.Title className="mt-0.5 text-base font-semibold leading-snug tracking-tight">{source.title}</DialogPrimitive.Title>
+              <DialogPrimitive.Title className="mt-0.5 text-base font-semibold leading-snug tracking-tight">
+                {source.title}
+              </DialogPrimitive.Title>
               <DialogPrimitive.Description className="sr-only">
                 Source record {source.externalId} from {systemLabel(source.system)}
               </DialogPrimitive.Description>

@@ -7,9 +7,17 @@ import { Badge } from "../ui/badge";
 // which export only zod schemas (web does not depend on zod directly).
 type AnyStatus =
   | FindingStatus
-  | "draft" | "open" | "paid" | "void" | "uncollectible"
-  | "pending_approval" | "sent_simulated" | "suppressed"
-  | "scheduled" | "drafted" | "cancelled";
+  | "draft"
+  | "open"
+  | "paid"
+  | "void"
+  | "uncollectible"
+  | "pending_approval"
+  | "sent_simulated"
+  | "suppressed"
+  | "scheduled"
+  | "drafted"
+  | "cancelled";
 
 export type StatusPillProps = {
   status: AnyStatus;
@@ -21,9 +29,15 @@ export type StatusPillProps = {
 export function StatusPill({ status, size = "md", className }: StatusPillProps) {
   const meta = statusMeta(status);
   return (
-    <Badge tone={meta.tone} size={size} className={cn(status === "suppressed" && "line-through decoration-1", className)}>
+    <Badge
+      tone={meta.tone}
+      size={size}
+      className={cn(status === "suppressed" && "line-through decoration-1", className)}
+    >
       <span aria-hidden className="relative flex size-1.5">
-        {meta.live ? <span className="absolute inline-flex size-full rounded-full bg-current opacity-60 motion-safe:animate-ping" /> : null}
+        {meta.live ? (
+          <span className="absolute inline-flex size-full rounded-full bg-current opacity-60 motion-safe:animate-ping" />
+        ) : null}
         <span className="relative inline-flex size-1.5 rounded-full bg-current" />
       </span>
       {meta.label}
