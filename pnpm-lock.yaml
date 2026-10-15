@@ -254,6 +254,9 @@ importers:
       '@ghost/shared':
         specifier: workspace:*
         version: link:../shared
+      drizzle-orm:
+        specifier: ^0.45.4
+        version: 0.45.4(@electric-sql/pglite@0.5.10)(pg@8.23.1)(postgres@3.4.9)
 
   packages/shared:
     dependencies:
