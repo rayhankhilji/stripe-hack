@@ -12,8 +12,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@ghost/agents": "workspace:*",
     "@ghost/billing": "workspace:*",
     "@ghost/db": "workspace:*",
+    "@ghost/ingest": "workspace:*",
     "@ghost/knowledge": "workspace:*",
     "@ghost/shared": "workspace:*",
     "@ghost/stripe": "workspace:*",

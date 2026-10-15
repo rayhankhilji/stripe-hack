@@ -174,12 +174,18 @@ importers:
 
   packages/core:
     dependencies:
+      '@ghost/agents':
+        specifier: workspace:*
+        version: link:../agents
       '@ghost/billing':
         specifier: workspace:*
         version: link:../billing
       '@ghost/db':
         specifier: workspace:*
         version: link:../db
+      '@ghost/ingest':
+        specifier: workspace:*
+        version: link:../ingest
       '@ghost/knowledge':
         specifier: workspace:*
         version: link:../knowledge
