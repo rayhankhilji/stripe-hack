@@ -32,12 +32,12 @@ export function AgentPanel({ phase, focus, events, activityError, live }: Props)
   return (
     <section
       aria-labelledby="agent-headline"
-      className="relative flex flex-col overflow-hidden rounded-panel bg-forest text-porcelain shadow-soft"
+      className="dark relative flex flex-col overflow-hidden rounded-panel bg-forest text-porcelain shadow-soft"
     >
       <header className="flex items-center justify-between gap-4 px-6 pt-6 md:px-8 md:pt-7">
         <div className="flex items-center gap-3">
           <span className="grid size-10 place-items-center rounded-control bg-forest-2">
-            <Logo variant="mark" className="size-6" />
+            <Logo variant="symbol" size={24} />
           </span>
           <div>
             <p className="text-sm font-semibold text-petal">Ghost</p>
@@ -82,7 +82,7 @@ export function AgentPanel({ phase, focus, events, activityError, live }: Props)
             </p>
           ) : (
             <div className="-mx-2 max-h-96 overflow-y-auto px-2">
-              <ActivityStream events={stream} tone="dark" />
+              <ActivityStream events={stream} />
             </div>
           )}
         </div>

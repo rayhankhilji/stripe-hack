@@ -47,12 +47,12 @@ export function FirstRun({ events }: { events: AuditEventDTO[] }) {
   return (
     <section
       aria-labelledby="first-run-headline"
-      className="relative overflow-hidden rounded-panel bg-forest px-6 py-10 text-porcelain shadow-soft md:px-12 md:py-14"
+      className="dark relative overflow-hidden rounded-panel bg-forest px-6 py-10 text-porcelain shadow-soft md:px-12 md:py-14"
     >
       <div className="grid gap-10 lg:grid-cols-2 lg:gap-14">
         <div>
           <span className="grid size-14 place-items-center rounded-card bg-forest-2">
-            <Logo variant="mark" className="size-8" />
+            <Logo variant="symbol" size={32} />
           </span>
           <p className="mt-8 font-mono text-xs uppercase tracking-widest text-petal/80">Agent workspace · first run</p>
           <h1
@@ -112,7 +112,7 @@ export function FirstRun({ events }: { events: AuditEventDTO[] }) {
               </p>
             ) : (
               <div className="max-h-80 overflow-y-auto">
-                <ActivityStream events={events.slice(0, 12)} tone="dark" />
+                <ActivityStream events={events.slice(0, 12)} />
               </div>
             )}
           </div>

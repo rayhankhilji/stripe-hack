@@ -11,7 +11,7 @@ import { SectionCard } from "./section-card";
 type Item = OverviewDTO["needsAttention"][number];
 
 const TONE: Record<Item["kind"], { icon: LucideIcon; tile: string }> = {
-  needs_review: { icon: AlertTriangle, tile: "bg-lemon/40 text-ink" },
+  needs_review: { icon: AlertTriangle, tile: "bg-lemon/40 text-fg" },
   escalated: { icon: ShieldAlert, tile: "bg-punch text-white" },
   payment_failed: { icon: CreditCard, tile: "bg-punch/15 text-punch" },
   overdue: { icon: Clock, tile: "bg-signal/15 text-navy" },
@@ -28,7 +28,7 @@ export function NeedsYou({ items }: { items: OverviewDTO["needsAttention"] }) {
       }
     >
       {items.length === 0 ? (
-        <div className="flex items-center gap-2 px-4 pb-4 text-sm text-ink/60">
+        <div className="flex items-center gap-2 px-4 pb-4 text-sm text-fg-muted">
           <CircleCheck aria-hidden className="size-4 text-forest-2" />
           Nothing is waiting on you.
         </div>
@@ -41,14 +41,14 @@ export function NeedsYou({ items }: { items: OverviewDTO["needsAttention"] }) {
               <li key={`${item.kind}:${item.href}`}>
                 <Link
                   href={item.href}
-                  className="flex items-center gap-3 rounded-control px-2 py-2 transition-colors hover:bg-porcelain focus-visible:bg-porcelain focus-visible:outline-none"
+                  className="flex items-center gap-3 rounded-control px-2 py-2 transition-colors hover:bg-surface-muted focus-visible:bg-surface-muted focus-visible:outline-none"
                 >
                   <span aria-hidden className={cn("grid size-7 shrink-0 place-items-center rounded-control", tone.tile)}>
                     <Icon className="size-3.5" strokeWidth={2.25} />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm text-ink">{item.title}</span>
-                    <span className="block text-xs text-ink/55">{NEEDS_LABEL[item.kind]}</span>
+                    <span className="block truncate text-sm text-fg">{item.title}</span>
+                    <span className="block text-xs text-fg-subtle">{NEEDS_LABEL[item.kind]}</span>
                   </span>
                 </Link>
               </li>

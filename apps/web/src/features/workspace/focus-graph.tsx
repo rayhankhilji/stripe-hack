@@ -1,6 +1,6 @@
 "use client";
 
-import type { FindingSummaryDTO } from "@ghost/shared";
+import type { EraSystem, FindingSummaryDTO } from "@ghost/shared";
 import { EvidenceGraph } from "../../components/ghost/evidence-graph";
 import { Skeleton } from "../../components/ui/skeleton";
 import { useFinding } from "../../lib/queries";
@@ -30,9 +30,11 @@ function FindingGraph({ id, customerName }: { id: string; customerName: string }
       </div>
     );
   }
+  const counts = new Map<EraSystem, number>();
+  for (const e of detail.data.evidence) counts.set(e.source.system, (counts.get(e.source.system) ?? 0) + 1);
   return (
     <div>
-      <EvidenceGraph customerName={detail.data.customerName} evidence={detail.data.evidence} />
+      <EvidenceGraph customerName={detail.data.customerName} activeSystems={[...counts.keys()]} counts={Object.fromEntries(counts)} />
       <p className="mt-2 text-xs text-porcelain/60">
         {detail.data.evidence.filter((e) => e.verified).length} of {detail.data.evidence.length} quotes verified verbatim
         against source records.

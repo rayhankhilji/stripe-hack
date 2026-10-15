@@ -38,7 +38,7 @@ export function WorkspaceScreen() {
       <div className="p-6 md:p-8">
         <ErrorState
           title="Ghost could not load the workspace"
-          description={overview.error.message}
+          error={overview.error}
           onRetry={() => void overview.refetch()}
         />
       </div>

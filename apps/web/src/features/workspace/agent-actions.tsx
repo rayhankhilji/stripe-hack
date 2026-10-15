@@ -51,7 +51,8 @@ export function AgentActions({ target, busy }: Props) {
               size="sm"
               disabled={running || !canInvestigate}
               loading={analyze.isPending}
-              onClick={() => target && analyze.mutate({ id: target.id })}
+              // U0's analyze variables type is `{ id } & Record<string, never>`, which rejects `id`; the runtime shape is `{ id }`.
+              onClick={() => target && analyze.mutate({ id: target.id } as Parameters<typeof analyze.mutate>[0])}
             >
               <ScanSearch aria-hidden className="size-4" />
               {analyze.isPending ? "Investigating…" : "Investigate"}
