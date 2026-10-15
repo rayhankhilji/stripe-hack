@@ -114,7 +114,7 @@ export function EvidenceGraph({
                 className={cn(
                   "grid size-full place-items-center rounded-xl transition-[box-shadow,transform] duration-280 ease-ghost [&_svg]:size-5",
                   tile,
-                  on && "shadow-ring",
+                  on && "outline-2 outline-offset-2 outline-accent",
                 )}
               >
                 <Icon strokeWidth={2.25} aria-hidden />
