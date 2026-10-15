@@ -9,11 +9,11 @@ export function CalculationSection({ finding }: { finding: FindingDetailDTO }) {
   return (
     <CaseSection id="calculation" title="Calculation" aside={<span className="font-mono">{calc.formula}</span>}>
       {calc.inputs.length > 0 ? (
-        <dl className="grid grid-cols-1 gap-x-6 gap-y-2 text-sm sm:grid-cols-2">
+        <dl className="flex flex-col divide-y divide-border text-sm">
           {calc.inputs.map((input, i) => (
-            <div key={i} className="flex items-baseline justify-between gap-3 border-b border-border pb-2">
-              <dt className="text-fg-subtle">{input.label}</dt>
-              <dd className="flex items-baseline gap-2 text-right">
+            <div key={i} className="flex items-baseline justify-between gap-6 py-2 first:pt-0">
+              <dt className="min-w-0 flex-1 text-fg-muted">{input.label}</dt>
+              <dd className="flex shrink-0 items-baseline gap-2 text-right">
                 <span className="font-medium tabular-nums text-fg">{input.value}</span>
                 {input.sourceExternalId ? <MonoId value={input.sourceExternalId} /> : null}
               </dd>
