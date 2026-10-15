@@ -1,0 +1,40 @@
+{
+  "name": "ghost",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @ghost/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "vitest run --config vitest.workspace.ts",
+    "test:e2e": "playwright test",
+    "db:generate": "pnpm --filter @ghost/db db:generate",
+    "db:migrate": "pnpm --filter @ghost/db db:migrate",
+    "ingest": "pnpm --filter @ghost/ingest ingest",
+    "era:record": "pnpm --filter @ghost/era record",
+    "demo:reset": "tsx scripts/demo-reset.ts",
+    "check:ownership": "node scripts/check-ownership.mjs",
+    "check:slop": "node scripts/check-slop.mjs",
+    "check:docs": "node scripts/check-docs.mjs"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^16.4.1",
+    "@playwright/test": "~1.64.1",
+    "@types/node": "^22.20.5",
+    "@vitest/coverage-v8": "^5.0.5",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "msw": "^3.0.3",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.71.2",
+    "vitest": "^5.0.5"
+  }
+}
