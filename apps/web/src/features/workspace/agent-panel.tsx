@@ -44,13 +44,13 @@ export function AgentPanel({ phase, focus, events, activityError, live }: Props)
             <LiveIndicator live={live} newest={newestEvent(events)} />
           </div>
         </div>
-        <p className="font-mono text-xs uppercase tracking-widest text-petal/80">{brief.eyebrow}</p>
+        <p className="hidden whitespace-nowrap font-mono text-xs uppercase tracking-widest text-petal/80 sm:block">{brief.eyebrow}</p>
       </header>
 
       <div className="px-6 pt-6 md:px-8">
         <h1
           id="agent-headline"
-          className="max-w-2xl font-display text-3xl font-semibold leading-tight text-petal text-balance md:text-4xl"
+          className="max-w-2xl font-display text-2xl font-semibold sm:text-3xl leading-tight text-petal text-balance md:text-4xl"
         >
           {brief.headline}
         </h1>

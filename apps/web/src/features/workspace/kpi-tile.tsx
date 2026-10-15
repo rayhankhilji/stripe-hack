@@ -31,10 +31,10 @@ export function KpiTile({ label, cents, hint, accent, icon: Icon }: Props) {
           <Icon className="size-4" strokeWidth={2.25} />
         </span>
         <div className="min-w-0 flex-1">
-          <p className="text-xs font-medium text-fg-muted">{label}</p>
+          <p className="truncate text-xs font-medium text-fg-muted">{label}</p>
           <p className="truncate text-xs text-fg-subtle">{hint}</p>
         </div>
-        <div aria-live="polite">
+        <div aria-live="polite" className="shrink-0">
           <Money cents={cents} size="lg" animate />
         </div>
       </div>
