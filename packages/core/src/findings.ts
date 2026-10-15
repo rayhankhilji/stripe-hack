@@ -4,9 +4,7 @@ import {
   AppError,
   FindingStatus,
   RULE_IDS,
-  type ActorType,
   type AuditEventDTO,
-  type ExplanationDTO,
   type FindingDetailDTO,
   type FindingSummaryDTO,
   type InvoiceDTO,
@@ -14,6 +12,7 @@ import {
 } from "@ghost/shared";
 import { listAudit, recordAudit } from "./audit";
 import { loadEvidence } from "./detect";
+import type { ActorType, ExplanationInput } from "./facts";
 
 type FindingRow = typeof schema.finding.$inferSelect;
 type InvoiceRow = typeof schema.invoice.$inferSelect;
@@ -214,12 +213,12 @@ export async function setFindingStatus(id: string, to: FindingStatus, reason: st
   if (!canTransition(row.status, to)) {
     throw new AppError("INVALID_STATE", `Finding cannot move from ${row.status} to ${to}`, { from: row.status, to });
   }
-  const updated = await db
+  await db
     .update(schema.finding)
     .set({ status: to, decisionReason: reason, updatedAt: new Date() })
-    .where(and(eq(schema.finding.id, id), eq(schema.finding.status, row.status)))
-    .returning({ id: schema.finding.id });
-  if (!updated.length) throw new AppError("CONFLICT", "Finding changed while updating; retry", { from: row.status, to });
+    .where(and(eq(schema.finding.id, id), eq(schema.finding.status, row.status)));
+  const [after] = await db.select({ status: schema.finding.status }).from(schema.finding).where(eq(schema.finding.id, id)).limit(1);
+  if (after?.status !== to) throw new AppError("CONFLICT", "Finding changed while updating; retry", { from: row.status, to });
 
   await recordAudit({
     actorType: actor.type,
@@ -259,7 +258,7 @@ export async function recordApproval(id: string, decision: "approved" | "rejecte
   });
 }
 
-export async function saveExplanation(findingId: string, e: ExplanationDTO): Promise<void> {
+export async function saveExplanation(findingId: string, e: ExplanationInput): Promise<void> {
   const db = getDb();
   const [row] = await db.select({ id: schema.finding.id }).from(schema.finding).where(eq(schema.finding.id, findingId)).limit(1);
   if (!row) throw new AppError("NOT_FOUND", `Finding ${findingId} not found`);

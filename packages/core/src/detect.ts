@@ -1,10 +1,10 @@
 import { and, asc, eq, inArray } from "drizzle-orm";
 import { getDb, schema } from "@ghost/db";
 import { decide, detectWonNotBilled, evaluateEligibility, evidenceScore, type DetectedFinding } from "@ghost/billing";
-import { AppError, type EligibilityCheckDTO, type EvidenceDTO, type EvidenceRole, type FindingStatus } from "@ghost/shared";
+import { AppError, type EligibilityCheckDTO, type EvidenceDTO, type FindingStatus } from "@ghost/shared";
 import { recordAudit } from "./audit";
 import { pickQuote, quoteCandidates } from "./evidence-quotes";
-import { loadCustomerFacts, roleOfSource, toSourceRef } from "./facts";
+import { loadCustomerFacts, roleOfSource, toSourceRef, type EvidenceRole } from "./facts";
 
 type SourceRow = typeof schema.sourceRecord.$inferSelect;
 
@@ -145,9 +145,11 @@ async function insertFinding(customerId: string, isFixture: boolean, d: Detected
   const lineItems = await db.select().from(schema.dealLineItem).where(inArray(schema.dealLineItem.dealId, deals.map((x) => x.id)));
   const sourceByLine = new Map(lineItems.map((l) => [l.externalId, l.sourceRecordId]));
 
-  const [row] = await db
+  const findingId = crypto.randomUUID();
+  await db
     .insert(schema.finding)
     .values({
+      id: findingId,
       customerId,
       kind: d.kind,
       status,
@@ -157,14 +159,12 @@ async function insertFinding(customerId: string, isFixture: boolean, d: Detected
       calcHash: d.calculation.calcHash,
       decisionReason: reason,
       isFixture,
-    })
-    .returning({ id: schema.finding.id });
-  if (!row) throw new AppError("INTERNAL", "Finding insert returned no row");
+    });
 
   if (d.lines.length) {
     await db.insert(schema.findingLine).values(
       d.lines.map((l) => ({
-        findingId: row.id,
+        findingId,
         dealId: dealIdByExternal.get(l.dealExternalId) ?? null,
         description: l.description,
         quantity: l.quantity,
@@ -174,7 +174,7 @@ async function insertFinding(customerId: string, isFixture: boolean, d: Detected
       })),
     );
   }
-  return row.id;
+  return findingId;
 }
 
 type Outcome = "created" | "updated" | "unchanged";

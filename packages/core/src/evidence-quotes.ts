@@ -1,4 +1,4 @@
-import type { EvidenceRole } from "@ghost/shared";
+import type { EvidenceRole } from "./facts";
 
 type Raw = Record<string, unknown>;
 

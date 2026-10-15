@@ -1,7 +1,11 @@
 import { and, asc, eq, inArray } from "drizzle-orm";
 import { getDb, schema } from "@ghost/db";
 import type { CustomerFacts } from "@ghost/billing";
-import { AppError, type EraSystem, type EvidenceRole, type SourceRef } from "@ghost/shared";
+import { AppError, ActorType as ActorTypeSchema, EvidenceRole as EvidenceRoleSchema, ExplanationDTO as ExplanationSchema, type EraSystem, type SourceRef } from "@ghost/shared";
+
+export type EvidenceRole = (typeof EvidenceRoleSchema.options)[number];
+export type ActorType = (typeof ActorTypeSchema.options)[number];
+export type ExplanationInput = (typeof ExplanationSchema)["_output"];
 
 type SourceRow = typeof schema.sourceRecord.$inferSelect;
 
