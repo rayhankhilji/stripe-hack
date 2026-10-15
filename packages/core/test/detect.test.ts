@@ -34,3 +34,18 @@ describe("detection over ingested fixtures", () => {
     expect(detail.evidence.every((e) => e.verified)).toBe(true);
   });
 });
+
+describe("overview and customers", () => {
+  it("reports recoverable revenue and customer detail", async () => {
+    const overview = await import("../src/overview");
+    const customers = await import("../src/customers");
+    const o = await overview.getOverview();
+    expect(o.recoverableCents).toBeGreaterThanOrEqual(7_220_000);
+    expect(o.systemsConnected).toHaveLength(7);
+    expect(o.topFindings.length).toBeGreaterThan(0);
+    const list = await customers.listCustomers("tidewater");
+    expect(list).toHaveLength(1);
+    const detail = await customers.getCustomer(list[0]?.id ?? "");
+    expect(detail.orders.filter((x) => x.status === "Draft").length).toBeGreaterThanOrEqual(3);
+  });
+});
