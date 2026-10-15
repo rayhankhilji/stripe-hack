@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { AppError, type ErrorCode } from "@ghost/shared";
 import { assertSession } from "./session";
+import { ensureReady } from "./ready";
 
 export type HandlerContext<B = undefined> = {
   request: Request;
@@ -48,6 +49,7 @@ export function withHandler<S extends BodySchema | undefined = undefined>(
         if (!parsed.success) throw new AppError("VALIDATION", "Invalid request body", { issues: parsed.error.issues });
         body = parsed.data;
       }
+      await ensureReady();
       const result = await fn({ request, params, searchParams, body: body as Body<S>, requestId });
       if (result instanceof Response) return result;
       if (result === undefined) return new NextResponse(null, { status: options.emptyStatus ?? 204, headers });
@@ -64,5 +66,5 @@ export function errorResponse(err: unknown, requestId: string): Response {
   const code: ErrorCode = "INTERNAL";
   // Internals are logged by request id; the client never sees stack traces or raw upstream payloads.
   process.stderr.write(`[${requestId}] unhandled: ${err instanceof Error ? err.message : String(err)}\n`);
-  return NextResponse.json(new AppError(code, "Unexpected server error", { requestId }).toEnvelope(), { status: 500, headers });
+  return NextResponse.json(new AppError(code, err instanceof Error ? err.message : "Unexpected server error", { requestId }).toEnvelope(), { status: 500, headers });
 }
