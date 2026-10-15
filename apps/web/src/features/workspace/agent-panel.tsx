@@ -9,7 +9,7 @@ import { Logo } from "../../components/ghost/logo";
 import { cn } from "../../lib/cn";
 import { AgentActions } from "./agent-actions";
 import { briefFor } from "./agent-brief";
-import { currentInvestigation, newestEvent, type Phase } from "./derive";
+import { currentInvestigation, dedupeLead, newestEvent, type Phase } from "./derive";
 import { FocusGraph } from "./focus-graph";
 import { LiveIndicator } from "./live-indicator";
 
@@ -27,7 +27,7 @@ type StreamMode = "case" | "all";
 export function AgentPanel({ phase, focus, events, activityError, live }: Props) {
   const brief = briefFor(phase);
   const [mode, setMode] = useState<StreamMode>("case");
-  const stream = mode === "case" ? currentInvestigation(events, 14) : events.slice(0, 14);
+  const stream = mode === "case" ? currentInvestigation(events, 14, focus?.id ?? null) : events.slice(0, 14);
 
   return (
     <section
@@ -66,8 +66,8 @@ export function AgentPanel({ phase, focus, events, activityError, live }: Props)
         ) : null}
       </div>
 
-      <div className="mt-6 grid flex-1 grid-cols-1 gap-px border-t border-forest-2 bg-forest-2 md:grid-cols-5">
-        <div className="flex min-h-0 flex-col bg-forest px-6 py-5 md:col-span-3 md:px-8">
+      <div className="mt-6 grid flex-1 grid-cols-1 gap-px border-t border-forest-2 bg-forest-2 md:grid-cols-2">
+        <div className="flex min-h-0 flex-col bg-forest px-6 py-5 md:px-8">
           <div className="mb-3 flex items-center justify-between gap-2">
             <h2 className="text-xs font-semibold uppercase tracking-widest text-porcelain/60">
               {mode === "case" ? "Current investigation" : "All activity"}
@@ -82,11 +82,11 @@ export function AgentPanel({ phase, focus, events, activityError, live }: Props)
             </p>
           ) : (
             <div className="-mx-2 max-h-96 overflow-y-auto px-2">
-              <ActivityStream events={stream} />
+              <ActivityStream events={stream.map((e) => ({ ...e, summary: dedupeLead(e.summary) }))} />
             </div>
           )}
         </div>
-        <div className="flex flex-col bg-forest px-6 py-5 md:col-span-2">
+        <div className="flex flex-col bg-forest px-6 py-5 md:pr-8">
           <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-porcelain/60">Evidence map</h2>
           <FocusGraph finding={focus} />
         </div>
@@ -114,7 +114,7 @@ function StreamToggle({ mode, onChange }: { mode: StreamMode; onChange: (m: Stre
           aria-checked={mode === o.value}
           onClick={() => onChange(o.value)}
           className={cn(
-            "rounded-full px-2.5 py-0.5 text-xs font-medium transition-colors focus-visible:outline-2 focus-visible:outline-petal",
+            "whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs font-medium transition-colors focus-visible:outline-2 focus-visible:outline-petal",
             mode === o.value ? "bg-petal text-forest" : "text-porcelain/70 hover:text-porcelain",
           )}
         >

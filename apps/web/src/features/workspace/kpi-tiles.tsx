@@ -18,7 +18,7 @@ export function KpiTiles({ overview }: { overview: OverviewDTO }) {
   const awaiting = count(s, "invoiced");
   const recovered = count(s, "recovered");
   return (
-    <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
+    <div className="grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-1">
       <KpiTile
         label="Recoverable"
         cents={overview.recoverableCents}

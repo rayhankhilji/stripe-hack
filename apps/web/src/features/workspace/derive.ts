@@ -91,11 +91,13 @@ export function newestEvent(events: AuditEventDTO[]): AuditEventDTO | null {
 }
 
 /**
- * The events of the current (or most recent) investigation: the newest event's subject and every event
+ * The events of the current (or most recent) investigation: the focus case's events when it has any, else the newest event's subject and every event
  * about the same subject, newest first. Falls back to the latest events when the subject is not a finding.
  */
-export function currentInvestigation(events: AuditEventDTO[], limit: number): AuditEventDTO[] {
+export function currentInvestigation(events: AuditEventDTO[], limit: number, focusId: string | null = null): AuditEventDTO[] {
   const sorted = [...events].sort((a, b) => Date.parse(b.occurredAt) - Date.parse(a.occurredAt));
+  const focused = focusId ? sorted.filter((e) => e.subjectType === "finding" && e.subjectId === focusId) : [];
+  if (focused.length > 0) return focused.slice(0, limit);
   const anchor = sorted.find((e) => e.subjectType === "finding" && e.subjectId !== null);
   if (!anchor) return sorted.slice(0, limit);
   const sameCase = sorted.filter((e) => e.subjectType === anchor.subjectType && e.subjectId === anchor.subjectId);
@@ -106,6 +108,23 @@ export function currentInvestigation(events: AuditEventDTO[], limit: number): Au
 export function investigatedFindingId(events: AuditEventDTO[]): string | null {
   const sorted = [...events].sort((a, b) => Date.parse(b.occurredAt) - Date.parse(a.occurredAt));
   return sorted.find((e) => e.subjectType === "finding")?.subjectId ?? null;
+}
+
+/** Finding titles may lead with the customer name, which the UI already shows beside them. */
+export function caseTitle(title: string, customerName: string): string {
+  let t = title;
+  while (t.startsWith(`${customerName}: `)) t = t.slice(customerName.length + 2);
+  return t;
+}
+
+/** Collapses a doubled leading label ("Acme: Acme: 2 deals") into one. */
+export function dedupeLead(title: string): string {
+  const i = title.indexOf(": ");
+  if (i <= 0) return title;
+  const lead = title.slice(0, i + 2);
+  let t = title;
+  while (t.startsWith(lead + lead)) t = t.slice(lead.length);
+  return t;
 }
 
 export function systemRecords(overview: OverviewDTO, system: EraSystem): { records: number; lastSyncedAt: string | null } {

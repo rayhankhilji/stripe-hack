@@ -1,4 +1,4 @@
-import { formatCents } from "@ghost/shared";
+import { formatMoneyShort as formatCents } from "../../lib/format/money";
 import type { Phase } from "./derive";
 
 export type Brief = {

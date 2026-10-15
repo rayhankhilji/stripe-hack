@@ -17,7 +17,7 @@ export function ConnectedSystems({ overview }: { overview: OverviewDTO }) {
       title="Connected systems"
       action={<span className="font-mono text-xs tabular-nums text-fg-subtle">{connected}/7 synced</span>}
     >
-      <ul className="grid grid-cols-1 gap-x-2 px-2 pb-2 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-x-2 px-2 pb-2 sm:grid-cols-2 lg:grid-cols-1">
         {SYSTEM_ORDER.map((system) => {
           const { records, lastSyncedAt } = systemRecords(overview, system);
           const live = records > 0;
