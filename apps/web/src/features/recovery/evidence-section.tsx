@@ -15,12 +15,12 @@ export function EvidenceSection({ finding, highlighted }: { finding: FindingDeta
       aside={`${verified} of ${finding.evidence.length} quotes verified verbatim in source`}
     >
       {groups.length === 0 ? (
-        <p className="text-sm text-ink/60">No evidence has been gathered for this case.</p>
+        <p className="text-sm text-fg-subtle">No evidence has been gathered for this case.</p>
       ) : (
         <div className="flex flex-col gap-5">
           {groups.map((g) => (
             <div key={g.role} className="flex flex-col gap-2">
-              <h3 className="text-xs font-medium uppercase tracking-wider text-ink/50">
+              <h3 className="text-xs font-medium uppercase tracking-wider text-fg-subtle">
                 {EVIDENCE_ROLE_LABEL[g.role]} · {g.items.length}
               </h3>
               <ul className="flex flex-col gap-2">
@@ -29,14 +29,14 @@ export function EvidenceSection({ finding, highlighted }: { finding: FindingDeta
                     key={e.id}
                     id={evidenceAnchor(e.id)}
                     className={cn(
-                      "scroll-mt-24 rounded-2xl border border-line p-3 transition-colors duration-300",
-                      highlighted === e.id ? "border-petal bg-petal/20" : "bg-white",
+                      "scroll-mt-24 rounded-card border border-border p-3 transition-colors duration-300",
+                      highlighted === e.id ? "border-petal bg-petal/20" : "bg-surface",
                     )}
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2">
                       <SourceChip source={e.source} />
                       {e.verified ? (
-                        <span className="inline-flex items-center gap-1 text-xs text-forest-2">
+                        <span className="inline-flex items-center gap-1 text-xs text-lime-deep dark:text-lime">
                           <BadgeCheck className="size-3.5" aria-hidden /> verified
                         </span>
                       ) : (
@@ -45,7 +45,7 @@ export function EvidenceSection({ finding, highlighted }: { finding: FindingDeta
                         </span>
                       )}
                     </div>
-                    <blockquote className="mt-2 border-l-2 border-line pl-3 text-sm leading-relaxed text-ink/80">
+                    <blockquote className="mt-2 border-l-2 border-border pl-3 text-sm leading-relaxed text-fg-muted">
                       {e.quote}
                     </blockquote>
                   </li>

@@ -12,7 +12,7 @@ export function CaseHeader({ finding }: { finding: FindingDetailDTO }) {
     <header className="flex flex-col gap-5">
       <Link
         href="/recovery"
-        className="inline-flex w-fit items-center gap-1.5 text-sm text-ink/60 transition-colors hover:text-ink focus-visible:outline-2 focus-visible:outline-punch"
+        className="inline-flex w-fit items-center gap-1.5 text-sm text-fg-subtle transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-focus"
       >
         <ArrowLeft className="size-4" aria-hidden />
         Recovery queue
@@ -22,22 +22,22 @@ export function CaseHeader({ finding }: { finding: FindingDetailDTO }) {
           <div className="flex flex-wrap items-center gap-2 text-sm">
             <Link
               href={`/customers/${finding.customerId}`}
-              className="font-medium text-ink underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-punch"
+              className="font-medium text-fg underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-focus"
             >
               {finding.customerName}
             </Link>
             <StatusPill status={finding.status} />
             {finding.isFixture ? <FixtureBadge /> : null}
           </div>
-          <h1 className="text-2xl font-semibold tracking-tight text-ink">{finding.title}</h1>
+          <h1 className="text-2xl font-semibold tracking-tight text-fg">{finding.title}</h1>
         </div>
         <div className="flex flex-col items-end gap-1">
-          <span className="text-xs font-medium uppercase tracking-wider text-ink/50">Recoverable</span>
+          <span className="text-xs font-medium uppercase tracking-wider text-fg-subtle">Recoverable</span>
           <Money cents={finding.amountCents} size="xl" />
         </div>
       </div>
       {sentence ? (
-        <p className="max-w-3xl border-l-2 border-petal pl-4 text-base leading-relaxed text-ink/80">{sentence}</p>
+        <p className="max-w-3xl border-l-2 border-petal pl-4 text-base leading-relaxed text-fg-muted">{sentence}</p>
       ) : null}
     </header>
   );

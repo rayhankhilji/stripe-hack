@@ -7,7 +7,7 @@ export function EvidenceScoreBar({ score, className }: { score: number; classNam
   return (
     <div className={cn("flex items-center gap-2", className)}>
       <div
-        className="h-1.5 w-16 overflow-hidden rounded-full bg-line"
+        className="h-1.5 w-16 overflow-hidden rounded-full bg-border"
         role="meter"
         aria-valuemin={0}
         aria-valuemax={100}
@@ -16,7 +16,7 @@ export function EvidenceScoreBar({ score, className }: { score: number; classNam
       >
         <div className={cn("h-full rounded-full", tone)} style={{ width: `${pct}%` }} />
       </div>
-      <span className="font-mono text-xs tabular-nums text-ink/70">{pct}</span>
+      <span className="font-mono text-xs tabular-nums text-fg-muted">{pct}</span>
     </div>
   );
 }

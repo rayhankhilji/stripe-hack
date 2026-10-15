@@ -22,8 +22,8 @@ export function ApproveActions({ finding }: { finding: FindingDetailDTO }) {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-1">
-        <span className="text-xs font-medium uppercase tracking-wider text-ink/50">Awaiting your approval</span>
-        <p className="text-sm text-ink/70">
+        <span className="text-xs font-medium uppercase tracking-wider text-fg-subtle">Awaiting your approval</span>
+        <p className="text-sm text-fg-muted">
           Ghost recommends invoicing this revenue. Nothing is sent to Stripe until you approve.
         </p>
       </div>
@@ -62,27 +62,27 @@ export function ApproveActions({ finding }: { finding: FindingDetailDTO }) {
         }
       >
         <div className="flex flex-col gap-4">
-          <div className="flex items-baseline justify-between rounded-2xl bg-porcelain px-4 py-3">
-            <span className="text-sm text-ink/70">Invoice total</span>
+          <div className="flex items-baseline justify-between rounded-card bg-surface-muted px-4 py-3">
+            <span className="text-sm text-fg-muted">Invoice total</span>
             <Money cents={finding.amountCents} size="lg" />
           </div>
-          <ul className="flex flex-col divide-y divide-line text-sm">
+          <ul className="flex flex-col divide-y divide-border text-sm">
             {finding.lines.map((l) => (
               <li key={l.id} className="flex items-baseline justify-between gap-3 py-2">
-                <span className="text-ink/80">{l.description}</span>
+                <span className="text-fg-muted">{l.description}</span>
                 <Money cents={l.amountCents} size="sm" />
               </li>
             ))}
           </ul>
           {flagged.length > 0 ? <FlaggedRules checks={flagged} /> : null}
           <label className="flex flex-col gap-1.5 text-sm">
-            <span className="text-ink/70">Note for the audit trail (optional)</span>
+            <span className="text-fg-muted">Note for the audit trail (optional)</span>
             <textarea
               value={note}
               onChange={(e) => setNote(e.target.value)}
               maxLength={500}
               rows={2}
-              className="rounded-xl border border-line bg-white px-3 py-2 text-ink focus:border-punch focus:outline-none"
+              className="rounded-control border border-border bg-surface px-3 py-2 text-fg focus:border-focus focus:outline-none"
             />
           </label>
           {approve.isError ? <p className="text-sm text-punch">{approve.error.message}</p> : null}
@@ -103,7 +103,9 @@ export function ApproveActions({ finding }: { finding: FindingDetailDTO }) {
               variant="danger"
               size="md"
               disabled={reject.isPending || reason.trim().length < 3}
-              onClick={() => reject.mutate({ id: finding.id, reason: reason.trim() }, { onSuccess: () => setRejectOpen(false) })}
+              onClick={() =>
+                reject.mutate({ id: finding.id, reason: reason.trim() }, { onSuccess: () => setRejectOpen(false) })
+              }
             >
               {reject.isPending ? "Rejecting…" : "Reject case"}
             </Button>
@@ -111,13 +113,13 @@ export function ApproveActions({ finding }: { finding: FindingDetailDTO }) {
         }
       >
         <label className="flex flex-col gap-1.5 text-sm">
-          <span className="text-ink/70">Reason (at least 3 characters)</span>
+          <span className="text-fg-muted">Reason (at least 3 characters)</span>
           <textarea
             value={reason}
             onChange={(e) => setReason(e.target.value)}
             maxLength={500}
             rows={3}
-            className="rounded-xl border border-line bg-white px-3 py-2 text-ink focus:border-punch focus:outline-none"
+            className="rounded-control border border-border bg-surface px-3 py-2 text-fg focus:border-focus focus:outline-none"
           />
         </label>
         {reject.isError ? <p className="text-sm text-punch">{reject.error.message}</p> : null}
@@ -128,12 +130,13 @@ export function ApproveActions({ finding }: { finding: FindingDetailDTO }) {
 
 function FlaggedRules({ checks }: { checks: FindingDetailDTO["eligibility"] }) {
   return (
-    <ul className="flex flex-col gap-2 rounded-2xl bg-lemon/30 p-3 text-sm">
+    <ul className="flex flex-col gap-2 rounded-card bg-lemon-soft text-lemon-deep dark:bg-lemon/15 dark:text-lemon p-3 text-sm">
       {checks.map((c) => (
         <li key={c.ruleId} className="flex gap-2">
-          <TriangleAlert className="mt-0.5 size-4 shrink-0 text-ink" aria-hidden />
+          <TriangleAlert className="mt-0.5 size-4 shrink-0 text-fg" aria-hidden />
           <span>
-            <span className="font-mono text-xs font-medium">{c.ruleId}</span> {c.name}: <span className="text-ink/70">{c.detail}</span>
+            <span className="font-mono text-xs font-medium">{c.ruleId}</span> {c.name}:{" "}
+            <span className="text-fg-muted">{c.detail}</span>
           </span>
         </li>
       ))}

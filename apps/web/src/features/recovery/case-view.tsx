@@ -23,14 +23,19 @@ export function CaseView({ id }: { id: string }) {
   const [highlighted, setHighlighted] = useState<string | null>(null);
   const clear = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => () => {
-    if (clear.current) clearTimeout(clear.current);
-  }, []);
+  useEffect(
+    () => () => {
+      if (clear.current) clearTimeout(clear.current);
+    },
+    [],
+  );
 
   const cite = useCallback((evidenceId: string) => {
     setTab("case");
     setHighlighted(evidenceId);
-    requestAnimationFrame(() => document.getElementById(evidenceAnchor(evidenceId))?.scrollIntoView({ behavior: "smooth", block: "center" }));
+    requestAnimationFrame(() =>
+      document.getElementById(evidenceAnchor(evidenceId))?.scrollIntoView({ behavior: "smooth", block: "center" }),
+    );
     if (clear.current) clearTimeout(clear.current);
     clear.current = setTimeout(() => setHighlighted(null), 1800);
   }, []);
@@ -39,10 +44,12 @@ export function CaseView({ id }: { id: string }) {
   if (finding.isError) {
     const notFound = finding.error instanceof AppError && finding.error.code === "NOT_FOUND";
     return (
-      <div className="mx-auto w-full max-w-7xl px-8 py-8">
+      <div>
         <ErrorState
           title={notFound ? "Case not found" : "Couldn't load this case"}
-          description={notFound ? "It may have been removed by a demo reset." : finding.error.message}
+          message={notFound ? "It may have been removed by a demo reset." : undefined}
+          error={notFound ? undefined : finding.error}
+          retrying={finding.isFetching}
           onRetry={notFound ? undefined : () => void finding.refetch()}
         />
       </div>
@@ -51,7 +58,7 @@ export function CaseView({ id }: { id: string }) {
 
   const f = finding.data;
   return (
-    <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-8 py-8">
+    <div className="flex flex-col gap-8">
       <CaseHeader finding={f} />
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
         <div className="flex min-w-0 flex-col gap-5 lg:col-span-8">
@@ -65,7 +72,9 @@ export function CaseView({ id }: { id: string }) {
                 onClick={() => setTab(t)}
                 className={cn(
                   "rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors duration-200",
-                  tab === t ? "bg-forest text-porcelain" : "text-ink/70 hover:bg-white hover:text-ink",
+                  tab === t
+                    ? "bg-forest text-porcelain dark:bg-petal dark:text-forest"
+                    : "text-fg-muted hover:bg-surface hover:text-fg",
                 )}
               >
                 {t === "case" ? "Case" : `Timeline · ${f.timeline.length}`}
@@ -80,9 +89,9 @@ export function CaseView({ id }: { id: string }) {
               <EligibilitySection finding={f} />
             </>
           ) : (
-            <div className="rounded-3xl bg-white p-6">
+            <div className="rounded-panel bg-surface p-6">
               {f.timeline.length === 0 ? (
-                <p className="text-sm text-ink/60">No audit events yet.</p>
+                <p className="text-sm text-fg-subtle">No audit events yet.</p>
               ) : (
                 <ActivityStream events={[...f.timeline].sort((a, b) => b.occurredAt.localeCompare(a.occurredAt))} />
               )}
@@ -101,7 +110,7 @@ export function CaseView({ id }: { id: string }) {
 
 function CaseSkeleton() {
   return (
-    <div className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-8 py-8" aria-busy="true" aria-label="Loading case">
+    <div className="flex flex-col gap-8" aria-busy="true" aria-label="Loading case">
       <Skeleton className="h-4 w-32" />
       <div className="flex justify-between">
         <div className="flex flex-col gap-2">

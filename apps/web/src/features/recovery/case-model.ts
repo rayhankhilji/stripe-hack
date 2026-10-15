@@ -53,7 +53,13 @@ export function agentSteps(timeline: readonly AuditEventDTO[]): AgentStepView[] 
   return [...timeline]
     .filter((e) => e.action.startsWith("agent.step."))
     .sort((a, b) => a.occurredAt.localeCompare(b.occurredAt))
-    .map((e) => ({ id: e.id, title: e.summary, state: e.kind === "error" ? "error" : "done", at: e.occurredAt, actor: e.actor }));
+    .map((e) => ({
+      id: e.id,
+      title: e.summary,
+      state: e.kind === "error" ? "error" : "done",
+      at: e.occurredAt,
+      actor: e.actor,
+    }));
 }
 
 /** Rules a human should look at before approving (warn) or that block the case (fail). */
@@ -74,13 +80,17 @@ export function paymentVerification(timeline: readonly AuditEventDTO[]): Verific
     .sort((a, b) => b.occurredAt.localeCompare(a.occurredAt))[0];
   if (!verified) return null;
   const via = verified.action.startsWith("webhook.") || verified.actorType === "stripe" ? "webhook" : "stripe_api";
-  const eventId = verified.externalRef?.startsWith("evt_") ? verified.externalRef : stringField(verified.data, "eventId");
+  const eventId = verified.externalRef?.startsWith("evt_")
+    ? verified.externalRef
+    : stringField(verified.data, "eventId");
   return { via, eventId, at: verified.occurredAt, summary: verified.summary };
 }
 
 /** Latest error the workflow recorded for this case, shown when the case is `failed`. */
 export function latestError(timeline: readonly AuditEventDTO[]): AuditEventDTO | null {
-  return [...timeline].filter((e) => e.kind === "error").sort((a, b) => b.occurredAt.localeCompare(a.occurredAt))[0] ?? null;
+  return (
+    [...timeline].filter((e) => e.kind === "error").sort((a, b) => b.occurredAt.localeCompare(a.occurredAt))[0] ?? null
+  );
 }
 
 function stringField(data: Record<string, unknown>, key: string): string | null {

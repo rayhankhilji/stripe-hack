@@ -42,7 +42,7 @@ export function RecoveryQueue() {
   };
 
   return (
-    <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-8 py-8">
+    <div className="flex flex-col gap-6">
       <PageHeader
         title="Recovery"
         description="Revenue Ghost found that was earned but never billed, ranked by amount × evidence strength."
@@ -58,15 +58,17 @@ export function RecoveryQueue() {
             onClick={() => selectTab(g.key)}
             className={cn(
               "inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors duration-200",
-              "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-punch",
-              tab === g.key ? "bg-forest text-porcelain" : "text-ink/70 hover:bg-white hover:text-ink",
+              "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-focus",
+              tab === g.key
+                ? "bg-forest text-porcelain dark:bg-petal dark:text-forest"
+                : "text-fg-muted hover:bg-surface hover:text-fg",
             )}
           >
             {g.label}
             <span
               className={cn(
                 "rounded-full px-1.5 font-mono text-xs tabular-nums",
-                tab === g.key ? "bg-petal text-forest" : "bg-line text-ink/70",
+                tab === g.key ? "bg-petal text-forest" : "bg-border text-fg-muted",
               )}
             >
               {findings.isSuccess ? counts[g.key] : "–"}
@@ -74,7 +76,7 @@ export function RecoveryQueue() {
           </button>
         ))}
         {findings.isSuccess && visible.length > 0 ? (
-          <div className="ml-auto flex items-baseline gap-2 text-sm text-ink/60">
+          <div className="ml-auto flex items-baseline gap-2 text-sm text-fg-subtle">
             <span>{visible.length === 1 ? "1 case" : `${visible.length} cases`}</span>
             <span aria-hidden>·</span>
             <Money cents={total} size="sm" />
@@ -82,7 +84,7 @@ export function RecoveryQueue() {
         ) : null}
       </div>
 
-      <Panel className="overflow-hidden p-0">
+      <Panel padding="none" className="overflow-hidden">
         <QueueBody
           state={findings}
           rows={visible}
@@ -93,7 +95,7 @@ export function RecoveryQueue() {
       </Panel>
 
       {findings.data?.nextCursor ? (
-        <p className="text-sm text-ink/60">
+        <p className="text-sm text-fg-subtle">
           Showing the first {all.length} cases from the API. Narrow the queue with a status tab to see the rest.
         </p>
       ) : null}
@@ -116,7 +118,8 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
     return (
       <ErrorState
         title="Couldn't load the recovery queue"
-        description={state.error.message}
+        error={state.error}
+        retrying={state.isFetching}
         onRetry={() => void state.refetch()}
       />
     );
@@ -141,7 +144,11 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
         title={`Nothing in ${label}`}
         description="No case is in this state right now."
         action={
-          <button type="button" onClick={onShowAll} className="text-sm font-medium text-punch underline-offset-4 hover:underline">
+          <button
+            type="button"
+            onClick={onShowAll}
+            className="text-sm font-medium text-punch underline-offset-4 hover:underline"
+          >
             Show all cases
           </button>
         }
@@ -167,7 +174,7 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
           <TableRow key={f.id} className="cursor-pointer" onClick={() => onOpen(f.id)}>
             <TableCell>
               <div className="flex items-center gap-2">
-                <span className="font-medium text-ink">{f.customerName}</span>
+                <span className="font-medium text-fg">{f.customerName}</span>
                 {f.isFixture ? <FixtureBadge /> : null}
               </div>
             </TableCell>
@@ -175,11 +182,11 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
               <Link
                 href={`/recovery/${f.id}`}
                 onClick={(e) => e.stopPropagation()}
-                className="text-ink/80 underline-offset-4 hover:text-ink hover:underline focus-visible:outline-2 focus-visible:outline-punch"
+                className="text-fg-muted underline-offset-4 hover:text-fg hover:underline focus-visible:outline-2 focus-visible:outline-focus"
               >
                 {f.title}
               </Link>
-              <div className="font-mono text-xs text-ink/50">
+              <div className="font-mono text-xs text-fg-subtle">
                 {f.evidenceCount === 1 ? "1 source" : `${f.evidenceCount} sources`}
               </div>
             </TableCell>
@@ -196,7 +203,7 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
               <StatusPill status={f.status} />
             </TableCell>
             <TableCell className="text-right">
-              <time dateTime={f.updatedAt} className="font-mono text-xs text-ink/60" title={f.updatedAt}>
+              <time dateTime={f.updatedAt} className="font-mono text-xs text-fg-subtle" title={f.updatedAt}>
                 {relativeTime(f.updatedAt, now)}
               </time>
             </TableCell>
@@ -208,7 +215,7 @@ function QueueBody({ state, rows, tab, onOpen, onShowAll }: QueueBodyProps) {
 }
 
 function FailingRules({ rules }: { rules: FindingSummaryDTO["failingRules"] }) {
-  if (rules.length === 0) return <span className="text-sm text-ink/50">All clear</span>;
+  if (rules.length === 0) return <span className="text-sm text-fg-subtle">All clear</span>;
   return (
     <Tooltip content={`Rules flagged: ${rules.join(", ")}`}>
       <div className="flex flex-wrap gap-1">
@@ -224,7 +231,7 @@ function FailingRules({ rules }: { rules: FindingSummaryDTO["failingRules"] }) {
 
 function QueueSkeleton() {
   return (
-    <div className="flex flex-col divide-y divide-line" aria-busy="true" aria-label="Loading recovery queue">
+    <div className="flex flex-col divide-y divide-border" aria-busy="true" aria-label="Loading recovery queue">
       {Array.from({ length: 5 }, (_, i) => (
         <div key={i} className="flex items-center gap-6 px-6 py-4">
           <Skeleton className="h-4 w-40" />

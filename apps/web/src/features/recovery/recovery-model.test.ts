@@ -64,7 +64,13 @@ describe("case model", () => {
     const steps = agentSteps([
       audit({ id: "2", action: "agent.step.explain", occurredAt: "2026-10-15T10:00:02.000Z", summary: "Explain" }),
       audit({ id: "x", action: "finding.detected" }),
-      audit({ id: "1", action: "agent.step.loadFacts", occurredAt: "2026-10-15T10:00:01.000Z", summary: "Load", kind: "error" }),
+      audit({
+        id: "1",
+        action: "agent.step.loadFacts",
+        occurredAt: "2026-10-15T10:00:01.000Z",
+        summary: "Load",
+        kind: "error",
+      }),
     ]);
     expect(steps.map((s) => [s.id, s.state])).toEqual([
       ["1", "error"],
